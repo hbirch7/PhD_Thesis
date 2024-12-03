@@ -1,0 +1,14 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces ALPACA-Core SR3 cuts used on AmLi calibration data for determining the efficiency. Each cut is from SR3-cuts-v3. }}{21}{table.caption.27}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces ALPACA-Core SR3 cuts used on DD calibration data for determining the efficiency. Each cut is from SR3-cuts-v3. }}{23}{table.caption.35}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces ALPACA-Core SR3 cuts used on AmLi and DD simulations for determining the efficiency. Each cut is from SR3-cuts-v3.}}{30}{table.caption.41}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces ALPACA-Core SR3 cuts used on Detector-NR simulations for determining the efficiency. Each cut is from SR3-cuts-v3. The contribution of each detector component is scaled after the cuts are applied and is discussed in \autoref {sec:simulation_neutron_rate}. }}{31}{table.caption.44}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Summary if relevant durations for the WIMP search runs. For this analysis, DAQ livetime was used in the rate calculation work.}}{36}{table.caption.53}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Muon rates from simulations and WS2022 data. The data has the OD cuts and timing selections applied. The simulations have a 3-fold detector coincidence criteria and the 8~MeV OD energy cut applied. The TPC energy thresholds represent the total energy deposited by a muon event in the TPC.\newline }}{44}{table.5.2}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Muon rates from simulations and WS2024 data. See the \autoref {tab:Rates2022} caption for descriptions of the applied cuts and energy thresholds.}}{44}{table.5.3}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Muon rates from simulations, WS2022 and WS2024 data. See the \autoref {tab:Rates2022} caption for descriptions of the applied cuts and energy thresholds. \newline }}{45}{table.5.4}%
+\addvspace {10\p@ }

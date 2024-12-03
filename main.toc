@@ -1,0 +1,67 @@
+\contentsline {chapter}{Contents}{1}{chapter*.5}%
+\contentsline {chapter}{List of Figures}{2}{chapter*.6}%
+\contentsline {chapter}{List of Tables}{3}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Evidence for Dark Matter}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Candidates for Dark Matter}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Direct Detection of Dark Matter}{4}{section.1.3}%
+\contentsline {chapter}{\numberline {2}The LUX-ZEPLIN Dark Matter Experiment}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Liquid Xenon Time Projection Chamber}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Particle-Xenon interactions within a TPC}{7}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Xenon Skin}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Outer Detector}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Scintillator}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}PMT system}{7}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Optical Calibration System}{7}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Calibration Sources}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Data Acquisition System}{7}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Simulation Techniques}{7}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Assembly and Operation of the LZ Detector}{7}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Outer Detector Commissioning and Monitoring}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Single Photo-electron Calibration}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Reconstructed Gain}{8}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Gain Curves}{8}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Monitoring PMT Health Over Time}{8}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Trigger Efficiency}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Optical Calibration System Development}{8}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}UV LED commissioning}{8}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Monitoring PMT}{8}{subsection.3.4.2}%
+\contentsline {chapter}{\numberline {4}Veto Efficiency Studies for WS2024}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Simulation Matching}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Tuning OD}{9}{subsection.4.1.1}%
+\contentsline {subsubsection}{\nonumberline Geometry Edits}{9}{subsubsection*.11}%
+\contentsline {subsubsection}{\nonumberline Capture Time}{9}{subsubsection*.14}%
+\contentsline {section}{\numberline {4.2}Veto Selection Optimisation}{9}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Deadtime Stability}{16}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Neutron Veto Efficiency }{20}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Efficiency Calculation}{20}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Neutrons From Calibration Sources }{20}{subsection.4.3.2}%
+\contentsline {subsubsection}{\nonumberline AmLi}{20}{subsubsection*.23}%
+\contentsline {subsubsection}{\nonumberline AmLi Accidental Correction}{21}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline DD Direct}{23}{subsubsection*.34}%
+\contentsline {subsubsection}{\nonumberline DD Accidental Correction}{23}{subsubsection*.37}%
+\contentsline {subsection}{\numberline {4.3.3}Simulated Neutrons From Calibration Source}{30}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Background Neutrons}{30}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Background Neutron Efficiency From Data}{32}{subsection.4.3.5}%
+\contentsline {paragraph}{\nonumberline Option 1}{32}{paragraph*.47}%
+\contentsline {paragraph}{\nonumberline Option 2}{32}{paragraph*.49}%
+\contentsline {paragraph}{\nonumberline Option 3}{33}{paragraph*.51}%
+\contentsline {chapter}{\numberline {5}Muons}{34}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Veto for WIMP Search}{34}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Motivation}{34}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Cut Description}{34}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Flux Measurement}{34}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Outline of Model}{34}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Data selection}{36}{subsection.5.2.2}%
+\contentsline {subsubsection}{\nonumberline Typical Muon Event}{36}{subsubsection*.55}%
+\contentsline {subsubsection}{\nonumberline OD Selection}{36}{subsubsection*.58}%
+\contentsline {subsubsection}{\nonumberline Inter-detector Timing Selection}{37}{subsubsection*.61}%
+\contentsline {subsubsection}{\nonumberline TPC Energy Selection}{38}{subsubsection*.64}%
+\contentsline {subsubsection}{\nonumberline Lack of Skin Threshold}{38}{subsubsection*.68}%
+\contentsline {subsection}{\numberline {5.2.3}NEST - Muon Simulations and Light-Energy Conversion}{38}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Comparison Between Data and Simulation}{41}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Muon Rate Results}{43}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Reconstruction of the Muon Flux}{45}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Evaluation of Average Rock Density}{46}{subsection.5.2.7}%
+\contentsline {section}{\numberline {5.3}Modulation}{46}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Conclusion}{48}{chapter.6}%
