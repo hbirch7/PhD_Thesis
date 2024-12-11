@@ -61,7 +61,7 @@ Using SR1 (and pre-SR2) as a baseline, three studies were performed to adapt the
 \end{enumerate}
 
 The cuts used for the vetoes were selected at the same time as AmLi neutron tagging efficiency calculation, and were set to maximise the tagging efficiency whilst reducing deadtime\footnote{in future, a PLR study should be done to determine at what point this is optimaised}.
-As such, this section should beconsidered simultaneously with \autoref{sec:AmLi_Efficiency}
+As such, this section should be considered simultaneously with \autoref{sec:AmLi_Efficiency}
 
 On a skim of the AmLi calibrations which pass the SR3 core-cuts described in \autoref{tab:amli_efficiency_cuts}, the efficiency (described in \autoref{eq:neutron_tagging_efficiency}) was calculated with the pulse area, and coincidence thresholds of the Skin and OD varying in integer steps.
 This then produces a heatmap of the coincidence vs. threshold vs. efficiency of each cut, examples of these are shown in \autoref{fig:od_prompt_veto_heatmap}-\ref{fig:skin_delayed_veto_heatmap}. 
@@ -84,7 +84,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
      \centering
      \begin{subfigure}[b]{0.48\textwidth}
          \centering
-         \includegraphics[width=\textwidth]{figures/cuts/skin_prompt.png}
+         \includegraphics[width=\textwidth]{figures/VetoEfficiency/skin_prompt.png}
          \caption{Time difference (in ns) between TPC single-scatter and Skin pulses.
          To reduce the noise in the plot, a pulse requirement of greater than 2~phd and greater than 2~coincidence has been applied to the Skin pulses}
          \label{fig:skin_prompt_window}
@@ -92,7 +92,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
      \hfill
      \begin{subfigure}[b]{0.48\textwidth}
          \centering
-         \includegraphics[width=\textwidth]{figures/cuts/od_prompt.png}
+         \includegraphics[width=\textwidth]{figures/VetoEfficiency/od_prompt.png}
          \caption{Time difference (in ns) between TPC single-scatter and OD pulses.
          To reduce the noise in the plot, a pulse requirement of greater than 5~phd and greater than 22~coincidence has been applied to the OD pulses}
          \label{fig:od_prompt_window}
@@ -105,7 +105,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 
 \begin{sidewaysfigure}
      \centering
-     \includegraphics[width=\textwidth]{figures/cuts/HeatmapODPACoinScanWindow600.pdf}
+     \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf}
      \caption{OD Prompt heatmap. 
      The z-axis shows the efficiency associated with a given pulse requirement.
      The veto time window considered is [-300, 300]ns.
@@ -114,7 +114,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 \end{sidewaysfigure}  
 \begin{sidewaysfigure}
      \centering
-     \includegraphics[width=\textwidth]{figures/cuts/HeatmapSkinPACoinScanWindow500.pdf}
+     \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf}
      \caption{Skin Prompt heatmap.
      In each bin, either the pulse coincidence or the pulse threshold has been varied.
      The z-axis shows the efficiency associated with a given pulse requirement.
@@ -123,7 +123,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 \end{sidewaysfigure}
 \begin{sidewaysfigure}
  \centering
- \includegraphics[width=\textwidth]{figures/efficiency/HeatMapOD_PA_ScanWindow_deadtime.png}
+ \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png}
  \caption{OD Delayed heatmap.
  In each bin, either the veto window or the pulse threshold has been varied.
  The z-axis shows the deadtime associated with a given veto window and pulse threshold.
@@ -132,7 +132,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 \end{sidewaysfigure}
 \begin{sidewaysfigure}{\textwidth}
  \centering
- \includegraphics[width=\textwidth]{figures/efficiency/HeatMap_ODPA_SkinPA_eff.png}
+ \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png}
  \caption{Delayed vetoes heatmap.
  In each bin, the OD pulse threshold or the Skin pulse threshold has been varied.
  The z-axis shows the veto efficiency associated with a given pulse thresholds.
@@ -143,7 +143,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.9\textwidth]{figures/cuts/cut_optimisation.png}
+    \includegraphics[width=0.9\textwidth]{figures/VetoEfficiency/cut_optimisation.png}
     \caption{Deadtime-vs-efficiency highlighting a number of considered cuts.
     At each point, the numbers in brackets are; the delayed veto window length after the TPC single-scatter, the Skin threshold pulse area, and the OD threshold pulse area.}
     \label{fig:veto_cut_optimisation}
@@ -151,7 +151,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.9\textwidth]{figures/efficiency/sr3_cuts.png}
+    \includegraphics[width=0.9\textwidth]{figures/VetoEfficiency/sr3_cuts.png}
     \caption{Cuts determined to be optimal for SR3. 
     The SR3 thresholds have a position correction in Z. The SR1 cuts are also included.}
     \label{fig:sr3_veto_cuts}
@@ -177,13 +177,13 @@ The conclusion that the dead-time is stable over SR3 was also checked by looking
 The PREM module shows the rate of OD pulses above $200~keV$ (as defined by the SR1-$200~keV$ not from the SR3 energy calibration), with no significant fluctuation during SR3.
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\textwidth]{figures/deadtime/SR3DeadTimeAll_expoFunc.pdf}
+    \includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf}
     \caption{Deadtime from the Skin and OD veto cuts during each month of SR3. The error shown in purely statistical.}
     \label{fig:deadtime_stability}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\textwidth]{figures/deadtime/prem_od_stability.png}
+    \includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/prem_od_stability.png}
     \caption{Rate of OD pulses above 200keV as defined by SR1 not SR3.}
     \label{fig:deadtime_stability_prem}
 \end{figure}
@@ -244,19 +244,19 @@ The Woods Function Fit Parameters for the +1 Sigma Line are:  [-5.42821733968664
 
 \begin{figure}
             \centering
-            \includegraphics[width=0.5\textwidth]{figures/efficiency/CircularCSDCut.pdf}
+            \includegraphics[width=0.5\textwidth]{figures/VetoEfficiency/CircularCSDCut.pdf}
             \caption{X-Y distribution of events in the TPC for AmLi sources positioned at 700mm. Each of the circular cuts are overlaid onto the plot.}
             \label{fig:CSDSelection}
 \end{figure}
 \begin{figure}
         \centering
-        \includegraphics[width=0.5\linewidth]{figures/efficiency/AmLi_700mm_Total_CSDSelection.pdf}
+        \includegraphics[width=0.5\linewidth]{figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf}
         \caption{The veto efficiency (from all analysis cuts) at using AmLi at 700mm. The ratio plot shows the less than $2\%$ difference between method 1 and method 2.}
         \label{fig:CSDSelectionEffComp}
 \end{figure}
 \begin{figure}
             \centering
-            \includegraphics[width=0.8\textwidth]{figures/efficiency/SR3NRBands.pdf}
+            \includegraphics[width=0.8\textwidth]{figures/VetoEfficiency/SR3NRBands.pdf}
             \caption{The three different NR bands used for the NR-band cut for the respective sources, AmLi, DD and AmBe.}
             \label{fig:SR3NRBands}
 \end{figure}
@@ -305,21 +305,21 @@ The impact of the accidental correction when applied to the efficiency can be se
 
 \begin{figure}
     \centering
-    \includegraphics[width=\textwidth]{figures/efficiency/SR3AmLi_700_Corrections_100k_P0.pdf}
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf}
     \caption{$P_a(>0)_{all\:window}$ AmLi Accidental correction factors for varying veto window size for different windows of interest.}
     \label{fig:AccCorr}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=\textwidth]{figures/efficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf}
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf}
     \caption{$1 - P_a(>0)_{any window}$ AmLi Accidental correction factors for varying veto window size for different windows of interest.}
     \label{fig:AccCorr}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=\textwidth]{figures/efficiency/AccidentalCorrectionImpact.pdf}
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/AccidentalCorrectionImpact.pdf}
     \caption{The impact of the accidental correction applied to the different veto efficiencies for the given windows of interest. AmLi data at a height of 700~mm in CSD1 has been used here as an example.}
     \label{fig:AccidentalImpact}
 \end{figure}
@@ -358,28 +358,28 @@ The Woods Function Fit Parameters for the 90% CL Line are:  [-32.02840007751605,
     \label{tab:dd_efficiency_cuts}
 \end{table}
 \subsubsection{DD Accidental Correction}
-The DD calibration data was also corrected for accidentals. The same method was used which was previously discussed in \autoref{sec:AmLiAccCorrection}. The correction factors used as a function of veto window can be seen in \autoref{fig:figures/efficiency/DDAccCorrectionParameters}. 
+The DD calibration data was also corrected for accidentals. The same method was used which was previously discussed in \autoref{sec:AmLiAccCorrection}. The correction factors used as a function of veto window can be seen in \autoref{fig:figures/VetoEfficiency/DDAccCorrectionParameters}. 
 The impact of the accidental corrections on the DD veto efficiency can be seen in \autoref{fig:DDAccCorrectionImpact_P0}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=\textwidth]{figures/efficiency/DDAccCorrectionImpact_P0.pdf}
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf}
     \caption{$P_a(>0)_{all\:window}$ DD Accidental correction factors for varying veto window size for different windows of interest.}
     \label{fig:DDAccCorrectionImpact_P0}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=\textwidth]{figures/efficiency/DDAccCorrectionImpact_1-P0.pdf}
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf}
     \caption{$1-P_a(>0)_{any\:window}$DD Accidental correction factors for varying veto window size for different windows of interest.}
-    \label{fig:figures/efficiency/DDAccCorrectionImpact_1-P0}
+    \label{fig:figures/VetoEfficiency/DDAccCorrectionImpact_1-P0}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=\textwidth]{figures/efficiency/DDAccCorrectionParameters.pdf}
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/DDAccCorrectionParameters.pdf}
     \caption{The impact of the accidental correction applied to the different veto efficiencies for the given windows of interest.}
-    \label{fig:figures/efficiency/DDAccCorrectionParameters}
+    \label{fig:figures/VetoEfficiency/DDAccCorrectionParameters}
 \end{figure}
 
 
@@ -406,9 +406,9 @@ More detailed plots on how the calibration simulations compare to calibration da
 
 \begin{figure}
 \centering
-\includegraphics[width=.3\textwidth]{figures/efficiency/InEff_AmLi_Total_Avg_Ratio.pdf}\hfill
-\includegraphics[width=.3\textwidth]{figures/efficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf}\hfill
-\includegraphics[width=.3\textwidth]{figures/efficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf}
+\includegraphics[width=.3\textwidth]{figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf}\hfill
+\includegraphics[width=.3\textwidth]{figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf}\hfill
+\includegraphics[width=.3\textwidth]{figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf}
 \caption{Inefficiency plots for AmLi, comparing simulations to data.
 Left: Total. Middle: Delayed Only. Right: OD Delayed.\\
 In each case, the average from all CSD positions are used.}
@@ -417,9 +417,9 @@ In each case, the average from all CSD positions are used.}
 
 \begin{figure}
 \centering
-\includegraphics[width=.3\textwidth]{figures/efficiency/InEff_DDDirect_Total_Ratio.pdf}\hfill
-\includegraphics[width=.3\textwidth]{figures/efficiency/InEff_DDDirect_Delayed_Ratio.pdf}\hfill
-\includegraphics[width=.3\textwidth]{figures/efficiency/InEff_DDDirect_ODDelayed_Ratio.pdf}
+\includegraphics[width=.3\textwidth]{figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf}\hfill
+\includegraphics[width=.3\textwidth]{figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf}\hfill
+\includegraphics[width=.3\textwidth]{figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf}
 \caption{\centering Inefficiency plots for DD, comparing simulations to data.\\ Left: Total. Middle: Delayed Only. Right: OD Delayed.}
 \label{fig:DDIneffPlots}
 \end{figure}
@@ -450,7 +450,7 @@ Also shown is the total efficiency.
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\textwidth]{figures/efficiency/det_nr_efficiency.png}
+    \includegraphics[width=0.5\textwidth]{figures/VetoEfficiency/det_nr_efficiency.png}
     \caption{Efficiency for tagging a neutron on Detector-NR simulations.}
     \label{fig:detector_nr_efficiency}
 \end{figure}

@@ -1,0 +1,686 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{LZ:2017iwn}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a1ee6f59351b08347c03eac1523bc05a}{%
+           family={Akerib},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{fullhash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{bibnamehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{authorbibnamehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{authornamehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{authorfullhash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.ins-det}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Astropart. Phys.}
+      \field{title}{{Identification of Radiopure Titanium for the LZ Dark Matter Experiment and Future Rare Event Searches}}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.astropartphys.2017.09.002
+      \endverb
+      \verb{eprint}
+      \verb 1702.02646
+      \endverb
+    \endentry
+    \entry{LZTDR}{misc}{}
+      \name{author}{17}{}{%
+        {{hash=995a18c4cabbf04147a6eb4852b9c17f}{%
+           family={Mount},
+           familyi={M\bibinitperiod},
+           given={B.J.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4a068e9c22a9eab3f6efece011b6e416}{%
+           family={Hans},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ee78ffb80706fea6e5b2542fec819395}{%
+           family={Rosero},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=244d8e83967b051b9acaac13171c1458}{%
+           family={Yeh},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=764c5931115e186942667b646afe329d}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=56de3716148fcf09bf946b6766c2f999}{%
+           family={Gaitskell},
+           familyi={G\bibinitperiod},
+           given={R.J.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f9721afc7e88fbd61bd4e99fade348b6}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={D.Q.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e3779f5de039b495625e6348faec03d6}{%
+           family={Makkinje},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aba0a59e347cffce04bbd262d97924e4}{%
+           family={Malling},
+           familyi={M\bibinitperiod},
+           given={D.C.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4f0df45678a3b8089cbee3497ba3b89a}{%
+           family={Pangilinan},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fe004c398f2f840f38f8583bbc361140}{%
+           family={Rhyne},
+           familyi={R\bibinitperiod},
+           given={C.A.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=87fe9afa192a291ce26d3b1e7a6fce5a}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={W.C.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=8b0edd900c2380050c23cb60be4ab1e2}{%
+           family={Verbus},
+           familyi={V\bibinitperiod},
+           given={J.R.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1c8e69c32ab0efb737ac5b7782a30ba7}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Y.D.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=39c01afaaee20212b5e2bac6d6a68cd8}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={H.S.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a38fe2282e0ae708270c02346a36d08f}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7831fae12f02e8b86107ffccfa40461}
+      \strng{fullhash}{546fb63ff4754d346139f49d91911052}
+      \strng{bibnamehash}{f7831fae12f02e8b86107ffccfa40461}
+      \strng{authorbibnamehash}{f7831fae12f02e8b86107ffccfa40461}
+      \strng{authornamehash}{f7831fae12f02e8b86107ffccfa40461}
+      \strng{authorfullhash}{546fb63ff4754d346139f49d91911052}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{LUX-ZEPLIN} ({LZ}) {T}echnical {D}esign {R}eport}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb arXiv:1703.09144
+      \endverb
+    \endentry
+    \entry{LZ_SIMS}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a1ee6f59351b08347c03eac1523bc05a}{%
+           family={{Akerib}},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{fullhash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{bibnamehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{authorbibnamehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{authornamehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{authorfullhash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0927-6505}
+      \field{journaltitle}{Astroparticle Physics}
+      \field{month}{2}
+      \field{title}{{Simulations of events for the LUX-ZEPLIN (LZ) dark matter experiment}}
+      \field{volume}{125}
+      \field{year}{2021}
+      \field{pages}{102480}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.astropartphys.2020.102480
+      \endverb
+      \verb{eprint}
+      \verb 2001.09363
+      \endverb
+    \endentry
+    \entry{Cherry}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=c315dc900a744ec6cdc13d8e9573179f}{%
+           family={Cherry},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{8114916131bed350fb8bf35d32beb62f}
+      \strng{fullhash}{8114916131bed350fb8bf35d32beb62f}
+      \strng{bibnamehash}{8114916131bed350fb8bf35d32beb62f}
+      \strng{authorbibnamehash}{8114916131bed350fb8bf35d32beb62f}
+      \strng{authornamehash}{8114916131bed350fb8bf35d32beb62f}
+      \strng{authorfullhash}{8114916131bed350fb8bf35d32beb62f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{7}
+      \field{journaltitle}{Phys. Rev, D}
+      \field{month}{4}
+      \field{title}{Multiple muons in the Homestake underground detector}
+      \field{volume}{27}
+      \field{year}{1983}
+      \field{pages}{1444\bibrangedash 1447}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.27.1444
+      \endverb
+    \endentry
+    \entry{majorana}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=000d895fb5214b3bfc9411adf9f4be12}{%
+           family={Abgrall},
+           familyi={A\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad8388d84a36295a3709be988b0bfdb5}
+      \strng{fullhash}{ad8388d84a36295a3709be988b0bfdb5}
+      \strng{bibnamehash}{ad8388d84a36295a3709be988b0bfdb5}
+      \strng{authorbibnamehash}{ad8388d84a36295a3709be988b0bfdb5}
+      \strng{authornamehash}{ad8388d84a36295a3709be988b0bfdb5}
+      \strng{authorfullhash}{ad8388d84a36295a3709be988b0bfdb5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astropart. Phys.}
+      \field{title}{Muon flux measurements at the Davis campus of the Sanford Underground Research Facility with the Majorana Demonstrator veto system}
+      \field{usera}{Majorana}
+      \field{volume}{93}
+      \field{year}{2017}
+      \field{pages}{70\bibrangedash 75}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.astropartphys.2017.01.013
+      \endverb
+    \endentry
+    \entry{DUNE}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=227e2958c3d7ba041e34611a859aa011}{%
+           family={Abi},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3dc6ee926f186e44c239260a655f17b}
+      \strng{fullhash}{b3dc6ee926f186e44c239260a655f17b}
+      \strng{bibnamehash}{b3dc6ee926f186e44c239260a655f17b}
+      \strng{authorbibnamehash}{b3dc6ee926f186e44c239260a655f17b}
+      \strng{authornamehash}{b3dc6ee926f186e44c239260a655f17b}
+      \strng{authorfullhash}{b3dc6ee926f186e44c239260a655f17b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv}
+      \field{month}{2}
+      \field{title}{Deep Underground Neutrino Experiment {(DUNE)}, far detector technical design report, Volume II: {DUNE} physics.}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.48550/arXiv.1512.06148
+      \endverb
+      \verb{eprint}
+      \verb 2002.03005
+      \endverb
+    \endentry
+    \entry{music}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d0442d3a705dd16cac5d956546ead37e}{%
+           family={Antonioli},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4c6f2eb51054f6dabe04e5a83819d0b0}{%
+           family={Ghetti},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d5654a4bfbf568eea6c9da1f8caaa1e2}{%
+           family={Korolkova},
+           familyi={K\bibinitperiod},
+           given={E.\bibnamedelimi V.},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=8fe5076f00e94c9f5dcb75061391096d}{%
+           family={Kudryavtsev},
+           familyi={K\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=78a60e7c5a7bb68696d80002298c600a}{%
+           family={Sartorelli},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{dbd4e54fb2659b94be69422a51fff11d}
+      \strng{fullhash}{74e18784de0644ff5c0928e449dab85f}
+      \strng{bibnamehash}{dbd4e54fb2659b94be69422a51fff11d}
+      \strng{authorbibnamehash}{dbd4e54fb2659b94be69422a51fff11d}
+      \strng{authornamehash}{dbd4e54fb2659b94be69422a51fff11d}
+      \strng{authorfullhash}{74e18784de0644ff5c0928e449dab85f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astropart. Phys.}
+      \field{title}{A three-dimensional code for muon propagation through the rock: MUSIC}
+      \field{volume}{7}
+      \field{year}{1997}
+      \field{pages}{357}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/s0927-6505(97)00035-2
+      \endverb
+    \endentry
+    \entry{musun}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8fe5076f00e94c9f5dcb75061391096d}{%
+           family={Kudryavtsev},
+           familyi={K\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fe5076f00e94c9f5dcb75061391096d}
+      \strng{fullhash}{8fe5076f00e94c9f5dcb75061391096d}
+      \strng{bibnamehash}{8fe5076f00e94c9f5dcb75061391096d}
+      \strng{authorbibnamehash}{8fe5076f00e94c9f5dcb75061391096d}
+      \strng{authornamehash}{8fe5076f00e94c9f5dcb75061391096d}
+      \strng{authorfullhash}{8fe5076f00e94c9f5dcb75061391096d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{Computer Physics Communications}}
+      \field{title}{{Muon simulation codes MUSIC and MUSUN for underground physics}}
+      \field{volume}{180}
+      \field{year}{2009}
+      \field{pages}{339}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cpc.2008.10.013
+      \endverb
+    \endentry
+    \entry{mei}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=832103bc5367dc4c81a8a081b31593f0}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={D.M.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9438e09f15b4ff4864ea27cd67a11967}
+      \strng{fullhash}{9438e09f15b4ff4864ea27cd67a11967}
+      \strng{bibnamehash}{9438e09f15b4ff4864ea27cd67a11967}
+      \strng{authorbibnamehash}{9438e09f15b4ff4864ea27cd67a11967}
+      \strng{authornamehash}{9438e09f15b4ff4864ea27cd67a11967}
+      \strng{authorfullhash}{9438e09f15b4ff4864ea27cd67a11967}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astropart. Phys.}
+      \field{title}{Early results on radioactive background characterization for Sanford Laboratory and DUSEL experiments}
+      \field{volume}{34}
+      \field{year}{2010}
+      \field{pages}{33}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.astropartphys.2010.04.003
+      \endverb
+    \endentry
+    \entry{zhang}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=08835018e7f90fcf262517bf88eb4d72}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{08835018e7f90fcf262517bf88eb4d72}
+      \strng{fullhash}{08835018e7f90fcf262517bf88eb4d72}
+      \strng{bibnamehash}{08835018e7f90fcf262517bf88eb4d72}
+      \strng{authorbibnamehash}{08835018e7f90fcf262517bf88eb4d72}
+      \strng{authornamehash}{08835018e7f90fcf262517bf88eb4d72}
+      \strng{authorfullhash}{08835018e7f90fcf262517bf88eb4d72}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{note}{private communication}
+      \field{year}{2014}
+    \endentry
+    \entry{heise}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e74b96e0dc8b78bd0646d136d0b80d1a}{%
+           family={Heise},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e74b96e0dc8b78bd0646d136d0b80d1a}
+      \strng{fullhash}{e74b96e0dc8b78bd0646d136d0b80d1a}
+      \strng{bibnamehash}{e74b96e0dc8b78bd0646d136d0b80d1a}
+      \strng{authorbibnamehash}{e74b96e0dc8b78bd0646d136d0b80d1a}
+      \strng{authornamehash}{e74b96e0dc8b78bd0646d136d0b80d1a}
+      \strng{authorfullhash}{e74b96e0dc8b78bd0646d136d0b80d1a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{note}{Preprint: arXiv:1401.0861v1}
+      \field{year}{2014}
+    \endentry
+    \entry{richardson}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=1cb68d8e7c4a795689b76aae22062bce}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cb68d8e7c4a795689b76aae22062bce}
+      \strng{fullhash}{1cb68d8e7c4a795689b76aae22062bce}
+      \strng{bibnamehash}{1cb68d8e7c4a795689b76aae22062bce}
+      \strng{authorbibnamehash}{1cb68d8e7c4a795689b76aae22062bce}
+      \strng{authornamehash}{1cb68d8e7c4a795689b76aae22062bce}
+      \strng{authorfullhash}{1cb68d8e7c4a795689b76aae22062bce}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{note}{{PhD} thesis (University of Sheffield)}
+      \field{year}{2015}
+    \endentry
+    \entry{gaisser}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9ad43190f51e4cd8bcefd6fdb4a17386}{%
+           family={Gaisser},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{9ad43190f51e4cd8bcefd6fdb4a17386}
+      \strng{fullhash}{9ad43190f51e4cd8bcefd6fdb4a17386}
+      \strng{bibnamehash}{9ad43190f51e4cd8bcefd6fdb4a17386}
+      \strng{authorbibnamehash}{9ad43190f51e4cd8bcefd6fdb4a17386}
+      \strng{authornamehash}{9ad43190f51e4cd8bcefd6fdb4a17386}
+      \strng{authorfullhash}{9ad43190f51e4cd8bcefd6fdb4a17386}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cosmic rays and particle physics}
+      \field{year}{1990}
+    \endentry
+    \entry{musun-lz}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=8fe5076f00e94c9f5dcb75061391096d}{%
+           family={Kudryavtsev},
+           familyi={K\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d5654a4bfbf568eea6c9da1f8caaa1e2}{%
+           family={Korolkova},
+           familyi={K\bibinitperiod},
+           given={E.\bibnamedelimi V.},
+           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=d63375c60d83ca1571190da23936d554}{%
+           family={Woodward},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d707def6c34256f98bdba19ed7b19d45}
+      \strng{fullhash}{d707def6c34256f98bdba19ed7b19d45}
+      \strng{bibnamehash}{d707def6c34256f98bdba19ed7b19d45}
+      \strng{authorbibnamehash}{d707def6c34256f98bdba19ed7b19d45}
+      \strng{authornamehash}{d707def6c34256f98bdba19ed7b19d45}
+      \strng{authorfullhash}{d707def6c34256f98bdba19ed7b19d45}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{LZ note}
+      \field{title}{Muon simulations for LZ using MUSIC and MUSUN}
+      \field{year}{2015}
+    \endentry
+    \entry{MuonVetoCCLZDocs}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=673d008b866b17bb2bdbc1302e90e896}{%
+           family={{LUX-ZEPLIN Collaboration}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{673d008b866b17bb2bdbc1302e90e896}
+      \strng{fullhash}{673d008b866b17bb2bdbc1302e90e896}
+      \strng{bibnamehash}{673d008b866b17bb2bdbc1302e90e896}
+      \strng{authorbibnamehash}{673d008b866b17bb2bdbc1302e90e896}
+      \strng{authornamehash}{673d008b866b17bb2bdbc1302e90e896}
+      \strng{authorfullhash}{673d008b866b17bb2bdbc1302e90e896}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://luxzeplin.gitlab.io/docs/softwaredocs/analysis/analysiswithrqs/alpaca/tools/SR1CoreCuts.html#muon-hold-off}}
+      \field{note}{Accessed: 2023-02-13}
+      \field{title}{{SR1 Core Cuts in ALPACA}}
+    \endentry
+    \entry{NEST1}{article}{}
+      \name{author}{11}{}{%
+        {{hash=ff3c636c4f9dd85f227053949358aa5d}{%
+           family={Szydagis},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=306bf2b7c804c150fb07cc327232ca7d}{%
+           family={Block},
+           familyi={B\bibinitperiod},
+           given={Grant\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9f72c9e447d1b3a8fe513f43918e9ab5}{%
+           family={Farquhar},
+           familyi={F\bibinitperiod},
+           given={Collin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7d29fadc65c6b51396e5b116a97656f9}{%
+           family={Flesher},
+           familyi={F\bibinitperiod},
+           given={Alexander\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=253b1e54234addada41dc1341aeb3924}{%
+           family={Kozlova},
+           familyi={K\bibinitperiod},
+           given={Ekaterina\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=796108a8ad5629751a70525e4f4d99cb}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Cecilia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d51c5381588ad6d2a5cc8fb1e9953262}{%
+           family={Mangus},
+           familyi={M\bibinitperiod},
+           given={Emily\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=64b34518a1528cff58bf685752f1b4f2}{%
+           family={Mooney},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7385a538d967a954d49c0cfdb3ee2417}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f5d45eb92285f9df680e801b238b7776}{%
+           family={Rischbieter},
+           familyi={R\bibinitperiod},
+           given={Gregory\bibnamedelimb R.\bibnamedelimi C.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=67a0b8cabc2ae3b8babf3a137006364b}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI AG}%
+      }
+      \strng{namehash}{0041e7ff403468e4c3be5dfa370f67cf}
+      \strng{fullhash}{bc4dfde63205f57c72d5e16d2062f6b6}
+      \strng{bibnamehash}{0041e7ff403468e4c3be5dfa370f67cf}
+      \strng{authorbibnamehash}{0041e7ff403468e4c3be5dfa370f67cf}
+      \strng{authornamehash}{0041e7ff403468e4c3be5dfa370f67cf}
+      \strng{authorfullhash}{bc4dfde63205f57c72d5e16d2062f6b6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2410-390X}
+      \field{journaltitle}{Instruments}
+      \field{number}{1}
+      \field{title}{A Review of Basic Energy Reconstruction Techniques in Liquid Xenon and Argon Detectors for Dark Matter and Neutrino Physics Using NEST}
+      \field{volume}{5}
+      \field{year}{2021}
+      \field{pages}{13}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/instruments5010013
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.3390/instruments5010013
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3390/instruments5010013
+      \endverb
+    \endentry
+    \entry{MUE}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5bc3b570876936bdd57b252217b92363}{%
+           family={group},
+           familyi={g\bibinitperiod},
+           given={Particle},
+           giveni={P\bibinitperiod},
+           prefix={data},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bc3b570876936bdd57b252217b92363}
+      \strng{fullhash}{5bc3b570876936bdd57b252217b92363}
+      \strng{bibnamehash}{5bc3b570876936bdd57b252217b92363}
+      \strng{authorbibnamehash}{5bc3b570876936bdd57b252217b92363}
+      \strng{authornamehash}{5bc3b570876936bdd57b252217b92363}
+      \strng{authorfullhash}{5bc3b570876936bdd57b252217b92363}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{data table}
+      \field{title}{Muons in xenon liquid (Xe)}
+    \endentry
+    \entry{OD_linear}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4fe1d80511e1b968933963ab490632ca}{%
+           family={Fraser},
+           familyi={F\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {LZ Collaboration}%
+      }
+      \strng{namehash}{4fe1d80511e1b968933963ab490632ca}
+      \strng{fullhash}{4fe1d80511e1b968933963ab490632ca}
+      \strng{bibnamehash}{4fe1d80511e1b968933963ab490632ca}
+      \strng{authorbibnamehash}{4fe1d80511e1b968933963ab490632ca}
+      \strng{authornamehash}{4fe1d80511e1b968933963ab490632ca}
+      \strng{authorfullhash}{4fe1d80511e1b968933963ab490632ca}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{OD Commissioning Energy Calibration}}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+  \missing{LZNIM}
+  \missing{LZ_AnalysisDocDB000071:xe127_skin_tagging}
+  \missing{LZ_AnalysisDocDB000106:sr1_analysis_cuts}
+  \missing{LZ_AnalysisDocDB000122:sr1_tuning_analysis}
+\endrefsection
+\endinput
+
