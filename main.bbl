@@ -19,6 +19,44 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{LZNIMA}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a1ee6f59351b08347c03eac1523bc05a}{%
+           family={{Akerib}},
+           familyi={A\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{fullhash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{bibnamehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{authorbibnamehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{authornamehash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \strng{authorfullhash}{46a9649d1151b3877a0b4dd5c7dad623}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We describe the design and assembly of the LUX-ZEPLIN experiment, a direct detection search for cosmic WIMP dark matter particles. The centerpiece of the experiment is a large liquid xenon time projection chamber sensitive to low energy nuclear recoils. Rejection of backgrounds is enhanced by a Xe skin veto detector and by a liquid scintillator Outer Detector loaded with gadolinium for efficient neutron capture and tagging. LZ is located in the Davis Cavern at the 4850’ level of the Sanford Underground Research Facility in Lead, South Dakota, USA. We describe the major subsystems of the experiment and its key design features and requirements.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nucl. Instrum. Meth.}
+      \field{title}{{The LUX-ZEPLIN (LZ) experiment}}
+      \field{volume}{A953}
+      \field{year}{2020}
+      \field{pages}{163047}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.nima.2019.163047
+      \endverb
+      \verb{eprint}
+      \verb 1910.09124
+      \endverb
+      \keyw{Dark matter detector,Liquid xenon,Time projection chamber,Underground}
+    \endentry
     \entry{LZ:2017iwn}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -35,7 +73,7 @@
       \strng{authorbibnamehash}{46a9649d1151b3877a0b4dd5c7dad623}
       \strng{authornamehash}{46a9649d1151b3877a0b4dd5c7dad623}
       \strng{authorfullhash}{46a9649d1151b3877a0b4dd5c7dad623}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{6}
       \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
@@ -178,7 +216,7 @@
       \strng{authorbibnamehash}{46a9649d1151b3877a0b4dd5c7dad623}
       \strng{authornamehash}{46a9649d1151b3877a0b4dd5c7dad623}
       \strng{authorfullhash}{46a9649d1151b3877a0b4dd5c7dad623}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}

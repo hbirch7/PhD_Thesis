@@ -2367,10 +2367,10 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">./bibliography/biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">LZNIM</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">LZNIM</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">LZNIM</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">LZNIM</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">LZNIMA</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">LZNIMA</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">LZNIMA</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">LZNIMA</bcf:citekey>
     <bcf:citekey order="5" intorder="1">LZ:2017iwn</bcf:citekey>
     <bcf:citekey order="6" intorder="1">LZTDR</bcf:citekey>
     <bcf:citekey order="7" intorder="1">LZTDR</bcf:citekey>
