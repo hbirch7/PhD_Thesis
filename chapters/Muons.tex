@@ -82,7 +82,7 @@ Skims of the data sets were performed using the {\fontfamily{qcr}\selectfont Muo
 \subsubsection{OD Selection}
 An OD energy threshold was implemented to reduce the probability of random coincidence between the three detectors. The energy deposited in the OD by a muon is the largest, physical signal we will see in the OD. The only other large physical signals we anticipate seeing are neutron captures, the most frequent of which are on gadolinium. Therefore, the OD threshold was set at the endpoint of the gadolinium neutron capture at $\sim$~8~MeV which corresponds to 2000~phd.
  % See \autoref{fig:ODPASpectra} which shows the Gd neutron capture spectra from 10 million events in background data during WS2022.
-An OD `noise cut', initially developed for the muon veto and `hold off' for the WIMP search, has been used to reduce the impact of burst noise in our flux measurement \cite{MuonVetoCCLZDocs}. During tests of the muon veto, it was found that pulses produced due to the burst noise phenomena could imitate a muon-like signal in the OD. The ratio of pulse area to pulse amplitude enabled the creation of a custom variable called `Pulse Shape'.
+An OD `noise cut', initially developed for the muon veto and `hold off' for the WIMP search, has been used to reduce the impact of burst noise in our flux measurement. During tests of the muon veto, it was found that pulses produced due to the burst noise phenomena could imitate a muon-like signal in the OD. The ratio of pulse area to pulse amplitude enabled the creation of a custom variable called `Pulse Shape'.
 Two distinct distributions can be seen in \autoref{fig:ODcut_pre}. Events from both distributions were hand scanned using the event-viewer and it was found that pulses with a pulse shape less than 0.003 were noise pulses with the same characteristics as previously observed burst noise. 
 \begin{figure}[htbp]
     \centering
@@ -215,32 +215,28 @@ The cuts introduced in the simulations were designed to mimic those applied to d
     \begin{subfigure}{0.49\textwidth}
     \centering
     \centering\includegraphics[width=1\textwidth,angle=0]{figures/Muons/OD_TPC_datacc.pdf}
-    \label{fig:my_label}
     \caption{}
     \end{subfigure}
     \begin{subfigure}{0.49\textwidth}
     \centering
     \centering\includegraphics[width=1\textwidth,angle=0]{figures/Muons/OD_TPC_data10.pdf}
-    \label{fig:p}
     \caption{}
     \end{subfigure}
     \begin{subfigure}{0.49\textwidth}
     \centering
     \centering\includegraphics[width=1\textwidth,angle=0]{figures/Muons/OD_TPC_bacc0.pdf}
-    \label{fig:my_label}
     \caption{}
     \end{subfigure}
     \begin{subfigure}{0.49\textwidth}
     \centering
     \centering\includegraphics[width=1\textwidth,angle=0]{figures/Muons/OD_TPC_bacc10.pdf}
-    \label{fig:p}
     \caption{}
     \end{subfigure}
     \caption{Energy depositions from events in the OD and TPC are shown, with the total pulse area from WS2022 and WS2024 data converted to energy. In (a), only OD and inter-detector timing cuts are applied, while in (b), the 10 MeV cut is also included. Similarly, BACCARAT simulations are plotted with the 8 MeV OD energy threshold and coincidence cut in (c), and with the additional 10 MeV cut included in (d).}
     \label{fig:ODTPC_comp}
 \end{figure}
 
-\subsection{Muon Rate Results}
+\subsection{Muon Rate Results}\label{sec:MuonRateResults}
 The measured muon rates from simulations, HG and LG data for WS2022 and WS2024 are presented in, respectively, \autoref{tab:Rates2022} and \autoref{tab:Rates2024} with increasing TPC energy thresholds. By varying the TPC energy threshold (translated from total pulse area via the NEST conversion) the change in the ratio of the simulated muon rate to the muon rate from data can be tracked. Columns 4 and 6 in each table show these ratios for LG and HG data respectively, and they are also displayed in \autoref{fig:TPCHGLGComp}b. The final column in each table lists the differences between these HG and LG ratios for every threshold. As described in Section 4.3, the steadiness of the LG ratio compared to the HG ratio above 10~MeV was the major factor in our decision to implement a 10~MeV threshold and use LG data for reconstructing the muon flux (see Section 9).
 
 \begin{center}

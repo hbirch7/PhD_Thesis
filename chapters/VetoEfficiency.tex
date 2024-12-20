@@ -2,7 +2,7 @@
 A WIMP scatter should only deposit a small amount of energy (few~keV) within the LXe volume of the experiment without any simultaneous energy deposit in the surrounding materials. Neutrons produced through radioactive decays within detector materials would mimic a WIMP interaction when they scatter off Xe atoms. 
 
 %A WIMP scatter would deposit a few keV in the central volume of the LXe TPC, with no simultaneous energy deposit in surrounding materials. Neutrons caused by radioactivity, which can fake WIMP interactions when they scatter elastically, are likely to interact again either within the TPC or nearby, and so it is broadly desirable to replace as much of the neighboring material as possible with additional radiation detectors. It also helps to minimize intervening material between the active LXe in the TPC and any such ancillary detectors, namely by decreasing the thickness of the field-cage and of the cryostat vessels. Active material surrounding the central LXe volume also permits assessment of the local radioactivity environment, and thus to infer additional information on the backgrounds in the WIMP search region. A persuasive WIMP discovery will require excellent understanding of all background sources, which is best done through the characterization of those sources in situ.
-\section{Simulation Matching}
+\section{Simulation Matching}\label{sec:simulation_improvements}
 \subsection{Tuning OD}
 \subsubsection{Geometry Edits}\label{sec:GeometryEdits}
 Prior to WS2024 result, there were a number of major differences between simulations and data in the Outer Detector. 
@@ -43,14 +43,13 @@ The simulation was modified in two different ways, moving the SATs out radially 
 \end{figure}
 
 \section{Veto Selection Optimisation}
-In this section, details on how the Skin and OD cuts used in SR3 were created are defined.
-The Skin and OD veto cuts used in SR3 were based on those developed for SR1, described in\cite{LZ_AnalysisDocDB000071:xe127_skin_tagging, LZ_AnalysisDocDB000106:sr1_analysis_cuts, LZ_AnalysisDocDB000122:sr1_tuning_analysis}.
+In this section, details on how the Skin and OD cuts used in SR3 were created are defined. The Skin and OD veto cuts used in SR3 were based on those developed for SR1, described in \cite{LZCollaboration:2024lux}.
 This boils down to four cuts;
 \begin{itemize}
     \item Skin-prompt: For tagging $\gamma$-rays in the Skin detector,
     \item OD-prompt: For tagging $\gamma$-rays and neutron proton recoils in the OD detector,
-    \item Skin-delayed: For tagging $\gamma$-rays from post-neutron capture deexcitation,
-    \item OD-delayed: For tagging $\gamma$-rays from post-neutron capture deexcitation.
+    \item Skin-delayed: For tagging $\gamma$-rays from post-neutron capture de-excitation,
+    \item OD-delayed: For tagging $\gamma$-rays from post-neutron capture de-excitation.
 \end{itemize}
 
 Using SR1 (and pre-SR2) as a baseline, three studies were performed to adapt these cuts for SR3;
@@ -65,9 +64,7 @@ As such, this section should be considered simultaneously with \autoref{sec:AmLi
 
 On a skim of the AmLi calibrations which pass the SR3 core-cuts described in \autoref{tab:amli_efficiency_cuts}, the efficiency (described in \autoref{eq:neutron_tagging_efficiency}) was calculated with the pulse area, and coincidence thresholds of the Skin and OD varying in integer steps.
 This then produces a heatmap of the coincidence vs. threshold vs. efficiency of each cut, examples of these are shown in \autoref{fig:od_prompt_veto_heatmap}-\ref{fig:skin_delayed_veto_heatmap}. 
-For the delayed cuts, the veto time window was also varied, and heatmaps of threshold vs. time window vs. efficiency were produced for a fixed coincidence.
-Heatmaps with dead time rather than efficiency were also produced, and are linked in \autoref{sec:intro}.
-The dead time is discussed in greater detail in the next section. 
+For the delayed cuts, the veto time window was also varied, and heatmaps of threshold vs. time window vs. efficiency were produced for a fixed coincidence. Heatmaps with dead time rather than efficiency were also produced. The dead time is discussed in greater detail in the next section. 
 
 The windows for the prompt cuts were selected by looking at the DD and AmLi calibrations (the run numbers and the LZAP version are listed in \autoref{sec:efficiency}) and by measuring the time difference between the TPC single-scatter and OD and Skin pulses.
 For Amli, this is shown in \autoref{fig:veto_prompt_windows}.
@@ -77,8 +74,6 @@ An example plot we used to determine this is shown in \autoref{fig:veto_cut_opti
 For SR3, we took the approach of trying to maintain the efficiency of SR1 veto of $\sim$~90\%, and to reduce the livetime impact.
 From the heatmaps, we determined that we could achieve an efficiency that at least matched the SR1 efficiency, but with a much lower deadtime.
 The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
-
-
 
 \begin{figure}
      \centering
@@ -104,41 +99,42 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 
 
 \begin{sidewaysfigure}
-     \centering
-     \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf}
-     \caption{OD Prompt heatmap. 
-     The z-axis shows the efficiency associated with a given pulse requirement.
-     The veto time window considered is [-300, 300]ns.
-     }
-     \label{fig:od_prompt_veto_heatmap}
-\end{sidewaysfigure}  
+    \centering
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf}
+    \caption{OD Prompt heatmap. 
+    The z-axis shows the efficiency associated with a given pulse requirement.
+    The veto time window considered is [-300, 300]ns.
+    }
+    \label{fig:od_prompt_veto_heatmap}
+\end{sidewaysfigure}
+
 \begin{sidewaysfigure}
-     \centering
-     \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf}
-     \caption{Skin Prompt heatmap.
-     In each bin, either the pulse coincidence or the pulse threshold has been varied.
-     The z-axis shows the efficiency associated with a given pulse requirement.
-     The veto time window considered is [-250, 250]ns.}
-     \label{fig:skin_prompt_veto_heatmap}
+    \centering
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf}
+    \caption{Skin Prompt heatmap.
+    In each bin, either the pulse coincidence or the pulse threshold has been varied.
+    The z-axis shows the efficiency associated with a given pulse requirement.
+    The veto time window considered is [-250, 250]ns.}
+    \label{fig:skin_prompt_veto_heatmap}
 \end{sidewaysfigure}
 \begin{sidewaysfigure}
- \centering
- \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png}
- \caption{OD Delayed heatmap.
- In each bin, either the veto window or the pulse threshold has been varied.
- The z-axis shows the deadtime associated with a given veto window and pulse threshold.
- In addition to the pulse area threshold, the pulse must have a coincidence greater than 5.}
- \label{fig:od_delayed_veto_heatmap}
+    \centering
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png}
+    \caption{OD Delayed heatmap.
+    In each bin, either the veto window or the pulse threshold has been varied.
+    The z-axis shows the deadtime associated with a given veto window and pulse threshold.
+    In addition to the pulse area threshold, the pulse must have a coincidence greater than 5.}
+    \label{fig:od_delayed_veto_heatmap}
 \end{sidewaysfigure}
-\begin{sidewaysfigure}{\textwidth}
- \centering
- \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png}
- \caption{Delayed vetoes heatmap.
- In each bin, the OD pulse threshold or the Skin pulse threshold has been varied.
- The z-axis shows the veto efficiency associated with a given pulse thresholds.
- In addition to the pulse area threshold, the OD pulse must have a coincidence greater than 5, and the Skin pulse greater than 2.
- The veto window in this case is 500$\mu$s.}
- \label{fig:skin_delayed_veto_heatmap}
+\begin{sidewaysfigure}
+    \centering
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png}
+    \caption{Delayed vetoes heatmap.
+    In each bin, the OD pulse threshold or the Skin pulse threshold has been varied.
+    The z-axis shows the veto efficiency associated with a given pulse thresholds.
+    In addition to the pulse area threshold, the OD pulse must have a coincidence greater than 5, and the Skin pulse greater than 2.
+    The veto window in this case is 500$\mu$s.}
+    \label{fig:skin_delayed_veto_heatmap}
 \end{sidewaysfigure}
 
 \begin{figure}
@@ -314,7 +310,7 @@ The impact of the accidental correction when applied to the efficiency can be se
     \centering
     \includegraphics[width=\textwidth]{figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf}
     \caption{$1 - P_a(>0)_{any window}$ AmLi Accidental correction factors for varying veto window size for different windows of interest.}
-    \label{fig:AccCorr}
+    \label{fig:AccCorr_P0-1}
 \end{figure}
 
 \begin{figure}
@@ -425,8 +421,7 @@ In each case, the average from all CSD positions are used.}
 \end{figure}
 
 \subsection{Background Neutrons}
-The detector-NR simulations (described later, along with normalisations in \autoref{sec:simulation_neutron_rate}) were simulated as part of the official production of SR3-bg.
-Each of the 644 components were simulated using BACCARAT-6.3.5 and LZLAMA-3.5.3.
+The detector-NR simulations were simulated as part of the official production of SR3-BG. Each of the 644 components were simulated using BACCARAT-6.3.5 and LZLAMA-3.5.3.
 On these events, the cuts listed in \autoref{tab:detector_nr_simulation_efficiency_cuts} were applied.
 The efficiency of tagging neutrons from USF and ($\alpha$,n) events are shown in \autoref{fig:detector_nr_efficiency}.
 Also shown is the total efficiency.
@@ -440,9 +435,7 @@ Also shown is the total efficiency.
      S1 and S2 threshold \\
      Fiducial Volume 
     \end{tabular}
-    \caption{ALPACA-Core SR3 cuts used on Detector-NR simulations for determining the efficiency.
-    Each cut is from SR3-cuts-v3.
-    The contribution of each detector component is scaled after the cuts are applied and is discussed in \autoref{sec:simulation_neutron_rate}.
+    \caption{ALPACA-Core SR3 cuts used on Detector-NR simulations for determining the efficiency. Each cut is from SR3-cuts-v3.
     }
     \label{tab:detector_nr_simulation_efficiency_cuts}
 \end{table}
@@ -522,3 +515,40 @@ In this case, the uncertainty is 2.8\%, made up from a statistical error from th
     \zeta_{\textrm{bg data}} &= \zeta_{\textrm{bg sims}} \times \Delta 
     \label{eq:efficiency_option3} 
 \end{align}
+
+
+\clearpage
+\begin{table}
+\begin{tabular}{l|l|l}
+Source         & Simluation     & Data           \\ \hline
+AmLi (average) & 92.8$\pm$2.0\% & 88.6$\pm$2.7\% \\
+DD (Direct)    & 91.8$\pm$1.0\% & 87.7$\pm$1.8\% \\
+Detector-NR    & 96.4$\pm$1.0\% & 92.2$\pm$4.3 
+\end{tabular}
+    \caption{Summary of veto efficiencies.
+    The Detector-NR Data value assumes that option 2 is used.}
+    \label{tab:final_veto_efficiency}
+\end{table}
+
+\begin{table}
+\begin{tabular}{l|l|l}
+Option & efficiency & inefficiency \\ \hline
+No. 1  & 92.1$\pm$4.5 & 7.9$\pm$4.5\\
+No. 2  & 92.2$\pm$4.3 & 7.8$\pm$4.3\\
+No. 3  & 94.5$\pm$2.8 & 5.5$\pm$2.8
+\end{tabular}
+    \caption{Summary of veto efficiencies and inefficiencies as determined from each approach.}
+    \label{tab:efficiency_options}
+\end{table}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/VetoEfficiency/efficiency_summary.png}
+    \caption{Summary of efficiency from all simulations and calibration sources.
+    The CSD sources are averaged at each height.
+    Circle marks are from data.
+    Start marks are from simulations.
+    The \lstinline{driftTime} is defined as when \lstinline{mean(driftTime)} of events which pass all other cuts.
+    }
+    \label{fig:efficiency_summary}
+\end{figure}
