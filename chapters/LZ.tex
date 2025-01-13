@@ -2,7 +2,7 @@
 The LZ experiment is currently the leading dark matter direct detection experiment in the search for WIMPs. The detector is located on the 4,850~ft level (4,300~mwe) of the Sanford Underground Research Facility (SURF) in the Homestake Mine (Lead, SD) \cite{LZNIMA}. At the core of the experiment is a dual-phase Time Projection Chamber (TPC) which is sensitive to low -energy nuclear recoils (NR), the signal which is produced through WIMPs interacting with liquid noble gases. One of the main backgrounds in a WIMP search are neutrons as they also interact through nuclear recoils and thus LZ employs an active veto system to remove them. Theoretically WIMPs will only interact with the xenon target however neutrons would interact in both the TPC and veto detectors. The TPC is housed within a vacuum insulated cyrostat with a layer of liquid xenon (Skin) which acts as high voltage stand-off, this region is also instrumented with PMTs and is part of the active veto system. The LXe skin is used to veto mostly gamma ray interactions within the TPC volume, also being sensitive to neutrons. The cryostat is surrounded near hermetically by ten acrylic vessels filled with Gadolinium-loaded liquid scintillator (GdLS). The GdLS is observed by 120 PMTs and stands within 238t of DI water which provides shielding to the detector. A schematic of the detector is shown in \autoref{fig:LZDetector}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{figures/LZ/LZSchematic.pdf}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/LZSchematic.pdf}
     \caption{Schematic of the LZ detector showcasing the major subsystems. At the center is the liquid xenon TPC (1), monitored by two arrays of PMTs and serviced by various cable and fluid conduits (upper and lower). The TPC is contained in a double-walled vacuum insulated titanium cryostat and surrounded on all sides by a GdLS Outer Detector (2). The cathode high voltage connection is made horizontally at the lower left (5). The GdLS is observed by a suite of 8” PMTs (3) standing in the water (4) which provides shielding for the detector. The pitched conduit on the right (6) allows for neutron calibration sources to illuminate the detector \cite{LZNIMA}.}
     \label{fig:LZDetector}
 \end{figure}
@@ -10,14 +10,14 @@ The LZ experiment is currently the leading dark matter direct detection experime
 The LZ TPC holds 7~t (5.6~t fiducial) of liquid xenon (LXe) above its cathode, there is an additional thin layer (8~mm thick) of gaseous xenon (GXe) at the top of the liquid. The volume measures approximately 1.5~m in height and diameter and the walls of the TPC are made from PTFE to improve light collection efficiency \cite{LZNIMA}. The TPC, Skin and Xe payload are housed within the Inner Cryostat Vessel (ICV) and the Outer Cryostat Vessel (OCV) provides a vacuum jacket for insulation. Both cryostat vessels are made from low radioactivity titanium \cite{LZ:2017iwn}. When a particle scatters off a LXe atom a prompt scintillation signal (S1) is produced alongside free elections, via ionisation of the LXe atom. Through the application of an electric field, the free electrons drift to the LXe surface and are extracted in the GXe layer. As the electrons accelerate through the GXe layer, a proportional amount of scintillation light (S2) is produced. Light produced from these particle interactions is observed by a top and bottom array of 3-inch Hamamatsu R11410–22 PMTs, 494 in total. Using both the S1 and S2 signals, position reconstruction techniques can be used to determine the $xyz$-position of the particle interaction. The time difference between the S1 and S2 signals combined with the drift velocity is used to determine the $z$-position of the interaction whilst the hit pattern of the S2 signal in the top PMT array provides $xy$-position. The operating principle of a TPC can be seen in \autoref{fig:TPCCartoon}.
 \begin{figure}
      \centering
-     \begin{subfigure}{0.5\textwidth}
+     \begin{subfigure}{0.47\textwidth}
          \centering
          \includegraphics[width=\textwidth]{figures/LZ/IDOf_Xe_TPC2.jpg}
          \caption{}
          \label{fig:TPCCartoon}
      \end{subfigure}
      \hfill
-     \begin{subfigure}{0.5\textwidth}
+     \begin{subfigure}{0.47\textwidth}
          \centering
          \includegraphics[width=0.5\textwidth]{figures/LZ/CAD_TPC.jpg}
          \caption{}
@@ -28,10 +28,42 @@ The LZ TPC holds 7~t (5.6~t fiducial) of liquid xenon (LXe) above its cathode, t
 \end{figure}
 
 \subsection{Particle-Xenon interactions within a TPC}
-As a particle traverses the LXe volume it can interact with either the atomic nucleus, producing a nuclear recoil (NR), or with the surrounding electron cloud, producing an electronic recoil (ER). Both processes result in the pair of signals discussed in \autoref{sec:LXeTPC}. The S1 signal is produced via the following mechanism. The excited Xe atom, $Xe^{*}$, combines with a nearby ground state Xe atom to form an excimer state, $Xe_{2}^{*\nu}$, which is both an electronically and vibrationally excited molecule. Through collisions with other Xe atoms, energy in the vibrational modes of the excimer is lost. The excited pair de-excites further as the electronic excitation energy is released as a pair of vacuum-ultraviolet (VUV), at a mean wavelength of 178~nm \cite{Schumann:2014uva}.
-The Xe atom also undergoes ionisation due to the displacement of the nucleus during the collision releasing electrons. A positively charged $Xe^{+}$ 
+As a particle traverses the LXe volume it can interact with either the atomic nucleus, producing a nuclear recoil (NR), or with the surrounding electron cloud, producing an electronic recoil (ER). Both processes result in the pair of signals discussed in \autoref{sec:LXeTPC}. The S1 signal is produced via the following mechanism. The excited Xe atom, $Xe^{*}$, combines with a nearby ground state $Xe$ atom to form an excimer state, $Xe
+_{2}^{*\nu}$, which is both an electronically and vibrationally excited molecule. Through collisions with other Xe atoms, energy in the vibrational modes of the excimer is lost. The excited pair de-excites further as the electronic excitation energy is released as a pair of vacuum-ultraviolet (VUV), at a mean wavelength of 178~nm \cite{Schumann:2014uva}.
+The $Xe$ atom also undergoes ionisation due to the displacement of the nucleus during the collision releasing electrons. A positively charged $Xe^{+}$ ion combines with a neutral Xe atom to form a positively charged dimer $Xe^{+}_{2}$. Most of the electrons that are emitted in the ionisation are drifted away from the collision site by the applied electric field. However some of the ionised electrons produced in the cascade recombine with the molecule prior to it splitting to form a highly excited $Xe$ atom. A final series of relaxation occurs in a similar manner to the excitation luminescence excimer. A schematic which describes the process of producing the S1 and S2 signal can be seen in \autoref{fig:XenonSigalProduction}.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{figures/LZ/Xenon_interaction.pdf}
+    \caption{A schematic of the signal production and collection in a dual phase xenon time}
+    \label{fig:XenonSigalProduction}
+\end{figure}
+
+To understand what particle has passed through the LXe it is important to determine the energy deposited in interaction with the Xe atom. This can be described using the following equation:
+\begin{equation}
+    E=\frac{W}{L}(n_{ex}+n_{i})
+    \label{eqn:EnergyRec_noG}
+\end{equation}
+Where W is the average energy required to produced either one scintillation photon or ionisation electron, which has been measured to be $13.7\pm0.4~eV$ \cite{Goetzke:2016lfg, Dahl:2009nta}.
+L is referred to as the "Lindhard factor" or "quenching" accounting for the reduction of produced light and charge as energy is lost at heat. For electron recoils L is taken as unity, this implies that the heat-loss is constant with energy allowing it to be absorbed into the value of W \cite{Rischbieter:2022}. The Lindhard factor for nuclear recoils is observed to be a function of deposited energy as the interaction energy is not linearly related to the observed total quanta \cite{Sorensen:2011bd}.
+$n_{ex}$ and $n_{i}$ represent the number of excited atoms and ionised atoms and are proportional to pulse area of the S1 and S2 pulses observed in the TPC respectively. The constants of proportionality are $g_1$ and $g_2$ and represent the S1 light collection efficiency and the electron extraction efficiency of the detector respectively. Thus \autoref{eqn:EnergyRec_noG} can be modified to describe the energy deposition using:
+\begin{equation}
+    E=\frac{W}{L}(\frac{S1}{g_1}+\frac{S2}{g_2})
+    \label{eqn:EnergyRec_noG}
+\end{equation}
+
+\subsection{NR and ER Discrimination}
+The ratio of energy distribution between light and charge differs between NRs and ERs. This can be directly observed through the S1 and S2 pulse areas produced from the interactions, particularly the ratio. 
+This is key for the search for WIMPs where we would expect to observe an NR when a WIMP passes through the TPC.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{example-image-a}
+    \caption{Caption}
+    \label{fig:NRERBandExample}
+\end{figure}
 
 \section{Xenon Skin}
+The TPC is surrounded by a layer of LXe 
+
 \section{Outer Detector}
 \subsection{Scintillator}
 \subsection{PMT system}
