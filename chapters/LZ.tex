@@ -18,7 +18,7 @@ The LZ TPC holds 7~t (5.6~t fiducial) of liquid xenon (LXe) above its cathode, t
          \label{fig:TPCCartoon}
      \end{subfigure}
      \hfill
-     \begin{subfigure}{0.47\textwidth}
+     \begin{subfigure}{0.5\textwidth}
          \centering
          \includegraphics[width=0.5\textwidth]{figures/LZ/CAD_TPC.jpg}
          \caption{}
@@ -34,7 +34,7 @@ _{2}^{*\nu}$, which is both an electronically and vibrationally excited molecule
 The $Xe$ atom also undergoes ionisation due to the displacement of the nucleus during the collision releasing electrons. A positively charged $Xe^{+}$ ion combines with a neutral Xe atom to form a positively charged dimer $Xe^{+}_{2}$. Most of the electrons that are emitted in the ionisation are drifted away from the collision site by the applied electric field. However some of the ionised electrons produced in the cascade recombine with the molecule prior to it splitting to form a highly excited $Xe$ atom. A final series of relaxation occurs in a similar manner to the excitation luminescence excimer. A schematic which describes the process of producing the S1 and S2 signal can be seen in \autoref{fig:XenonSigalProduction}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{figures/LZ/Xenon_interaction.pdf}
+    \includegraphics[width=0.6\linewidth]{figures/LZ/Xenon_interaction.pdf}
     \caption{A schematic of the signal production and collection in a dual phase xenon time}
     \label{fig:XenonSigalProduction}
 \end{figure}
@@ -46,28 +46,49 @@ To understand what particle has passed through the LXe it is important to determ
 \end{equation}
 Where W is the average energy required to produced either one scintillation photon or ionisation electron, which has been measured to be $13.7\pm0.4~eV$ \cite{Goetzke:2016lfg, Dahl:2009nta}.
 L is referred to as the "Lindhard factor" or "quenching" accounting for the reduction of produced light and charge as energy is lost at heat. For electron recoils L is taken as unity, this implies that the heat-loss is constant with energy allowing it to be absorbed into the value of W \cite{Rischbieter:2022}. The Lindhard factor for nuclear recoils is observed to be a function of deposited energy as the interaction energy is not linearly related to the observed total quanta \cite{Sorensen:2011bd}.
-$n_{ex}$ and $n_{i}$ represent the number of excited atoms and ionised atoms and are proportional to pulse area of the S1 and S2 pulses observed in the TPC respectively. The constants of proportionality are $g_1$ and $g_2$ and represent the S1 light collection efficiency and the electron extraction efficiency of the detector respectively. Thus \autoref{eqn:EnergyRec_noG} can be modified to describe the energy deposition using:
+$n_{ex}$ and $n_{i}$ represent the number of excited atoms and ionised atoms and are proportional to pulse area of the S1 and S2 pulses observed in the TPC respectively. The constants of proportionality are $g_1$ and $g_2$ and represent the S1 light collection efficiency and the electron extraction efficiency of the detector respectively. Thus \autoref{eqn:EnergyRec_G} can be modified to describe the energy deposition using:
 \begin{equation}
     E=\frac{W}{L}(\frac{S1}{g_1}+\frac{S2}{g_2})
-    \label{eqn:EnergyRec_noG}
+    \label{eqn:EnergyRec_G}
 \end{equation}
 
 \subsection{NR and ER Discrimination}
-The ratio of energy distribution between light and charge differs between NRs and ERs. This can be directly observed through the S1 and S2 pulse areas produced from the interactions, particularly the ratio. 
-This is key for the search for WIMPs where we would expect to observe an NR when a WIMP passes through the TPC.
+The ratio of energy distribution between light and charge differs between NRs and ERs. This can be directly observed through the S1 and S2 pulse areas produced from the interactions, particularly the ratio, $log_{10}(S2)/S1$. This method demonstrates $95~\%$ discrimination against ER with a $50~\%$ \cite{lzSens}. This is key for the search for WIMPs where we would expect to observe an NR when a WIMP passes through the TPC. However, the dominant backgrounds such as $\beta$-decays from Rn daughter isotopes and \textsuperscript{85}Kr and $\gamma$ radiation from detector components all produce ER events in the LXe. Both ER and NR events form distinctive band structure $log_{10}(S2)/S1$ space, as shown in \autoref{fig:NRERBandExample}, where the width of the bands is due to electron-ion recombination at the interaction site whilst the overall separation is due to the ratio of ionisation to excitation in the interaction \cite{Dahl:2009nta}.
+
 \begin{figure}
     \centering
-    \includegraphics[width=0.75\linewidth]{example-image-a}
-    \caption{Caption}
+    \includegraphics[width=0.75\linewidth]{figures/LZ/SR1WS_calOnly_0629.pdf}
+    \caption{Discrimination between ER and NR can be seen in LZ calibration events in $log_{10}S2_{c}-S1_{c}$ for the tritium source (dark blue points, 5343 events) and the DD neutron source (orange points, 6324 events). Solid blue (red) lines indicate the median of the ER (NR) simulated distributions, and the dotted lines indicate the 10~\% and 90~\% quantiles. Thin gray lines show contours of constant electron-equivalent energy ($keV_{ee}$) and nuclear recoil energy ($keV_{nr}$) \cite{LZ:2022lsv}.}
     \label{fig:NRERBandExample}
 \end{figure}
 
 \section{Xenon Skin}
-The TPC is surrounded by a layer of LXe 
+The TPC is surrounded by a layer of LXe, the region contains around 2 tonnes of LXe between the field cage and the inner cryostat vessel \cite{LZNIMA}. The primary motivation for including this layer of LXe was to provide dielectric insulation between the two elements. Unlike Xenon-nT, LZ's main competitor, this region is instrumented for optical readout acting as a scintillation-only veto detector for gamma interactions in the TPC \cite{XENON:2024wpa}. The region is nominally known as the "Skin" and can be split into two regions: Barrel and Dome. The Barrel contains 93 1-inch Hamamatsu R5820 PMTs at the top of the Barrel looking down and 38 2-inch Hamamatsu R8778 PMTs; 20 at the bottom of the Barrel looking up, and 18 in the Dome region below the TPC \cite{LZNIMA}. The layout of the Skin PMTs with respect to the TPC can be seen in \autoref{fig:CAD_TPC}.
 
 \section{Outer Detector}
+It has been shown in previous sections that dual phase TPC has the capability to distinguish between ER and NR interactions in the LXe, however it does not have the capability to understand what particle caused the recoil. Neutrons are the primary source of NRs as they can easily scatter of the Xe nuclei and mimic a signal similar to a WIMP. Neutrons will however scatter multiple times in the TPC or nearby whereas WIMPs would not due to differences in their respective interactions cross sections. LZ has taken advantage of this principle and surrounded the TPC in a neutron detector to increases it's discrimination power on NR backgrounds. This detector is nominally known as the Outer Detector.
+%and together with the Xe Skin comprises the LZ Veto System. 
+The outer cryostat housing the TPC is surrounded near hermetically by ten acrylic vessels filled with  Gadolinium loaded liquid scintillator (GdLS). The GdLS is observed by 120 PMTs and stands within 238t of DI water which provides shielding to the detector. An exploded layout of these vessels can be seen in \autoref{fig:ODTanks}.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{figures/LZ/CAD_ODTanks.jpg}
+    \caption{The Outer Detector vessels in an exploded view. The four large side vessels (SATs) are shown in green, the five small vessels (two top (TATs) and three bottom (BATs)) are shown in blue. The stainless steel base can be seen in grey and the foam water displacers in red. There is an additional small vessel shown in green at the top which is removed for photoneutron calibration source deployment \cite{LZNIMA}.}
+    \label{fig:ODTanks}
+\end{figure}
+
 \subsection{Scintillator}
+
 \subsection{PMT system}
+Interactions in the GdLS and water are monitored by 120 Hamamatsu 8-inch R5912 photo-multiplier tubes (PMTs) arranged as shown in \autoref{fig:ODPMT_Array}. \cite{HamamatsuR5912}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{figures/LZ/OD_PMT_support.jpg}
+    \caption{Plan view of the OD PMT support system. The 20 PMT ladders are mounted to a circular track attached to the walls of the water tank \cite{LZTDR}.}
+    \label{fig:ODPMT_Array}
+\end{figure}
+
 \subsection{Optical Calibration System}
 
 \section{Calibration Sources}
