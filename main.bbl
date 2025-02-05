@@ -36,8 +36,8 @@
       \strng{authornamehash}{46a9649d1151b3877a0b4dd5c7dad623}
       \strng{authorfullhash}{46a9649d1151b3877a0b4dd5c7dad623}
       \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We describe the design and assembly of the LUX-ZEPLIN experiment, a direct detection search for cosmic WIMP dark matter particles. The centerpiece of the experiment is a large liquid xenon time projection chamber sensitive to low energy nuclear recoils. Rejection of backgrounds is enhanced by a Xe skin veto detector and by a liquid scintillator Outer Detector loaded with gadolinium for efficient neutron capture and tagging. LZ is located in the Davis Cavern at the 4850’ level of the Sanford Underground Research Facility in Lead, South Dakota, USA. We describe the major subsystems of the experiment and its key design features and requirements.}
@@ -74,8 +74,8 @@
       \strng{authornamehash}{46a9649d1151b3877a0b4dd5c7dad623}
       \strng{authorfullhash}{46a9649d1151b3877a0b4dd5c7dad623}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics.ins-det}
@@ -93,109 +93,36 @@
       \verb 1702.02646
       \endverb
     \endentry
-    \entry{LZTDR}{misc}{}
-      \name{author}{17}{}{%
+    \entry{LZTDR}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
         {{hash=995a18c4cabbf04147a6eb4852b9c17f}{%
            family={Mount},
            familyi={M\bibinitperiod},
-           given={B.J.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=4a068e9c22a9eab3f6efece011b6e416}{%
-           family={Hans},
-           familyi={H\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=ee78ffb80706fea6e5b2542fec819395}{%
-           family={Rosero},
-           familyi={R\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=244d8e83967b051b9acaac13171c1458}{%
-           family={Yeh},
-           familyi={Y\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=764c5931115e186942667b646afe329d}{%
-           family={Chan},
-           familyi={C\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=56de3716148fcf09bf946b6766c2f999}{%
-           family={Gaitskell},
-           familyi={G\bibinitperiod},
-           given={R.J.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=f9721afc7e88fbd61bd4e99fade348b6}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={D.Q.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=e3779f5de039b495625e6348faec03d6}{%
-           family={Makkinje},
-           familyi={M\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=aba0a59e347cffce04bbd262d97924e4}{%
-           family={Malling},
-           familyi={M\bibinitperiod},
-           given={D.C.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=4f0df45678a3b8089cbee3497ba3b89a}{%
-           family={Pangilinan},
-           familyi={P\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=fe004c398f2f840f38f8583bbc361140}{%
-           family={Rhyne},
-           familyi={R\bibinitperiod},
-           given={C.A.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=87fe9afa192a291ce26d3b1e7a6fce5a}{%
-           family={Taylor},
-           familyi={T\bibinitperiod},
-           given={W.C.},
-           giveni={W\bibinitperiod}}}%
-        {{hash=8b0edd900c2380050c23cb60be4ab1e2}{%
-           family={Verbus},
-           familyi={V\bibinitperiod},
-           given={J.R.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=1c8e69c32ab0efb737ac5b7782a30ba7}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Y.D.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=39c01afaaee20212b5e2bac6d6a68cd8}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={H.S.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=a38fe2282e0ae708270c02346a36d08f}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
       \strng{namehash}{f7831fae12f02e8b86107ffccfa40461}
-      \strng{fullhash}{546fb63ff4754d346139f49d91911052}
+      \strng{fullhash}{f7831fae12f02e8b86107ffccfa40461}
       \strng{bibnamehash}{f7831fae12f02e8b86107ffccfa40461}
       \strng{authorbibnamehash}{f7831fae12f02e8b86107ffccfa40461}
       \strng{authornamehash}{f7831fae12f02e8b86107ffccfa40461}
-      \strng{authorfullhash}{546fb63ff4754d346139f49d91911052}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \strng{authorfullhash}{f7831fae12f02e8b86107ffccfa40461}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{LUX-ZEPLIN} ({LZ}) {T}echnical {D}esign {R}eport}
+      \field{eprintclass}{physics.ins-det}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv}
+      \field{month}{3}
+      \field{title}{{LUX-ZEPLIN (LZ) Technical Design Report}}
       \field{year}{2017}
       \verb{eprint}
-      \verb arXiv:1703.09144
+      \verb 1703.09144
       \endverb
+      \keyw{Physics - Instrumentation and Detectors,Astrophysics - Instrumentation and Methods for Astrophysics,High Energy Physics - Experiment}
     \endentry
     \entry{LZ_SIMS}{article}{}
       \true{moreauthor}
@@ -217,8 +144,8 @@
       \strng{authornamehash}{46a9649d1151b3877a0b4dd5c7dad623}
       \strng{authorfullhash}{46a9649d1151b3877a0b4dd5c7dad623}
       \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -715,7 +642,6 @@
       \field{year}{2021}
     \endentry
   \enddatalist
-  \missing{LZNIM}
   \missing{LZ_AnalysisDocDB000071:xe127_skin_tagging}
   \missing{LZ_AnalysisDocDB000106:sr1_analysis_cuts}
   \missing{LZ_AnalysisDocDB000122:sr1_tuning_analysis}

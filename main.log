@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.13)  11 DEC 2024 15:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.13)  20 DEC 2024 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -640,73 +640,89 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count324
+\rotFPtop=\skip89
+\rotFPbot=\skip90
+\rot@float@box=\box75
+\rot@mess@toks=\toks41
+) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count324
+\lrq@indent=\count325
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-\c@tabx@nest=\count325
-\c@listtotal=\count326
-\c@listcount=\count327
-\c@liststart=\count328
-\c@liststop=\count329
-\c@citecount=\count330
-\c@citetotal=\count331
-\c@multicitecount=\count332
-\c@multicitetotal=\count333
-\c@instcount=\count334
-\c@maxnames=\count335
-\c@minnames=\count336
-\c@maxitems=\count337
-\c@minitems=\count338
-\c@citecounter=\count339
-\c@maxcitecounter=\count340
-\c@savedcitecounter=\count341
-\c@uniquelist=\count342
-\c@uniquename=\count343
-\c@refsection=\count344
-\c@refsegment=\count345
-\c@maxextratitle=\count346
-\c@maxextratitleyear=\count347
-\c@maxextraname=\count348
-\c@maxextradate=\count349
-\c@maxextraalpha=\count350
-\c@abbrvpenalty=\count351
-\c@highnamepenalty=\count352
-\c@lownamepenalty=\count353
-\c@maxparens=\count354
-\c@parenlevel=\count355
-\blx@tempcnta=\count356
-\blx@tempcntb=\count357
-\blx@tempcntc=\count358
-\c@blx@maxsection=\count359
-\blx@maxsegment@0=\count360
-\blx@notetype=\count361
-\blx@parenlevel@text=\count362
-\blx@parenlevel@foot=\count363
-\blx@sectionciteorder@0=\count364
-\blx@sectionciteorderinternal@0=\count365
-\blx@entrysetcounter=\count366
-\blx@biblioinstance=\count367
-\labelnumberwidth=\skip89
-\labelalphawidth=\skip90
-\biblabelsep=\skip91
-\bibitemsep=\skip92
-\bibnamesep=\skip93
-\bibinitsep=\skip94
-\bibparsep=\skip95
-\bibhang=\skip96
+))
+\c@tabx@nest=\count326
+\c@listtotal=\count327
+\c@listcount=\count328
+\c@liststart=\count329
+\c@liststop=\count330
+\c@citecount=\count331
+\c@citetotal=\count332
+\c@multicitecount=\count333
+\c@multicitetotal=\count334
+\c@instcount=\count335
+\c@maxnames=\count336
+\c@minnames=\count337
+\c@maxitems=\count338
+\c@minitems=\count339
+\c@citecounter=\count340
+\c@maxcitecounter=\count341
+\c@savedcitecounter=\count342
+\c@uniquelist=\count343
+\c@uniquename=\count344
+\c@refsection=\count345
+\c@refsegment=\count346
+\c@maxextratitle=\count347
+\c@maxextratitleyear=\count348
+\c@maxextraname=\count349
+\c@maxextradate=\count350
+\c@maxextraalpha=\count351
+\c@abbrvpenalty=\count352
+\c@highnamepenalty=\count353
+\c@lownamepenalty=\count354
+\c@maxparens=\count355
+\c@parenlevel=\count356
+\blx@tempcnta=\count357
+\blx@tempcntb=\count358
+\blx@tempcntc=\count359
+\c@blx@maxsection=\count360
+\blx@maxsegment@0=\count361
+\blx@notetype=\count362
+\blx@parenlevel@text=\count363
+\blx@parenlevel@foot=\count364
+\blx@sectionciteorder@0=\count365
+\blx@sectionciteorderinternal@0=\count366
+\blx@entrysetcounter=\count367
+\blx@biblioinstance=\count368
+\labelnumberwidth=\skip91
+\labelalphawidth=\skip92
+\biblabelsep=\skip93
+\bibitemsep=\skip94
+\bibnamesep=\skip95
+\bibinitsep=\skip96
+\bibparsep=\skip97
+\bibhang=\skip98
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language89
-\c@mincomprange=\count368
-\c@maxcomprange=\count369
-\c@mincompwidth=\count370
+\c@mincomprange=\count369
+\c@maxcomprange=\count370
+\c@mincompwidth=\count371
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -714,88 +730,88 @@ File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count371
-\c@savedafterword=\count372
-\c@annotator=\count373
-\c@savedannotator=\count374
-\c@author=\count375
-\c@savedauthor=\count376
-\c@bookauthor=\count377
-\c@savedbookauthor=\count378
-\c@commentator=\count379
-\c@savedcommentator=\count380
-\c@editor=\count381
-\c@savededitor=\count382
-\c@editora=\count383
-\c@savededitora=\count384
-\c@editorb=\count385
-\c@savededitorb=\count386
-\c@editorc=\count387
-\c@savededitorc=\count388
-\c@foreword=\count389
-\c@savedforeword=\count390
-\c@holder=\count391
-\c@savedholder=\count392
-\c@introduction=\count393
-\c@savedintroduction=\count394
-\c@namea=\count395
-\c@savednamea=\count396
-\c@nameb=\count397
-\c@savednameb=\count398
-\c@namec=\count399
-\c@savednamec=\count400
-\c@translator=\count401
-\c@savedtranslator=\count402
-\c@shortauthor=\count403
-\c@savedshortauthor=\count404
-\c@shorteditor=\count405
-\c@savedshorteditor=\count406
-\c@labelname=\count407
-\c@savedlabelname=\count408
-\c@institution=\count409
-\c@savedinstitution=\count410
-\c@lista=\count411
-\c@savedlista=\count412
-\c@listb=\count413
-\c@savedlistb=\count414
-\c@listc=\count415
-\c@savedlistc=\count416
-\c@listd=\count417
-\c@savedlistd=\count418
-\c@liste=\count419
-\c@savedliste=\count420
-\c@listf=\count421
-\c@savedlistf=\count422
-\c@location=\count423
-\c@savedlocation=\count424
-\c@organization=\count425
-\c@savedorganization=\count426
-\c@origlocation=\count427
-\c@savedoriglocation=\count428
-\c@origpublisher=\count429
-\c@savedorigpublisher=\count430
-\c@publisher=\count431
-\c@savedpublisher=\count432
-\c@language=\count433
-\c@savedlanguage=\count434
-\c@origlanguage=\count435
-\c@savedoriglanguage=\count436
-\c@pageref=\count437
-\c@savedpageref=\count438
-\shorthandwidth=\skip97
-\shortjournalwidth=\skip98
-\shortserieswidth=\skip99
-\shorttitlewidth=\skip100
-\shortauthorwidth=\skip101
-\shorteditorwidth=\skip102
-\locallabelnumberwidth=\skip103
-\locallabelalphawidth=\skip104
-\localshorthandwidth=\skip105
-\localshortjournalwidth=\skip106
-\localshortserieswidth=\skip107
-\localshorttitlewidth=\skip108
-\localshortauthorwidth=\skip109
-\localshorteditorwidth=\skip110
+\c@afterword=\count372
+\c@savedafterword=\count373
+\c@annotator=\count374
+\c@savedannotator=\count375
+\c@author=\count376
+\c@savedauthor=\count377
+\c@bookauthor=\count378
+\c@savedbookauthor=\count379
+\c@commentator=\count380
+\c@savedcommentator=\count381
+\c@editor=\count382
+\c@savededitor=\count383
+\c@editora=\count384
+\c@savededitora=\count385
+\c@editorb=\count386
+\c@savededitorb=\count387
+\c@editorc=\count388
+\c@savededitorc=\count389
+\c@foreword=\count390
+\c@savedforeword=\count391
+\c@holder=\count392
+\c@savedholder=\count393
+\c@introduction=\count394
+\c@savedintroduction=\count395
+\c@namea=\count396
+\c@savednamea=\count397
+\c@nameb=\count398
+\c@savednameb=\count399
+\c@namec=\count400
+\c@savednamec=\count401
+\c@translator=\count402
+\c@savedtranslator=\count403
+\c@shortauthor=\count404
+\c@savedshortauthor=\count405
+\c@shorteditor=\count406
+\c@savedshorteditor=\count407
+\c@labelname=\count408
+\c@savedlabelname=\count409
+\c@institution=\count410
+\c@savedinstitution=\count411
+\c@lista=\count412
+\c@savedlista=\count413
+\c@listb=\count414
+\c@savedlistb=\count415
+\c@listc=\count416
+\c@savedlistc=\count417
+\c@listd=\count418
+\c@savedlistd=\count419
+\c@liste=\count420
+\c@savedliste=\count421
+\c@listf=\count422
+\c@savedlistf=\count423
+\c@location=\count424
+\c@savedlocation=\count425
+\c@organization=\count426
+\c@savedorganization=\count427
+\c@origlocation=\count428
+\c@savedoriglocation=\count429
+\c@origpublisher=\count430
+\c@savedorigpublisher=\count431
+\c@publisher=\count432
+\c@savedpublisher=\count433
+\c@language=\count434
+\c@savedlanguage=\count435
+\c@origlanguage=\count436
+\c@savedoriglanguage=\count437
+\c@pageref=\count438
+\c@savedpageref=\count439
+\shorthandwidth=\skip99
+\shortjournalwidth=\skip100
+\shortserieswidth=\skip101
+\shorttitlewidth=\skip102
+\shortauthorwidth=\skip103
+\shorteditorwidth=\skip104
+\locallabelnumberwidth=\skip105
+\locallabelalphawidth=\skip106
+\localshorthandwidth=\skip107
+\localshortjournalwidth=\skip108
+\localshortserieswidth=\skip109
+\localshorttitlewidth=\skip110
+\localshortauthorwidth=\skip111
+\localshorteditorwidth=\skip112
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -805,19 +821,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count439
-\c@textcitetotal=\count440
-\c@textcitemaxnames=\count441
-\c@biburlbigbreakpenalty=\count442
-\c@biburlbreakpenalty=\count443
-\c@biburlnumpenalty=\count444
-\c@biburlucpenalty=\count445
-\c@biburllcpenalty=\count446
+\c@textcitecount=\count440
+\c@textcitetotal=\count441
+\c@textcitemaxnames=\count442
+\c@biburlbigbreakpenalty=\count443
+\c@biburlbreakpenalty=\count444
+\c@biburlnumpenalty=\count445
+\c@biburlucpenalty=\count446
+\c@biburllcpenalty=\count447
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count447
+\c@smartand=\count448
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -827,8 +843,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count448
-\c@bbx:relatedtotal=\count449
+\c@bbx:relatedcount=\count449
+\c@bbx:relatedtotal=\count450
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -857,8 +873,8 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2024-01-22 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count450
-\l__pdf_internal_box=\box75
+\l__color_backend_stack_int=\count451
+\l__pdf_internal_box=\box76
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2024-01-22 L3 programming layer (loader) 
@@ -868,36 +884,11 @@ Package biblatex Info: ... and expl3
 Package: xparse 2023-10-10 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-))
-
-Class scrreprt Warning: Usage of package `tocbibind' together
-(scrreprt)              with a KOMA-Script class is not recommended.
-(scrreprt)              I'd suggest to use options like `listof=totoc'
-(scrreprt)              or `bibliography=totoc', or commands like
-(scrreprt)              `\setuptoc{toc}{totoc}' instead of this package,
-(scrreprt)              because it breaks several KOMA-Script features of
-(scrreprt)              the list of figures, list of tables, bibliography,
-(scrreprt)              index and the running head.
-(scrreprt)              Nevertheless, using requested
-(scrreprt)              package `tocbibind' on input line 54.
-
-(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
-Package: tocbibind 2010/10/13 v1.5k extra ToC listings
-Package tocbibind Info: The document has chapter divisions on input line 50.
-
-
-Package tocbibind Note: Using chapter style headings, unless overridden.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
-Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count451
-\c@@ppsavesec=\count452
-\c@@ppsaveapp=\count453
-) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip111
-\multirow@cntb=\count454
-\multirow@dima=\skip112
+\multirow@colwidth=\skip113
+\multirow@cntb=\count452
+\multirow@dima=\skip114
 \bigstrutjot=\dimen277
 ) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write5
@@ -905,21 +896,11 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 Package: relsize 2013/03/29 ver 4.1
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count455
-\float@exts=\toks41
-\float@box=\box76
-\@float@everytoks=\toks42
-\@floatcapt=\box77
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
-Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
-Applying: [2015/01/01] Old fixltx2e package on input line 46.
-
-
-Package fixltx2e Warning: fixltx2e is not required with releases after 2015
-(fixltx2e)                All fixes are now in the LaTeX kernel.
-(fixltx2e)                See the latexrelease package for details.
-
-Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+\c@float@type=\count453
+\float@exts=\toks42
+\float@box=\box77
+\@float@everytoks=\toks43
+\@floatcapt=\box78
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
@@ -938,8 +919,8 @@ Package caption Info: KOMA-Script document class detected.
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption-koma.sto
 File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count456
-\c@continuedfloat=\count457
+\c@caption@flags=\count454
+\c@continuedfloat=\count455
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -947,83 +928,64 @@ Package caption Info: longtable package is loaded.
  (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
+Package caption Info: rotating package is loaded.
 Package caption Info: KOMA-Script scrextend package detected.
 \caption@addmargin@hsize=\dimen286
 \caption@addmargin@linewidth=\dimen287
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count458
+\c@subfigure=\count456
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count459
+\c@subtable=\count457
 )
-\@quotelevel=\count460
-\@quotereset=\count461
+\@quotelevel=\count458
+\@quotereset=\count459
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-Package scrbase Info: activating english \abstractname on input line 84.
-Package scrbase Info: activating english \partname on input line 84.
-Package scrbase Info: activating english \chaptername on input line 84.
-Package scrbase Info: activating english \appendixname on input line 84.
-Package scrbase Info: activating english \figurename on input line 84.
-Package scrbase Info: activating english \tablename on input line 84.
-Package scrbase Info: activating english \contentsname on input line 84.
-Package scrbase Info: activating english \listfigurename on input line 84.
-Package scrbase Info: activating english \listtablename on input line 84.
-Package scrbase Info: activating english \bibname on input line 84.
-Package scrbase Info: activating english \indexname on input line 84.
-Package tocbasic Info: usage of `tocbibind' detected on input line 84.
-
-
-Package tocbasic Warning: `tocbibind' redefinition of `\tableofcontents'
-(tocbasic)                detected.
-(tocbasic)                Note: Loading `tocbibind' without option `nottoc'
-(tocbasic)                can break several features of `tocbasic'.
-
-
-Package tocbasic Warning: `tocbibind' redefinition of `\listoffigures'
-(tocbasic)                detected.
-(tocbasic)                Note: Loading `tocbibind' without option `notlof'
-(tocbasic)                can break several features of `tocbasic'.
-
-
-Package tocbasic Warning: `tocbibind' redefinition of `\listoftables'
-(tocbasic)                detected.
-(tocbasic)                Note: Loading `tocbibind' without option `notlot'
-(tocbasic)                can break several features of `tocbasic'.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+Package scrbase Info: activating english \abstractname on input line 85.
+Package scrbase Info: activating english \partname on input line 85.
+Package scrbase Info: activating english \chaptername on input line 85.
+Package scrbase Info: activating english \appendixname on input line 85.
+Package scrbase Info: activating english \figurename on input line 85.
+Package scrbase Info: activating english \tablename on input line 85.
+Package scrbase Info: activating english \contentsname on input line 85.
+Package scrbase Info: activating english \listfigurename on input line 85.
+Package scrbase Info: activating english \listtablename on input line 85.
+Package scrbase Info: activating english \bibname on input line 85.
+Package scrbase Info: activating english \indexname on input line 85.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count462
+\scratchcounter=\count460
 \scratchdimen=\dimen288
-\scratchbox=\box78
-\nofMPsegments=\count463
-\nofMParguments=\count464
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count465
+\scratchbox=\box79
+\nofMPsegments=\count461
+\nofMParguments=\count462
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count463
 \MPscratchDim=\dimen289
-\MPnumerator=\count466
-\makeMPintoPDFobject=\count467
-\everyMPtoPDFconversion=\toks44
+\MPnumerator=\count464
+\makeMPintoPDFobject=\count465
+\everyMPtoPDFconversion=\toks45
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1059,7 +1021,7 @@ Package tocbasic Warning: `tocbibind' redefinition of `\listoftables'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 84.
+Package hyperref Info: Link coloring OFF on input line 85.
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1070,14 +1032,14 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 84.
+(scrreprt)           before \begin{document} on input line 85.
 (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count468
+\BKM@id=\count466
 ))
-\c@lstlisting=\count469
+\c@lstlisting=\count467
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1091,30 +1053,23 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl
-./main.bbl:577: Illegal parameter number in definition of \NewValue.
+./main.bbl:504: Illegal parameter number in definition of \NewValue.
 <to be read again> 
                    m
-l.577 ...ca/tools/SR1CoreCuts.html#muon-hold-off}}
+l.504 ...ca/tools/SR1CoreCuts.html#muon-hold-off}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-./main.bbl:580: Illegal parameter number in definition of \abx@field@howpublished.
+./main.bbl:507: Illegal parameter number in definition of \abx@field@howpublished.
 <to be read again> 
                    m
-l.580     \endentry
+l.507     \endentry
                    
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                LZNIM
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
@@ -1138,8 +1093,8 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 84.
-Package biblatex Info: Reference segment=0 on input line 84.
+Package biblatex Info: Reference section=0 on input line 85.
+Package biblatex Info: Reference segment=0 on input line 85.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1174,12 +1129,12 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 209.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 209.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 210.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 210.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 209.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 210.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -1205,7 +1160,7 @@ No file main.toc.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.260 \listoffigures
+l.261 \listoffigures
                     	% print list of figures [1
 
 ]
@@ -1217,7 +1172,7 @@ No file main.lof.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.261 \listoftables
+l.262 \listoftables
                      % print list of tables [2
 
 ]
@@ -1229,7 +1184,7 @@ No file main.lot.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.269 \include{./chapters/Introduction}
+l.270 \include{./chapters/Introduction}
                                         [3
 
 ]
@@ -1256,7 +1211,7 @@ Class scrreprt Warning: \float@addtolists detected!
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.269 \include{./chapters/Introduction}
+l.270 \include{./chapters/Introduction}
                                         [4
 
 
@@ -1281,26 +1236,35 @@ File: figures/LZ/IDOf_Xe_TPC2.jpg Graphic file (type jpg)
 <use figures/LZ/IDOf_Xe_TPC2.jpg>
 Package pdftex.def Info: figures/LZ/IDOf_Xe_TPC2.jpg  used on input line 15.
 (pdftex.def)             Requested size: 227.62204pt x 197.49455pt.
+<figures/LZ/CAD_TPC.jpg, id=63, 1100.11pt x 1355.0625pt>
+File: figures/LZ/CAD_TPC.jpg Graphic file (type jpg)
+<use figures/LZ/CAD_TPC.jpg>
+Package pdftex.def Info: figures/LZ/CAD_TPC.jpg  used on input line 22.
+(pdftex.def)             Requested size: 113.81102pt x 140.18709pt.
 
-./chapters/LZ.tex:22: LaTeX Error: File `' not found.
+LaTeX Warning: Reference `fig:TPCCartoon' on page 5 undefined on input line 27.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22          \includegraphics[width=\textwidth]{}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
-)
+LaTeX Warning: Reference `fig:CAD_TPC' on page 5 undefined on input line 27.
+
+
+LaTeX Warning: Reference `fig:TPCCartoon' on page 5 undefined on input line 27.
+
+
+LaTeX Warning: Reference `fig:CAD_TPC' on page 5 undefined on input line 27.
+
+
+LaTeX Warning: Reference `sec:LXeTPC' on page 5 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'Schumann:2014uva' on page 5 undefined on input line 31.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.270 \include{./chapters/LZ}
-                              [5
+l.33 
+      [5
 
 
 
@@ -1308,12 +1272,12 @@ l.270 \include{./chapters/LZ}
 ] [6 <./figures/LZ/LZSchematic.pdf
 
 pdfTeX warning: pdflatex (file ./figures/LZ/LZSchematic.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
-> <./figures/LZ/IDOf_Xe_TPC2.jpg>] [7]
+>] [7 <./figures/LZ/IDOf_Xe_TPC2.jpg> <./figures/LZ/CAD_TPC.jpg>]) [8]
 \openout2 = `./chapters/ODCommissioning.aux'.
 
  (./chapters/ODCommissioning.tex
 chapter 3.
-) [8
+) [9
 
 
 
@@ -1323,573 +1287,355 @@ chapter 3.
 
  (./chapters/VetoEfficiency.tex
 chapter 4.
-<figures/VetoEfficiency/Final_OD_geometry.png, id=122, 794.97pt x 461.47406pt>
+<figures/VetoEfficiency/Final_OD_geometry.png, id=131, 794.97pt x 461.47406pt>
 File: figures/VetoEfficiency/Final_OD_geometry.png Graphic file (type png)
 <use figures/VetoEfficiency/Final_OD_geometry.png>
 Package pdftex.def Info: figures/VetoEfficiency/Final_OD_geometry.png  used on input line 24.
 (pdftex.def)             Requested size: 364.19664pt x 211.41452pt.
 
-LaTeX Warning: Reference `fig:NC_AmLi_50mm7' on page 9 undefined on input line 31.
+LaTeX Warning: Reference `fig:NC_AmLi_50mm7' on page 10 undefined on input line 31.
 
 
-LaTeX Warning: Reference `fig:NC_Canvas' on page 9 undefined on input line 31.
+LaTeX Warning: Reference `fig:NC_Canvas' on page 10 undefined on input line 31.
 
-<figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png, id=124, 867.24pt x 578.16pt>
+<figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png, id=133, 867.24pt x 578.16pt>
 File: figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png Graphic file (type png)
 <use figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png>
 Package pdftex.def Info: figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png  used on input line 34.
 (pdftex.def)             Requested size: 364.19664pt x 242.79907pt.
-<figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png, id=125, 5781.6pt x 4336.2pt>
+<figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png, id=134, 5781.6pt x 4336.2pt>
 File: figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png Graphic file (type png)
 <use figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png>
 Package pdftex.def Info: figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png  used on input line 40.
 (pdftex.def)             Requested size: 455.24408pt x 341.41139pt.
 
-LaTeX Warning: Reference `fig:NC_AmLi_50mm7' on page 9 undefined on input line 41.
+LaTeX Warning: Reference `fig:NC_AmLi_50mm7' on page 10 undefined on input line 41.
 
 
-LaTeX Warning: Reference `fig:NC_AmLi_50mm7' on page 9 undefined on input line 41.
+LaTeX Warning: Reference `fig:NC_AmLi_50mm7' on page 10 undefined on input line 41.
 
 
-LaTeX Warning: Citation 'LZ_AnalysisDocDB000071:xe127_skin_tagging' on page 9 undefined on input line 47.
+LaTeX Warning: Citation 'LZCollaboration:2024lux' on page 10 undefined on input line 46.
 
-
-LaTeX Warning: Citation 'LZ_AnalysisDocDB000106:sr1_analysis_cuts' on page 9 undefined on input line 47.
-
-
-LaTeX Warning: Citation 'LZ_AnalysisDocDB000122:sr1_tuning_analysis' on page 9 undefined on input line 47.
-
-
-Overfull \hbox (86.3954pt too wide) in paragraph at lines 46--49
-\T1/cmr/m/n/10.95 in[[], [],
- []
-
-[9
+[10
 
 
 
 
-] [10 <./figures/VetoEfficiency/Final_OD_geometry.png> <./figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png>] [11 <./figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png>]
+] [11 <./figures/VetoEfficiency/Final_OD_geometry.png> <./figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png>] [12 <./figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png>]
 
-LaTeX Warning: Reference `sec:AmLi_Efficiency' on page 12 undefined on input line 64.
-
-
-LaTeX Warning: Reference `tab:amli_efficiency_cuts' on page 12 undefined on input line 66.
+LaTeX Warning: Reference `sec:AmLi_Efficiency' on page 13 undefined on input line 63.
 
 
-LaTeX Warning: Reference `eq:neutron_tagging_efficiency' on page 12 undefined on input line 66.
+LaTeX Warning: Reference `tab:amli_efficiency_cuts' on page 13 undefined on input line 65.
 
 
-LaTeX Warning: Reference `fig:od_prompt_veto_heatmap' on page 12 undefined on input line 67.
+LaTeX Warning: Reference `eq:neutron_tagging_efficiency' on page 13 undefined on input line 65.
 
 
-LaTeX Warning: Reference `fig:skin_delayed_veto_heatmap' on page 12 undefined on input line 67.
+LaTeX Warning: Reference `fig:od_prompt_veto_heatmap' on page 13 undefined on input line 66.
 
 
-LaTeX Warning: Reference `sec:intro' on page 12 undefined on input line 69.
+LaTeX Warning: Reference `fig:skin_delayed_veto_heatmap' on page 13 undefined on input line 66.
 
 
-LaTeX Warning: Reference `sec:efficiency' on page 12 undefined on input line 72.
+LaTeX Warning: Reference `sec:efficiency' on page 13 undefined on input line 69.
 
 
-LaTeX Warning: Reference `fig:veto_prompt_windows' on page 12 undefined on input line 73.
+LaTeX Warning: Reference `fig:veto_prompt_windows' on page 13 undefined on input line 70.
 
 
-LaTeX Warning: Reference `fig:veto_cut_optimisation' on page 12 undefined on input line 76.
+LaTeX Warning: Reference `fig:veto_cut_optimisation' on page 13 undefined on input line 73.
 
 
-LaTeX Warning: Reference `fig:sr3_veto_cuts' on page 12 undefined on input line 79.
+LaTeX Warning: Reference `fig:sr3_veto_cuts' on page 13 undefined on input line 76.
 
-<figures/VetoEfficiency/skin_prompt.png, id=157, 643.6547pt x 389.20406pt>
+<figures/VetoEfficiency/skin_prompt.png, id=166, 643.6547pt x 389.20406pt>
 File: figures/VetoEfficiency/skin_prompt.png Graphic file (type png)
 <use figures/VetoEfficiency/skin_prompt.png>
-Package pdftex.def Info: figures/VetoEfficiency/skin_prompt.png  used on input line 87.
+Package pdftex.def Info: figures/VetoEfficiency/skin_prompt.png  used on input line 82.
 (pdftex.def)             Requested size: 218.51521pt x 132.13164pt.
-<figures/VetoEfficiency/od_prompt.png, id=158, 654.19406pt x 398.99063pt>
+<figures/VetoEfficiency/od_prompt.png, id=167, 654.19406pt x 398.99063pt>
 File: figures/VetoEfficiency/od_prompt.png Graphic file (type png)
 <use figures/VetoEfficiency/od_prompt.png>
-Package pdftex.def Info: figures/VetoEfficiency/od_prompt.png  used on input line 95.
+Package pdftex.def Info: figures/VetoEfficiency/od_prompt.png  used on input line 90.
 (pdftex.def)             Requested size: 218.51521pt x 133.26848pt.
-
-./chapters/VetoEfficiency.tex:106: LaTeX Error: Environment sidewaysfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 \begin{sidewaysfigure}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf, id=159, 2168.1pt x 1084.05pt>
+<figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf, id=168, 2168.1pt x 1084.05pt>
 File: figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf  used on input line 108.
-(pdftex.def)             Requested size: 455.24408pt x 227.60759pt.
-
-./chapters/VetoEfficiency.tex:109: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109      \caption
-                   {OD Prompt heatmap.
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./chapters/VetoEfficiency.tex:114: LaTeX Error: \begin{document} ended by \end{sidewaysfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 \end{sidewaysfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./chapters/VetoEfficiency.tex:115: LaTeX Error: Environment sidewaysfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 \begin{sidewaysfigure}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf, id=160, 2168.1pt x 1084.05pt>
+Package pdftex.def Info: figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf  used on input line 103.
+(pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
+<figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf, id=169, 2168.1pt x 1084.05pt>
 File: figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf  used on input line 117.
-(pdftex.def)             Requested size: 455.24408pt x 227.60759pt.
-
-./chapters/VetoEfficiency.tex:118: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.118      \caption
-                   {Skin Prompt heatmap.
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./chapters/VetoEfficiency.tex:123: LaTeX Error: \begin{document} ended by \end{sidewaysfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.123 \end{sidewaysfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./chapters/VetoEfficiency.tex:124: LaTeX Error: Environment sidewaysfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 \begin{sidewaysfigure}
-                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png, id=161, 621.07031pt x 343.2825pt>
+Package pdftex.def Info: figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf  used on input line 113.
+(pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
+<figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png, id=170, 621.07031pt x 343.2825pt>
 File: figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png Graphic file (type png)
 <use figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png>
-Package pdftex.def Info: figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png  used on input line 126.
-(pdftex.def)             Requested size: 455.24408pt x 251.62602pt.
-
-./chapters/VetoEfficiency.tex:127: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127  \caption
-               {OD Delayed heatmap.
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./chapters/VetoEfficiency.tex:132: LaTeX Error: \begin{document} ended by \end{sidewaysfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.132 \end{sidewaysfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./chapters/VetoEfficiency.tex:133: LaTeX Error: Environment sidewaysfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 \begin{sidewaysfigure}
-                            {\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./chapters/VetoEfficiency.tex:133: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.133 \begin{sidewaysfigure}{\textwidth}
-                                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./chapters/VetoEfficiency.tex:133: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.133 \begin{sidewaysfigure}{\textwidth}
-                                        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-<figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png, id=162, 597.73312pt x 335.00156pt>
+Package pdftex.def Info: figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png  used on input line 122.
+(pdftex.def)             Requested size: 711.3189pt x 393.16895pt.
+<figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png, id=171, 597.73312pt x 335.00156pt>
 File: figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png Graphic file (type png)
 <use figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png>
-Package pdftex.def Info: figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png  used on input line 135.
-(pdftex.def)             Requested size: 455.24408pt x 255.14566pt.
-
-./chapters/VetoEfficiency.tex:136: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.136  \caption
-               {Delayed vetoes heatmap.
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./chapters/VetoEfficiency.tex:142: LaTeX Error: \begin{document} ended by \end{sidewaysfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142 \end{sidewaysfigure}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (4.86548pt too wide) in paragraph at lines 108--143
-[]  []
- []
-
-
-Overfull \hbox (4.86548pt too wide) in paragraph at lines 108--143
-[]  []
- []
-
-
-Overfull \hbox (4.86548pt too wide) in paragraph at lines 108--143
-[]  []
- []
-
-[12{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [13 <./figures/VetoEfficiency/skin_prompt.png> <./figures/VetoEfficiency/od_prompt.png> <./figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf>] [14 <./figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf> <./figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png>]
-<figures/VetoEfficiency/cut_optimisation.png, id=299, 878.53218pt x 540.51938pt>
+Package pdftex.def Info: figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png  used on input line 131.
+(pdftex.def)             Requested size: 711.3189pt x 398.68747pt.
+<figures/VetoEfficiency/cut_optimisation.png, id=172, 878.53218pt x 540.51938pt>
 File: figures/VetoEfficiency/cut_optimisation.png Graphic file (type png)
 <use figures/VetoEfficiency/cut_optimisation.png>
-Package pdftex.def Info: figures/VetoEfficiency/cut_optimisation.png  used on input line 146.
+Package pdftex.def Info: figures/VetoEfficiency/cut_optimisation.png  used on input line 142.
 (pdftex.def)             Requested size: 409.71689pt x 252.08119pt.
-<figures/VetoEfficiency/sr3_cuts.png, id=300, 1005.00468pt x 488.57532pt>
+<figures/VetoEfficiency/sr3_cuts.png, id=173, 1005.00468pt x 488.57532pt>
 File: figures/VetoEfficiency/sr3_cuts.png Graphic file (type png)
 <use figures/VetoEfficiency/sr3_cuts.png>
-Package pdftex.def Info: figures/VetoEfficiency/sr3_cuts.png  used on input line 154.
+Package pdftex.def Info: figures/VetoEfficiency/sr3_cuts.png  used on input line 150.
 (pdftex.def)             Requested size: 409.71689pt x 199.17654pt.
 
+LaTeX Warning: Reference `fig:deadtime_stability' on page 13 undefined on input line 160.
 
-LaTeX Warning: Reference `fig:deadtime_stability' on page 15 undefined on input line 164.
 
-[15 <./figures/VetoEfficiency/cut_optimisation.png> <./figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png>]
+LaTeX Warning: Reference `fig:deadtime_stability_prem' on page 13 undefined on input line 172.
 
-LaTeX Warning: Reference `fig:deadtime_stability_prem' on page 16 undefined on input line 176.
-
-<figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf, id=309, 691.54736pt x 551.55156pt>
+<figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf, id=174, 691.54736pt x 551.55156pt>
 File: figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf  used on input line 180.
+Package pdftex.def Info: figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf  used on input line 176.
 (pdftex.def)             Requested size: 318.66946pt x 254.16284pt.
-<figures/VetoEfficiency/prem_od_stability.png, id=310, 935.74594pt x 488.57532pt>
+<figures/VetoEfficiency/prem_od_stability.png, id=175, 935.74594pt x 488.57532pt>
 File: figures/VetoEfficiency/prem_od_stability.png Graphic file (type png)
 <use figures/VetoEfficiency/prem_od_stability.png>
-Package pdftex.def Info: figures/VetoEfficiency/prem_od_stability.png  used on input line 186.
+Package pdftex.def Info: figures/VetoEfficiency/prem_od_stability.png  used on input line 182.
 (pdftex.def)             Requested size: 318.66946pt x 166.38924pt.
+[13{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-LaTeX Warning: Reference `tab:amli_efficiency_cuts' on page 16 undefined on input line 214.
-
-
-LaTeX Warning: Reference `tab:amli_efficiency_cuts' on page 16 undefined on input line 215.
-
-[16 <./figures/VetoEfficiency/sr3_cuts.png>] [17 <./figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf> <./figures/VetoEfficiency/prem_od_stability.png>]
-
-LaTeX Warning: Reference `fig:CSDSelection' on page 18 undefined on input line 228.
+LaTeX Warning: Reference `tab:amli_efficiency_cuts' on page 14 undefined on input line 210.
 
 
-LaTeX Warning: Reference `fig:CSDSelectionEffComp' on page 18 undefined on input line 232.
+LaTeX Warning: Reference `tab:amli_efficiency_cuts' on page 14 undefined on input line 211.
+
+[14 <./figures/VetoEfficiency/skin_prompt.png> <./figures/VetoEfficiency/od_prompt.png>] [15 <./figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf>] [16 <./figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf>] [17 <./figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png>] [18 <./figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png>] [19 <./figures/VetoEfficiency/cut_optimisation.png> <./figures/VetoEfficiency/sr3_cuts.png>] [20 <./figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf> <./figures/VetoEfficiency/prem_od_stability.png>]
+
+LaTeX Warning: Reference `fig:CSDSelection' on page 21 undefined on input line 224.
 
 
-Overfull \hbox (16.46786pt too wide) in paragraph at lines 233--237
+LaTeX Warning: Reference `fig:CSDSelectionEffComp' on page 21 undefined on input line 228.
+
+
+Overfull \hbox (16.46786pt too wide) in paragraph at lines 229--233
 \T1/cmr/m/n/10.95 found on NERSC at [][][][][][][][][][][][][][][][][][],
  []
 
 
-Overfull \hbox (478.57721pt too wide) in paragraph at lines 238--239
+Overfull \hbox (478.57721pt too wide) in paragraph at lines 234--235
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (517.98792pt too wide) in paragraph at lines 239--240
+Overfull \hbox (517.98792pt too wide) in paragraph at lines 235--236
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (511.41946pt too wide) in paragraph at lines 240--241
+Overfull \hbox (511.41946pt too wide) in paragraph at lines 236--237
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-LaTeX Warning: Reference `fig:SR3NRBands' on page 18 undefined on input line 242.
+LaTeX Warning: Reference `fig:SR3NRBands' on page 21 undefined on input line 238.
 
-<figures/VetoEfficiency/CircularCSDCut.pdf, id=399, 867.24pt x 722.7pt>
+<figures/VetoEfficiency/CircularCSDCut.pdf, id=420, 867.24pt x 722.7pt>
 File: figures/VetoEfficiency/CircularCSDCut.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/CircularCSDCut.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/CircularCSDCut.pdf  used on input line 247.
+Package pdftex.def Info: figures/VetoEfficiency/CircularCSDCut.pdf  used on input line 243.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
-<figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf, id=400, 722.50677pt x 746.82333pt>
+<figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf, id=421, 722.50677pt x 746.82333pt>
 File: figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf  used on input line 253.
+Package pdftex.def Info: figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf  used on input line 249.
 (pdftex.def)             Requested size: 227.62204pt x 235.27339pt.
-<figures/VetoEfficiency/SR3NRBands.pdf, id=401, 867.24pt x 650.43pt>
+<figures/VetoEfficiency/SR3NRBands.pdf, id=422, 867.24pt x 650.43pt>
 File: figures/VetoEfficiency/SR3NRBands.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/SR3NRBands.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/SR3NRBands.pdf  used on input line 259.
+Package pdftex.def Info: figures/VetoEfficiency/SR3NRBands.pdf  used on input line 255.
 (pdftex.def)             Requested size: 364.19664pt x 273.14896pt.
 
-Overfull \hbox (29.7495pt too wide) in paragraph at lines 265--277
+Overfull \hbox (29.7495pt too wide) in paragraph at lines 261--273
  [][] 
  []
 
-[18] [19 <./figures/VetoEfficiency/CircularCSDCut.pdf> <./figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf>]
+[21 <./figures/VetoEfficiency/CircularCSDCut.pdf>] [22 <./figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf> <./figures/VetoEfficiency/SR3NRBands.pdf>]
 
-LaTeX Warning: Reference `fig:AccCorr' on page 20 undefined on input line 303.
+LaTeX Warning: Reference `fig:AccCorr' on page 23 undefined on input line 299.
 
 
-LaTeX Warning: Reference `fig:AccidentalImpact' on page 20 undefined on input line 304.
+LaTeX Warning: Reference `fig:AccidentalImpact' on page 23 undefined on input line 300.
 
-<figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf, id=531, 2312.64pt x 867.24pt>
+<figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf, id=596, 2312.64pt x 867.24pt>
 File: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf  used on input line 308.
+Package pdftex.def Info: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf  used on input line 304.
 (pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
-<figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf, id=532, 2312.64pt x 867.24pt>
+<figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf, id=597, 2312.64pt x 867.24pt>
 File: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf  used on input line 315.
+Package pdftex.def Info: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf  used on input line 311.
 (pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
-<figures/VetoEfficiency/AccidentalCorrectionImpact.pdf, id=533, 1762.79636pt x 694.80171pt>
+<figures/VetoEfficiency/AccidentalCorrectionImpact.pdf, id=598, 1762.79636pt x 694.80171pt>
 File: figures/VetoEfficiency/AccidentalCorrectionImpact.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/AccidentalCorrectionImpact.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/AccidentalCorrectionImpact.pdf  used on input line 322.
+Package pdftex.def Info: figures/VetoEfficiency/AccidentalCorrectionImpact.pdf  used on input line 318.
 (pdftex.def)             Requested size: 455.24408pt x 179.42497pt.
-[20 <./figures/VetoEfficiency/SR3NRBands.pdf>] [21 <./figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf> <./figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf> <./figures/VetoEfficiency/AccidentalCorrectionImpact.pdf>]
+[23 <./figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf>] [24 <./figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf> <./figures/VetoEfficiency/AccidentalCorrectionImpact.pdf>]
 
-LaTeX Warning: Reference `sec:AmLi_Efficiency' on page 22 undefined on input line 333.
-
-
-LaTeX Warning: Reference `tab:dd_efficiency_cuts' on page 22 undefined on input line 334.
+LaTeX Warning: Reference `sec:AmLi_Efficiency' on page 25 undefined on input line 329.
 
 
-LaTeX Warning: Reference `fig:SR3NRBands' on page 22 undefined on input line 336.
+LaTeX Warning: Reference `tab:dd_efficiency_cuts' on page 25 undefined on input line 330.
 
 
-Overfull \hbox (477.47595pt too wide) in paragraph at lines 339--340
+LaTeX Warning: Reference `fig:SR3NRBands' on page 25 undefined on input line 332.
+
+
+Overfull \hbox (477.47595pt too wide) in paragraph at lines 335--336
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (477.47595pt too wide) in paragraph at lines 340--341
+Overfull \hbox (477.47595pt too wide) in paragraph at lines 336--337
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (477.47595pt too wide) in paragraph at lines 341--342
+Overfull \hbox (477.47595pt too wide) in paragraph at lines 337--338
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-LaTeX Warning: Reference `sec:AmLiAccCorrection' on page 22 undefined on input line 361.
+LaTeX Warning: Reference `sec:AmLiAccCorrection' on page 25 undefined on input line 357.
 
 
-LaTeX Warning: Reference `fig:figures/VetoEfficiency/DDAccCorrectionParameters' on page 22 undefined on input line 361.
+LaTeX Warning: Reference `fig:figures/VetoEfficiency/DDAccCorrectionParameters' on page 25 undefined on input line 357.
 
 
-LaTeX Warning: Reference `fig:DDAccCorrectionImpact_P0' on page 22 undefined on input line 362.
+LaTeX Warning: Reference `fig:DDAccCorrectionImpact_P0' on page 25 undefined on input line 358.
 
-<figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf, id=789, 2312.64pt x 867.24pt>
+<figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf, id=808, 2312.64pt x 867.24pt>
 File: figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf  used on input line 366.
+Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf  used on input line 362.
 (pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
-<figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf, id=790, 2312.64pt x 867.24pt>
+<figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf, id=809, 2312.64pt x 867.24pt>
 File: figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf  used on input line 373.
+Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf  used on input line 369.
 (pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
-<figures/VetoEfficiency/DDAccCorrectionParameters.pdf, id=791, 1762.79636pt x 694.80171pt>
+<figures/VetoEfficiency/DDAccCorrectionParameters.pdf, id=810, 1762.79636pt x 694.80171pt>
 File: figures/VetoEfficiency/DDAccCorrectionParameters.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/DDAccCorrectionParameters.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionParameters.pdf  used on input line 380.
+Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionParameters.pdf  used on input line 376.
 (pdftex.def)             Requested size: 455.24408pt x 179.42497pt.
 
-LaTeX Warning: Reference `tab:calibration_simulation_efficiency_cuts' on page 22 undefined on input line 389.
+LaTeX Warning: Reference `tab:calibration_simulation_efficiency_cuts' on page 25 undefined on input line 385.
 
 
-LaTeX Warning: Reference `fig:AmLiIneffPlots' on page 22 undefined on input line 404.
+LaTeX Warning: Reference `fig:AmLiIneffPlots' on page 25 undefined on input line 400.
 
 
-LaTeX Warning: Reference `fig:DDIneffPlots' on page 22 undefined on input line 404.
+LaTeX Warning: Reference `fig:DDIneffPlots' on page 25 undefined on input line 400.
 
 
-LaTeX Warning: Reference `sec:simulation_improvements' on page 22 undefined on input line 405.
+LaTeX Warning: Reference `sec:simulation_improvements' on page 25 undefined on input line 401.
 
-[22 <./figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf>] [23 <./figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf> <./figures/VetoEfficiency/DDAccCorrectionParameters.pdf>]
-<figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf, id=1006, 715.27664pt x 779.96521pt>
+[25 <./figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf>] [26 <./figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf> <./figures/VetoEfficiency/DDAccCorrectionParameters.pdf>]
+<figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf, id=1026, 715.27664pt x 779.96521pt>
 File: figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf  used on input line 409.
+Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf  used on input line 405.
 (pdftex.def)             Requested size: 136.5746pt x 148.9209pt.
-<figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf, id=1007, 711.30869pt x 779.96521pt>
+<figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf, id=1027, 711.30869pt x 779.96521pt>
 File: figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf  used on input line 410.
+Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf  used on input line 406.
 (pdftex.def)             Requested size: 136.5746pt x 149.754pt.
-<figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf, id=1008, 711.30869pt x 779.96521pt>
+<figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf, id=1028, 711.30869pt x 779.96521pt>
 File: figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf  used on input line 411.
+Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf  used on input line 407.
 (pdftex.def)             Requested size: 136.5746pt x 149.754pt.
-<figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf, id=1009, 707.6544pt x 775.95021pt>
+<figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf, id=1029, 707.6544pt x 775.95021pt>
 File: figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf  used on input line 420.
+Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf  used on input line 416.
 (pdftex.def)             Requested size: 136.5746pt x 149.75272pt.
-<figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf, id=1010, 707.6544pt x 775.95021pt>
+<figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf, id=1030, 707.6544pt x 775.95021pt>
 File: figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf  used on input line 421.
+Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf  used on input line 417.
 (pdftex.def)             Requested size: 136.5746pt x 149.75272pt.
-<figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf, id=1011, 707.6544pt x 775.95021pt>
+<figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf, id=1031, 707.6544pt x 775.95021pt>
 File: figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf>
-Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf  used on input line 422.
+Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf  used on input line 418.
 (pdftex.def)             Requested size: 136.5746pt x 149.75272pt.
 
 
-LaTeX Warning: Reference `sec:simulation_neutron_rate' on page 24 undefined on input line 428.
+LaTeX Warning: Reference `tab:detector_nr_simulation_efficiency_cuts' on page 27 undefined on input line 425.
 
 
-LaTeX Warning: Reference `tab:detector_nr_simulation_efficiency_cuts' on page 24 undefined on input line 430.
+LaTeX Warning: Reference `fig:detector_nr_efficiency' on page 27 undefined on input line 426.
 
-
-LaTeX Warning: Reference `fig:detector_nr_efficiency' on page 24 undefined on input line 431.
-
-[24 <./figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf>]
-
-LaTeX Warning: Reference `sec:simulation_neutron_rate' on page 25 undefined on input line 446.
-
-
-LaTeX Warning: Reference `sec:simulation_neutron_rate' on page 25 undefined on input line 446.
-
-<figures/VetoEfficiency/det_nr_efficiency.png, id=1357, 714.41907pt x 540.51938pt>
+[27 <./figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf>]
+<figures/VetoEfficiency/det_nr_efficiency.png, id=1378, 714.41907pt x 540.51938pt>
 File: figures/VetoEfficiency/det_nr_efficiency.png Graphic file (type png)
 <use figures/VetoEfficiency/det_nr_efficiency.png>
-Package pdftex.def Info: figures/VetoEfficiency/det_nr_efficiency.png  used on input line 453.
+Package pdftex.def Info: figures/VetoEfficiency/det_nr_efficiency.png  used on input line 446.
 (pdftex.def)             Requested size: 227.62204pt x 172.21094pt.
-[25 <./figures/VetoEfficiency/det_nr_efficiency.png>]
+ [28 <./figures/VetoEfficiency/det_nr_efficiency.png>]
 
-LaTeX Warning: Reference `fig:efficiency_summary' on page 26 undefined on input line 460.
-
-
-LaTeX Warning: Reference `tab:final_veto_efficiency' on page 26 undefined on input line 475.
+LaTeX Warning: Reference `fig:efficiency_summary' on page 29 undefined on input line 453.
 
 
-LaTeX Warning: Reference `tab:efficiency_options' on page 26 undefined on input line 479.
+LaTeX Warning: Reference `tab:final_veto_efficiency' on page 29 undefined on input line 468.
 
 
-LaTeX Warning: Reference `eq:efficiency_option1' on page 26 undefined on input line 485.
+LaTeX Warning: Reference `tab:efficiency_options' on page 29 undefined on input line 472.
 
 
-LaTeX Warning: Reference `eq:efficiency_option2' on page 26 undefined on input line 500.
+LaTeX Warning: Reference `eq:efficiency_option1' on page 29 undefined on input line 478.
 
 
-LaTeX Warning: Reference `eq:efficiency_option3' on page 26 undefined on input line 515.
+LaTeX Warning: Reference `eq:efficiency_option2' on page 29 undefined on input line 493.
 
-[26
 
-]) [27]
+LaTeX Warning: Reference `eq:efficiency_option3' on page 29 undefined on input line 508.
+
+[29
+
+] [30]
+<figures/VetoEfficiency/efficiency_summary.png, id=1421, 700.86844pt x 472.01344pt>
+File: figures/VetoEfficiency/efficiency_summary.png Graphic file (type png)
+<use figures/VetoEfficiency/efficiency_summary.png>
+Package pdftex.def Info: figures/VetoEfficiency/efficiency_summary.png  used on input line 546.
+(pdftex.def)             Requested size: 364.19664pt x 245.28275pt.
+) [31 <./figures/VetoEfficiency/efficiency_summary.png>]
 \openout2 = `./chapters/Muons.aux'.
 
  (./chapters/Muons.tex
 chapter 5.
-[28
+[32
+
 
 
 
 
 ]
 
-LaTeX Warning: Reference `Prime_info' on page 29 undefined on input line 18.
+LaTeX Warning: Reference `Prime_info' on page 33 undefined on input line 18.
 
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/Primary_energyLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/Primary_energyLZstyle.pdf, id=1440, 404.2098pt x 298.82922pt>
+<figures/Muons/Primary_energyLZstyle.pdf, id=1469, 404.2098pt x 298.82922pt>
 File: figures/Muons/Primary_energyLZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/Primary_energyLZstyle.pdf>
 Package pdftex.def Info: figures/Muons/Primary_energyLZstyle.pdf  used on input line 24.
@@ -1897,7 +1643,7 @@ Package pdftex.def Info: figures/Muons/Primary_energyLZstyle.pdf  used on input 
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/cosZ_LZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/cosZ_LZstyle.pdf, id=1441, 413.99513pt x 286.78572pt>
+<figures/Muons/cosZ_LZstyle.pdf, id=1470, 413.99513pt x 286.78572pt>
 File: figures/Muons/cosZ_LZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/cosZ_LZstyle.pdf>
 Package pdftex.def Info: figures/Muons/cosZ_LZstyle.pdf  used on input line 31.
@@ -1905,7 +1651,7 @@ Package pdftex.def Info: figures/Muons/cosZ_LZstyle.pdf  used on input line 31.
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/Azimuthal.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/Azimuthal.pdf, id=1442, 395.92987pt x 285.28029pt>
+<figures/Muons/Azimuthal.pdf, id=1471, 395.92987pt x 285.28029pt>
 File: figures/Muons/Azimuthal.pdf Graphic file (type pdf)
 <use figures/Muons/Azimuthal.pdf>
 Package pdftex.def Info: figures/Muons/Azimuthal.pdf  used on input line 38.
@@ -1913,7 +1659,7 @@ Package pdftex.def Info: figures/Muons/Azimuthal.pdf  used on input line 38.
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/azi_vs_zen_finalLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/azi_vs_zen_finalLZstyle.pdf, id=1443, 404.9625pt x 342.48686pt>
+<figures/Muons/azi_vs_zen_finalLZstyle.pdf, id=1472, 404.9625pt x 342.48686pt>
 File: figures/Muons/azi_vs_zen_finalLZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/azi_vs_zen_finalLZstyle.pdf>
 Package pdftex.def Info: figures/Muons/azi_vs_zen_finalLZstyle.pdf  used on input line 46.
@@ -1921,34 +1667,25 @@ Package pdftex.def Info: figures/Muons/azi_vs_zen_finalLZstyle.pdf  used on inpu
 LaTeX Font Info:    Trying to load font information for T1+qcr on input line 56.
 (/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
 File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
-) [29 <./figures/Muons/Primary_energyLZstyle.pdf> <./figures/Muons/cosZ_LZstyle.pdf> <./figures/Muons/Azimuthal.pdf> <./figures/Muons/azi_vs_zen_finalLZstyle.pdf>]
+) [33 <./figures/Muons/Primary_energyLZstyle.pdf> <./figures/Muons/cosZ_LZstyle.pdf> <./figures/Muons/Azimuthal.pdf> <./figures/Muons/azi_vs_zen_finalLZstyle.pdf>]
 
-LaTeX Warning: Reference `tab:livetimes' on page 30 undefined on input line 58.
+LaTeX Warning: Reference `tab:livetimes' on page 34 undefined on input line 58.
 
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/LZap_waveform.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/LZap_waveform.pdf, id=1470, 378.66469pt x 333.49594pt>
+<figures/Muons/LZap_waveform.pdf, id=1499, 378.66469pt x 333.49594pt>
 File: figures/Muons/LZap_waveform.pdf Graphic file (type pdf)
 <use figures/Muons/LZap_waveform.pdf>
 Package pdftex.def Info: figures/Muons/LZap_waveform.pdf  used on input line 77.
 (pdftex.def)             Requested size: 318.66946pt x 280.65881pt.
-./chapters/Muons.tex:85: Illegal parameter number in definition of \abx@field@howpublished.
-<to be read again> 
-                   m
-l.85 ... flux measurement \cite{MuonVetoCCLZDocs}.
-                                                   During tests of the muon ...
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
 
-
-LaTeX Warning: Reference `fig:ODcut_pre' on page 30 undefined on input line 86.
+LaTeX Warning: Reference `fig:ODcut_pre' on page 34 undefined on input line 86.
 
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf, id=1472, 404.9625pt x 295.06561pt>
+<figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf, id=1500, 404.9625pt x 295.06561pt>
 File: figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf>
 Package pdftex.def Info: figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf  used on input line 90.
@@ -1956,30 +1693,30 @@ Package pdftex.def Info: figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf  used 
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf, id=1473, 407.97337pt x 295.06561pt>
+<figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf, id=1501, 407.97337pt x 295.06561pt>
 File: figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf>
 Package pdftex.def Info: figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf  used on input line 96.
 (pdftex.def)             Requested size: 223.0721pt x 161.33658pt.
-[30{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc} <./figures/Muons/LZap_waveform.pdf>]
+[34{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc} <./figures/Muons/LZap_waveform.pdf>]
 
-LaTeX Warning: Reference `fig:timing_plots' on page 31 undefined on input line 107.
-
-
-LaTeX Warning: Reference `fig:eventViewer' on page 31 undefined on input line 113.
+LaTeX Warning: Reference `fig:timing_plots' on page 35 undefined on input line 107.
 
 
-LaTeX Warning: Reference `fig:ODcut_post' on page 31 undefined on input line 113.
+LaTeX Warning: Reference `fig:eventViewer' on page 35 undefined on input line 113.
+
+
+LaTeX Warning: Reference `fig:ODcut_post' on page 35 undefined on input line 113.
 
 
 Overfull \hbox (94.9823pt too wide) in paragraph at lines 113--114
 \T1/cmr/m/n/10.95 Here the pulse time, $\OML/cmm/m/it/10.95 t$\T1/cmr/m/n/10.95 , is de-scribed us-ing the com-bi-na-tion of two RQs, \T1/cmtt/m/n/10.95 pulseStartTime_ns$\OT1/cmr/m/n/10.95 +$\T1/cmtt/m/n/10.95 areaFractionTime5_ns\T1/cmr/m/n/10.95 .
  []
 
-[31 <./figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf> <./figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf>]
+[35 <./figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf> <./figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf>]
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD-Skin_timing.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD-Skin_timing.pdf, id=1511, 404.9625pt x 289.79657pt>
+<figures/Muons/OD-Skin_timing.pdf, id=1539, 404.9625pt x 289.79657pt>
 File: figures/Muons/OD-Skin_timing.pdf Graphic file (type pdf)
 <use figures/Muons/OD-Skin_timing.pdf>
 Package pdftex.def Info: figures/Muons/OD-Skin_timing.pdf  used on input line 118.
@@ -1987,7 +1724,7 @@ Package pdftex.def Info: figures/Muons/OD-Skin_timing.pdf  used on input line 11
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD-TPC_timing.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD-TPC_timing.pdf, id=1512, 404.9625pt x 289.79657pt>
+<figures/Muons/OD-TPC_timing.pdf, id=1540, 404.9625pt x 289.79657pt>
 File: figures/Muons/OD-TPC_timing.pdf Graphic file (type pdf)
 <use figures/Muons/OD-TPC_timing.pdf>
 Package pdftex.def Info: figures/Muons/OD-TPC_timing.pdf  used on input line 124.
@@ -1995,24 +1732,24 @@ Package pdftex.def Info: figures/Muons/OD-TPC_timing.pdf  used on input line 124
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/Skin-TPC_timing.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/Skin-TPC_timing.pdf, id=1513, 404.9625pt x 289.79657pt>
+<figures/Muons/Skin-TPC_timing.pdf, id=1541, 404.9625pt x 289.79657pt>
 File: figures/Muons/Skin-TPC_timing.pdf Graphic file (type pdf)
 <use figures/Muons/Skin-TPC_timing.pdf>
 Package pdftex.def Info: figures/Muons/Skin-TPC_timing.pdf  used on input line 130.
 (pdftex.def)             Requested size: 227.62204pt x 162.89076pt.
 
-LaTeX Warning: Reference `fig:TPCHGLGComp_energy' on page 32 undefined on input line 139.
+LaTeX Warning: Reference `fig:TPCHGLGComp_energy' on page 36 undefined on input line 139.
 
 
-LaTeX Warning: Reference `sec:MuonRateResults' on page 32 undefined on input line 139.
+LaTeX Warning: Reference `sec:MuonRateResults' on page 36 undefined on input line 139.
 
 
-LaTeX Warning: Reference `fig:TPCHGLGComp_ratios' on page 32 undefined on input line 139.
+LaTeX Warning: Reference `fig:TPCHGLGComp_ratios' on page 36 undefined on input line 139.
 
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/TPC_energy_comp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/TPC_energy_comp.pdf, id=1514, 408.72609pt x 295.06561pt>
+<figures/Muons/TPC_energy_comp.pdf, id=1542, 408.72609pt x 295.06561pt>
 File: figures/Muons/TPC_energy_comp.pdf Graphic file (type pdf)
 <use figures/Muons/TPC_energy_comp.pdf>
 Package pdftex.def Info: figures/Muons/TPC_energy_comp.pdf  used on input line 143.
@@ -2020,41 +1757,41 @@ Package pdftex.def Info: figures/Muons/TPC_energy_comp.pdf  used on input line 1
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/HGLG_comp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/HGLG_comp.pdf, id=1515, 401.19891pt x 289.79657pt>
+<figures/Muons/HGLG_comp.pdf, id=1543, 401.19891pt x 289.79657pt>
 File: figures/Muons/HGLG_comp.pdf Graphic file (type pdf)
 <use figures/Muons/HGLG_comp.pdf>
 Package pdftex.def Info: figures/Muons/HGLG_comp.pdf  used on input line 149.
 (pdftex.def)             Requested size: 223.0721pt x 161.13084pt.
 
-LaTeX Warning: Reference `fig:Muon_PID' on page 32 undefined on input line 156.
+LaTeX Warning: Reference `fig:Muon_PID' on page 36 undefined on input line 156.
 
 
-LaTeX Warning: Reference `fig:TPCHGLGComp_energy' on page 32 undefined on input line 156.
+LaTeX Warning: Reference `fig:TPCHGLGComp_energy' on page 36 undefined on input line 156.
 
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/Muon_pid_cutLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/Muon_pid_cutLZstyle.pdf, id=1516, 408.72609pt x 295.06561pt>
+<figures/Muons/Muon_pid_cutLZstyle.pdf, id=1544, 408.72609pt x 295.06561pt>
 File: figures/Muons/Muon_pid_cutLZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/Muon_pid_cutLZstyle.pdf>
 Package pdftex.def Info: figures/Muons/Muon_pid_cutLZstyle.pdf  used on input line 159.
 (pdftex.def)             Requested size: 295.90587pt x 213.62218pt.
 
-LaTeX Warning: Reference `fig:nestcomparison' on page 32 undefined on input line 170.
+LaTeX Warning: Reference `fig:nestcomparison' on page 36 undefined on input line 170.
 
-<figures/Muons/TPCEnergyConversion.pdf, id=1519, 614.295pt x 433.62pt>
+<figures/Muons/TPCEnergyConversion.pdf, id=1547, 614.295pt x 433.62pt>
 File: figures/Muons/TPCEnergyConversion.pdf Graphic file (type pdf)
 <use figures/Muons/TPCEnergyConversion.pdf>
 Package pdftex.def Info: figures/Muons/TPCEnergyConversion.pdf  used on input line 173.
 (pdftex.def)             Requested size: 364.19664pt x 257.0841pt.
-[32] [33 <./figures/Muons/OD-Skin_timing.pdf> <./figures/Muons/OD-TPC_timing.pdf> <./figures/Muons/Skin-TPC_timing.pdf>] [34 <./figures/Muons/TPC_energy_comp.pdf> <./figures/Muons/HGLG_comp.pdf> <./figures/Muons/Muon_pid_cutLZstyle.pdf>]
+[36] [37 <./figures/Muons/OD-Skin_timing.pdf> <./figures/Muons/OD-TPC_timing.pdf> <./figures/Muons/Skin-TPC_timing.pdf>] [38 <./figures/Muons/TPC_energy_comp.pdf> <./figures/Muons/HGLG_comp.pdf> <./figures/Muons/Muon_pid_cutLZstyle.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-[35 <./figures/Muons/TPCEnergyConversion.pdf>]
+[39 <./figures/Muons/TPCEnergyConversion.pdf>]
 
-LaTeX Warning: Reference `fig:OD_comp' on page 36 undefined on input line 201.
+LaTeX Warning: Reference `fig:OD_comp' on page 40 undefined on input line 201.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 203--204
@@ -2064,18 +1801,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_comparison.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_comparison.pdf, id=1645, 404.9625pt x 298.82922pt>
+<figures/Muons/OD_comparison.pdf, id=1672, 404.9625pt x 298.82922pt>
 File: figures/Muons/OD_comparison.pdf Graphic file (type pdf)
 <use figures/Muons/OD_comparison.pdf>
 Package pdftex.def Info: figures/Muons/OD_comparison.pdf  used on input line 207.
 (pdftex.def)             Requested size: 295.90587pt x 218.36693pt.
 
-LaTeX Warning: Reference `fig:ODTPC_comp' on page 36 undefined on input line 212.
+LaTeX Warning: Reference `fig:ODTPC_comp' on page 40 undefined on input line 212.
 
-[36 <./figures/Muons/OD_comparison.pdf>]
+[40 <./figures/Muons/OD_comparison.pdf>]
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_datacc.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_TPC_datacc.pdf, id=1657, 414.74786pt x 289.79657pt>
+<figures/Muons/OD_TPC_datacc.pdf, id=1684, 414.74786pt x 289.79657pt>
 File: figures/Muons/OD_TPC_datacc.pdf Graphic file (type pdf)
 <use figures/Muons/OD_TPC_datacc.pdf>
 Package pdftex.def Info: figures/Muons/OD_TPC_datacc.pdf  used on input line 217.
@@ -2083,158 +1820,158 @@ Package pdftex.def Info: figures/Muons/OD_TPC_datacc.pdf  used on input line 217
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_data10.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_TPC_data10.pdf, id=1658, 423.02776pt x 295.06561pt>
+<figures/Muons/OD_TPC_data10.pdf, id=1685, 423.02776pt x 295.06561pt>
 File: figures/Muons/OD_TPC_data10.pdf Graphic file (type pdf)
 <use figures/Muons/OD_TPC_data10.pdf>
-Package pdftex.def Info: figures/Muons/OD_TPC_data10.pdf  used on input line 223.
+Package pdftex.def Info: figures/Muons/OD_TPC_data10.pdf  used on input line 222.
 (pdftex.def)             Requested size: 223.0721pt x 155.59612pt.
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_bacc0.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_TPC_bacc0.pdf, id=1659, 423.02776pt x 295.06561pt>
+<figures/Muons/OD_TPC_bacc0.pdf, id=1686, 423.02776pt x 295.06561pt>
 File: figures/Muons/OD_TPC_bacc0.pdf Graphic file (type pdf)
 <use figures/Muons/OD_TPC_bacc0.pdf>
-Package pdftex.def Info: figures/Muons/OD_TPC_bacc0.pdf  used on input line 229.
+Package pdftex.def Info: figures/Muons/OD_TPC_bacc0.pdf  used on input line 227.
 (pdftex.def)             Requested size: 223.0721pt x 155.59612pt.
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_bacc10.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_TPC_bacc10.pdf, id=1660, 423.02776pt x 295.06561pt>
+<figures/Muons/OD_TPC_bacc10.pdf, id=1687, 423.02776pt x 295.06561pt>
 File: figures/Muons/OD_TPC_bacc10.pdf Graphic file (type pdf)
 <use figures/Muons/OD_TPC_bacc10.pdf>
-Package pdftex.def Info: figures/Muons/OD_TPC_bacc10.pdf  used on input line 235.
+Package pdftex.def Info: figures/Muons/OD_TPC_bacc10.pdf  used on input line 232.
 (pdftex.def)             Requested size: 223.0721pt x 155.59612pt.
 
-Underfull \hbox (badness 2662) in paragraph at lines 215--239
+Underfull \hbox (badness 2662) in paragraph at lines 215--235
 [][] []
  []
 
 
-LaTeX Warning: Reference `tab:Rates2022' on page 37 undefined on input line 244.
+LaTeX Warning: Reference `tab:Rates2022' on page 41 undefined on input line 240.
 
 
-LaTeX Warning: Reference `tab:Rates2024' on page 37 undefined on input line 244.
+LaTeX Warning: Reference `tab:Rates2024' on page 41 undefined on input line 240.
 
 
-LaTeX Warning: Reference `fig:TPCHGLGComp' on page 37 undefined on input line 244.
+LaTeX Warning: Reference `fig:TPCHGLGComp' on page 41 undefined on input line 240.
 
 
-Overfull \hbox (45.40208pt too wide) in alignment at lines 250--256
+Overfull \hbox (45.40208pt too wide) in alignment at lines 246--252
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (45.40208pt too wide) in alignment at lines 256--257
+Overfull \hbox (45.40208pt too wide) in alignment at lines 252--253
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (125.95476pt too wide) in alignment at lines 257--269
- [] [] [] [] [] [] [] 
- []
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table 5.2 on input line 269.
-
-[37 <./figures/Muons/OD_TPC_datacc.pdf> <./figures/Muons/OD_TPC_data10.pdf> <./figures/Muons/OD_TPC_bacc0.pdf> <./figures/Muons/OD_TPC_bacc10.pdf>]
-
-LaTeX Warning: Reference `tab:Rates2022' on page 38 undefined on input line 279.
-
-
-LaTeX Warning: Reference `tab:Rates2022' on page 38 undefined on input line 279.
-
-
-Overfull \hbox (45.40208pt too wide) in alignment at lines 278--284
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (45.40208pt too wide) in alignment at lines 284--285
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (125.95476pt too wide) in alignment at lines 285--297
+Overfull \hbox (125.95476pt too wide) in alignment at lines 253--265
  [] [] [] [] [] [] [] 
  []
 
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table 5.3 on input line 297.
+(longtable)                in table 5.2 on input line 265.
+
+[41 <./figures/Muons/OD_TPC_datacc.pdf> <./figures/Muons/OD_TPC_data10.pdf> <./figures/Muons/OD_TPC_bacc0.pdf> <./figures/Muons/OD_TPC_bacc10.pdf>]
+
+LaTeX Warning: Reference `tab:Rates2022' on page 42 undefined on input line 275.
 
 
-LaTeX Warning: Reference `tab:Rates2022' on page 38 undefined on input line 307.
+LaTeX Warning: Reference `tab:Rates2022' on page 42 undefined on input line 275.
 
 
-LaTeX Warning: Reference `tab:Rates2022' on page 38 undefined on input line 307.
+Overfull \hbox (45.40208pt too wide) in alignment at lines 274--280
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (45.40208pt too wide) in alignment at lines 280--281
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (125.95476pt too wide) in alignment at lines 281--293
+ [] [] [] [] [] [] [] 
+ []
 
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table 5.4 on input line 325.
-
-[38]
-
-LaTeX Warning: Reference `tab:Rates_all' on page 39 undefined on input line 341.
-
-[39]
-
-LaTeX Warning: Reference `eq:flux' on page 40 undefined on input line 343.
+(longtable)                in table 5.3 on input line 293.
 
 
-LaTeX Warning: Reference `fig:flux_density' on page 40 undefined on input line 349.
+LaTeX Warning: Reference `tab:Rates2022' on page 42 undefined on input line 303.
+
+
+LaTeX Warning: Reference `tab:Rates2022' on page 42 undefined on input line 303.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 5.4 on input line 321.
+
+[42]
+
+LaTeX Warning: Reference `tab:Rates_all' on page 43 undefined on input line 337.
+
+[43]
+
+LaTeX Warning: Reference `eq:flux' on page 44 undefined on input line 339.
+
+
+LaTeX Warning: Reference `fig:flux_density' on page 44 undefined on input line 345.
 
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/Flux_density_ws22_ws24.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/Flux_density_ws22_ws24.pdf, id=1703, 410.98425pt x 323.66891pt>
+<figures/Muons/Flux_density_ws22_ws24.pdf, id=1730, 410.98425pt x 323.66891pt>
 File: figures/Muons/Flux_density_ws22_ws24.pdf Graphic file (type pdf)
 <use figures/Muons/Flux_density_ws22_ws24.pdf>
-Package pdftex.def Info: figures/Muons/Flux_density_ws22_ws24.pdf  used on input line 355.
+Package pdftex.def Info: figures/Muons/Flux_density_ws22_ws24.pdf  used on input line 351.
 (pdftex.def)             Requested size: 295.90587pt x 233.04637pt.
-) [40] [41 <./figures/Muons/Flux_density_ws22_ws24.pdf>]
+) [44] [45 <./figures/Muons/Flux_density_ws22_ws24.pdf>]
 \openout2 = `./chapters/Conclusion.aux'.
 
  (./chapters/Conclusion.tex
 chapter 6.
-) [42
+) [46
 
 
 
 
 ]
-/home/harvey-birch/Documents/LZ/PhD_Thesis/main.tex:285: Illegal parameter number in definition of \abx@field@howpublished.
+/home/harvey-birch/Documents/LZ/PhD_Thesis/main.tex:286: Illegal parameter number in definition of \abx@field@howpublished.
 <to be read again> 
                    m
-l.285 \end
+l.286 \end
           {sloppypar}
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-/home/harvey-birch/Documents/LZ/PhD_Thesis/main.tex:285: Illegal parameter number in definition of \Hy@tempa.
+/home/harvey-birch/Documents/LZ/PhD_Thesis/main.tex:286: Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    m
-l.285 \end
+l.286 \end
           {sloppypar}
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-/home/harvey-birch/Documents/LZ/PhD_Thesis/main.tex:285: Illegal parameter number in definition of \Hy@tempa.
+/home/harvey-birch/Documents/LZ/PhD_Thesis/main.tex:286: Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    m
-l.285 \end
+l.286 \end
           {sloppypar}
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-[43
+[47
 
 
 
-] [44]
+] [48]
 
 Package longtable Warning: Table widths have changed. Rerun LaTeX.
 
@@ -2268,18 +2005,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36757 strings out of 474222
- 714228 string characters out of 5748733
+ 36685 strings out of 474222
+ 714341 string characters out of 5748733
  1966975 words of memory out of 5000000
- 58189 multiletter control sequences out of 15000+600000
- 594674 words of font info for 138 fonts, out of 8000000 for 9000
+ 58103 multiletter control sequences out of 15000+600000
+ 591779 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,12n,107p,10989b,1733s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,12n,107p,10989b,1966s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/ascii-font/ASCII.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcrr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (49 pages, 7841183 bytes).
+Output written on main.pdf (53 pages, 8458598 bytes).
 PDF statistics:
- 2062 PDF objects out of 2073 (max. 8388607)
- 955 compressed objects within 10 object streams
- 256 named destinations out of 1000 (max. 500000)
- 692 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2081 PDF objects out of 2487 (max. 8388607)
+ 966 compressed objects within 10 object streams
+ 267 named destinations out of 1000 (max. 500000)
+ 678 words of extra memory for PDF output out of 10000 (max. 10000000)
 
