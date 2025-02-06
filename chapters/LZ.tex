@@ -75,13 +75,34 @@ The outer cryostat housing the TPC is surrounded near hermetically by ten acryli
     \label{fig:ODTanks}
 \end{figure}
 
-\subsection{Scintillator}
+\subsection{Liquid Scintillator}
+The primary detection medium for the OD is the GdLS, chosen for its excellent efficiency for neutrons and gammas that reach the OD \cite{LZTDR}. The composition of the GdLS mixture is shown in \autoref{tab:GdLSComp}. The base of the LS mixture is Linear-alkylbenzene (LAB), which acts as a solvent for the other components of the mixture. In addition to the LAB, the fluor 2,5-diphenyloxazole (PPO), and the wavelength shifter 1,4-bis(2-methylstyryl(benzene)) (Bis-MSB) are considered as the LS. As particles pass through the LS, the LAB component is excited as the particles deposit energy along the tracks. Through a series of chemical reactions, the excited LAB transmits energy to the fluor. As the excited fluor de-excites, it emits light with wavelengths up to 380~nm. Due to the short absorption lengths of the LS below 380~nm (approximately 1~m), Bis-MSB is included as a wavelength shifter. The Bis-MSB absorbs the photons produced by the fluor and emits photons with wavelengths between 410~nm~-~425~nm with absorption lengths over 10~m. Bis-MSB is a crucial component of the mixture as wavelengths of the emitted photons overlap with the PMT sensitivity spectrum and absorption lengths satisfy the detector geometry.
+The mixture is additionally loaded with Gd with a mass fraction of $0.1~\%$. Gd has a very high $(n,\gamma)$ cross-section so improves both the efficiency and intensity of the neutron capture signal \cite{LZTDR}. Due to the effectiveness of the Gd, only a small mass fraction is needed to dominate over neutron capture on protons in the LS. To dissolve the Gd in solution with the LS it is bound to a chelating agent, 3,5,5-trimethylhexanoic acid (TMHA) in a 3:1 ratio \cite{LZTDR,Haselschwardt:2018vmp}.
+\begin{table}
+    \centering
+    \begin{tabular}{cccc}
+        \hline
+        \textbf{Component} & \textbf{Molecular Formula} & \textbf{Mass $[g/L]$} & \textbf{Mass Fraction} \\
+        \hline
+        LAB & $\text{C}_{17.14}\text{H}_{28.28}$ & 853.55 & 99.25\\
+        PPO & $\text{C}_{15}\text{H}_{11}\text{NO}$ & 3.00 & 0.35 \\
+        bis-MSB & $\text{C}_{24}\text{H}_{22}$ & 0.01 & 0.0011\\
+        TMHA & $\text{C}_{9}\text{H}_{17}\text{O}_{2}^{-}$ & 2.58 & 0.003\\
+        Gd & Gd & 0.86 & 0.1 \\
+        \hline
+        GdLS & $\text{C}_{17.072} \text{H}_{28.128} \text{O}_{0.0126} \text{N}_{0.0037} \text{Gd}_{0.0015}$ & 860.00 & 100 \\
+        \hline
+    \end{tabular}
+    \caption{Chemical components in 1L of GdLS, adapted from Ref.\cite{Haselschwardt:2018vmp}.}
+    \label{tab:GdLSComp}
+\end{table}
+\subsubsection{Neutron Capture in the OD}
+As previously mentioned, Gadolinium has the highest thermal neutron capture cross of any known stable element (49~kb) \cite{Hagiwara:2018kmr}.
 
 \subsection{PMT system}
 Interactions in the GdLS and water are monitored by 120 Hamamatsu 8-inch R5912 photo-multiplier tubes (PMTs) arranged as shown in \autoref{fig:ODPMT_Array}. \cite{HamamatsuR5912}
 
-
-\begin{figure}
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.5\linewidth]{figures/LZ/OD_PMT_support.jpg}
     \caption{Plan view of the OD PMT support system. The 20 PMT ladders are mounted to a circular track attached to the walls of the water tank \cite{LZTDR}.}
