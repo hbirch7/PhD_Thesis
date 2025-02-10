@@ -2,16 +2,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces ALPACA-Core SR3 cuts used on AmLi calibration data for determining the efficiency. Each cut is from SR3-cuts-v3. }}{21}{table.caption.31}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces ALPACA-Core SR3 cuts used on DD calibration data for determining the efficiency. Each cut is from SR3-cuts-v3. }}{25}{table.caption.39}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces ALPACA-Core SR3 cuts used on AmLi and DD simulations for determining the efficiency. Each cut is from SR3-cuts-v3.}}{27}{table.caption.45}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces ALPACA-Core SR3 cuts used on Detector-NR simulations for determining the efficiency. Each cut is from SR3-cuts-v3. }}{28}{table.caption.48}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Summary of veto efficiencies. The Detector-NR Data value assumes that option 2 is used.}}{31}{table.caption.56}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Summary of veto efficiencies and inefficiencies as determined from each approach.}}{31}{table.caption.57}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces ALPACA-Core SR3 cuts used on AmLi calibration data for determining the efficiency. Each cut is from SR3-cuts-v3. }}{23}{table.caption.33}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces ALPACA-Core SR3 cuts used on DD calibration data for determining the efficiency. Each cut is from SR3-cuts-v3. }}{27}{table.caption.41}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces ALPACA-Core SR3 cuts used on AmLi and DD simulations for determining the efficiency. Each cut is from SR3-cuts-v3.}}{29}{table.caption.47}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces ALPACA-Core SR3 cuts used on Detector-NR simulations for determining the efficiency. Each cut is from SR3-cuts-v3. }}{30}{table.caption.50}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Summary of veto efficiencies. The Detector-NR Data value assumes that option 2 is used.}}{33}{table.caption.58}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Summary of veto efficiencies and inefficiencies as determined from each approach.}}{33}{table.caption.59}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Summary if relevant durations for the WIMP search runs. For this analysis, DAQ livetime was used in the rate calculation work.}}{34}{table.caption.60}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Muon rates from simulations and WS2022 data. The data has the OD cuts and timing selections applied. The simulations have a 3-fold detector coincidence criteria and the 8~MeV OD energy cut applied. The TPC energy thresholds represent the total energy deposited by a muon event in the TPC.\newline }}{42}{table.5.2}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces Muon rates from simulations and WS2024 data. See the \autoref {tab:Rates2022} caption for descriptions of the applied cuts and energy thresholds.}}{42}{table.5.3}%
-\contentsline {table}{\numberline {5.4}{\ignorespaces Muon rates from simulations, WS2022 and WS2024 data. See the \autoref {tab:Rates2022} caption for descriptions of the applied cuts and energy thresholds. \newline }}{43}{table.5.4}%
+\contentsline {table}{\numberline {5.1}{\ignorespaces Summary if relevant durations for the WIMP search runs. For this analysis, DAQ livetime was used in the rate calculation work.}}{36}{table.caption.62}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Muon rates from simulations and WS2022 data. The data has the OD cuts and timing selections applied. The simulations have a 3-fold detector coincidence criteria and the 8~MeV OD energy cut applied. The TPC energy thresholds represent the total energy deposited by a muon event in the TPC.\newline }}{44}{table.5.2}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Muon rates from simulations and WS2024 data. See the \autoref {tab:Rates2022} caption for descriptions of the applied cuts and energy thresholds.}}{44}{table.5.3}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces Muon rates from simulations, WS2022 and WS2024 data. See the \autoref {tab:Rates2022} caption for descriptions of the applied cuts and energy thresholds. \newline }}{45}{table.5.4}%
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
