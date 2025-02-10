@@ -131,7 +131,7 @@ This model of PMT has been used successfully prior to their use in LZ at Daya Ba
     \caption{Plan view of the OD PMT support system. The 20 PMT ladders are mounted to a circular track attached to the walls of the water tank \cite{LZTDR}.}
     \label{fig:ODPMT_Array}
 \end{figure}
-\begin{figure}
+\begin{figure}[h!]
      \centering
      \begin{subfigure}{0.47\textwidth}
          \centering
@@ -153,14 +153,28 @@ Prior to the installation of the PMTs at SURF, rigorous testing to fully charact
 
 \subsection{Outer Detector Optical Calibration System}
 LZ uses an optical calibration system to monitor: the PMT gain/single photoelectron (SPhE) size; afterpulsing rates; and the optical properties of the acrylic and scintillator. Light produced by the LED-driven system is injected into the OD at 35 different locations. Thirty injection points are evenly distributed throughout the PMT array  (10 azimuthal positions at 3 heights as shown in \autoref{fig:OCSPositions}). Four of the injection points are each positioned in centre of the side acrylic tanks facing upwards to monitor the optical properties of the GdLS. One final injection points is positioned in the outer rim of a side acrylic tank also facing upwards and is used to monitoring the optical properties of the acrylic.
-\begin{figure}
+\begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{figures/LZ/OD_PMT_CAD_picture_v4.png}
     \caption{\textbf{Left:} A cross-section of a CAD drawing of the OD. The three  heights of the 10 azimuthal positions of the optical fibre injection points are labelled 1-3. Two injection positions under the side acrylic tanks which point upwards are labelled 4 and 5. \textbf{Right:} A photograph of the OD PMT array showing the point of an injection point relatively to the surrounding PMTs.}
     \label{fig:OCSPositions}
 \end{figure}
-Duplex fibres are used to inject light pulses produced by LEDs to the different locations. For the thirty injection points situated within the PMT, 435~nm LEDs are used to match the peak wavelength and quantum efficiency of OD PMTs. Only one core in the fibre is used, the additional core is a backup in the event of any damage to the first core. 435~nm and 450~nm were doing for the injection points facing into the LS to monitor optical degradation of the scintillator. Below 420~nm the absorption length of GdLS decreases significantly as shown in \autoref{fig:GdLSSpecRes}, if the scintillator degrades this region shifts to higher wavelengths.
-
+Duplex fibres are used to inject light pulses produced by LEDs to the different locations. For the thirty injection points situated within the PMT, 435~nm LEDs are used to match the peak wavelength and quantum efficiency of OD PMTs. Only one core in the fibre is used, the additional core is a backup in the event of any damage to the first core. 435~nm and 450~nm were doing for the injection points facing into the LS to monitor optical degradation of the scintillator. Below 420~nm the absorption length of GdLS decreases significantly as shown in \autoref{fig:GdLSSpecRes}, if the scintillator degrades this region shifts to higher wavelengths. A similar approach is taken for monitoring the optical properties of the acrylic using 390~nm and 435~nm LEDs. The transmission of light through the acrylic varies with wavelength, as shown in \autoref{fig:AcrylicQA}. Monitoring the optical properties of the acrylic and scintillator during science runs is key to ensure consistent light collection during science runs.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png}
+    \caption{Quality assurance measurement data taken during the commissioning of the acrylic tanks. The QA measurement data is the average transmission of light at a particular wavelength across 46 points. Vertical lines indicate the 390~nm and 435~nm LEDs with respect to the transmission of light.}
+    \label{fig:AcrylicQA}
+\end{figure}
+The electronics system which controls the LEDs consists of five Optical Calibration Cards (OCC). Each OCC consists of an FPGA controlled motherboard which houses eight LED pulser boards and two four-channel photodiode boards. Light pulses from the LEDs are divided by a three-way optical coupler: to the injection points in the OD; to the photodiode readout for onboard monitoring; to a monitoring PMT. The layout of the system can be seen in \autoref{fig:OCSSchematic}.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\linewidth]{figures/LZ/OCSSchematic_0.png}
+    \caption{A schematic of the OD OCS. An example of one Optical Calibration Card (OCC) is shown with its eight LED pulser boards and two photodiode boards. A total of five OCCs make up the OCS and are powered by a VME crate. Lines with arrows show the paths light takes down various fibres to different positions in the system. Labels 1-3 represent the three heights within the PMT array, while Label 4-5 denote the injection points to monitor the GdLS/acrylic, as shown in \autoref{fig:OCSPositions}. Adapted from Ref.\cite{Turner:2021qvi,LZ:2024bsz}\textcolor{red}{NEED TO CHANGE THE COLOURS IN THIS SCHEMATIC!}.}
+    \label{fig:OCSSchematic}
+\end{figure}
+The intensity of light is monitored using the onboard photodiode and rack mounted monitoring PMT, which is the same 8-inch Hamamatsu R5912 PMT as used in the OD PMT array \cite{Turner:2021qvi}. The stability of the light produced by the LEDs is monitored through the comparison of light produced by an in-situ YAP:Ce pulser which produces light pulses corresponding to 5000 photoelectrons \cite{Turner:2021qvi,KOBAYASHI1994355}. The intensity of light produced by both the LED and source is then compared for consistency across science runs. The commissioning of this subsystem is covered further in \autoref{chap:ODCommissioning}. The OCS is controlled through LZ's central Slow Control System, allowing a user to define a pulse size/intensity using a graphical user interface \cite{hbirch:thesis}.
+During the authors Masters degree at the University of Liverpool a member of the group who developed the OCS and extensively tested the system. The OCS met all design requirements set by LZ \cite{Turner:2021qvi}. Further details of the OCS and the QA tests prior to installation can be found at Ref.\cite{hbirch:thesis,Turner:2021qvi}. 
 
 \section{Calibration Sources}
 
