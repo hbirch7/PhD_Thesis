@@ -255,7 +255,6 @@ I declare that..
 I want to thank...
 
 \tableofcontents
-
 \pagenumbering{arabic}
 
 %\pagestyle{fancy}
@@ -282,17 +281,6 @@ I want to thank...
 \include{./chapters/Conclusion}
 
 %: ----------------------- bibliography ------------------------
-
 % The section below defines how references are listed and formatted.
-
-\begin{scriptsize} % tiny(5) < scriptsize(7) < footnotesize(8) < small (9)
-%\bibliographystyle{Latex/Classes/PhDbiblio-url2} %Default style file. Change according to you preferences.
-\renewcommand{\bibname}{References} % changes the header from Bibliography to References
-\begin{sloppypar}
-\printbibliography
-\end{sloppypar}
-
-%\bibliography{9_backmatter/references} % adjust this to fit your BibTex file
-\end{scriptsize}
-
+\printbibliography[heading=bibintoc,title={Bibliography}]
 \end{document}
