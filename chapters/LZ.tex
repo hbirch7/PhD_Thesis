@@ -151,7 +151,7 @@ This model of PMT has been used successfully prior to their use in LZ at Daya Ba
 \end{figure}
 Prior to the installation of the PMTs at SURF, rigorous testing to fully characterise the response of tubes was carried out by groups from Brandeis University and the IBS Center for Underground Physics. Further details of the quality assurance testing is documented in Ref.\cite{lkorley:thesis}.
 
-\subsection{Outer Detector Optical Calibration System}
+\subsection{Outer Detector Optical Calibration System}\label{sec:ODOCS}
 LZ uses an optical calibration system to monitor: the PMT gain/single photoelectron (SPhE) size; afterpulsing rates; and the optical properties of the acrylic and scintillator. Light produced by the LED-driven system is injected into the OD at 35 different locations. Thirty injection points are evenly distributed throughout the PMT array  (10 azimuthal positions at 3 heights as shown in \autoref{fig:OCSPositions}). Four of the injection points are each positioned in centre of the side acrylic tanks facing upwards to monitor the optical properties of the GdLS. One final injection points is positioned in the outer rim of a side acrylic tank also facing upwards and is used to monitoring the optical properties of the acrylic.
 \begin{figure}[h!]
     \centering
@@ -169,14 +169,50 @@ Duplex fibres are used to inject light pulses produced by LEDs to the different 
 The electronics system which controls the LEDs consists of five Optical Calibration Cards (OCC). Each OCC consists of an FPGA controlled motherboard which houses eight LED pulser boards and two four-channel photodiode boards. Light pulses from the LEDs are divided by a three-way optical coupler: to the injection points in the OD; to the photodiode readout for onboard monitoring; to a monitoring PMT. The layout of the system can be seen in \autoref{fig:OCSSchematic}.
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\linewidth]{figures/LZ/OCSSchematic_0.png}
-    \caption{A schematic of the OD OCS. An example of one Optical Calibration Card (OCC) is shown with its eight LED pulser boards and two photodiode boards. A total of five OCCs make up the OCS and are powered by a VME crate. Lines with arrows show the paths light takes down various fibres to different positions in the system. Labels 1-3 represent the three heights within the PMT array, while Label 4-5 denote the injection points to monitor the GdLS/acrylic, as shown in \autoref{fig:OCSPositions}. Adapted from Ref.\cite{Turner:2021qvi,LZ:2024bsz}\textcolor{red}{NEED TO CHANGE THE COLOURS IN THIS SCHEMATIC!}.}
+    \includegraphics[width=\linewidth]{figures/LZ/OCSSchematic_0.png}
+    \caption{A schematic of the OD OCS. An example of one Optical Calibration Card (OCC) is shown with its eight LED pulser boards and two photodiode boards. A total of five OCCs make up the OCS and are powered by a VME crate. Lines with arrows show the paths light takes down various fibres to different positions in the system. Labels 1-3 represent the three heights within the PMT array, while Label 4-5 denote the injection points to monitor the GdLS/acrylic, as shown in \autoref{fig:OCSPositions}. Adapted from Ref.\cite{Turner:2021qvi,LZ:2024bsz}.
+    \textcolor{red}{NEED TO CHANGE THE COLOURS IN THIS SCHEMATIC!}}
     \label{fig:OCSSchematic}
 \end{figure}
 The intensity of light is monitored using the onboard photodiode and rack mounted monitoring PMT, which is the same 8-inch Hamamatsu R5912 PMT as used in the OD PMT array \cite{Turner:2021qvi}. The stability of the light produced by the LEDs is monitored through the comparison of light produced by an in-situ YAP:Ce pulser which produces light pulses corresponding to 5000 photoelectrons \cite{Turner:2021qvi,KOBAYASHI1994355}. The intensity of light produced by both the LED and source is then compared for consistency across science runs. The commissioning of this subsystem is covered further in \autoref{chap:ODCommissioning}. The OCS is controlled through LZ's central Slow Control System, allowing a user to define a pulse size/intensity using a graphical user interface \cite{hbirch:thesis}.
 During the authors Masters degree at the University of Liverpool a member of the group who developed the OCS and extensively tested the system. The OCS met all design requirements set by LZ \cite{Turner:2021qvi}. Further details of the OCS and the QA tests prior to installation can be found at Ref.\cite{hbirch:thesis,Turner:2021qvi}. 
 
-\section{Calibration Sources}
+\section{Calibration Systems and Sources}
+To understand the LZ detector response and its performance, regular calibrations are performed using a variety of methods and sources. Such calibration procedures are used to characterise: the energy scale; energy threshold; micro physics of particle interactions; as well as the position and time dependence of the detector responses \cite{LZ:2024bsz}. A summary of the sources, their purpose and their deployment methods is shown in \autoref{tab:CalibrationSources}.
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+         \hline
+         Isotope & Interacting & Energy [keV] & Purpose & Deployment \\
+         & Particle & & & \\
+         \hline
+         $^{83m}\text{Kr}$ & $\beta, \gamma$ & $32.1/9.4$ &TPC(x,y,z) & Injected\\
+         $^{131m}\text{Xe}$& $\gamma$, x-ray & $163.9$ & TPC(x,y,z), Skin & Injected\\
+         $^{220}\text{Rn}$& $\alpha,\beta,\gamma$ & Various \cite{Jorg:2023nvl} & Skin, ER Band & Injected\\
+         $^{3}\text{H}$& $\beta$ & $0-18.6$ &ER Band & Injected\\
+         $^{14}\text{C}$& $\beta$ & $0-156.4$ &ER Band & Injected\\
+         $^{241}\text{AmLi}$& $(\alpha,n)$ & $(5638, 0-1500)$ & NR Band, Veto Efficiency & CSD\\
+         $^{241}\text{AmBe}$& $(\alpha,n)$ & $(5638, 0-11\times10^{3})$ & NR Band, Veto Efficiency & CSD\\
+         %$^{252}\text{Cf}$& Spontaneous Fission & &NR Efficency & External\\
+         $^{57}\text{Co}$& $\gamma$ & $122$ &Skin Energy Scale & CSD\\
+         $^{228}\text{Th}$& $\gamma$ & $2615$ &OD Energy Scale & CSD\\
+         $^{22}\text{Na}$& $\gamma$ & $511, 1275$ &Inter-detector Timing & CSD\\
+         $^{52}\text{Mn}$& $\gamma$ & $835$ &Skin Energy Scale & CSD\\
+         $^{88}\text{YBe}$& $(\gamma,n)$ & $(1836,152)$ &NR Response & External\\
+         $^{88}\text{YMg}$& $n$ & $1836$ & NR Response & External\\
+         DD& $n$ & $2460$ & Light and Charge Yields & External\\
+         $^{241}\text{Am}$& $\alpha$ & $5638$ &ODOCS Calibration & External\\
+         \hline
+    \end{tabular}
+    \caption{A list of calibration source used by LZ for TPC, Skin and OD calibrations along with the purpose and method of deployment. The energy (keV) refers to particle energies relevant for the calibration of LZ and is not a complete list of decay energies. The energies quoted in the parentheses correspond to those of the particle species from the previous column. Adapted from Ref.\cite{LZ:2024bsz,lkorley:thesis}.}
+    \label{tab:CalibrationSources}
+\end{table}
+Injected sources consist of gaseous radioisotopes which are injected into the xenon circulation system and in turn into the TPC volume itself. The injection of sources directly into the TPC volume is beneficial for a few reasons. Firstly, as source is injected and allow to mix with the LXe, this allows calibration with spatial uniformity. Secondly, the LXe target is self-shielding so an external low energy source would require a large amount of exposure time to achieve comparable statistics to the injected source. Lastly, monitoring how the injected isotopes mix within the TPC allows LZ to further understand the mixing and flow patterns of background radioisotopes \cite{LZ:2024bsz}. The injected radioisotopes either decay away due to their short-lived nature ($^{83m}\text{Kr}$,$^{131m}\text{Xe}$ and $^{220}\text{Rn}$) whereas the live-lived source, tritiated methane ($\text{CH}_4$, is removed by the hot zirconium getter \cite{LZNIMA}.
+
+Beyond the injected sources, there are external sources which can be separated into two subcategories by their deployment, either using the Calibration Source Deployment system or stand alone deployment method. The CSD lowers neutron and gamma rod sources in three tubes located in the vacuum space between the ICV and OCV \cite{LZNIMA}. Each tube is connected to an independent deployment system which allows sources to be precisely positioned at different depths in the detector. Depending on the depth of deployment, the radioactive source can generate signals in various regions of the OD, TPC, and Skin. The use of various sources at various heights allows for calibration of the detectors' energy scale and the spatial dependence of the energy scale. Inter-detector timing measurements between the three detectors is also carried out using the CSD sources. Understanding time offsets between the detectors is crucial for functioning veto system which is dependent on time based section to remove background events.
+
+Beside the CSD sources, a deuterium-deuterium (DD) neutron generator is used to produced neutrons for TPC calibrations and to cross check Veto tagging efficiency (discussed in \autoref{chap:VetoEfficiency}). The generator produces 2.45~MeV neutrons which are directed through calibration conduits that pass through the OD acrylic tanks to the OCV. A detailed description of neutron generation and the system is provided in Ref.\cite{LZ:2024bsz}. To understand low energy detection efficiency of the TPC $^{88}\text{YBe}$ and $^{88}\text{YMg}$ photo-neutron sources are used. Both sources are deployed externally through a removing a small acrylic vessel in the OD and replacing it with source assembly. This small vessel is shown in green above the blue top tanks in  \autoref{fig:ODTanks}.
+The final source listed in \autoref{tab:CalibrationSources} is sealed $^{241}\text{Am}$ within a YAP:Ce crystal and is used within the ODOCS, as described in \autoref{sec:ODOCS}.
 
 \section{Data Acquisition System}
 
