@@ -1,9 +1,143 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.14">
   <diagram name="Page-1" id="4iZNIHf9HvnFUW6o0Jst">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="638" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="250" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-30" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="250" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-18" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="260" as="sourcePoint" />
+            <mxPoint x="375" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="260" as="sourcePoint" />
+            <mxPoint x="375" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-6" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#E5CCFF,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-7" value="Background: &lt;sup&gt;238&lt;/sup&gt;U, &lt;sup&gt;232&lt;/sup&gt;T, &lt;sup&gt;40&lt;/sup&gt;K, etc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-8" value="Signal: WIMP SI &amp;amp; SD,&amp;nbsp; EFT, LIPs, etc" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-11" target="EnEtwsQ8AccBFL_YTjFr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-11" value="Particle Generators" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#9999FF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="135" y="150" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-12" target="EnEtwsQ8AccBFL_YTjFr-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-12" value="GEANT4 Particle Tracking" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#9999FF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-13" target="EnEtwsQ8AccBFL_YTjFr-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-13" value="&lt;div&gt;Energy Deposits&lt;/div&gt;&lt;div&gt;{Vol, PID, E, x, y, z}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#9999FF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-15" target="EnEtwsQ8AccBFL_YTjFr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-15" value="Particle Generators" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#9999FF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="385" y="150" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-16" target="EnEtwsQ8AccBFL_YTjFr-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-16" value="GEANT4 Particle Tracking" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#9999FF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="370" y="180" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-17" target="EnEtwsQ8AccBFL_YTjFr-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-17" value="&lt;div&gt;Energy Deposits&lt;/div&gt;&lt;div&gt;{Vol, PID, E, x, y, z}&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#9999FF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-20" value="G4S1Light" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#99CCFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-20" target="EnEtwsQ8AccBFL_YTjFr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-22" value="G4S2Light" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#99CCFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-23" target="EnEtwsQ8AccBFL_YTjFr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-23" value="BACCARAT output (PMT Hits)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#99CCFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="110" y="290" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-24" target="EnEtwsQ8AccBFL_YTjFr-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-24" value="&lt;div&gt;DER&amp;nbsp;&lt;/div&gt;&lt;div&gt;(Detector Electronic Response)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#99FF99,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="110" y="330" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-25" value="LZap Processing" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#FFCC99,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="110" y="400" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-26" target="EnEtwsQ8AccBFL_YTjFr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-26" value="Deposit ROOT File" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#9999FF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-27" value="LZLAMA Processing" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#FF9999,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-9" target="EnEtwsQ8AccBFL_YTjFr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-9" target="EnEtwsQ8AccBFL_YTjFr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-42" value="Output:&lt;br&gt;&lt;div&gt;LZap RQ File&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#E5CCFF,var(--ge-dark-color, #121212));" vertex="1" parent="1">
+          <mxGeometry x="60" y="440" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-50" value="Input:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-51" target="EnEtwsQ8AccBFL_YTjFr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-51" value="DER Output (DAQ-like file)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=light-dark(#99FF99,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.26;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EnEtwsQ8AccBFL_YTjFr-25" target="EnEtwsQ8AccBFL_YTjFr-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-61" value="BACCARAT + Optics" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="15" y="225" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EnEtwsQ8AccBFL_YTjFr-62" value="BACCARAT + E-Only" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="505" y="200" width="120" height="10" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
