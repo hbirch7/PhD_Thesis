@@ -33,7 +33,7 @@ _{2}^{*\nu}$, which is both an electronically and vibrationally excited molecule
 The $Xe$ atom also undergoes ionisation due to the displacement of the nucleus during the collision releasing electrons. A positively charged $Xe^{+}$ ion combines with a neutral Xe atom to form a positively charged dimer $Xe^{+}_{2}$. Most of the electrons that are emitted in the ionisation are drifted away from the collision site by the applied electric field. However some of the ionised electrons produced in the cascade recombine with the molecule prior to it splitting to form a highly excited $Xe$ atom. A final series of relaxation occurs in a similar manner to the excitation luminescence excimer. A schematic which describes the process of producing the S1 and S2 signal can be seen in \autoref{fig:XenonSigalProduction}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.6\linewidth]{figures/LZ/Xenon_interaction.pdf}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/Xenon_interaction.pdf}
     \caption{A schematic of the signal production and collection in a dual phase xenon time}
     \label{fig:XenonSigalProduction}
 \end{figure}
@@ -56,7 +56,7 @@ The ratio of energy distribution between light and charge differs between NRs an
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.75\linewidth]{figures/LZ/SR1WS_calOnly_0629.pdf}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/SR1WS_calOnly_0629.pdf}
     \caption{Discrimination between ER and NR can be seen in LZ calibration events in $log_{10}S2_{c}-S1_{c}$ for the tritium source (dark blue points, 5343 events) and the DD neutron source (orange points, 6324 events). Solid blue (red) lines indicate the median of the ER (NR) simulated distributions, and the dotted lines indicate the 10~\% and 90~\% quantiles. Thin gray lines show contours of constant electron-equivalent energy ($keV_{ee}$) and nuclear recoil energy ($keV_{nr}$) \cite{LZ:2022lsv}.}
     \label{fig:NRERBandExample}
 \end{figure}
@@ -64,7 +64,7 @@ The ratio of energy distribution between light and charge differs between NRs an
 \section{Xenon Skin}
 The TPC is surrounded by a layer of LXe, the region contains around 2 tonnes of LXe between the field cage and the inner cryostat vessel \cite{LZNIMA}. The primary motivation for including this layer of LXe was to provide dielectric insulation between the two elements. Unlike Xenon-nT, LZ's main competitor, this region is instrumented for optical readout acting as a scintillation-only veto detector for gamma interactions in the TPC \cite{XENON:2024wpa}. The region is nominally known as the "Skin" and can be split into two regions: Barrel and Dome. The Barrel contains 93 1-inch Hamamatsu R5820 PMTs at the top of the Barrel looking down and 38 2-inch Hamamatsu R8778 PMTs; 20 at the bottom of the Barrel looking up, and 18 in the Dome region below the TPC \cite{LZNIMA}. The layout of the Skin PMTs with respect to the TPC can be seen in \autoref{fig:CAD_TPC}.
 
-\section{Outer Detector}
+\section{Outer Detector}\label{sec:LZOD}
 It has been shown in previous sections that dual phase TPC has the capability to distinguish between ER and NR interactions in the LXe, however it does not have the capability to understand what particle caused the recoil. Neutrons are the primary source of NRs as they can easily scatter of the Xe nuclei and mimic a signal similar to a WIMP. Neutrons will however scatter multiple times in the TPC or nearby whereas WIMPs would not due to differences in their respective interactions cross sections. LZ has taken advantage of this principle and surrounded the TPC in a neutron detector to increases it's discrimination power on NR backgrounds. This detector is nominally known as the Outer Detector.
 %and together with the Xe Skin comprises the LZ Veto System. 
 The outer cryostat housing the TPC is surrounded near hermetically by ten acrylic vessels filled with  Gadolinium loaded liquid scintillator (GdLS). The GdLS is observed by 120 PMTs and stands within 238t of DI water which provides shielding to the detector. An exploded layout of these vessels can be seen in \autoref{fig:ODTanks}.
@@ -101,7 +101,7 @@ As previously mentioned, Gadolinium has the largest capture cross-section for th
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.6\linewidth]{figures/LZ/ContinuumEmission2.png}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/ContinuumEmission2.png}
     \caption{Illustration of the multi-step $\gamma$-ray emission of an excited $^{158}\text{Gd}^*$ following the thermal $^{157}\text{Gd}(n,\gamma)$ reaction. The de-excitation to the ground state can occur via many intermediate levels. Adapted from Ref.\cite{Hagiwara:2018kmr}.}
     \label{fig:Gd158Deexcite}
 \end{figure}
@@ -214,7 +214,7 @@ Beyond the injected sources, there are external sources which can be separated i
 Beside the CSD sources, a deuterium-deuterium (DD) neutron generator is used to produced neutrons for TPC calibrations and to cross check Veto tagging efficiency (discussed in \autoref{chap:VetoEfficiency}). The generator produces 2.45~MeV neutrons which are directed through calibration conduits that pass through the OD acrylic tanks to the OCV. A detailed description of neutron generation and the system is provided in Ref.\cite{LZ:2024bsz}. To understand low energy detection efficiency of the TPC $^{88}\text{YBe}$ and $^{88}\text{YMg}$ photo-neutron sources are used. Both sources are deployed externally through a removing a small acrylic vessel in the OD and replacing it with source assembly. This small vessel is shown in green above the blue top tanks in  \autoref{fig:ODTanks}.
 The final source listed in \autoref{tab:CalibrationSources} is sealed $^{241}\text{Am}$ within a YAP:Ce crystal and is used within the ODOCS, as described in \autoref{sec:ODOCS}.
 
-\section{Data Acquisition System}
+\section{Data Acquisition System}\label{sec:LZDAQ}
 Signals produced in the PMTs across the experiment are processed by the data acquisition system. LZ employs a custom FPGA-based Architecture for Data Acquisition and Real time monitoring (FADR) to perform the digitisation and identify events of interest for offline analysis \cite{LZ:2024bvw,Druszkiewicz:2015pcl}. 
 Signals first pass through shaping amplifiers which increases signal-noise ratio. At the amplifier stage, the signals from the TPC and OD are split into dual gain outputs to maximize the available dynamic range and extend the range of energies than can be probed by the experiment. The Skin detector has only a single gain output. Following amplification, the analogue signals are digitized with a sample rate of 100~MHz (10~ns samples) using custom built 32-channel digital signal processing boards \cite{Druszkiewicz:2015pcl}. Due to the sheer volume of data that comes from the PMTs Pulse Only Digitisation (POD) methods are employed to reduce the raw waveform volume by a factor of 50 \cite{LZTDR}. The threshold used in this filter is tuned on SPhE data and is set to provide a detection efficiency of $>99\%$ \cite{LZ:2024bvw}. Results from the POD waveform analysis are passed to the data sparsifiers and grouped by the Data Sparsifier Master (DSM) where a decision is made whether an event has been observed. The DSM informs the DAQ Master and time window is selected for the event and the data is extracted from the digitizers and stored by one of the Data Collectors. A simplified schematic of the LZ DAQ system is shown in \ref{fig:LZDAQ}, depicting one channel of digital electronics. Event builders take the data which has been temporarily stored on the Data Collectors, organized the data by channel, and assembles full event structures for offline analysis. \textcolor{red}{Should I include something on the triggers? FADR Paper P15 \cite{LZ:2024bvw}} An in-depth description of FADR can be found at Ref. \cite{LZ:2024bvw}.
 \begin{figure}[h!]
@@ -233,4 +233,26 @@ Simulations of the LZ experiment play a key role understanding the detector and 
 \end{figure}
 For all simulations, LZ uses BACCARAT\footnote{\textbf{B}asically \textbf{A} \textbf{C}omponent-\textbf{C}entric \textbf{A}nalogue \textbf{R}esponse to \textbf{A}ny\textbf{T}hing}\cite{LZ_SIMS} package to simulate particle interactions in the detector and this package is built upon the GEANT4 simulation toolkit \cite{GEANT4:2002zbu}. Using GEANT4 along with CAD-Drawing, the LZ experiment is built as a detector geometry. In simulation, a series of inputs can be used to generate particles which are propagated through the detector geometry, with any additional particles being generated from interactions with detector materials. GEANT4 is used to track the particles and identifies the interaction points. From there, two separate chains exist for interpreting this information, \autoref{fig:LZSimFramework}.
 
+The ``Fast'' chain, seen on the right of \autoref{fig:LZSimFramework}, records energy deposits in the detector and passes them to LZLAMA for processing. LZLAMA consists of two primary packages, the Noble Element Simulation Technique (NEST) to process interactions in the xenon space and DICEBOX to process interactions with the OD. NEST provides the expected conversion of energy to scintillation photons and ionization electrons based on empirical models developed using experiment measurements \cite{NEST1}. The DICEBOX toolkit is empolyed to handle interactions between neutrons and their capture on Gd as GEANT4 has difficulty conserving Q-value and multiplicity of the gamma emissions from the neutron capture. Energy deposits in other volumes are handled by GEANT4. LZLAMA outputs a ROOT file which has the same reduced-quantity (RQ) format as data processed using LZ's custom processing tool, LZap \cite{LZ_SIMS}, which performs pulse and event reconstruction.
+
+The second, ``Full'' chain, enables full simulation of optical processes throughout the entire detector including VUV photons and ionisation electrons that are produced in the xenon and scintillation light generated in the OD. Another custom LZ software package, Detector Electronic Response (DER), is used to translate PMT hits in the BACCARAT output into waveforms. The DER simulates the analogue front-end electronics of LZ to produce waveforms, written in an identical format to the true LZ DAQ, \autoref{sec:LZDAQ}. A number of physical processes are incorporated into the DER to create realistic waveforms including: a PMT response model, gain, quantum efficiency, double photoelectron probability, dynode effects, dark rate, and afterpulsing. This chain is more computationally intensive but it allows for a more realistic, event-by-event analysis. The output from the DER is processed by LZap to produce RQ-structured files to be analysed much like real data.
+A complete review of the LZ Simulation framework can be found at Ref.\cite{LZ_SIMS}.
+
 \section{Assembly and Operation of the LZ Detector}
+During the past six years whilst the author has collaborated on the LZ Experiment, a significant portion of that time has been spent on-site at SURF working on the assembly, commissioning and operation of the LZ Detector. These efforts began with the installation of the OCS electronics and an in-situ-calibration of the LED system, this work is detailed extensively in Ref.\cite{hbirch:thesis}.
+\begin{figure}
+     \centering
+     \begin{subfigure}{0.41\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{figures/LZ/OCSMotherboardCC.png}
+         \label{fig:Gonk0}
+     \end{subfigure}
+     %\hfill
+     \begin{subfigure}{0.47\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{figures/LZ/OCSElectronicsInstallation.png}
+         \label{fig:Gonk1}
+         \caption{The author making serial connections between the front planes of the OCS OCCs within the electronics racks.}
+     \end{subfigure}
+     \caption{}
+\end{figure}

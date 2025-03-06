@@ -1,5 +1,40 @@
 \chapter{Outer Detector Commissioning and Monitoring}\label{chap:ODCommissioning}
-\section{Single Photo-electron Calibration}
+\section{OD PMT Calibration}
+As discussed in \ref{sec:LZOD}, the primary purpose for the LZ Outer Detector is to detect neutron interactions which have coincident signals within the TPC. The source of most of the neutron background is from the ($\alpha$, n) process in material surrounding the edges of the xenon. A neutron will enter the TPC and then scatter out. The neutron can traverse the intervening material and then thermalize and capture on either the Gadolinium or the Hydrogen in the scintillator mixture or recoil off the protons in the scintillator. When the neutron recoils off the proton, energy depositions of $\sim$100~keV are produced \cite{LZNIMA}. The pulses of light detected in the PMTs for such low energy interactions are $\sim$15 photons in size and require the PMTs to be calibrated to a single photon sensitivity. Understanding the response of the PMTs is key to measuring single photon sensitivity and in turn reconstructing the gain of the PMTs. A model of photomultiplier response is presented in Ref.\cite{BELLAMY1994468} which will be described below.
+\subsection{Single Photo-electron Response Model}
+The PMT is considered to be an instrument which consists of two independent parts:
+\begin{itemize}
+    \item A photo-cathode where photons are converted into electrons
+    \item An amplified which amplifies the initial charge (dynode system)
+\end{itemize}
+The model assumes that the number of photons incident on the PMT and subsequently the photo-cathode is a Poisson distributed variable. Only a fraction of the photons are converted to photo-electrons, this is the quantum efficiency of the PMT and is a random binary process ($\sim~25\%$ for the OD PMTs). The photo-electrons are then guided towards the first dynode by an electric field in which $\mathcal{O}(100\%)$ photo-electrons complete this process. The convolution of the Poisson and binary process results in a Poisson distribution:
+\begin{equation}\label{eqn:SPEPoiss}
+    P(n;\mu)=\frac{\mu^{n}e^{-\mu}}{n!},
+\end{equation}
+where $\mu$ is the mean number of photo-electrons collected at first dynode, $P(n;\mu)$ is the probability that $n$ photo-electrons are observed for a mean $\mu$.
+The photo-electron is then amplified by the dynode system, which for the OD PMTs is a series of 10 dynodes. The amplification of the dynode system to determined by the voltage distribution across the dynode and it is tuned on a PMT-by-PMT basis to achieve a gain of $\mathcal{O}(10^6)$. The cascade of photo-electrons produced from the amplification is collected at the anode of the PMT and a voltage is measured as a pulse. The area of the pulse corresponds to number of electrons incident on the anode and is Gaussian distribution:
+\begin{equation}\label{eqn:SPEGauss}
+    G_n(x)=\frac{1}{\sigma_1\sqrt{2n\pi}}exp\biggl(-\frac{(x-nQ_1)^2}{2n\sigma_1^2}\biggl),
+\end{equation}
+where $x$ is the variable charge, $Q_1$ is the mean value of the charge outputted from the amplification at the dynode, $\sigma_1$ is the standard deviation of the charge amplification.
+The ideal response an ideal PMT, $S_{ideal}$, can be described simply by convoluting \autoref{eqn:SPEPoiss} and \autoref{eqn:SPEGauss} together:
+\begin{equation}
+    \begin{split}
+    S_{ideal}(x) & = P(n;\mu)\otimes G_n(x) \\
+    & = \sum^\infty_{n=0}\frac{\mu^{n}e^{-\mu}}{n!}\frac{1}{\sigma_1\sqrt{2n\pi}}exp\biggl(-\frac{(x-nQ_1)^2}{2n\sigma_1^2}\biggl),
+    \end{split}
+\end{equation}
+the model is summed from 0 photons to an arbitrary upper limit \cite{BELLAMY1994468}.
+\subsection{Single Photo-electron Calibration}
+To calibrate the OD Single Photo-electron (SPhE) response, light is injected into the OD using the ODOCS. The optimal intensity of light to induce a SPhE response was chosen during the commissioning of the OD following the PMT installation in 2021. Details of the optimisation can be found in Ref.\cite{edfraser:thesis}.
+
+Due to the complex geometry of the OD, the central row fibres were chosen as the injection points, position 2 in \autoref{fig:OCSPositions} (central row). Light injected from the central row fibres pass through the SATs and reflects back of the Tyvek\textregistered\ layer which covers the OCV.
+Light injected from position 1 has the ability to pass direct through the TATs. Light injected from position 3 would be reflected within the BATs due to Tyvek\textregistered\ layers which was placed between the three acrylic tanks to cover foam which was needed to displace water. This later design decision was to increase light collection. Irregular gaps between BATs are present due to differences in moulding during construction of the BATs.
+
+The OCS in configured so that 1000~photons are emitted from the end of the fibre. Due to attenuation of light in the fibre, 2000~photons must be emitted by the LEDs to account for a factor of two attenuation. For each injection of light, one of the 10 central row fibre emits 200,000~pulses at a 700~Hz injection rate. The rate of pulses injected was determined to not overload the LZ DAQ.
+
+For ease of repeated measurement, an analysis module for the OD SPhE was developed to be used in conjunction with the LZ \textbf{P}hysics \textbf{RE}adiness \textbf{M}onitor (PREM) \cite{LZTDR}.
+%ToDO  talk about the OD_PMT_SPhE module and the data section
 
 \section{Reconstructed Gain}
 \subsection{Gain Curves}
