@@ -1,6 +1,6 @@
 \chapter{The LUX-ZEPLIN Dark Matter Experiment}\label{chap:LZExperiment}
 The LZ experiment is currently the leading dark matter direct detection experiment in the search for WIMPs. The detector is located on the 4,850~ft level (4,300~mwe) of the Sanford Underground Research Facility (SURF) in the Homestake Mine (Lead, SD) \cite{LZNIMA}. At the core of the experiment is a dual-phase Time Projection Chamber (TPC) which is sensitive to low -energy nuclear recoils (NR), the signal which is produced through WIMPs interacting with liquid noble gases. One of the main backgrounds in a WIMP search are neutrons as they also interact through nuclear recoils and thus LZ employs an active veto system to remove them. Theoretically WIMPs will only interact with the xenon target however neutrons would interact in both the TPC and veto detectors. The TPC is housed within a vacuum insulated cyrostat with a layer of liquid xenon (Skin) which acts as high voltage stand-off, this region is also instrumented with PMTs and is part of the active veto system. The LXe skin is used to veto mostly gamma ray interactions within the TPC volume, also being sensitive to neutrons. The cryostat is surrounded near hermetically by ten acrylic vessels filled with Gadolinium-loaded liquid scintillator (GdLS). The GdLS is observed by 120 PMTs and stands within 238t of DI water which provides shielding to the detector. A schematic of the detector is shown in \autoref{fig:LZDetector}.
-\begin{figure}
+\begin{figure}[ht!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/LZ/LZSchematic.pdf}
     \caption{Schematic of the LZ detector showcasing the major subsystems. At the center is the liquid xenon TPC (1), monitored by two arrays of PMTs and serviced by various cable and fluid conduits (upper and lower). The TPC is contained in a double-walled vacuum insulated titanium cryostat and surrounded on all sides by a GdLS Outer Detector (2). The cathode high voltage connection is made horizontally at the lower left (5). The GdLS is observed by a suite of 8” PMTs (3) standing in the water (4) which provides shielding for the detector. The pitched conduit on the right (6) allows for neutron calibration sources to illuminate the detector \cite{LZNIMA}.}
@@ -34,7 +34,7 @@ The $Xe$ atom also undergoes ionisation due to the displacement of the nucleus d
 \begin{figure}
     \centering
     \includegraphics[width=0.7\linewidth]{figures/LZ/Xenon_interaction.pdf}
-    \caption{A schematic of the signal production and collection in a dual phase xenon time}
+    \caption{A schematic of the signal production and collection in a dual phase xenon time projection chamber.}
     \label{fig:XenonSigalProduction}
 \end{figure}
 
@@ -47,14 +47,14 @@ Where W is the average energy required to produced either one scintillation phot
 L is referred to as the "Lindhard factor" or "quenching" accounting for the reduction of produced light and charge as energy is lost at heat. For electron recoils L is taken as unity, this implies that the heat-loss is constant with energy allowing it to be absorbed into the value of W \cite{Rischbieter:2022}. The Lindhard factor for nuclear recoils is observed to be a function of deposited energy as the interaction energy is not linearly related to the observed total quanta \cite{Sorensen:2011bd}.
 $n_{ex}$ and $n_{i}$ represent the number of excited atoms and ionised atoms and are proportional to pulse area of the S1 and S2 pulses observed in the TPC respectively. The constants of proportionality are $g_1$ and $g_2$ and represent the S1 light collection efficiency and the electron extraction efficiency of the detector respectively. Thus \autoref{eqn:EnergyRec_G} can be modified to describe the energy deposition using:
 \begin{equation}
-    E=\frac{W}{L}(\frac{S1}{g_1}+\frac{S2}{g_2})
+    E=\frac{W}{L}\bigg(\frac{S1}{g_1}+\frac{S2}{g_2}\biggl)
     \label{eqn:EnergyRec_G}
 \end{equation}
 
 \subsection{NR and ER Discrimination}
 The ratio of energy distribution between light and charge differs between NRs and ERs. This can be directly observed through the S1 and S2 pulse areas produced from the interactions, particularly the ratio, $log_{10}(S2)/S1$. This method demonstrates $95~\%$ discrimination against ER with a $50~\%$ \cite{lzSens}. This is key for the search for WIMPs where we would expect to observe an NR when a WIMP passes through the TPC. However, the dominant backgrounds such as $\beta$-decays from Rn daughter isotopes and \textsuperscript{85}Kr and $\gamma$ radiation from detector components all produce ER events in the LXe. Both ER and NR events form distinctive band structure $log_{10}(S2)/S1$ space, as shown in \autoref{fig:NRERBandExample}, where the width of the bands is due to electron-ion recombination at the interaction site whilst the overall separation is due to the ratio of ionisation to excitation in the interaction \cite{Dahl:2009nta}.
 
-\begin{figure}
+\begin{figure}[ht!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/LZ/SR1WS_calOnly_0629.pdf}
     \caption{Discrimination between ER and NR can be seen in LZ calibration events in $log_{10}S2_{c}-S1_{c}$ for the tritium source (dark blue points, 5343 events) and the DD neutron source (orange points, 6324 events). Solid blue (red) lines indicate the median of the ER (NR) simulated distributions, and the dotted lines indicate the 10~\% and 90~\% quantiles. Thin gray lines show contours of constant electron-equivalent energy ($keV_{ee}$) and nuclear recoil energy ($keV_{nr}$) \cite{LZ:2022lsv}.}

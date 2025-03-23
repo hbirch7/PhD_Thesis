@@ -78,11 +78,17 @@ An example PMT calibration is outlined below for PMT 800. The mean Gaussian resp
     \caption{A scatter plot of the OD SPhE Area size measured in mVns versus Channel ID for each OD PMT from a measurement taken on February 12th 2025.}
     \label{fig:SPhEValues_pC}
 \end{sidewaysfigure}
+
+
 \section{Reconstructed Gain}
-So far it has been shown that understanding how the signal from a PMT relates to the amount of light incident on the face of the PMT. The amplification of the photoelectrons produced through the cascade through the dynode series is known as the PMT's `Gain'. The SPhE Calibration Constant can be converted to gain by dividing by the following terms, $e\times44\times10^{12}$, where 44 is the amplification factor in the amplifier, e is the charge of an electron, $10^{12}$ accounts for the change with the unit prefixes on voltage and time. As this 
+So far it has been shown that understanding how the signal from a PMT relates to the amount of light incident on the face of the PMT is key to measuring the energy deposited by particles traversing the detector. The amplification of the photoelectrons produced through the dynode series is known as the PMT's `Gain'. The SPhE Calibration Constant can be converted to understand the gain of the PMT by dividing by the following terms, $e\times44\times50\times10^{12}$, where e is the charge of an electron, $44~\text{V}_{\text{d}}$ is the total voltage division factor across all 10 dynodes in the PMT \cite{HamamatsuR5912}, 50~$\Omega$ is the termination impedance to eliminate signal reflections in the cable \cite{LZ:2024bvw}, $10^{12}$ accounts for the change with the unit prefixes on voltage and time. Using the example case from the previous section, PMT 800 had an average measured SPhE area of 748.5~mVns based on 10 OCS measurements on February $12^{\text{th}}$ 2025 which results in a reconstructed gain of $2.12\times10^6$.
+
+During the commissioning of the Outer Detector PMT system, a target gain of $1\times10^{7}$ initially established based on the operating gain recommended by Hamamatsu Photonics \cite{LZTDR,HamamatsuR5912}. However, due to 
+
+\subsection{Monitoring PMT Health Over Time}
+
 
 \subsection{Gain Curves}
-\subsection{Monitoring PMT Health Over Time}
 
 \section{Trigger Efficiency}
 
