@@ -68,14 +68,14 @@ An example histogram and fit can be seen in \autoref{fig:ODSPhEDists}. It can be
 An example PMT calibration is outlined below for PMT 800. The mean Gaussian response is (0.9919 $\pm$ 0.0043) phd and (14.99 $\pm$ 0.06) pC. The SPhE calibration constant used to process the raw data is reconstructed by dividing the SPhE response measured in mVns by the SPhE response measured in phd, which in this case for PMT 800 is 753.9~mVns. These three values together are stored in the PREM database. In a secondary analysis stage, the measured SPhE area and calibration constant are combined to get the correct SPhE constant in mVns which in this example is 748.5~mVns. The average is taken of the corrected SPhE constant for all 10 measurements corresponding to the 10 central row OCS fibre injections. The new SPhE constant is then transferred to the LZ Conditions database along with the data and time period for which this constant is valid for. As LZ then continues to collect data, the raw pulse area measured in mVns is converted to phd by dividing the raw area by the constant. Examples of the variation in measured SPhE in both phd and mVns across all 120 PMTs is shown in \autoref{fig:SPhEValues_phd} and \autoref{fig:SPhEValues_pC}.
 \begin{sidewaysfigure}[ht!]
     \centering
-    \includegraphics[width=\textwidth]{figures/ODCommissioning/SPHE_phd_2025-2-12.pdf}
-    \caption{A scatter plot of the OD SPhE Area size measured in phd versus Channel ID for each OD PMT from a measurement taken on February 12th 2025.}
+    \includegraphics[width=\textwidth]{figures/ODCommissioning/SPHE_phd_2024-7-10.pdf}
+    \caption{A scatter plot of the OD SPhE Area size measured in phd versus PMT ID for each OD PMT from a measurement taken on July 10th 2024.}
     \label{fig:SPhEValues_phd}
 \end{sidewaysfigure}
 \begin{sidewaysfigure}[ht!]
     \centering
-    \includegraphics[width=\textwidth]{figures/ODCommissioning/SPHE_pC_2025-2-12.pdf}
-    \caption{A scatter plot of the OD SPhE Area size measured in mVns versus Channel ID for each OD PMT from a measurement taken on February 12th 2025.}
+    \includegraphics[width=\textwidth]{figures/ODCommissioning/SPHE_pC_2024-7-10.pdf}
+    \caption{A scatter plot of the OD SPhE Area size measured in mVns versus PMT ID for each OD PMT from a measurement taken on July 10th 2024.}
     \label{fig:SPhEValues_pC}
 \end{sidewaysfigure}
 
@@ -83,13 +83,39 @@ An example PMT calibration is outlined below for PMT 800. The mean Gaussian resp
 \section{Reconstructed Gain}
 So far it has been shown that understanding how the signal from a PMT relates to the amount of light incident on the face of the PMT is key to measuring the energy deposited by particles traversing the detector. The amplification of the photoelectrons produced through the dynode series is known as the PMT's `Gain'. The SPhE Calibration Constant can be converted to understand the gain of the PMT by dividing by the following terms, $e\times44\times50\times10^{12}$, where e is the charge of an electron, $44~\text{V}_{\text{d}}$ is the total voltage division factor across all 10 dynodes in the PMT \cite{HamamatsuR5912}, 50~$\Omega$ is the termination impedance to eliminate signal reflections in the cable \cite{LZ:2024bvw}, $10^{12}$ accounts for the change with the unit prefixes on voltage and time. Using the example case from the previous section, PMT 800 had an average measured SPhE area of 748.5~mVns based on 10 OCS measurements on February $12^{\text{th}}$ 2025 which results in a reconstructed gain of $2.12\times10^6$.
 
-During the commissioning of the Outer Detector PMT system, a target gain of $1\times10^{7}$ initially established based on the operating gain recommended by Hamamatsu Photonics \cite{LZTDR,HamamatsuR5912}. However, due to 
+During the commissioning of the Outer Detector PMT system, a target gain of $1\times10^{7}$ initially established based on the operating gain recommended by Hamamatsu Photonics \cite{LZTDR,HamamatsuR5912}. During the OD PMT QA the gain was reduced to $2\times10^{6}$ due to high rates of sub-SPhE noise. Dark rates measurements made during the QA stage exhibited significantly higher rates than the expected 1~kHz dark rate measured in off-site testing. This issue was problematic as spikes up 20~kHz were observed in some cases resulting in the LZ DAQ to crash. Final voltages corresponding to $2.1\times10^{6}$ were determined in October 2021 so that all PMTs achieved the target gain of $2\times10^6$ with $<10~\%$ difference across 119 PMTs. One exception was PMT 811, whose voltage was further reduced in January 2022 resulting in a gain of $1\times10^6$ to reduce the rate of sub-SPhE pulses.
+An example scatter plot of gain versus PMT ID is shown in \autoref{fig:ODPMTGain_2024-7-10}
 
-\subsection{Monitoring PMT Health Over Time}
+\begin{sidewaysfigure}[ht!]
+    \centering
+    \includegraphics[width=\textwidth]{figures/ODCommissioning/2024-7-10_ODPMT_Gain.pdf}
+    \caption{A scatter plot of the OD PMT Gain versus PMT ID for each OD PMT from a measurement taken on July 10th 20254.}
+    \label{fig:ODPMTGain_2024-7-10}
+\end{sidewaysfigure}
 
+\subsection{Monitoring PMT Response Over Time}
+Whilst operating the PMTs it is important to monitoring their response as the SPhE Area size and gain can drift over time \cite{DayaBay:2016ggj,Super-Kamiokande:2023jbt}. Using the data collected during the monthly OD SPhE measurements, the distribution of gain and SPhE size was tracked throughout the WS2022 and WS2024 science runs (until the time of writing) with gain versus PMT ID scatter plots as shown in \autoref{fig:RelativeGain_WS2022} and \autoref{fig:RelativeGain_WS2024}.
+To monitor the observed $<1\%$ change in gain month-by-month, the relative change with respect to the start of each science run was measured. During the WS2022 science run, a mean relative change of PMT gain was measured to $(0.81\pm0.47)\%$. At the time of writing, a mean relative change of PMT gain of $(1.37\pm0.25)\%$ was measured for the WS2024 science run. Whilst the average gain change across all PMTs is relatively small, it can be seen in \autoref{fig:RelativeGain_WS2024} that individual PMTs drift at different rates. Due to the short run length of WS2022 it was not necessary to adjust the PMTs voltages to gain match across the PMT array during the science run, however there was a gain matching campaign in May 2022 following the science run. Prior to the start of the WS2024 science run, the OD PMTs were gain matched again to $2.1\times10^{6}$. After 15 months of operation it was necessary to perform another gain match of the OD PMTs as PMT 859 had a relative change in gain $>10\%$ with other PMTs also approaching the $10\%$ limit set by LZ.
 
+\begin{sidewaysfigure}[ht!]
+    \centering
+    \includegraphics[width=\textwidth]{figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf}
+    \caption{\textbf{Top:} A scatter plot of the relative change in OD PMT Gain over WS2022 science run. The reduced gain of PMT 811 can be seen in orange. \textbf{Bottom:} A scatter plot of the average relative change in OD PMT Gain across all OD PMTs over WS2022 science run.}
+    \label{fig:RelativeGain_WS2022}
+\end{sidewaysfigure}
+\begin{sidewaysfigure}[ht!]
+    \centering
+    \includegraphics[width=\textwidth]{figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf}
+    \caption{\textbf{Top:} A scatter plot of the relative change in OD PMT Gain since the start of the WS2024 science run (until the time of writing). \textbf{Bottom:} A scatter plot of the average relative change in OD PMT Gain across all OD PMTs since the start of the WS2024 science run (until the time of writing).}
+    \label{fig:RelativeGain_WS2024}
+\end{sidewaysfigure}
+\begin{sidewaysfigure}[ht!]
+    \centering
+    \includegraphics[width=\textwidth]{figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf}
+    \caption{\textbf{Top:} A scatter plot of the relative change in OD PMT Gain since the gain matching campaign in May 2024 (until the time of writing). \textbf{Bottom:} A scatter plot of the average relative change in OD PMT Gain across all OD PMTs since the gain matching campaign in May 2024 (until the time of writing).}
+    \label{fig:RelativeGain_WS2024May2024Onwards}
+\end{sidewaysfigure}
 \subsection{Gain Curves}
-
 \section{Trigger Efficiency}
 
 \section{Optical Calibration System Development}
