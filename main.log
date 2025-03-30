@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.13)  13 FEB 2025 10:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.13)  30 MAR 2025 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -944,35 +944,35 @@ Package caption Info: New subtype `subtable' on input line 238.
  (./main.aux (./chapters/Introduction.aux) (./chapters/LZ.aux) (./chapters/ODCommissioning.aux) (./chapters/VetoEfficiency.aux) (./chapters/Muons.aux) (./chapters/Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-Package scrbase Info: activating english \abstractname on input line 92.
-Package scrbase Info: activating english \partname on input line 92.
-Package scrbase Info: activating english \chaptername on input line 92.
-Package scrbase Info: activating english \appendixname on input line 92.
-Package scrbase Info: activating english \figurename on input line 92.
-Package scrbase Info: activating english \tablename on input line 92.
-Package scrbase Info: activating english \contentsname on input line 92.
-Package scrbase Info: activating english \listfigurename on input line 92.
-Package scrbase Info: activating english \listtablename on input line 92.
-Package scrbase Info: activating english \bibname on input line 92.
-Package scrbase Info: activating english \indexname on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+Package scrbase Info: activating english \abstractname on input line 91.
+Package scrbase Info: activating english \partname on input line 91.
+Package scrbase Info: activating english \chaptername on input line 91.
+Package scrbase Info: activating english \appendixname on input line 91.
+Package scrbase Info: activating english \figurename on input line 91.
+Package scrbase Info: activating english \tablename on input line 91.
+Package scrbase Info: activating english \contentsname on input line 91.
+Package scrbase Info: activating english \listfigurename on input line 91.
+Package scrbase Info: activating english \listtablename on input line 91.
+Package scrbase Info: activating english \bibname on input line 91.
+Package scrbase Info: activating english \indexname on input line 91.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count460
@@ -1021,7 +1021,7 @@ Package scrbase Info: activating english \indexname on input line 92.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 92.
+Package hyperref Info: Link coloring OFF on input line 91.
 (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -1033,7 +1033,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 92.
+(scrreprt)           before \begin{document} on input line 91.
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -1054,8 +1054,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 92.
-Package biblatex Info: Reference segment=0 on input line 92.
+Package biblatex Info: Reference section=0 on input line 91.
+Package biblatex Info: Reference segment=0 on input line 91.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1090,12 +1090,12 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 217.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 217.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 216.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 216.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 217.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 216.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -1122,12 +1122,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.267 \listoffigures
+l.266 \listoffigures
                     	% print list of figures [1] (./main.lof
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.13 ...mission of light.}}{17}{figure.caption.21}
+l.13 ...mission of light.}}{18}{figure.caption.21}
                                                   % [2
 
 ]
@@ -1139,12 +1139,12 @@ Overfull \hbox (1.80571pt too wide) in paragraph at lines 13--13
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 ...dows of interest.}}{34}{figure.caption.48}
+l.28 ...ion used for SR3.}}{36}{figure.caption.37}
                                                   % [3]
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 ...wn to this value.}}{51}{figure.caption.90}
+l.49 ...sitions are used.}}{51}{figure.caption.71}
                                                   % [4])
 \tf@lof=\write8
 \openout8 = `main.lof'.
@@ -1153,17 +1153,17 @@ l.49 ...wn to this value.}}{51}{figure.caption.90}
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.268 \listoftables
-                     % print list of tables [5] (./main.lot)
-\tf@lot=\write9
-\openout9 = `main.lot'.
-
-
+l.267 \listoftables
+                     % print list of tables [5]
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.276 \include{./chapters/Introduction}
-                                        [6
+l.267 \listoftables
+                     % print list of tables [6] (./main.lot)
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
+ [7
 
 ]
 \openout2 = `./chapters/Introduction.aux'.
@@ -1185,7 +1185,7 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface.
 
-) [7
+) [8
 
 
 ]
@@ -1193,68 +1193,70 @@ Class scrreprt Warning: \float@addtolists detected!
 
  (./chapters/LZ.tex
 chapter 2.
-<figures/LZ/LZSchematic.pdf, id=459, 1621.01607pt x 1300.86pt>
+<figures/LZ/LZSchematic.pdf, id=520, 1621.01607pt x 1300.86pt>
 File: figures/LZ/LZSchematic.pdf Graphic file (type pdf)
 <use figures/LZ/LZSchematic.pdf>
 Package pdftex.def Info: figures/LZ/LZSchematic.pdf  used on input line 5.
 (pdftex.def)             Requested size: 318.66946pt x 255.7211pt.
-<figures/LZ/IDOf_Xe_TPC2.jpg, id=465, 3892.5425pt x 3377.61874pt>
+<figures/LZ/IDOf_Xe_TPC2.jpg, id=526, 3892.5425pt x 3377.61874pt>
 File: figures/LZ/IDOf_Xe_TPC2.jpg Graphic file (type jpg)
 <use figures/LZ/IDOf_Xe_TPC2.jpg>
 Package pdftex.def Info: figures/LZ/IDOf_Xe_TPC2.jpg  used on input line 15.
 (pdftex.def)             Requested size: 213.96527pt x 185.64076pt.
-<figures/LZ/CAD_TPC.jpg, id=466, 1100.11pt x 1355.0625pt>
+<figures/LZ/CAD_TPC.jpg, id=527, 1100.11pt x 1355.0625pt>
 File: figures/LZ/CAD_TPC.jpg Graphic file (type jpg)
 <use figures/LZ/CAD_TPC.jpg>
 Package pdftex.def Info: figures/LZ/CAD_TPC.jpg  used on input line 22.
-(pdftex.def)             Requested size: 106.98264pt x 131.77173pt.
-<figures/LZ/Xenon_interaction.pdf, id=478, 284.38246pt x 248.10692pt>
+(pdftex.def)             Requested size: 169.03111pt x 208.1923pt.
+[9
+
+
+
+
+ <./figures/LZ/LZSchematic.pdf
+
+pdfTeX warning: pdflatex (file ./figures/LZ/LZSchematic.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<figures/LZ/Xenon_interaction.pdf, id=557, 284.38246pt x 248.10692pt>
 File: figures/LZ/Xenon_interaction.pdf Graphic file (type pdf)
 <use figures/LZ/Xenon_interaction.pdf>
 Package pdftex.def Info: figures/LZ/Xenon_interaction.pdf  used on input line 36.
-(pdftex.def)             Requested size: 273.14922pt x 238.30862pt.
-[8
-
-
-
-
-] [9 <./figures/LZ/LZSchematic.pdf
-
-pdfTeX warning: pdflatex (file ./figures/LZ/LZSchematic.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
-> <./figures/LZ/IDOf_Xe_TPC2.jpg> <./figures/LZ/CAD_TPC.jpg>] [10 <./figures/LZ/Xenon_interaction.pdf>]
-<figures/LZ/SR1WS_calOnly_0629.pdf, id=538, 523.6162pt x 378.25912pt>
+(pdftex.def)             Requested size: 318.66946pt x 278.02548pt.
+ [10 <./figures/LZ/IDOf_Xe_TPC2.jpg> <./figures/LZ/CAD_TPC.jpg>] [11 <./figures/LZ/Xenon_interaction.pdf>]
+<figures/LZ/SR1WS_calOnly_0629.pdf, id=600, 523.6162pt x 378.25912pt>
 File: figures/LZ/SR1WS_calOnly_0629.pdf Graphic file (type pdf)
 <use figures/LZ/SR1WS_calOnly_0629.pdf>
 Package pdftex.def Info: figures/LZ/SR1WS_calOnly_0629.pdf  used on input line 59.
-(pdftex.def)             Requested size: 341.43306pt x 246.65623pt.
-<figures/LZ/CAD_ODTanks.jpg, id=546, 1331.97626pt x 2057.6875pt>
+(pdftex.def)             Requested size: 318.66946pt x 230.2125pt.
+ [12 <./figures/LZ/SR1WS_calOnly_0629.pdf>]
+<figures/LZ/CAD_ODTanks.jpg, id=664, 1331.97626pt x 2057.6875pt>
 File: figures/LZ/CAD_ODTanks.jpg Graphic file (type jpg)
 <use figures/LZ/CAD_ODTanks.jpg>
 Package pdftex.def Info: figures/LZ/CAD_ODTanks.jpg  used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 351.62332pt.
- [11 <./figures/LZ/SR1WS_calOnly_0629.pdf>] [12 <./figures/LZ/CAD_ODTanks.jpg>]
-<figures/LZ/ContinuumEmission2.png, id=620, 452.69125pt x 351.3125pt>
+ [13 <./figures/LZ/CAD_ODTanks.jpg>]
+<figures/LZ/ContinuumEmission2.png, id=685, 452.69125pt x 351.3125pt>
 File: figures/LZ/ContinuumEmission2.png Graphic file (type png)
 <use figures/LZ/ContinuumEmission2.png>
 Package pdftex.def Info: figures/LZ/ContinuumEmission2.png  used on input line 104.
-(pdftex.def)             Requested size: 273.14922pt x 211.97917pt.
-<figures/LZ/ODEnergySpec.png, id=626, 606.3453pt x 426.393pt>
+(pdftex.def)             Requested size: 318.66946pt x 247.30545pt.
+<figures/LZ/ODEnergySpec.png, id=691, 606.3453pt x 426.393pt>
 File: figures/LZ/ODEnergySpec.png Graphic file (type png)
 <use figures/LZ/ODEnergySpec.png>
 Package pdftex.def Info: figures/LZ/ODEnergySpec.png  used on input line 113.
 (pdftex.def)             Requested size: 318.66946pt x 224.0939pt.
- [13] [14 <./figures/LZ/ContinuumEmission2.png> <./figures/LZ/ODEnergySpec.png>]
-<figures/LZ/OD_PMT_support.jpg, id=650, 887.315pt x 625.33624pt>
+ [14]
+<figures/LZ/OD_PMT_support.jpg, id=707, 887.315pt x 625.33624pt>
 File: figures/LZ/OD_PMT_support.jpg Graphic file (type jpg)
 <use figures/LZ/OD_PMT_support.jpg>
 Package pdftex.def Info: figures/LZ/OD_PMT_support.jpg  used on input line 130.
 (pdftex.def)             Requested size: 273.14922pt x 192.49728pt.
-<figures/LZ/GdLS_SpectralResponse.pdf, id=653, 528.68138pt x 509.44547pt>
+<figures/LZ/GdLS_SpectralResponse.pdf, id=710, 528.68138pt x 509.44547pt>
 File: figures/LZ/GdLS_SpectralResponse.pdf Graphic file (type pdf)
 <use figures/LZ/GdLS_SpectralResponse.pdf>
 Package pdftex.def Info: figures/LZ/GdLS_SpectralResponse.pdf  used on input line 138.
 (pdftex.def)             Requested size: 213.96527pt x 206.17657pt.
-<figures/LZ/ODPMT_QEvsWL.png, id=656, 776.9025pt x 882.29625pt>
+<figures/LZ/ODPMT_QEvsWL.png, id=713, 776.9025pt x 882.29625pt>
 File: figures/LZ/ODPMT_QEvsWL.png Graphic file (type png)
 <use figures/LZ/ODPMT_QEvsWL.png>
 Package pdftex.def Info: figures/LZ/ODPMT_QEvsWL.png  used on input line 145.
@@ -1263,118 +1265,197 @@ Package pdftex.def Info: figures/LZ/ODPMT_QEvsWL.png  used on input line 145.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/LZ/OD_PMT_CAD_picture_v4.png, id=661, 1485.55pt x 812.03375pt>
+<figures/LZ/OD_PMT_CAD_picture_v4.png, id=718, 1485.55pt x 812.03375pt>
 File: figures/LZ/OD_PMT_CAD_picture_v4.png Graphic file (type png)
 <use figures/LZ/OD_PMT_CAD_picture_v4.png>
 Package pdftex.def Info: figures/LZ/OD_PMT_CAD_picture_v4.png  used on input line 158.
 (pdftex.def)             Requested size: 455.24408pt x 248.84085pt.
-<figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png, id=664, 614.295pt x 433.62pt>
+<figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png, id=721, 614.295pt x 433.62pt>
 File: figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png Graphic file (type png)
 <use figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png>
 Package pdftex.def Info: figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png  used on input line 165.
 (pdftex.def)             Requested size: 318.66946pt x 224.94115pt.
-<figures/LZ/OCSSchematic_0.png, id=666, 2776.3725pt x 1476.51625pt>
+<figures/LZ/OCSSchematic_0.png, id=723, 2776.3725pt x 1476.51625pt>
 File: figures/LZ/OCSSchematic_0.png Graphic file (type png)
 <use figures/LZ/OCSSchematic_0.png>
 Package pdftex.def Info: figures/LZ/OCSSchematic_0.png  used on input line 172.
 (pdftex.def)             Requested size: 455.24408pt x 242.10518pt.
+[15 <./figures/LZ/ContinuumEmission2.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15 <./figures/LZ/OD_PMT_support.jpg>] [16 <./figures/LZ/GdLS_SpectralResponse.pdf> <./figures/LZ/ODPMT_QEvsWL.png> <./figures/LZ/OD_PMT_CAD_picture_v4.png>]
+[16 <./figures/LZ/ODEnergySpec.png> <./figures/LZ/OD_PMT_support.jpg>] [17 <./figures/LZ/GdLS_SpectralResponse.pdf> <./figures/LZ/ODPMT_QEvsWL.png> <./figures/LZ/OD_PMT_CAD_picture_v4.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17 <./figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png>] [18 <./figures/LZ/OCSSchematic_0.png>]) [19]
+[18 <./figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png>] [19 <./figures/LZ/OCSSchematic_0.png>]
+<figures/LZ/LZDAQ.png, id=838, 956.57375pt x 677.53125pt>
+File: figures/LZ/LZDAQ.png Graphic file (type png)
+<use figures/LZ/LZDAQ.png>
+Package pdftex.def Info: figures/LZ/LZDAQ.png  used on input line 222.
+(pdftex.def)             Requested size: 455.24408pt x 322.44064pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/LZ/LZSimFramework.png, id=842, 1291.82625pt x 1103.12125pt>
+File: figures/LZ/LZSimFramework.png Graphic file (type png)
+<use figures/LZ/LZSimFramework.png>
+Package pdftex.def Info: figures/LZ/LZSimFramework.png  used on input line 230.
+(pdftex.def)             Requested size: 455.24408pt x 388.74089pt.
+[20]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21 <./figures/LZ/LZDAQ.png>]
+<figures/LZ/OCSMotherboardCC.png, id=870, 904.37875pt x 913.4125pt>
+File: figures/LZ/OCSMotherboardCC.png Graphic file (type png)
+<use figures/LZ/OCSMotherboardCC.png>
+Package pdftex.def Info: figures/LZ/OCSMotherboardCC.png  used on input line 247.
+(pdftex.def)             Requested size: 186.65173pt x 188.50516pt.
+<figures/LZ/OCSElectronicsInstallation.png, id=871, 1286.8075pt x 1130.2225pt>
+File: figures/LZ/OCSElectronicsInstallation.png Graphic file (type png)
+<use figures/LZ/OCSElectronicsInstallation.png>
+Package pdftex.def Info: figures/LZ/OCSElectronicsInstallation.png  used on input line 253.
+(pdftex.def)             Requested size: 213.96527pt x 187.9273pt.
+) [22 <./figures/LZ/LZSimFramework.png>] [23 <./figures/LZ/OCSMotherboardCC.png> <./figures/LZ/OCSElectronicsInstallation.png>]
 \openout2 = `./chapters/ODCommissioning.aux'.
 
  (./chapters/ODCommissioning.tex
 chapter 3.
-) [20
+[24
 
 
 
 
-]
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<figures/ODCommissioning/TimingVsPulseArea_2us.png, id=902, 614.295pt x 433.62pt>
+File: figures/ODCommissioning/TimingVsPulseArea_2us.png Graphic file (type png)
+<use figures/ODCommissioning/TimingVsPulseArea_2us.png>
+Package pdftex.def Info: figures/ODCommissioning/TimingVsPulseArea_2us.png  used on input line 41.
+(pdftex.def)             Requested size: 364.19664pt x 257.0841pt.
+<figures/ODCommissioning/PMT800_PulseArea_Distribution.png, id=906, 614.295pt x 433.62pt>
+File: figures/ODCommissioning/PMT800_PulseArea_Distribution.png Graphic file (type png)
+<use figures/ODCommissioning/PMT800_PulseArea_Distribution.png>
+Package pdftex.def Info: figures/ODCommissioning/PMT800_PulseArea_Distribution.png  used on input line 54.
+(pdftex.def)             Requested size: 213.96527pt x 151.03484pt.
+<figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png, id=907, 614.295pt x 433.62pt>
+File: figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png Graphic file (type png)
+<use figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png>
+Package pdftex.def Info: figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png  used on input line 61.
+(pdftex.def)             Requested size: 213.96527pt x 151.03484pt.
+ [25]
+<figures/ODCommissioning/SPHE_phd_2024-7-10.pdf, id=919, 1517.67pt x 722.7pt>
+File: figures/ODCommissioning/SPHE_phd_2024-7-10.pdf Graphic file (type pdf)
+<use figures/ODCommissioning/SPHE_phd_2024-7-10.pdf>
+Package pdftex.def Info: figures/ODCommissioning/SPHE_phd_2024-7-10.pdf  used on input line 71.
+(pdftex.def)             Requested size: 711.3189pt x 338.7317pt.
+<figures/ODCommissioning/SPHE_pC_2024-7-10.pdf, id=920, 1517.67pt x 722.7pt>
+File: figures/ODCommissioning/SPHE_pC_2024-7-10.pdf Graphic file (type pdf)
+<use figures/ODCommissioning/SPHE_pC_2024-7-10.pdf>
+Package pdftex.def Info: figures/ODCommissioning/SPHE_pC_2024-7-10.pdf  used on input line 77.
+(pdftex.def)             Requested size: 711.3189pt x 338.7317pt.
+ [26 <./figures/ODCommissioning/TimingVsPulseArea_2us.png>]
+<figures/ODCommissioning/2024-7-10_ODPMT_Gain.pdf, id=931, 1517.67pt x 722.7pt>
+File: figures/ODCommissioning/2024-7-10_ODPMT_Gain.pdf Graphic file (type pdf)
+<use figures/ODCommissioning/2024-7-10_ODPMT_Gain.pdf>
+Package pdftex.def Info: figures/ODCommissioning/2024-7-10_ODPMT_Gain.pdf  used on input line 91.
+(pdftex.def)             Requested size: 711.3189pt x 338.7317pt.
+<figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf, id=937, 2168.1pt x 1084.05pt>
+File: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf Graphic file (type pdf)
+<use figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf>
+Package pdftex.def Info: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf  used on input line 102.
+(pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
+<figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf, id=938, 2168.1pt x 1084.05pt>
+File: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf Graphic file (type pdf)
+<use figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf>
+Package pdftex.def Info: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf  used on input line 108.
+(pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
+<figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf, id=939, 2168.1pt x 1084.05pt>
+File: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf Graphic file (type pdf)
+<use figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf>
+Package pdftex.def Info: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf  used on input line 114.
+(pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
+) [27 <./figures/ODCommissioning/PMT800_PulseArea_Distribution.png> <./figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png>] [28] [29 <./figures/ODCommissioning/SPHE_phd_2024-7-10.pdf>] [30 <./figures/ODCommissioning/SPHE_pC_2024-7-10.pdf>] [31 <./figures/ODCommissioning/2024-7-10_ODPMT_Gain.pdf>] [32 <./figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf>] [33 <./figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf>] [34 <./figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf>]
 \openout2 = `./chapters/VetoEfficiency.aux'.
 
  (./chapters/VetoEfficiency.tex
 chapter 4.
-<figures/VetoEfficiency/Final_OD_geometry.png, id=777, 794.97pt x 461.47406pt>
+<figures/VetoEfficiency/Final_OD_geometry.png, id=1574, 794.97pt x 461.47406pt>
 File: figures/VetoEfficiency/Final_OD_geometry.png Graphic file (type png)
 <use figures/VetoEfficiency/Final_OD_geometry.png>
 Package pdftex.def Info: figures/VetoEfficiency/Final_OD_geometry.png  used on input line 24.
 (pdftex.def)             Requested size: 364.19664pt x 211.41452pt.
-<figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png, id=780, 867.24pt x 578.16pt>
+<figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png, id=1577, 867.24pt x 578.16pt>
 File: figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png Graphic file (type png)
 <use figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png>
 Package pdftex.def Info: figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png  used on input line 34.
 (pdftex.def)             Requested size: 364.19664pt x 242.79907pt.
-<figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png, id=781, 5781.6pt x 4336.2pt>
+<figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png, id=1578, 5781.6pt x 4336.2pt>
 File: figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png Graphic file (type png)
 <use figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png>
 Package pdftex.def Info: figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png  used on input line 40.
 (pdftex.def)             Requested size: 455.24408pt x 341.41139pt.
-[21
+[35
 
 
 
 
-] [22 <./figures/VetoEfficiency/Final_OD_geometry.png> <./figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png>] [23 <./figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png>]
-<figures/VetoEfficiency/skin_prompt.png, id=818, 643.6547pt x 389.20406pt>
+] [36 <./figures/VetoEfficiency/Final_OD_geometry.png> <./figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png>] [37 <./figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png>]
+<figures/VetoEfficiency/skin_prompt.png, id=1616, 643.6547pt x 389.20406pt>
 File: figures/VetoEfficiency/skin_prompt.png Graphic file (type png)
 <use figures/VetoEfficiency/skin_prompt.png>
 Package pdftex.def Info: figures/VetoEfficiency/skin_prompt.png  used on input line 82.
 (pdftex.def)             Requested size: 218.51521pt x 132.13164pt.
-<figures/VetoEfficiency/od_prompt.png, id=819, 654.19406pt x 398.99063pt>
+<figures/VetoEfficiency/od_prompt.png, id=1617, 654.19406pt x 398.99063pt>
 File: figures/VetoEfficiency/od_prompt.png Graphic file (type png)
 <use figures/VetoEfficiency/od_prompt.png>
 Package pdftex.def Info: figures/VetoEfficiency/od_prompt.png  used on input line 90.
 (pdftex.def)             Requested size: 218.51521pt x 133.26848pt.
-<figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf, id=820, 2168.1pt x 1084.05pt>
+<figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf, id=1618, 2168.1pt x 1084.05pt>
 File: figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf  used on input line 103.
 (pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
-<figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf, id=821, 2168.1pt x 1084.05pt>
+<figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf, id=1619, 2168.1pt x 1084.05pt>
 File: figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf  used on input line 113.
 (pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
-<figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png, id=822, 621.07031pt x 343.2825pt>
+<figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png, id=1620, 621.07031pt x 343.2825pt>
 File: figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png Graphic file (type png)
 <use figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png>
 Package pdftex.def Info: figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png  used on input line 122.
 (pdftex.def)             Requested size: 711.3189pt x 393.16895pt.
-<figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png, id=823, 597.73312pt x 335.00156pt>
+<figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png, id=1621, 597.73312pt x 335.00156pt>
 File: figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png Graphic file (type png)
 <use figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png>
 Package pdftex.def Info: figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png  used on input line 131.
 (pdftex.def)             Requested size: 711.3189pt x 398.68747pt.
-<figures/VetoEfficiency/cut_optimisation.png, id=824, 878.53218pt x 540.51938pt>
+<figures/VetoEfficiency/cut_optimisation.png, id=1622, 878.53218pt x 540.51938pt>
 File: figures/VetoEfficiency/cut_optimisation.png Graphic file (type png)
 <use figures/VetoEfficiency/cut_optimisation.png>
 Package pdftex.def Info: figures/VetoEfficiency/cut_optimisation.png  used on input line 142.
 (pdftex.def)             Requested size: 409.71689pt x 252.08119pt.
-<figures/VetoEfficiency/sr3_cuts.png, id=825, 1005.00468pt x 488.57532pt>
+<figures/VetoEfficiency/sr3_cuts.png, id=1623, 1005.00468pt x 488.57532pt>
 File: figures/VetoEfficiency/sr3_cuts.png Graphic file (type png)
 <use figures/VetoEfficiency/sr3_cuts.png>
 Package pdftex.def Info: figures/VetoEfficiency/sr3_cuts.png  used on input line 150.
 (pdftex.def)             Requested size: 409.71689pt x 199.17654pt.
-<figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf, id=828, 691.54736pt x 551.55156pt>
+<figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf, id=1626, 691.54736pt x 551.55156pt>
 File: figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf  used on input line 176.
 (pdftex.def)             Requested size: 318.66946pt x 254.16284pt.
-<figures/VetoEfficiency/prem_od_stability.png, id=829, 935.74594pt x 488.57532pt>
+<figures/VetoEfficiency/prem_od_stability.png, id=1627, 935.74594pt x 488.57532pt>
 File: figures/VetoEfficiency/prem_od_stability.png Graphic file (type png)
 <use figures/VetoEfficiency/prem_od_stability.png>
 Package pdftex.def Info: figures/VetoEfficiency/prem_od_stability.png  used on input line 182.
 (pdftex.def)             Requested size: 318.66946pt x 166.38924pt.
- [24{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [25 <./figures/VetoEfficiency/skin_prompt.png> <./figures/VetoEfficiency/od_prompt.png>] [26 <./figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf>] [27 <./figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf>] [28 <./figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png>] [29 <./figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png>] [30 <./figures/VetoEfficiency/cut_optimisation.png> <./figures/VetoEfficiency/sr3_cuts.png>] [31 <./figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf> <./figures/VetoEfficiency/prem_od_stability.png>]
+ [38] [39 <./figures/VetoEfficiency/skin_prompt.png> <./figures/VetoEfficiency/od_prompt.png>] [40 <./figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf>] [41 <./figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf>] [42 <./figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png>] [43 <./figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png>] [44 <./figures/VetoEfficiency/cut_optimisation.png> <./figures/VetoEfficiency/sr3_cuts.png>] [45 <./figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf> <./figures/VetoEfficiency/prem_od_stability.png>]
 Overfull \hbox (16.46786pt too wide) in paragraph at lines 229--233
 \T1/cmr/m/n/10.95 found on NERSC at [][][][][][][][][][][][][][][][][][],
  []
@@ -1394,17 +1475,17 @@ Overfull \hbox (511.41946pt too wide) in paragraph at lines 236--237
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<figures/VetoEfficiency/CircularCSDCut.pdf, id=1064, 867.24pt x 722.7pt>
+<figures/VetoEfficiency/CircularCSDCut.pdf, id=1858, 867.24pt x 722.7pt>
 File: figures/VetoEfficiency/CircularCSDCut.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/CircularCSDCut.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/CircularCSDCut.pdf  used on input line 243.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
-<figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf, id=1065, 722.50677pt x 746.82333pt>
+<figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf, id=1859, 722.50677pt x 746.82333pt>
 File: figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf  used on input line 249.
 (pdftex.def)             Requested size: 227.62204pt x 235.27339pt.
-<figures/VetoEfficiency/SR3NRBands.pdf, id=1066, 867.24pt x 650.43pt>
+<figures/VetoEfficiency/SR3NRBands.pdf, id=1860, 867.24pt x 650.43pt>
 File: figures/VetoEfficiency/SR3NRBands.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/SR3NRBands.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/SR3NRBands.pdf  used on input line 255.
@@ -1414,23 +1495,23 @@ Overfull \hbox (29.7495pt too wide) in paragraph at lines 261--273
  [][] 
  []
 
-[32 <./figures/VetoEfficiency/CircularCSDCut.pdf>] [33 <./figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf> <./figures/VetoEfficiency/SR3NRBands.pdf>]
-<figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf, id=1237, 2312.64pt x 867.24pt>
+[46 <./figures/VetoEfficiency/CircularCSDCut.pdf>] [47 <./figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf> <./figures/VetoEfficiency/SR3NRBands.pdf>]
+<figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf, id=2033, 2312.64pt x 867.24pt>
 File: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf  used on input line 304.
 (pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
-<figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf, id=1238, 2312.64pt x 867.24pt>
+<figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf, id=2034, 2312.64pt x 867.24pt>
 File: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf  used on input line 311.
 (pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
-<figures/VetoEfficiency/AccidentalCorrectionImpact.pdf, id=1239, 1762.79636pt x 694.80171pt>
+<figures/VetoEfficiency/AccidentalCorrectionImpact.pdf, id=2035, 1762.79636pt x 694.80171pt>
 File: figures/VetoEfficiency/AccidentalCorrectionImpact.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/AccidentalCorrectionImpact.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/AccidentalCorrectionImpact.pdf  used on input line 318.
 (pdftex.def)             Requested size: 455.24408pt x 179.42497pt.
- [34 <./figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf>] [35 <./figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf> <./figures/VetoEfficiency/AccidentalCorrectionImpact.pdf>]
+
 Overfull \hbox (477.47595pt too wide) in paragraph at lines 335--336
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1445,74 +1526,74 @@ Overfull \hbox (477.47595pt too wide) in paragraph at lines 337--338
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf, id=1453, 2312.64pt x 867.24pt>
+[48] [49 <./figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf> <./figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf> <./figures/VetoEfficiency/AccidentalCorrectionImpact.pdf>]
+<figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf, id=2253, 2312.64pt x 867.24pt>
 File: figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf  used on input line 362.
 (pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
-<figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf, id=1454, 2312.64pt x 867.24pt>
+<figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf, id=2254, 2312.64pt x 867.24pt>
 File: figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf  used on input line 369.
 (pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
-<figures/VetoEfficiency/DDAccCorrectionParameters.pdf, id=1455, 1762.79636pt x 694.80171pt>
+<figures/VetoEfficiency/DDAccCorrectionParameters.pdf, id=2255, 1762.79636pt x 694.80171pt>
 File: figures/VetoEfficiency/DDAccCorrectionParameters.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/DDAccCorrectionParameters.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionParameters.pdf  used on input line 376.
 (pdftex.def)             Requested size: 455.24408pt x 179.42497pt.
-[36 <./figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf>] [37 <./figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf> <./figures/VetoEfficiency/DDAccCorrectionParameters.pdf>]
-<figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf, id=1670, 715.27664pt x 779.96521pt>
+<figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf, id=2260, 715.27664pt x 779.96521pt>
 File: figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf  used on input line 405.
 (pdftex.def)             Requested size: 136.5746pt x 148.9209pt.
-<figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf, id=1671, 711.30869pt x 779.96521pt>
+<figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf, id=2261, 711.30869pt x 779.96521pt>
 File: figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf  used on input line 406.
 (pdftex.def)             Requested size: 136.5746pt x 149.754pt.
-<figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf, id=1672, 711.30869pt x 779.96521pt>
+<figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf, id=2262, 711.30869pt x 779.96521pt>
 File: figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf  used on input line 407.
 (pdftex.def)             Requested size: 136.5746pt x 149.754pt.
-<figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf, id=1673, 707.6544pt x 775.95021pt>
+<figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf, id=2263, 707.6544pt x 775.95021pt>
 File: figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf  used on input line 416.
 (pdftex.def)             Requested size: 136.5746pt x 149.75272pt.
-<figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf, id=1674, 707.6544pt x 775.95021pt>
+<figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf, id=2264, 707.6544pt x 775.95021pt>
 File: figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf  used on input line 417.
 (pdftex.def)             Requested size: 136.5746pt x 149.75272pt.
-<figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf, id=1675, 707.6544pt x 775.95021pt>
+<figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf, id=2265, 707.6544pt x 775.95021pt>
 File: figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf Graphic file (type pdf)
 <use figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf>
 Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf  used on input line 418.
 (pdftex.def)             Requested size: 136.5746pt x 149.75272pt.
- [38 <./figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf>]
-<figures/VetoEfficiency/det_nr_efficiency.png, id=2019, 714.41907pt x 540.51938pt>
+ [50 <./figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf>] [51 <./figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf> <./figures/VetoEfficiency/DDAccCorrectionParameters.pdf> <./figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf>]
+<figures/VetoEfficiency/det_nr_efficiency.png, id=2644, 714.41907pt x 540.51938pt>
 File: figures/VetoEfficiency/det_nr_efficiency.png Graphic file (type png)
 <use figures/VetoEfficiency/det_nr_efficiency.png>
 Package pdftex.def Info: figures/VetoEfficiency/det_nr_efficiency.png  used on input line 446.
 (pdftex.def)             Requested size: 227.62204pt x 172.21094pt.
- [39 <./figures/VetoEfficiency/det_nr_efficiency.png>] [40
+ [52 <./figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf> <./figures/VetoEfficiency/det_nr_efficiency.png>] [53
 
-] [41]
-<figures/VetoEfficiency/efficiency_summary.png, id=2066, 700.86844pt x 472.01344pt>
+] [54]
+<figures/VetoEfficiency/efficiency_summary.png, id=2855, 700.86844pt x 472.01344pt>
 File: figures/VetoEfficiency/efficiency_summary.png Graphic file (type png)
 <use figures/VetoEfficiency/efficiency_summary.png>
 Package pdftex.def Info: figures/VetoEfficiency/efficiency_summary.png  used on input line 546.
 (pdftex.def)             Requested size: 364.19664pt x 245.28275pt.
-) [42
+) [55
 
-] [43 <./figures/VetoEfficiency/efficiency_summary.png>]
+] [56 <./figures/VetoEfficiency/efficiency_summary.png>]
 \openout2 = `./chapters/Muons.aux'.
 
  (./chapters/Muons.tex
 chapter 5.
-[44
+[57
 
 
 
@@ -1520,7 +1601,7 @@ chapter 5.
 ]
 
 pdfTeX warning: pdflatex (file ./figures/Muons/Primary_energyLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/Primary_energyLZstyle.pdf, id=2110, 404.2098pt x 298.82922pt>
+<figures/Muons/Primary_energyLZstyle.pdf, id=2899, 404.2098pt x 298.82922pt>
 File: figures/Muons/Primary_energyLZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/Primary_energyLZstyle.pdf>
 Package pdftex.def Info: figures/Muons/Primary_energyLZstyle.pdf  used on input line 24.
@@ -1528,7 +1609,7 @@ Package pdftex.def Info: figures/Muons/Primary_energyLZstyle.pdf  used on input 
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/cosZ_LZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/cosZ_LZstyle.pdf, id=2111, 413.99513pt x 286.78572pt>
+<figures/Muons/cosZ_LZstyle.pdf, id=2900, 413.99513pt x 286.78572pt>
 File: figures/Muons/cosZ_LZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/cosZ_LZstyle.pdf>
 Package pdftex.def Info: figures/Muons/cosZ_LZstyle.pdf  used on input line 31.
@@ -1536,7 +1617,7 @@ Package pdftex.def Info: figures/Muons/cosZ_LZstyle.pdf  used on input line 31.
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/Azimuthal.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/Azimuthal.pdf, id=2112, 395.92987pt x 285.28029pt>
+<figures/Muons/Azimuthal.pdf, id=2901, 395.92987pt x 285.28029pt>
 File: figures/Muons/Azimuthal.pdf Graphic file (type pdf)
 <use figures/Muons/Azimuthal.pdf>
 Package pdftex.def Info: figures/Muons/Azimuthal.pdf  used on input line 38.
@@ -1544,7 +1625,7 @@ Package pdftex.def Info: figures/Muons/Azimuthal.pdf  used on input line 38.
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/azi_vs_zen_finalLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/azi_vs_zen_finalLZstyle.pdf, id=2113, 404.9625pt x 342.48686pt>
+<figures/Muons/azi_vs_zen_finalLZstyle.pdf, id=2902, 404.9625pt x 342.48686pt>
 File: figures/Muons/azi_vs_zen_finalLZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/azi_vs_zen_finalLZstyle.pdf>
 Package pdftex.def Info: figures/Muons/azi_vs_zen_finalLZstyle.pdf  used on input line 46.
@@ -1552,10 +1633,10 @@ Package pdftex.def Info: figures/Muons/azi_vs_zen_finalLZstyle.pdf  used on inpu
 LaTeX Font Info:    Trying to load font information for T1+qcr on input line 56.
 (/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
 File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
-) [45 <./figures/Muons/Primary_energyLZstyle.pdf> <./figures/Muons/cosZ_LZstyle.pdf> <./figures/Muons/Azimuthal.pdf> <./figures/Muons/azi_vs_zen_finalLZstyle.pdf>]
+) [58 <./figures/Muons/Primary_energyLZstyle.pdf> <./figures/Muons/cosZ_LZstyle.pdf> <./figures/Muons/Azimuthal.pdf> <./figures/Muons/azi_vs_zen_finalLZstyle.pdf>]
 
 pdfTeX warning: pdflatex (file ./figures/Muons/LZap_waveform.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/LZap_waveform.pdf, id=2140, 378.66469pt x 333.49594pt>
+<figures/Muons/LZap_waveform.pdf, id=2929, 378.66469pt x 333.49594pt>
 File: figures/Muons/LZap_waveform.pdf Graphic file (type pdf)
 <use figures/Muons/LZap_waveform.pdf>
 Package pdftex.def Info: figures/Muons/LZap_waveform.pdf  used on input line 77.
@@ -1563,7 +1644,7 @@ Package pdftex.def Info: figures/Muons/LZap_waveform.pdf  used on input line 77.
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf, id=2142, 404.9625pt x 295.06561pt>
+<figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf, id=2931, 404.9625pt x 295.06561pt>
 File: figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf>
 Package pdftex.def Info: figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf  used on input line 90.
@@ -1571,20 +1652,20 @@ Package pdftex.def Info: figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf  used 
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf, id=2143, 407.97337pt x 295.06561pt>
+<figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf, id=2932, 407.97337pt x 295.06561pt>
 File: figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf>
 Package pdftex.def Info: figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf  used on input line 96.
 (pdftex.def)             Requested size: 223.0721pt x 161.33658pt.
-[46{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc} <./figures/Muons/LZap_waveform.pdf>]
+[59{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc} <./figures/Muons/LZap_waveform.pdf>]
 Overfull \hbox (94.9823pt too wide) in paragraph at lines 113--114
 \T1/cmr/m/n/10.95 Here the pulse time, $\OML/cmm/m/it/10.95 t$\T1/cmr/m/n/10.95 , is de-scribed us-ing the com-bi-na-tion of two RQs, \T1/cmtt/m/n/10.95 pulseStartTime_ns$\OT1/cmr/m/n/10.95 +$\T1/cmtt/m/n/10.95 areaFractionTime5_ns\T1/cmr/m/n/10.95 .
  []
 
-[47 <./figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf> <./figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf>]
+[60 <./figures/Muons/OD_cuts_pre_coincidenceLZstyle.pdf> <./figures/Muons/OD_cuts_post_coincidenceLZstyle.pdf>]
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD-Skin_timing.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD-Skin_timing.pdf, id=2179, 404.9625pt x 289.79657pt>
+<figures/Muons/OD-Skin_timing.pdf, id=2968, 404.9625pt x 289.79657pt>
 File: figures/Muons/OD-Skin_timing.pdf Graphic file (type pdf)
 <use figures/Muons/OD-Skin_timing.pdf>
 Package pdftex.def Info: figures/Muons/OD-Skin_timing.pdf  used on input line 118.
@@ -1592,7 +1673,7 @@ Package pdftex.def Info: figures/Muons/OD-Skin_timing.pdf  used on input line 11
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD-TPC_timing.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD-TPC_timing.pdf, id=2180, 404.9625pt x 289.79657pt>
+<figures/Muons/OD-TPC_timing.pdf, id=2969, 404.9625pt x 289.79657pt>
 File: figures/Muons/OD-TPC_timing.pdf Graphic file (type pdf)
 <use figures/Muons/OD-TPC_timing.pdf>
 Package pdftex.def Info: figures/Muons/OD-TPC_timing.pdf  used on input line 124.
@@ -1600,7 +1681,7 @@ Package pdftex.def Info: figures/Muons/OD-TPC_timing.pdf  used on input line 124
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/Skin-TPC_timing.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/Skin-TPC_timing.pdf, id=2181, 404.9625pt x 289.79657pt>
+<figures/Muons/Skin-TPC_timing.pdf, id=2970, 404.9625pt x 289.79657pt>
 File: figures/Muons/Skin-TPC_timing.pdf Graphic file (type pdf)
 <use figures/Muons/Skin-TPC_timing.pdf>
 Package pdftex.def Info: figures/Muons/Skin-TPC_timing.pdf  used on input line 130.
@@ -1608,7 +1689,7 @@ Package pdftex.def Info: figures/Muons/Skin-TPC_timing.pdf  used on input line 1
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/TPC_energy_comp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/TPC_energy_comp.pdf, id=2185, 408.72609pt x 295.06561pt>
+<figures/Muons/TPC_energy_comp.pdf, id=2974, 408.72609pt x 295.06561pt>
 File: figures/Muons/TPC_energy_comp.pdf Graphic file (type pdf)
 <use figures/Muons/TPC_energy_comp.pdf>
 Package pdftex.def Info: figures/Muons/TPC_energy_comp.pdf  used on input line 143.
@@ -1616,7 +1697,7 @@ Package pdftex.def Info: figures/Muons/TPC_energy_comp.pdf  used on input line 1
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/HGLG_comp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/HGLG_comp.pdf, id=2186, 401.19891pt x 289.79657pt>
+<figures/Muons/HGLG_comp.pdf, id=2975, 401.19891pt x 289.79657pt>
 File: figures/Muons/HGLG_comp.pdf Graphic file (type pdf)
 <use figures/Muons/HGLG_comp.pdf>
 Package pdftex.def Info: figures/Muons/HGLG_comp.pdf  used on input line 149.
@@ -1624,22 +1705,22 @@ Package pdftex.def Info: figures/Muons/HGLG_comp.pdf  used on input line 149.
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/Muon_pid_cutLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/Muon_pid_cutLZstyle.pdf, id=2189, 408.72609pt x 295.06561pt>
+<figures/Muons/Muon_pid_cutLZstyle.pdf, id=2978, 408.72609pt x 295.06561pt>
 File: figures/Muons/Muon_pid_cutLZstyle.pdf Graphic file (type pdf)
 <use figures/Muons/Muon_pid_cutLZstyle.pdf>
 Package pdftex.def Info: figures/Muons/Muon_pid_cutLZstyle.pdf  used on input line 159.
 (pdftex.def)             Requested size: 295.90587pt x 213.62218pt.
-<figures/Muons/TPCEnergyConversion.pdf, id=2193, 614.295pt x 433.62pt>
+<figures/Muons/TPCEnergyConversion.pdf, id=2982, 614.295pt x 433.62pt>
 File: figures/Muons/TPCEnergyConversion.pdf Graphic file (type pdf)
 <use figures/Muons/TPCEnergyConversion.pdf>
 Package pdftex.def Info: figures/Muons/TPCEnergyConversion.pdf  used on input line 173.
 (pdftex.def)             Requested size: 364.19664pt x 257.0841pt.
-[48] [49 <./figures/Muons/OD-Skin_timing.pdf> <./figures/Muons/OD-TPC_timing.pdf> <./figures/Muons/Skin-TPC_timing.pdf>] [50 <./figures/Muons/TPC_energy_comp.pdf> <./figures/Muons/HGLG_comp.pdf> <./figures/Muons/Muon_pid_cutLZstyle.pdf>]
+[61] [62 <./figures/Muons/OD-Skin_timing.pdf> <./figures/Muons/OD-TPC_timing.pdf> <./figures/Muons/Skin-TPC_timing.pdf>] [63 <./figures/Muons/TPC_energy_comp.pdf> <./figures/Muons/HGLG_comp.pdf> <./figures/Muons/Muon_pid_cutLZstyle.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-[51 <./figures/Muons/TPCEnergyConversion.pdf>]
+[64 <./figures/Muons/TPCEnergyConversion.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
@@ -1647,15 +1728,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_comparison.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_comparison.pdf, id=2315, 404.9625pt x 298.82922pt>
+<figures/Muons/OD_comparison.pdf, id=3102, 404.9625pt x 298.82922pt>
 File: figures/Muons/OD_comparison.pdf Graphic file (type pdf)
 <use figures/Muons/OD_comparison.pdf>
 Package pdftex.def Info: figures/Muons/OD_comparison.pdf  used on input line 207.
 (pdftex.def)             Requested size: 295.90587pt x 218.36693pt.
-[52 <./figures/Muons/OD_comparison.pdf>]
+[65 <./figures/Muons/OD_comparison.pdf>]
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_datacc.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_TPC_datacc.pdf, id=2327, 414.74786pt x 289.79657pt>
+<figures/Muons/OD_TPC_datacc.pdf, id=3114, 414.74786pt x 289.79657pt>
 File: figures/Muons/OD_TPC_datacc.pdf Graphic file (type pdf)
 <use figures/Muons/OD_TPC_datacc.pdf>
 Package pdftex.def Info: figures/Muons/OD_TPC_datacc.pdf  used on input line 217.
@@ -1663,7 +1744,7 @@ Package pdftex.def Info: figures/Muons/OD_TPC_datacc.pdf  used on input line 217
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_data10.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_TPC_data10.pdf, id=2328, 423.02776pt x 295.06561pt>
+<figures/Muons/OD_TPC_data10.pdf, id=3115, 423.02776pt x 295.06561pt>
 File: figures/Muons/OD_TPC_data10.pdf Graphic file (type pdf)
 <use figures/Muons/OD_TPC_data10.pdf>
 Package pdftex.def Info: figures/Muons/OD_TPC_data10.pdf  used on input line 222.
@@ -1671,7 +1752,7 @@ Package pdftex.def Info: figures/Muons/OD_TPC_data10.pdf  used on input line 222
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_bacc0.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_TPC_bacc0.pdf, id=2329, 423.02776pt x 295.06561pt>
+<figures/Muons/OD_TPC_bacc0.pdf, id=3116, 423.02776pt x 295.06561pt>
 File: figures/Muons/OD_TPC_bacc0.pdf Graphic file (type pdf)
 <use figures/Muons/OD_TPC_bacc0.pdf>
 Package pdftex.def Info: figures/Muons/OD_TPC_bacc0.pdf  used on input line 227.
@@ -1679,7 +1760,7 @@ Package pdftex.def Info: figures/Muons/OD_TPC_bacc0.pdf  used on input line 227.
 
 
 pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_bacc10.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/OD_TPC_bacc10.pdf, id=2330, 423.02776pt x 295.06561pt>
+<figures/Muons/OD_TPC_bacc10.pdf, id=3117, 423.02776pt x 295.06561pt>
 File: figures/Muons/OD_TPC_bacc10.pdf Graphic file (type pdf)
 <use figures/Muons/OD_TPC_bacc10.pdf>
 Package pdftex.def Info: figures/Muons/OD_TPC_bacc10.pdf  used on input line 232.
@@ -1704,7 +1785,7 @@ Overfull \hbox (125.95476pt too wide) in alignment at lines 253--265
  [] [] [] [] [] [] [] 
  []
 
-[53 <./figures/Muons/OD_TPC_datacc.pdf> <./figures/Muons/OD_TPC_data10.pdf> <./figures/Muons/OD_TPC_bacc0.pdf> <./figures/Muons/OD_TPC_bacc10.pdf>]
+[66 <./figures/Muons/OD_TPC_datacc.pdf> <./figures/Muons/OD_TPC_data10.pdf> <./figures/Muons/OD_TPC_bacc0.pdf> <./figures/Muons/OD_TPC_bacc10.pdf>]
 Overfull \hbox (125.95476pt too wide) in alignment at lines 274--280
  [] [] [] [] [] [] [] 
  []
@@ -1719,20 +1800,20 @@ Overfull \hbox (125.95476pt too wide) in alignment at lines 281--293
  [] [] [] [] [] [] [] 
  []
 
-[54] [55]
+[67] [68]
 
 pdfTeX warning: pdflatex (file ./figures/Muons/Flux_density_ws22_ws24.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/Muons/Flux_density_ws22_ws24.pdf, id=2378, 410.98425pt x 323.66891pt>
+<figures/Muons/Flux_density_ws22_ws24.pdf, id=3164, 410.98425pt x 323.66891pt>
 File: figures/Muons/Flux_density_ws22_ws24.pdf Graphic file (type pdf)
 <use figures/Muons/Flux_density_ws22_ws24.pdf>
 Package pdftex.def Info: figures/Muons/Flux_density_ws22_ws24.pdf  used on input line 351.
 (pdftex.def)             Requested size: 295.90587pt x 233.04637pt.
-) [56] [57 <./figures/Muons/Flux_density_ws22_ws24.pdf>]
+) [69] [70 <./figures/Muons/Flux_density_ws22_ws24.pdf>]
 \openout2 = `./chapters/Conclusion.aux'.
 
  (./chapters/Conclusion.tex
 chapter 6.
-) [58
+) [71
 
 
 
@@ -1740,30 +1821,30 @@ chapter 6.
 ]
 chapter without number
 
-Overfull \hbox (40.47275pt too wide) in paragraph at lines 285--285
+Overfull \hbox (40.47275pt too wide) in paragraph at lines 284--284
 \T1/cmr/m/n/10.95 (2019), pp. 148^^U163. \T1/cmr/m/sc/10.95 doi\T1/cmr/m/n/10.95 : []$\T1/cmtt/m/n/10.95 10 . 1016 / j . nima . 2019 . 05 . 055$[]\T1/cmr/m/n/10.95 . arXiv: []$\T1/cmtt/m/n/10.95 1808 . 05595$ [physics.ins-det][]\T1/cmr/m/n/10.95 . 
  []
 
 
-Overfull \hbox (14.16174pt too wide) in paragraph at lines 285--285
+Overfull \hbox (14.16174pt too wide) in paragraph at lines 284--284
 []\T1/cmr/m/n/10.95 Kaito Hagi-wara et al. ``Gamma Ray Spec-trum from Ther-mal Neu-tron Cap-ture on Gadolinium-
  []
 
-[59
+[72
 
 
 
 ]
-Overfull \hbox (18.95288pt too wide) in paragraph at lines 285--285
+Overfull \hbox (18.95288pt too wide) in paragraph at lines 284--284
 \T1/cmr/m/n/10.95 p. C02072. \T1/cmr/m/sc/10.95 doi\T1/cmr/m/n/10.95 : []$\T1/cmtt/m/n/10.95 10 . 1088 / 1748 -[] 0221 / 11 / 02 / C02072$[]\T1/cmr/m/n/10.95 . arXiv: []$\T1/cmtt/m/n/10.95 1511 . 08385$ [physics.ins-det][]\T1/cmr/m/n/10.95 . 
  []
 
-
-Overfull \hbox (2.85439pt too wide) in paragraph at lines 285--285
+[73]
+Overfull \hbox (2.85439pt too wide) in paragraph at lines 284--284
 []\T1/cmr/m/n/10.95 V. A. Kudryavt-sev. ``Muon sim-u-la-tion codes MU-SIC and MUSUN for un-der-ground physics''.
  []
 
-[60] [61] (./main.aux (./chapters/Introduction.aux) (./chapters/LZ.aux) (./chapters/ODCommissioning.aux) (./chapters/VetoEfficiency.aux) (./chapters/Muons.aux) (./chapters/Conclusion.aux))
+[74] (./main.aux (./chapters/Introduction.aux) (./chapters/LZ.aux) (./chapters/ODCommissioning.aux) (./chapters/VetoEfficiency.aux) (./chapters/Muons.aux) (./chapters/Conclusion.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1775,18 +1856,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36946 strings out of 474222
- 722191 string characters out of 5748733
- 1978975 words of memory out of 5000000
- 58286 multiletter control sequences out of 15000+600000
- 591869 words of font info for 131 fonts, out of 8000000 for 9000
+ 37132 strings out of 474222
+ 729656 string characters out of 5748733
+ 1981975 words of memory out of 5000000
+ 58434 multiletter control sequences out of 15000+600000
+ 592645 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,13n,107p,10989b,1966s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/ascii-font/ASCII.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcrr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (67 pages, 13995600 bytes).
+ 110i,19n,107p,10989b,1742s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/ascii-font/ASCII.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcrr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (80 pages, 19244769 bytes).
 PDF statistics:
- 2790 PDF objects out of 2984 (max. 8388607)
- 1551 compressed objects within 16 object streams
- 322 named destinations out of 1000 (max. 500000)
- 773 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3610 PDF objects out of 4296 (max. 8388607)
+ 1776 compressed objects within 18 object streams
+ 359 named destinations out of 1000 (max. 500000)
+ 854 words of extra memory for PDF output out of 10000 (max. 10000000)
 
