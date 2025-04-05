@@ -80,7 +80,7 @@ An example PMT calibration is outlined below for PMT 800. The mean Gaussian resp
 \end{sidewaysfigure}
 
 
-\section{Reconstructed Gain}
+\section{Reconstructed Gain}\label{sec:RecGain}
 So far it has been shown that understanding how the signal from a PMT relates to the amount of light incident on the face of the PMT is key to measuring the energy deposited by particles traversing the detector. The amplification of the photoelectrons produced through the dynode series is known as the PMT's `Gain'. The SPhE Calibration Constant can be converted to understand the gain of the PMT by dividing by the following terms, $e\times44\times50\times10^{12}$, where e is the charge of an electron, $44~\text{V}_{\text{d}}$ is the total voltage division factor across all 10 dynodes in the PMT \cite{HamamatsuR5912}, 50~$\Omega$ is the termination impedance to eliminate signal reflections in the cable \cite{LZ:2024bvw}, $10^{12}$ accounts for the change with the unit prefixes on voltage and time. Using the example case from the previous section, PMT 800 had an average measured SPhE area of 748.5~mVns based on 10 OCS measurements on February $12^{\text{th}}$ 2025 which results in a reconstructed gain of $2.12\times10^6$.
 
 During the commissioning of the Outer Detector PMT system, a target gain of $1\times10^{7}$ initially established based on the operating gain recommended by Hamamatsu Photonics \cite{LZTDR,HamamatsuR5912}. During the OD PMT QA the gain was reduced to $2\times10^{6}$ due to high rates of sub-SPhE noise. Dark rates measurements made during the QA stage exhibited significantly higher rates than the expected 1~kHz dark rate measured in off-site testing. This issue was problematic as spikes up 20~kHz were observed in some cases resulting in the LZ DAQ to crash. Final voltages corresponding to $2.1\times10^{6}$ were determined in October 2021 so that all PMTs achieved the target gain of $2\times10^6$ with $<10~\%$ difference across 119 PMTs. One exception was PMT 811, whose voltage was further reduced in January 2022 resulting in a gain of $1\times10^6$ to reduce the rate of sub-SPhE pulses.
@@ -88,8 +88,8 @@ An example scatter plot of gain versus PMT ID is shown in \autoref{fig:ODPMTGain
 
 \begin{sidewaysfigure}[ht!]
     \centering
-    \includegraphics[width=\textwidth]{figures/ODCommissioning/2024-7-10_ODPMT_Gain.pdf}
-    \caption{A scatter plot of the OD PMT Gain versus PMT ID for each OD PMT from a measurement taken on July 10th 20254.}
+    \includegraphics[width=\textwidth]{figures/ODCommissioning/2024-6-12_ODPMT_Gain.pdf}
+    \caption{A scatter plot of the OD PMT Gain versus PMT ID for each OD PMT from a measurement taken on July 10th 2024.}
     \label{fig:ODPMTGain_2024-7-10}
 \end{sidewaysfigure}
 
@@ -115,10 +115,42 @@ To monitor the observed $<1\%$ change in gain month-by-month, the relative chang
     \caption{\textbf{Top:} A scatter plot of the relative change in OD PMT Gain since the gain matching campaign in May 2024 (until the time of writing). \textbf{Bottom:} A scatter plot of the average relative change in OD PMT Gain across all OD PMTs since the gain matching campaign in May 2024 (until the time of writing).}
     \label{fig:RelativeGain_WS2024May2024Onwards}
 \end{sidewaysfigure}
+
 \subsection{Gain Curves}
-\section{Trigger Efficiency}
+As previously discussed in \autoref{sec:RecGain}, the gain of a PMT is the degree amplification of photoelectrons produced in through the dynode series. Mathematically, it can be calculated by the following equation:
+\begin{equation}
+    \label{eqn:GainCurve}
+    \frac{G_2}{G_1}=\biggl(\frac{V_2}{V_1}\biggl)^\gamma,
+\end{equation}
+where $G_1$ and $G_2$ are the gains at supply voltages $V_1$ and $V_2$, $\gamma$ is a coefficient set by the dynode material and geometry (measured as 7.27 for the LZ OD PMTs). During off-site commissioning of the OD PMT array, the gain curves were determined such that the correct voltage could be chosen to achieve a desired gain of $1\times10^7$. Following the installation of the PMTs and subsequent filling of the water tank with the various detector mediums, it was seen necessary to perform a secondary measurement of the gain curves once the PMTs had been operational for six months.
+Using the initial voltage ($V_{rec}$ which corresponds to $2\times10^6$ gain, five additional voltages surrounding $V_{rec}$ were chosen in 50~V spacing. For each voltage, a full SPhE measurement is made to determine the gain in each PMT. Using \autoref{eqn:GainCurve}, a new $\gamma$-factor is measured and is used for any future gain or voltage adjustment. The gain curves for four OD PMTs measured prior to the start of the WS2024 campaign is shown in \autoref{fig:gainCurve}.
+\begin{figure}[ht!]
+     \centering
+     \begin{subfigure}[b]{0.47\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{figures/ODCommissioning/PMT800_GainCurve.png}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.47\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{figures/ODCommissioning/PMT830_GainCurve.png}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.47\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{figures/ODCommissioning/PMT869_GainCurve.png}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.47\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{figures/ODCommissioning/PMT913_GainCurve.png}
+     \end{subfigure}
+        \caption{Four examples of gain curves for the OD PMTs measured prior to the start of the WS2024 campaign. The $\gamma$ factor varies between PMTs due to systematic differences in the surfaces of the dynodes and photocathode.}
+        \label{fig:gainCurve}
+\end{figure}
 
 \section{Optical Calibration System Development}
-\subsection{UV LED commissioning}
-
 \subsection{Monitoring PMT}
+One of the key components in the OD OCS is the monitoring PMT, used for precise monitoring of the light intensity and system stability. The monitoring PMT is a Hamamatsu R5912 PMT which is installed in a rack-mounted dark box close to the OCS electronics \cite{Turner:2021qvi}. This PMT is identical to those used in the OD. 
+
+\subsection{UV LED commissioning}
