@@ -168,7 +168,7 @@ The electronics system which controls the LEDs consists of five Optical Calibrat
     \textcolor{red}{NEED TO CHANGE THE COLOURS IN THIS SCHEMATIC!}}
     \label{fig:OCSSchematic}
 \end{figure}
-The intensity of light is monitored using the onboard photodiode and rack mounted monitoring PMT, which is the same 8-inch Hamamatsu R5912 PMT as used in the OD PMT array \cite{Turner:2021qvi}. The stability of the light produced by the LEDs is monitored through the comparison of light produced by an in-situ YAP:Ce pulser which produces light pulses corresponding to 5000 photoelectrons \cite{Turner:2021qvi,KOBAYASHI1994355}. The intensity of light produced by both the LED and source is then compared for consistency across science runs. The commissioning of this subsystem is covered further in \autoref{chap:ODCommissioning}. The OCS is controlled through LZ's central Slow Control System, allowing a user to define a pulse size/intensity using a graphical user interface \cite{hbirch:thesis}.
+The intensity of light is monitored using the onboard photodiode and rack mounted monitoring PMT, which is the same 8-inch Hamamatsu R5912 PMT as used in the OD PMT array \cite{Turner:2021qvi}. The commissioning of this component of the subsystem is covered further in \autoref{chap:ODCommissioning}. The OCS is controlled through LZ's central Slow Control System, allowing a user to define a pulse size/intensity using a graphical user interface \cite{hbirch:thesis}.
 During the authors Masters degree at the University of Liverpool a member of the group who developed the OCS and extensively tested the system. The OCS met all design requirements set by LZ \cite{Turner:2021qvi}. Further details of the OCS and the QA tests prior to installation can be found at Ref.\cite{hbirch:thesis,Turner:2021qvi}. 
 
 \section{Calibration Systems and Sources}
@@ -222,14 +222,14 @@ Simulations of the LZ experiment play a key role understanding the detector and 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=\linewidth]{figures/LZ/LZSimFramework.png}
-    \caption{Simulation framework for the LZ experiment. ``Full'' and ``Fast'' simulation chains are shown. Both chains begin with BACCARAT and end with an output LZap RQ file.}
+    \caption{Simulation framework for the LZ experiment. ``Full'' and ``Fast'' simulation chains are shown. Both chains begin with BACCARAT and end with an output LZAP RQ file.}
     \label{fig:LZSimFramework}
 \end{figure}
 For all simulations, LZ uses BACCARAT\footnote{\textbf{B}asically \textbf{A} \textbf{C}omponent-\textbf{C}entric \textbf{A}nalogue \textbf{R}esponse to \textbf{A}ny\textbf{T}hing}\cite{LZ_SIMS} package to simulate particle interactions in the detector and this package is built upon the GEANT4 simulation toolkit \cite{GEANT4:2002zbu}. Using GEANT4 along with CAD-Drawing, the LZ experiment is built as a detector geometry. In simulation, a series of inputs can be used to generate particles which are propagated through the detector geometry, with any additional particles being generated from interactions with detector materials. GEANT4 is used to track the particles and identifies the interaction points. From there, two separate chains exist for interpreting this information, \autoref{fig:LZSimFramework}.
 
-The ``Fast'' chain, seen on the right of \autoref{fig:LZSimFramework}, records energy deposits in the detector and passes them to LZLAMA for processing. LZLAMA consists of two primary packages, the Noble Element Simulation Technique (NEST) to process interactions in the xenon space and DICEBOX to process interactions with the OD. NEST provides the expected conversion of energy to scintillation photons and ionization electrons based on empirical models developed using experiment measurements \cite{NEST1}. The DICEBOX toolkit is empolyed to handle interactions between neutrons and their capture on Gd as GEANT4 has difficulty conserving Q-value and multiplicity of the gamma emissions from the neutron capture. Energy deposits in other volumes are handled by GEANT4. LZLAMA outputs a ROOT file which has the same reduced-quantity (RQ) format as data processed using LZ's custom processing tool, LZap \cite{LZ_SIMS}, which performs pulse and event reconstruction.
+The ``Fast'' chain, seen on the right of \autoref{fig:LZSimFramework}, records energy deposits in the detector and passes them to LZLAMA for processing. LZLAMA consists of two primary packages, the Noble Element Simulation Technique (NEST) to process interactions in the xenon space and DICEBOX to process interactions with the OD. NEST provides the expected conversion of energy to scintillation photons and ionization electrons based on empirical models developed using experiment measurements \cite{NEST1}. The DICEBOX toolkit is empolyed to handle interactions between neutrons and their capture on Gd as GEANT4 has difficulty conserving Q-value and multiplicity of the gamma emissions from the neutron capture. Energy deposits in other volumes are handled by GEANT4. LZLAMA outputs a ROOT file which has the same reduced-quantity (RQ) format as data processed using LZ's custom processing tool, LZAP \cite{LZ_SIMS}, which performs pulse and event reconstruction.
 
-The second, ``Full'' chain, enables full simulation of optical processes throughout the entire detector including VUV photons and ionisation electrons that are produced in the xenon and scintillation light generated in the OD. Another custom LZ software package, Detector Electronic Response (DER), is used to translate PMT hits in the BACCARAT output into waveforms. The DER simulates the analogue front-end electronics of LZ to produce waveforms, written in an identical format to the true LZ DAQ, \autoref{sec:LZDAQ}. A number of physical processes are incorporated into the DER to create realistic waveforms including: a PMT response model, gain, quantum efficiency, double photoelectron probability, dynode effects, dark rate, and afterpulsing. This chain is more computationally intensive but it allows for a more realistic, event-by-event analysis. The output from the DER is processed by LZap to produce RQ-structured files to be analysed much like real data.
+The second, ``Full'' chain, enables full simulation of optical processes throughout the entire detector including VUV photons and ionisation electrons that are produced in the xenon and scintillation light generated in the OD. Another custom LZ software package, Detector Electronic Response (DER), is used to translate PMT hits in the BACCARAT output into waveforms. The DER simulates the analogue front-end electronics of LZ to produce waveforms, written in an identical format to the true LZ DAQ, \autoref{sec:LZDAQ}. A number of physical processes are incorporated into the DER to create realistic waveforms including: a PMT response model, gain, quantum efficiency, double photoelectron probability, dynode effects, dark rate, and afterpulsing. This chain is more computationally intensive but it allows for a more realistic, event-by-event analysis. The output from the DER is processed by LZAP to produce RQ-structured files to be analysed much like real data.
 A complete review of the LZ Simulation framework can be found at Ref.\cite{LZ_SIMS}.
 
 \section{Assembly and Operation of the LZ Detector}
@@ -238,16 +238,14 @@ During the past six years whilst the author has collaborated on the LZ Experimen
      \centering
      \begin{subfigure}{0.47\textwidth}
          \centering
-         \includegraphics[width=\textwidth]{figures/LZ/OCSMotherboardCC.png}
+         \includegraphics[width=0.95\textwidth]{figures/LZ/OCSMotherboardCC.png}
          \label{fig:Gonk0}
-         \caption{The author standing in the common corridor at the Davis Campus holding an OCC prior to the OCS electronics installation.}
      \end{subfigure}
      %\hfill
      \begin{subfigure}{0.47\textwidth}
          \centering
          \includegraphics[width=\textwidth]{figures/LZ/OCSElectronicsInstallation.png}
          \label{fig:Gonk1}
-         \caption{The author making serial connections between the front planes of the OCS OCCs within the electronics racks.}
      \end{subfigure}
-     \caption{}
+     \caption{OD OCS electronics installation. \textbf{Left:} The author standing in the common corridor at the Davis Campus holding an OCC prior to the OCS electronics installation. \textbf{Right:} The author making serial connections between the front planes of the OCS OCCs within the electronics racks.}
 \end{figure}

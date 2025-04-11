@@ -1,5 +1,5 @@
 \chapter{Veto Efficiency Studies}\label{chap:VetoEfficiency}
-A WIMP scatter should only deposit a small amount of energy (few~keV) within the LXe volume of the experiment without any simultaneous energy deposit in the surrounding materials. Neutrons produced through radioactive decays within detector materials would mimic a WIMP interaction when they scatter off Xe atoms. 
+A WIMP scatter should only deposit a small amount of energy (few~keV) within the LXe volume of the experiment without any simultaneous energy deposit in the surrounding materials. Neutrons produced through radioactive decays within detector materials would mimic a WIMP interaction when they scatter off Xe atoms. Active material surrounding the central LXe volume also permits assessment of the local radioactivity environment, and thus to infer additional information on the backgrounds in the WIMP search region. A persuasive WIMP discovery will require excellent understanding of all background sources, which is best done through the characterization of those sources in situ. Efficiency of the veto systems in the detection of the radiation produced by the backgrounds should be maximised whilst minimizing the impact of the veto selection on detector livetime in turn maximising the detector livetime available for the detection of WIMPs. This chapter will describe the series of improvements to the detector simulation which were made prior to the WS2024 science run which whilst aided the understanding of response from the veto detector systems. The refinement of the veto selection algorithm is discussed alongside the impact that the veto selection had on the WS2024 result.
 
 %A WIMP scatter would deposit a few keV in the central volume of the LXe TPC, with no simultaneous energy deposit in surrounding materials. Neutrons caused by radioactivity, which can fake WIMP interactions when they scatter elastically, are likely to interact again either within the TPC or nearby, and so it is broadly desirable to replace as much of the neighboring material as possible with additional radiation detectors. It also helps to minimize intervening material between the active LXe in the TPC and any such ancillary detectors, namely by decreasing the thickness of the field-cage and of the cryostat vessels. Active material surrounding the central LXe volume also permits assessment of the local radioactivity environment, and thus to infer additional information on the backgrounds in the WIMP search region. A persuasive WIMP discovery will require excellent understanding of all background sources, which is best done through the characterization of those sources in situ.
 \section{Simulation Matching}\label{sec:simulation_improvements}
@@ -15,24 +15,22 @@ The changes made were;
 \end{enumerate}
 
 The percentage of water in the foam, and the outward movement of the acrylic tanks were looped over.
-The water percentage of the foam was increased in 1\% steps, and the acrylic tanks were moved by 10mm steps.
-The 'best' value was found to be 30mm and 6\%.
-Additional details on the discrepancies between simulations and data are shown in the subsequent subsections.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=0.8\textwidth]{figures/VetoEfficiency/Final_OD_geometry.png}
-    \caption{Geometry in the simulation used for SR3.}
-    \label{fig:od_geometry_for_sr3}
+The water percentage of the foam was increased in 1\% steps, and the acrylic tanks were moved by 10~mm steps.
+The `best' configuration of the simulation geometry changes was found to be 30mm and 6\% through matching the capture time of neutrons following single scatters in the active LXe volume. Additional details on the discrepancies between simulations and data with respect to neutron capture timing is shown in the subsequent subsection.
+\begin{figure}[ht!]
+     \centering
+     \includegraphics[width=\textwidth]{figures/VetoEfficiency/FoamImgAndSimGeoTogether.png}
+     \caption{Geometry in the simulation used for the WS2024 science run. \textbf{Left:} A photograph of the light green foam water displacer which resides between the acrylic tanks and the OCV. The water displacer was wrapped in a light reflector made from Tyvek. \textbf{Right:} A cross-section of the BACCARAT output. Geantinos were been passed through the simulation geometry, the $xyz$ position information and GEANT4 volumes were recorded to show the various volumes in the simulation.}
+     \label{fig:od_geometry_for_sr3}
 \end{figure}
 
-\subsubsection{Capture Time}
+\subsubsection{Neutron Capture Time}
 Following the geometry changes discussed above, the neutron capture timing using AmLi was studied. Prior to the geometry changes, there was a distinct discrepancy between data and simulation when considering neutron capture timing following single scatters within the TPC. Initial skims of both data and simulation were made using ALPACA, selecting all events which were classified as single scatters by LZAP. OD pulse information was also skimmed considering 100~keV (24~phd), 200~keV (49~phd) and 1~MeV (251~phd) OD thresholds.
-The simulation was modified in two different ways, moving the SATs out radially and adding water to the foam. All possible configurations were visually examined to determine which variation of simulation matched the data. An example of the comparison plot can be seen in \autoref{fig:NC_AmLi_50mm7}, the "baseline simulation" was the initialy configuration of the geometry prior to this study. All plots were examined side by side in a large scale canvas configuration seen in \autoref{fig:NC_Canvas}. It was found that from this study that 30~mm~to~50~mm movement of the SATs alongside 5\%~to~7\% increase in the percentage of water in the foam provides the best agreement between data and simulation at a 200~keV threshold.
+The simulation was modified in two different ways, moving the SATs out radially and adding water to the foam. All possible configurations were visually examined to determine which variation of simulation matched the data. An example of the comparison plot can be seen in \autoref{fig:NC_AmLi_50mm7}, the "baseline simulation" was the initially configuration of the geometry prior to this study. All plots were examined side by side in a large scale canvas configuration seen in \autoref{fig:NC_Canvas}. It was found that from this study that 30~mm~to~50~mm movement of the SATs alongside 5\%~to~7\% increase in the percentage of water in the foam provides the best agreement between data and simulation at a 200~keV threshold.
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV.png}
-    \caption{An example of the plot used to compare neutron capture timing in data with the baseline simulation and the modified simulation.}
+    \includegraphics[width=0.8\linewidth]{figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png}
+    \caption{An example of the plot used to compare neutron capture timing in data with the baseline simulation and the modified simulation. The relative change between data and simulation in each $20~\mu s$ bin was used to aid the visually examination across the $1200~\mu s$ window.}
     \label{fig:NC_AmLi_50mm7}
 \end{figure}
 \begin{figure}
@@ -42,9 +40,10 @@ The simulation was modified in two different ways, moving the SATs out radially 
     \label{fig:NC_Canvas}
 \end{figure}
 
+
 \section{Veto Selection Optimisation}
-In this section, details on how the Skin and OD cuts used in SR3 were created are defined. The Skin and OD veto cuts used in SR3 were based on those developed for SR1, described in \cite{LZCollaboration:2024lux}.
-This boils down to four cuts;
+In this section, details on how the Skin and OD cuts used in the WS2024 science run were created are defined. The Skin and OD veto cuts used in the WS2024 science run were based on those developed for the WS2022 science run, described in \cite{LZCollaboration:2024lux}.
+The veto selection boils down to four cuts;
 \begin{itemize}
     \item Skin-prompt: For tagging $\gamma$-rays in the Skin detector,
     \item OD-prompt: For tagging $\gamma$-rays and neutron proton recoils in the OD detector,
@@ -52,15 +51,13 @@ This boils down to four cuts;
     \item OD-delayed: For tagging $\gamma$-rays from post-neutron capture de-excitation.
 \end{itemize}
 
-Using SR1 (and pre-SR2) as a baseline, three studies were performed to adapt these cuts for SR3;
+Using WS2022 as a baseline, three studies were performed to adapt these cuts for WS2024;
 \begin{enumerate}
-    \item Determine the detector stability, to establish if the energy scale for the detectors has changed; using this the SR1 cuts can simply be scaled for SR3, and asks as a starting point.
+    \item Determine the detector stability, to establish if the energy scale for the detectors has changed; using this the WS2022 cuts can simply be scaled for WS2024, and acts as a starting point.
     \item Implement a position correction to the OD.
     \item Perform cut optimisation based on the above studies.
 \end{enumerate}
-
-The cuts used for the vetoes were selected at the same time as AmLi neutron tagging efficiency calculation, and were set to maximise the tagging efficiency whilst reducing deadtime\footnote{in future, a PLR study should be done to determine at what point this is optimaised}.
-As such, this section should be considered simultaneously with \autoref{sec:AmLi_Efficiency}
+The cuts used for the vetoes were selected at the same time as AmLi neutron tagging efficiency calculation, and were set to maximise the tagging efficiency whilst reducing deadtime. 
 
 On a skim of the AmLi calibrations which pass the SR3 core-cuts described in \autoref{tab:amli_efficiency_cuts}, the efficiency (described in \autoref{eq:neutron_tagging_efficiency}) was calculated with the pulse area, and coincidence thresholds of the Skin and OD varying in integer steps.
 This then produces a heatmap of the coincidence vs. threshold vs. efficiency of each cut, examples of these are shown in \autoref{fig:od_prompt_veto_heatmap}-\ref{fig:skin_delayed_veto_heatmap}. 
@@ -119,7 +116,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 \end{sidewaysfigure}
 \begin{sidewaysfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatMapOD_PA_ScanWindow_deadtime.png}
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/OD_Deadtime_thesis.png}
     \caption{OD Delayed heatmap.
     In each bin, either the veto window or the pulse threshold has been varied.
     The z-axis shows the deadtime associated with a given veto window and pulse threshold.
@@ -128,7 +125,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 \end{sidewaysfigure}
 \begin{sidewaysfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/VetoEfficiency/HeatMap_ODPA_SkinPA_eff.png}
+    \includegraphics[width=\textwidth]{figures/VetoEfficiency/Skin_Deadtime_thesis.png}
     \caption{Delayed vetoes heatmap.
     In each bin, the OD pulse threshold or the Skin pulse threshold has been varied.
     The z-axis shows the veto efficiency associated with a given pulse thresholds.
@@ -231,9 +228,9 @@ In addition to the cuts listed in \autoref{tab:amli_efficiency_cuts}, two other 
     In this note, the 1-$\sigma$ is used.
     The band can be found on NERSC at \lstinline{/global/cfs/cdirs/lz/physics/NEST_Bands/SR3/20240313/Calibration}, if the band has been, it can be recreated with the Woods parameters listed below;
     \begin{lstlisting}
-The Woods Function Fit Parameters for the Band Mean are:  [-6.709932875296116, 7.230400677496497, 0.001868430053684265, 3.648854814073587]
-The Woods Function Fit Parameters for the -1 Sigma Line are:  [-7.995805026708432, 7.163090296730374, 0.0018689902999408099, 3.6135843431273336]
-The Woods Function Fit Parameters for the +1 Sigma Line are:  [-5.428217339686645, 7.337771458785042, 0.0018671903851709354, 3.684225777881352]
+        The Woods Function Fit Parameters for the Band Mean are:  [-6.709932875296116, 7.230400677496497, 0.001868430053684265, 3.648854814073587]
+        The Woods Function Fit Parameters for the -1 Sigma Line are:  [-7.995805026708432, 7.163090296730374, 0.0018689902999408099, 3.6135843431273336]
+        The Woods Function Fit Parameters for the +1 Sigma Line are:  [-5.428217339686645, 7.337771458785042, 0.0018671903851709354, 3.684225777881352]
     \end{lstlisting}
     The three different NR bands for the three calibration sources can be seen in \autoref{fig:SR3NRBands}.
     \end{enumerate}

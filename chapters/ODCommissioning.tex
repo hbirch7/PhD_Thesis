@@ -26,7 +26,7 @@ The ideal response an ideal PMT, $S_{ideal}$, can be described simply by convolu
     \label{eqn:PoisPlusGauss}
 \end{equation}
 the model is summed from 0 photons to an arbitrary upper limit \cite{BELLAMY1994468}.
-\subsection{Single Photo-electron Calibration}
+\subsection{Single Photo-electron Calibration}\label{sec:SPhECalib}
 To calibrate the OD Single Photo-electron (SPhE) response, light is injected into the OD using the ODOCS. The optimal intensity of light to induce a SPhE response was chosen during the commissioning of the OD following the PMT installation in 2021. Details of the optimisation can be found in Ref.\cite{edfraser:thesis}.
 
 Due to the complex geometry of the OD, the central row fibres were chosen as the injection points, position 2 in \autoref{fig:OCSPositions} (central row). Light injected from the central row fibres pass through the SATs and reflects back of the Tyvek\textregistered\ layer which covers the OCV.
@@ -151,6 +151,42 @@ Using the initial voltage ($V_{rec}$ which corresponds to $2\times10^6$ gain, fi
 
 \section{Optical Calibration System Development}
 \subsection{Monitoring PMT}
-One of the key components in the OD OCS is the monitoring PMT, used for precise monitoring of the light intensity and system stability. The monitoring PMT is a Hamamatsu R5912 PMT which is installed in a rack-mounted dark box close to the OCS electronics \cite{Turner:2021qvi}. This PMT is identical to those used in the OD. 
+One of the key components in the OD OCS is the monitoring PMT (mPMT), used for precise monitoring of the light intensity and system stability. The mPMT is a Hamamatsu R5912 PMT which is installed in a rack-mounted dark box close to the OCS electronics \cite{Turner:2021qvi}. This PMT is identical to those used in the OD. The stability of the light produced by the LEDs is monitored through the comparison of light produced by an in-situ YAP:Ce-Am pulser which produces light pulses corresponding to 5000 photoelectrons \cite{KOBAYASHI1994355}. The in-situ source is attached mechanically to the glass face of the PMT, as shown in \autoref{fig:MonPMT_YAPCeSource}.
 
-\subsection{UV LED commissioning}
+\begin{figure}[ht!]
+     \centering
+     \begin{subfigure}[b]{0.47\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{figures/ODCommissioning/MonitoringPMT.png}
+     \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.47\textwidth}
+         \centering
+         \includegraphics[width=0.74\textwidth]{figures/ODCommissioning/YAPCeSource.png}
+     \end{subfigure}
+        \caption{OD OCS Monitoring PMT. \textbf{Left:} The R5912 PMT mounted within the rack-mounted dark box situated beneath the OCS electronics. A coupler mounted in front of the PMT holds 40 single core fibres that carry light from the LEDs to the monitoring PMT. A mu-metal cone surrounding the PMT glass to reduce the impact of external electromagnetic forces on the photocathode and dynode chain. \textbf{Right: }Position of the YAP:Ce-Am source with respect to the PMT face. The source is mechanically attached to the glass using kapton tape.}
+        \label{fig:MonPMT_YAPCeSource}
+\end{figure}
+Unlike the OD PMTs, the mPMT is biased to $1\times10^5$ gain at an operational voltage of 724~V. Due to the high intensity light produced by the YAP:Ce-Am source in such close proximity to the PMT, saturation effects were observed at a gain of $2\times10^6$ resulting in the desire to operate at the reduced gain to mitigate saturation.
+\subsubsection{LZAP Module Development}
+To process the RAW data from the PMT a custom LZAP module was developed called {\fontfamily{qcr}\selectfont ODOCSDarkboxPMTPulseFinder}. The module is similar in functionality to the module which is used to process data from the OD PMT array. From the RAW waveform data, the module is able to return the following RQ-structured tree:
+\begin{itemize}
+    \item {\fontfamily{qcr}\selectfont int} Number of pulses in event window
+    \item {\fontfamily{qcr}\selectfont vector<int>} Pulse ID
+    \item {\fontfamily{qcr}\selectfont vector<float>} Pulse area [mVns] 
+    \item {\fontfamily{qcr}\selectfont vector<int>} Pulse start time relative to trigger [ns]
+    \item {\fontfamily{qcr}\selectfont vector<int>} Pulse end time relative to trigger [ns]
+    \item {\fontfamily{qcr}\selectfont vector<float>} Peak amplitude [mV]
+    \item {\fontfamily{qcr}\selectfont vector<int>} Peak time [ns]
+\end{itemize}
+\subsubsection{Analysis}
+Functionality tests of the {\fontfamily{qcr}\selectfont ODOCSDarkboxPMTPulseFinder} LZAP module were performed using an ALPACA analysis module to understand the peaks observed in the pulse area spectrum of the mPMT. It was assumed that the intensity of the light produced by the source would remain constant between OCS measurements. Using data collected for SPhE and afterpulsing measurements, the peak produced by the YAP:Ce-Am source was identified. An example of this is shown in \autoref{fig:mPMTPADist}. The peak can be easily identified by overlaying the pulse spectra of the SPhE and afterpulsing measurements. This due to the different light intensity used for the measurements with peaks centred at 19300~mVns and 136000~mVns. The peak produced by the source is located at 42000~mVns.
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf}
+    \caption{Pulse area spectra from two OCS measurements. During the development of the OCS mPMT, this plot was used to determine the peak position of the light produced by the YAP:Ce-Am pulser. The peak can be easily identified by overlaying the pulse spectra of the SPhE and afterpulsing measurements. This due to the different light intensity used for the measurements with peaks centred at 19300~mVns and 136000~mVns. The peak produced by the source is located at 42000~mVns.}
+    \label{fig:mPMTPADist}
+\end{figure}
+To select the OCS pulse independent of pulse area, a similar method of selection was used to that discussed in \autoref{sec:SPhECalib}. However, due to the shorter fibres connecting the LEDs to the mPMT dark box the selection of pulses between 400~ns to 500~ns after the DAQ was triggered by the OCS. The pulses produced by the source occur randomly due to the radioactive decay of the $^{241}\text{Am}$, so pulse area criteria was used to select the pulses produced by the source based on a $\pm2\sigma$ selection away from a mean pulse area of 42000~mVns.
+
+%\subsection{UV LED commissioning}
