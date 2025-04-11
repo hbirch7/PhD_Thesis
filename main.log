@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.13)  11 APR 2025 22:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.13)  11 APR 2025 22:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1433,54 +1433,4 @@ File: figures/ODCommissioning/MonitoringPMT.png Graphic file (type png)
 <use figures/ODCommissioning/MonitoringPMT.png>
 Package pdftex.def Info: figures/ODCommissioning/MonitoringPMT.png  used on input line 160.
 (pdftex.def)             Requested size: 213.96527pt x 157.52292pt.
-<figures/ODCommissioning/YAPCeSource.png, id=974, 1090.0725pt x 1087.06125pt>
-File: figures/ODCommissioning/YAPCeSource.png Graphic file (type png)
-<use figures/ODCommissioning/YAPCeSource.png>
-Package pdftex.def Info: figures/ODCommissioning/YAPCeSource.png  used on input line 165.
-(pdftex.def)             Requested size: 158.33546pt x 157.89352pt.
-LaTeX Font Info:    Trying to load font information for T1+qcr on input line 172.
- (/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
-File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
-)
-<figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf, id=976, 614.295pt x 433.62pt>
-File: figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf Graphic file (type pdf)
-<use figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf>
-Package pdftex.def Info: figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf  used on input line 186.
-(pdftex.def)             Requested size: 364.19664pt x 257.0841pt.
- [28{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}]) [29] [30 <./figures/ODCommissioning/SPHE_phd_2024-7-10.pdf>] [31 <./figures/ODCommissioning/SPHE_pC_2024-7-10.pdf>] [32 <./figures/ODCommissioning/2024-6-12_ODPMT_Gain.pdf>] [33 <./figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf>] [34 <./figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf>] [35 <./figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf>] [36 <./figures/ODCommissioning/PMT800_GainCurve.png> <./figures/ODCommissioning/PMT830_GainCurve.png> <./figures/ODCommissioning/PMT869_GainCurve.png> <./figures/ODCommissioning/PMT913_GainCurve.png>] [37 <./figures/ODCommissioning/MonitoringPMT.png> <./figures/ODCommissioning/YAPCeSource.png> <./figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf>]
-\openout2 = `./chapters/VetoEfficiency.aux'.
-
- (./chapters/VetoEfficiency.tex
-chapter 4.
-<figures/VetoEfficiency/FoamImgAndSimGeoTogether.png, id=1678, 1729.46124pt x 1389.19pt>
-File: figures/VetoEfficiency/FoamImgAndSimGeoTogether.png Graphic file (type png)
-<use figures/VetoEfficiency/FoamImgAndSimGeoTogether.png>
-Package pdftex.def Info: figures/VetoEfficiency/FoamImgAndSimGeoTogether.png  used on input line 22.
-(pdftex.def)             Requested size: 455.24408pt x 365.67471pt.
-<figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png, id=1681, 867.24pt x 867.24pt>
-File: figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png Graphic file (type png)
-<use figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png>
-Package pdftex.def Info: figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png  used on input line 32.
-(pdftex.def)             Requested size: 364.19664pt x 364.19862pt.
-<figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png, id=1682, 5781.6pt x 4336.2pt>
-File: figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png Graphic file (type png)
-<use figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png>
-Package pdftex.def Info: figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png  used on input line 38.
-(pdftex.def)             Requested size: 455.24408pt x 341.41139pt.
-[38
-
-
-
-
-] [39 <./figures/VetoEfficiency/FoamImgAndSimGeoTogether.png>] [40 <./figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png>] [41 <./figures/VetoEfficiency/AmLi_CSD3_Z700mm_200keV.png>]
-<figures/VetoEfficiency/skin_prompt.png, id=1721, 643.6547pt x 389.20406pt>
-File: figures/VetoEfficiency/skin_prompt.png Graphic file (type png)
-<use figures/VetoEfficiency/skin_prompt.png>
-Package pdftex.def Info: figures/VetoEfficiency/skin_prompt.png  used on input line 79.
-(pdftex.def)             Requested size: 218.51521pt x 132.13164pt.
-<figures/VetoEfficiency/od_prompt.png, id=1722, 654.19406pt x 398.99063pt>
-File: figures/VetoEfficiency/od_prompt.png Graphic file (type png)
-<use figures/VetoEfficiency/od_prompt.png>
-Package pdftex.def Info: figures/VetoEfficiency/od_prompt.png  used on input line 87.
-(pdftex.def)             Requested size: 218.51521pt x 133.26848pt.
-<figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf, id=1723, 2168.1pt
+<figures/ODCommissioning/YAPCeSource.png, id=974, 1090.0725pt x 108
