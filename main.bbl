@@ -124,37 +124,6 @@
       \verb 1702.02646
       \endverb
     \endentry
-    \entry{LZTDR}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=995a18c4cabbf04147a6eb4852b9c17f}{%
-           family={Mount},
-           familyi={M\bibinitperiod},
-           given={B.\bibnamedelimi J.},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{f7831fae12f02e8b86107ffccfa40461}
-      \strng{fullhash}{f7831fae12f02e8b86107ffccfa40461}
-      \strng{bibnamehash}{f7831fae12f02e8b86107ffccfa40461}
-      \strng{authorbibnamehash}{f7831fae12f02e8b86107ffccfa40461}
-      \strng{authornamehash}{f7831fae12f02e8b86107ffccfa40461}
-      \strng{authorfullhash}{f7831fae12f02e8b86107ffccfa40461}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{physics.ins-det}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{arXiv}
-      \field{month}{3}
-      \field{title}{{LUX-ZEPLIN (LZ) Technical Design Report}}
-      \field{year}{2017}
-      \verb{eprint}
-      \verb 1703.09144
-      \endverb
-      \keyw{Physics - Instrumentation and Detectors,Astrophysics - Instrumentation and Methods for Astrophysics,High Energy Physics - Experiment}
-    \endentry
     \entry{Schumann:2014uva}{article}{}
       \name{author}{1}{}{%
         {{hash=27699f2f573c2b5bb72a6b54b6327a20}{%
@@ -169,8 +138,8 @@
       \strng{authorbibnamehash}{27699f2f573c2b5bb72a6b54b6327a20}
       \strng{authornamehash}{27699f2f573c2b5bb72a6b54b6327a20}
       \strng{authorfullhash}{27699f2f573c2b5bb72a6b54b6327a20}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{astro-ph.IM}
@@ -422,8 +391,8 @@
       \strng{authorbibnamehash}{05568670f2ff2df8a068350544a8e80b}
       \strng{authornamehash}{05568670f2ff2df8a068350544a8e80b}
       \strng{authorfullhash}{05568670f2ff2df8a068350544a8e80b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics.ins-det}
@@ -442,6 +411,37 @@
       \verb{eprint}
       \verb 2402.10446
       \endverb
+    \endentry
+    \entry{LZTDR}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=995a18c4cabbf04147a6eb4852b9c17f}{%
+           family={Mount},
+           familyi={M\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7831fae12f02e8b86107ffccfa40461}
+      \strng{fullhash}{f7831fae12f02e8b86107ffccfa40461}
+      \strng{bibnamehash}{f7831fae12f02e8b86107ffccfa40461}
+      \strng{authorbibnamehash}{f7831fae12f02e8b86107ffccfa40461}
+      \strng{authornamehash}{f7831fae12f02e8b86107ffccfa40461}
+      \strng{authorfullhash}{f7831fae12f02e8b86107ffccfa40461}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{physics.ins-det}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv}
+      \field{month}{3}
+      \field{title}{{LUX-ZEPLIN (LZ) Technical Design Report}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1703.09144
+      \endverb
+      \keyw{Physics - Instrumentation and Detectors,Astrophysics - Instrumentation and Methods for Astrophysics,High Energy Physics - Experiment}
     \endentry
     \entry{Haselschwardt:2018vmp}{article}{}
       \name{author}{9}{}{%
@@ -532,8 +532,8 @@
       \strng{authorbibnamehash}{6e5ae377d6aefb5fe759d388d8e65cf3}
       \strng{authornamehash}{6e5ae377d6aefb5fe759d388d8e65cf3}
       \strng{authorfullhash}{6e5ae377d6aefb5fe759d388d8e65cf3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{nucl-ex}
@@ -744,72 +744,6 @@
       \verb 2406.12874
       \endverb
     \endentry
-    \entry{KOBAYASHI1994355}{article}{}
-      \name{author}{7}{}{%
-        {{hash=54989d2f59da5baa38e685f55d91f2c9}{%
-           family={Kobayashi},
-           familyi={K\bibinitperiod},
-           given={Masaaki},
-           giveni={M\bibinitperiod}}}%
-        {{hash=20a6fc2292c14b60eb61762b71d59c6b}{%
-           family={Shinkawa},
-           familyi={S\bibinitperiod},
-           given={Takao},
-           giveni={T\bibinitperiod}}}%
-        {{hash=aaf1a7304aea3a7d9176e02d8e8a9b55}{%
-           family={Sato},
-           familyi={S\bibinitperiod},
-           given={Takahiro},
-           giveni={T\bibinitperiod}}}%
-        {{hash=c14eda9499af98f10cdc041c10c1c7e8}{%
-           family={Sugimoto},
-           familyi={S\bibinitperiod},
-           given={Shojiro},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a27e0fc05ee8ba19e70fb985cfe81fe9}{%
-           family={Korzhik},
-           familyi={K\bibinitperiod},
-           given={Michail\bibnamedelima V.},
-           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=e69b02b61e710bf9e9c70d52b3f177b6}{%
-           family={Fyodorov},
-           familyi={F\bibinitperiod},
-           given={Andrey\bibnamedelima A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=4fb2cc7207fcfb3b920929d8ec936ef7}{%
-           family={Kachanov},
-           familyi={K\bibinitperiod},
-           given={Vasilij\bibnamedelima A.},
-           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{b592bb7c89dc21486cfa333ffaa62ae8}
-      \strng{fullhash}{4a1e8bed0a7e6a7eb44294102c12bdb9}
-      \strng{bibnamehash}{b592bb7c89dc21486cfa333ffaa62ae8}
-      \strng{authorbibnamehash}{b592bb7c89dc21486cfa333ffaa62ae8}
-      \strng{authornamehash}{b592bb7c89dc21486cfa333ffaa62ae8}
-      \strng{authorfullhash}{4a1e8bed0a7e6a7eb44294102c12bdb9}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0168-9002}
-      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
-      \field{number}{2}
-      \field{title}{YAlO3: Ce-Am light pulsers as a gain monitor for undoped CsI detectors in a magnetic field}
-      \field{volume}{337}
-      \field{year}{1994}
-      \field{pages}{355\bibrangedash 361}
-      \range{pages}{7}
-      \verb{doi}
-      \verb https://doi.org/10.1016/0168-9002(94)91103-7
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/0168900294911037
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/0168900294911037
-      \endverb
-    \endentry
     \entry{hbirch:thesis}{thesis}{}
       \name{author}{1}{}{%
         {{hash=e9e3e41a18e0130cdcd9a77e474b1d32}{%
@@ -827,8 +761,8 @@
       \strng{authorbibnamehash}{e9e3e41a18e0130cdcd9a77e474b1d32}
       \strng{authornamehash}{e9e3e41a18e0130cdcd9a77e474b1d32}
       \strng{authorfullhash}{e9e3e41a18e0130cdcd9a77e474b1d32}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Development of the Optical Calibration System for the Outer Detector of the LUX-ZEPLIN Dark Matter Experiment}
@@ -905,8 +839,8 @@
       \strng{authornamehash}{23976a3aa62a6123f701ffa9ea845eff}
       \strng{authorfullhash}{23976a3aa62a6123f701ffa9ea845eff}
       \field{extraname}{4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics.ins-det}
@@ -939,8 +873,8 @@
       \strng{authorbibnamehash}{dc53895aca152c2e27f71058309b8ac2}
       \strng{authornamehash}{dc53895aca152c2e27f71058309b8ac2}
       \strng{authorfullhash}{dc53895aca152c2e27f71058309b8ac2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics.ins-det}
@@ -980,8 +914,8 @@
       \strng{authornamehash}{46a9649d1151b3877a0b4dd5c7dad623}
       \strng{authorfullhash}{46a9649d1151b3877a0b4dd5c7dad623}
       \field{extraname}{4}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -1016,8 +950,8 @@
       \strng{authorbibnamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authornamehash}{4034275bca42b52c1a394d599186c42e}
       \strng{authorfullhash}{4034275bca42b52c1a394d599186c42e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nucl. Instrum. Meth. A}
@@ -1098,8 +1032,8 @@
       \strng{authorbibnamehash}{0041e7ff403468e4c3be5dfa370f67cf}
       \strng{authornamehash}{0041e7ff403468e4c3be5dfa370f67cf}
       \strng{authorfullhash}{bc4dfde63205f57c72d5e16d2062f6b6}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2410-390X}
@@ -1219,8 +1153,8 @@
       \strng{authornamehash}{7579b94bc98d2b1d4774b53dd6dc4e30}
       \strng{authorfullhash}{7579b94bc98d2b1d4774b53dd6dc4e30}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Calibration of the Outer Detector, Development of Data Quality Monitoring and Study of Laboratory Backgrounds for Dark Matter Searches with LUX-ZEPLIN}
@@ -1299,6 +1233,72 @@
       \endverb
       \verb{eprint}
       \verb 2312.12907
+      \endverb
+    \endentry
+    \entry{KOBAYASHI1994355}{article}{}
+      \name{author}{7}{}{%
+        {{hash=54989d2f59da5baa38e685f55d91f2c9}{%
+           family={Kobayashi},
+           familyi={K\bibinitperiod},
+           given={Masaaki},
+           giveni={M\bibinitperiod}}}%
+        {{hash=20a6fc2292c14b60eb61762b71d59c6b}{%
+           family={Shinkawa},
+           familyi={S\bibinitperiod},
+           given={Takao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=aaf1a7304aea3a7d9176e02d8e8a9b55}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Takahiro},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c14eda9499af98f10cdc041c10c1c7e8}{%
+           family={Sugimoto},
+           familyi={S\bibinitperiod},
+           given={Shojiro},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a27e0fc05ee8ba19e70fb985cfe81fe9}{%
+           family={Korzhik},
+           familyi={K\bibinitperiod},
+           given={Michail\bibnamedelima V.},
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=e69b02b61e710bf9e9c70d52b3f177b6}{%
+           family={Fyodorov},
+           familyi={F\bibinitperiod},
+           given={Andrey\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4fb2cc7207fcfb3b920929d8ec936ef7}{%
+           family={Kachanov},
+           familyi={K\bibinitperiod},
+           given={Vasilij\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b592bb7c89dc21486cfa333ffaa62ae8}
+      \strng{fullhash}{4a1e8bed0a7e6a7eb44294102c12bdb9}
+      \strng{bibnamehash}{b592bb7c89dc21486cfa333ffaa62ae8}
+      \strng{authorbibnamehash}{b592bb7c89dc21486cfa333ffaa62ae8}
+      \strng{authornamehash}{b592bb7c89dc21486cfa333ffaa62ae8}
+      \strng{authorfullhash}{4a1e8bed0a7e6a7eb44294102c12bdb9}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0168-9002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{number}{2}
+      \field{title}{YAlO3: Ce-Am light pulsers as a gain monitor for undoped CsI detectors in a magnetic field}
+      \field{volume}{337}
+      \field{year}{1994}
+      \field{pages}{355\bibrangedash 361}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0168-9002(94)91103-7
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0168900294911037
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0168900294911037
       \endverb
     \endentry
     \entry{LZCollaboration:2024lux}{article}{}
@@ -1414,8 +1414,8 @@
       \strng{authorbibnamehash}{b3dc6ee926f186e44c239260a655f17b}
       \strng{authornamehash}{b3dc6ee926f186e44c239260a655f17b}
       \strng{authorfullhash}{b3dc6ee926f186e44c239260a655f17b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -1465,8 +1465,8 @@
       \strng{authorbibnamehash}{dbd4e54fb2659b94be69422a51fff11d}
       \strng{authornamehash}{dbd4e54fb2659b94be69422a51fff11d}
       \strng{authorfullhash}{74e18784de0644ff5c0928e449dab85f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Astropart. Phys.}
@@ -1493,8 +1493,8 @@
       \strng{authorbibnamehash}{8fe5076f00e94c9f5dcb75061391096d}
       \strng{authornamehash}{8fe5076f00e94c9f5dcb75061391096d}
       \strng{authorfullhash}{8fe5076f00e94c9f5dcb75061391096d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{{Computer Physics Communications}}

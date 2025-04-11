@@ -59,17 +59,17 @@ Using WS2022 as a baseline, three studies were performed to adapt these cuts for
 \end{enumerate}
 The cuts used for the vetoes were selected at the same time as AmLi neutron tagging efficiency calculation, and were set to maximise the tagging efficiency whilst reducing deadtime.
 
-On a skim of the AmLi calibrations which pass the SR3 core-cuts described in \autoref{tab:amli_efficiency_cuts}, the efficiency (described in \autoref{eq:neutron_tagging_efficiency}) was calculated with the pulse area, and coincidence thresholds of the Skin and OD varying in integer steps.
-This then produces a heatmap of the coincidence vs. threshold vs. efficiency of each cut, examples of these are shown in \autoref{fig:od_prompt_veto_heatmap}-\ref{fig:skin_delayed_veto_heatmap}.
+On a skim of the AmLi calibrations which pass the WS2024 core-cuts described in \autoref{tab:amli_efficiency_cuts}, the efficiency (described in \autoref{eq:neutron_tagging_efficiency}) was calculated with the pulse area, and coincidence thresholds of the Skin and OD varying in integer steps.
+This then produces a heatmap of the coincidence threshold vs. pulse area threshold vs. efficiency of each cut, examples of these are shown in \autoref{fig:od_prompt_veto_heatmap}-\ref{fig:skin_delayed_veto_heatmap}.
 For the delayed cuts, the veto time window was also varied, and heatmaps of threshold vs. time window vs. efficiency were produced for a fixed coincidence. Heatmaps with dead time rather than efficiency were also produced. The dead time is discussed in greater detail in the next section.
 
 The windows for the prompt cuts were selected by looking at the DD and AmLi calibrations (the run numbers and the LZAP version are listed in \autoref{sec:efficiency}) and by measuring the time difference between the TPC single-scatter and OD and Skin pulses.
 For Amli, this is shown in \autoref{fig:veto_prompt_windows}.
 
 Compiling the heat maps of efficiency and deadtime for a variety of veto windows, a choice of thresholds were chosen to maximise efficiency whilst minimising dead time.
-An example plot we used to determine this is shown in \autoref{fig:veto_cut_optimisation}.
-For SR3, we took the approach of trying to maintain the efficiency of SR1 veto of $\sim$~90\%, and to reduce the livetime impact.
-From the heatmaps, we determined that we could achieve an efficiency that at least matched the SR1 efficiency, but with a much lower deadtime.
+An example plot used to determine this is shown in \autoref{fig:veto_cut_optimisation}.
+For the WS2024 science run, the approach of trying to maintain the efficiency of WS2022 veto of $\sim$~90\%, and to reduce the livetime impact.
+From the heatmaps, we determined that we could achieve an efficiency that at least matched the WS2022 efficiency, but with a much lower deadtime.
 The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 
 \begin{figure}
@@ -151,11 +151,10 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 \end{figure}
 
 \subsection{Deadtime Stability}
-
-The deadtime for each of the veto cuts was checked that it is stable over SR3.
-This was done by breaking up the SR3-WS file list, in this case, \textbf{SR3-WSv7-LZAP-5.8.0}, into month-by-month chunks.
-On each month, the rate of pulses in the Skin and OD from the second half of Random Trigger data was used; and the rate above threshold - where the threshold is the veto cut - is recorded. The stability of this over SR3 is shown in \autoref{fig:deadtime_stability}.
-
+The deadtime for each of the veto cuts was checked that it is stable over the WS2024 science run.
+This was done by breaking up the WS2024 file list, in this case, \textbf{SR3-WSv7-LZAP-5.8.0}, into month-by-month chunks.
+On each month, the rate of pulses in the Skin and OD from the second half of Random Trigger data was used; and the rate above threshold where the threshold is the veto cut is recorded. 
+The stability of this over WS2024 is shown in \autoref{fig:deadtime_stability}.
 The deadtime is then calculated as;
 \begin{equation}
 	\textrm{Dead Time [\%]} = 1 - e^{-\lambda (x)}
@@ -166,8 +165,8 @@ where $\lambda$ is the background rate and $x$, the veto threshold.
 %    \textrm{Approx. Dead Time [\%]} = \textrm{Rate of events above threshold [Hz]} \times \textrm{Veto window length [s]} \times 100
 %\end{equation}
 
-The conclusion that the dead-time is stable over SR3 was also checked by looking at the \lstinline{ODHealth} PREM module, shown in \autoref{fig:deadtime_stability_prem}.
-The PREM module shows the rate of OD pulses above $200~keV$ (as defined by the SR1-$200~keV$ not from the SR3 energy calibration), with no significant fluctuation during SR3.
+The conclusion that the dead-time is stable over WS2024 was also checked by looking at the \lstinline{ODHealth} PREM module, shown in \autoref{fig:deadtime_stability_prem}.
+The PREM module shows the rate of OD pulses above $200~keV$ (as defined by the WS2022-$200~keV$ not from the WS2024 energy calibration), with no significant fluctuation during WS2024.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf}
@@ -181,14 +180,13 @@ The PREM module shows the rate of OD pulses above $200~keV$ (as defined by the S
 	\label{fig:deadtime_stability_prem}
 \end{figure}
 
-\section{Neutron Veto Efficiency \label{sec:efficiency}}
+\section{Neutron Veto Efficiency}\label{sec:efficiency}
 In this section, the efficiency of tagging background neutrons using the Skin and OD detectors is calculated.
 This is performed by calculating the efficiency on AmLi and DD calibration data.
 This is then compared to AmLi and DD simulations.
 The difference between these simulations and data are then used to calculate an offset.
 The efficiency is then calculated for detector NR simulations and the offset applied (either a subtraction or a scaling, discussed later).
 This gives the neutron tagging efficiency for background neutrons.
-
 \subsection{Efficiency Calculation}
 The efficiency is defined as;
 \begin{equation}
@@ -199,16 +197,18 @@ and the inefficiency is defined as $100 - \epsilon$.
 
 \subsection{Neutrons From Calibration Sources \label{sec:AmLi_Efficiency}}
 \subsubsection{AmLi}
-The AmLi calibration runs are from the May-2023 calibration period before SR3, with run control operation name \textbf{Amli-B}.
-The runs used are; \lstinline{13004-13026}.
+The AmLi calibration runs are from the May 2023 calibration period before the WS2024 science run, with run control operation name \textbf{Amli-B}.
+The runs used were; \lstinline{13004-13026}.
 All files were processed with \lstinline{LZap-5.8.0}.
 
 On these events, the selection of cuts were applied.
-The majority of which are `standard' SR3 cuts which are listed in \autoref{tab:amli_efficiency_cuts}.
-In addition to the cuts listed in \autoref{tab:amli_efficiency_cuts}, two other categorises of cuts were applied;
+The majority of which are `standard' WS2024 Core Cuts which are listed in \autoref{tab:amli_efficiency_cuts}.
+In addition to the cuts listed in \autoref{tab:amli_efficiency_cuts}, two other categorizes of cuts were applied;
 \begin{enumerate}
-	\item \lstinline{CSD tube}: This is a circular cut on the reconstructed position of the SS in the TPC so that events from just one CSD tube are selected at a time. To make the comparison between data and simulation this cut is required because in simulation only one source in one tube was simulated as opposed to deploying a source in each CSD tube simultaneously. This is useful for examining the fluctuation in neutron tagging efficiency with $(x,y,z)$. When the efficiency is averaged across different heights and CSD tube, the average can then be replicated in both data and simulation.
-	      The cut uses the following logic;
+	\item \lstinline{CSD tube}: This is a circular cut on the reconstructed position of the SS in the TPC so that events from just one CSD tube are selected at a time.
+	To make the comparison between data and simulation this cut is required because in simulation only one source in one tube was simulated as opposed to deploying a source in each CSD tube simultaneously.
+	This is useful for examining the fluctuation in neutron tagging efficiency with $(x,y,z)$.
+	When the efficiency is averaged across different heights and CSD tube, the average can then be replicated in both data and simulation. The cut uses the following logic;
 	      \begin{lstlisting}
     def CSDSelection(x: float, y: float, which_csd: int=1):
         cent_csd_x = [87.6, -43.9, -43.9]
@@ -225,8 +225,9 @@ In addition to the cuts listed in \autoref{tab:amli_efficiency_cuts}, two other 
 	      This comparison can be seen in \autoref{fig:CSDSelectionEffComp}.
 	\item \lstinline{NR-band}: This is a 1-, 3-, or 5-$\sigma$ cut around the NR band median.
 	      The purpose of this cut is to improve the purity of the selection.
-	      In this note, the 1-$\sigma$ is used.
-	      The band can be found on NERSC at \lstinline{/global/cfs/cdirs/lz/physics/NEST_Bands/SR3/20240313/Calibration}, if the band has been, it can be recreated with the Woods parameters listed below;
+	      In this analysis, the 1-$\sigma$ was used.
+	      %The band can be found on NERSC at \lstinline{/global/cfs/cdirs/lz/physics/NEST_Bands/SR3/20240313/Calibration}, if the band has been, it can be recreated with the Woods parameters listed below;
+		  The band was generated using the Noble Element Simulation Technique (NEST), it can be recreated with the Woods parameters listed below;
 	      \begin{lstlisting}
         The Woods Function Fit Parameters for the Band Mean are:  [-6.709932875296116, 7.230400677496497, 0.001868430053684265, 3.648854814073587]
         The Woods Function Fit Parameters for the -1 Sigma Line are:  [-7.995805026708432, 7.163090296730374, 0.0018689902999408099, 3.6135843431273336]
@@ -265,13 +266,11 @@ In addition to the cuts listed in \autoref{tab:amli_efficiency_cuts}, two other 
 		Bad buffer cuts        &                     & S2 XY quality            & S1 shape             \\
 		Excess Area cut        &                     & S2 TBA (above-anode gas) & S1 photon timing     \\
 	\end{tabular}
-	\caption{ALPACA-Core SR3 cuts used on AmLi calibration data for determining the efficiency.
-		Each cut is from SR3-cuts-v3.
+	\caption{ALPACA-Core WS2024 cuts used on AmLi calibration data for determining the efficiency.
+		Each cut is from WS2024-cuts-v3.
 	}
 	\label{tab:amli_efficiency_cuts}
 \end{table}
-
-
 
 \subsubsection{AmLi Accidental Correction}\label{sec:AmLiAccCorrection}
 When determining the veto tagging efficiency a correction must be applied to the measured efficiency to account for the accidental coincidences from AmLi gammas (and neutrons) with single scatter nuclear recoils in the TPC which can artificially enhance the measured tagging efficiency.
@@ -295,21 +294,18 @@ This leads to a final inefficiency of,
 $P_a(>0)_{any\:window}$ can be determined directly using the post-trigger window of randomly triggered events (GPS events) and count any pulses in \textbf{any} of the veto detectors.
 The accidental correction is correlated with the length of the veto window, scans over the entire delayed veto window in 10$\mu$s steps, the change in the correction factor over time can be seen in \autoref{fig:AccCorr}.
 The impact of the accidental correction when applied to the efficiency can be seen in \autoref{fig:AccidentalImpact}.
-
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf}
 	\caption{$P_a(>0)_{all\:window}$ AmLi Accidental correction factors for varying veto window size for different windows of interest.}
 	\label{fig:AccCorr}
 \end{figure}
-
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf}
 	\caption{$1 - P_a(>0)_{any window}$ AmLi Accidental correction factors for varying veto window size for different windows of interest.}
 	\label{fig:AccCorr_P0-1}
 \end{figure}
-
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{figures/VetoEfficiency/AccidentalCorrectionImpact.pdf}
@@ -319,15 +315,15 @@ The impact of the accidental correction when applied to the efficiency can be se
 
 
 \subsubsection{DD Direct}
-The DD calibration runs are from the October-2023 calibration period during SR3, with run control operation name \textbf{DD Plasma}.
+The DD calibration runs are from the October-2023 calibration period during the WS2024 science run, with run control operation name \textbf{DD Plasma}.
 The runs used are; \lstinline{14631-14654}.
 All files were processed with \lstinline{LZap-5.8.0}.
-
 The analysis for DD follows a logic similar to the AmLi described in \autoref{sec:AmLi_Efficiency}.
 The cuts used for DD are listed in \autoref{tab:dd_efficiency_cuts}.
 In addition to these cuts, an NR band cut was also applied.
 It is important to note that this NR band is different to the one used for AmLi. The three different NR bands for the three calibration sources can be seen in \autoref{fig:SR3NRBands}.
-The band can be found on NERSC at \lstinline{/global/cfs/cdirs/lz/physics/NEST_Bands/SR3/20240313/Calibration}, if it has been moved, it can be recreated with the Woods parameters listed below;
+%The band can be found on NERSC at \lstinline{/global/cfs/cdirs/lz/physics/NEST_Bands/SR3/20240313/Calibration}, if it has been moved, it can be recreated with the Woods parameters listed below;
+The band was generated using the NEST, it can be recreated with the Woods parameters listed below;
 \begin{lstlisting}
 The Woods Function Fit Parameters for the Band Mean are:  [-19.937161961102728, 19.923601138859933, 0.0003111152850489644, 3.9306761416517557]
 The Woods Function Fit Parameters for the 10% CL Line are:  [-17.635537023159518, 15.192184130700792, 0.000791717641575967, 3.813184578175848]
@@ -345,8 +341,8 @@ The Woods Function Fit Parameters for the 90% CL Line are:  [-32.02840007751605,
 		                    & S2 XY quality            & S1 shape             \\
 		                    & S2 TBA (above-anode gas) & S1 photon timing     \\
 	\end{tabular}
-	\caption{ALPACA-Core SR3 cuts used on DD calibration data for determining the efficiency.
-		Each cut is from SR3-cuts-v3.
+	\caption{ALPACA-Core WS2024 cuts used on DD calibration data for determining the efficiency.
+		Each cut is from WS2024-cuts-v3.
 	}
 	\label{tab:dd_efficiency_cuts}
 \end{table}
@@ -375,10 +371,8 @@ The impact of the accidental corrections on the DD veto efficiency can be seen i
 	\label{fig:figures/VetoEfficiency/DDAccCorrectionParameters}
 \end{figure}
 
-
-
 \subsection{Simulated Neutrons From Calibration Source}
-AmLi and DD were simulated using \lstinline{BACCARAT-6.3.5} and \lstinline{LZLAMA-3.5.3}.
+AmLi and DD were simulated using \lstinline{BACCARAT-6.3.5} and \lstinline{LZLAMA-3.5.3} versions.
 On each set of simulation, the cuts listed in \autoref{tab:calibration_simulation_efficiency_cuts} were used.
 \begin{table}
 	\centering
@@ -390,13 +384,13 @@ On each set of simulation, the cuts listed in \autoref{tab:calibration_simulatio
 		Fiducial Volume           \\
 		CSD Selection (AmLi Only) \\
 	\end{tabular}
-	\caption{ALPACA-Core SR3 cuts used on AmLi and DD simulations for determining the efficiency. Each cut is from SR3-cuts-v3.}
+	\caption{ALPACA-Core WS2024 cuts used on AmLi and DD simulations for determining the efficiency. Each cut is from WS2024-cuts-v3.}
 	\label{tab:calibration_simulation_efficiency_cuts}
 \end{table}
 No accidental correction was applied to the simulation data as there are no accidental gammas or neutrons present in the simulation.
 How these compare to the data measurements are shown in \autoref{fig:AmLiIneffPlots}-\ref{fig:DDIneffPlots}.
-More detailed plots on how the calibration simulations compare to calibration data is in \autoref{sec:simulation_improvements}.
-
+%More detailed plots on how the calibration simulations compare to calibration data is in \autoref{sec:simulation_improvements}.
+%TODO: Should I make the comparison between data and sim with respect to what Alberto did
 \begin{figure}
 	\centering
 	\includegraphics[width=.3\textwidth]{figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf}\hfill
@@ -418,7 +412,7 @@ More detailed plots on how the calibration simulations compare to calibration da
 \end{figure}
 
 \subsection{Background Neutrons}
-The detector-NR simulations were simulated as part of the official production of SR3-BG. Each of the 644 components were simulated using BACCARAT-6.3.5 and LZLAMA-3.5.3.
+The detector-NR simulations were simulated as part of the official production of SR3-BG. Each of the 644 components were simulated using BACCARAT-6.3.5 and LZLAMA-3.5.3 versions.
 On these events, the cuts listed in \autoref{tab:detector_nr_simulation_efficiency_cuts} were applied.
 The efficiency of tagging neutrons from USF and ($\alpha$,n) events are shown in \autoref{fig:detector_nr_efficiency}.
 Also shown is the total efficiency.
@@ -432,11 +426,9 @@ Also shown is the total efficiency.
 		S1 and S2 threshold \\
 		Fiducial Volume
 	\end{tabular}
-	\caption{ALPACA-Core SR3 cuts used on Detector-NR simulations for determining the efficiency. Each cut is from SR3-cuts-v3.
-	}
+	\caption{ALPACA-Core WS2024 cuts used on Detector-NR simulations for determining the efficiency. Each cut is from WS2024-cuts-v3.}
 	\label{tab:detector_nr_simulation_efficiency_cuts}
 \end{table}
-
 
 \begin{figure}
 	\centering
@@ -461,13 +453,11 @@ For the Detector-NR, the events were split up into Z-sections by the following;
             return ((driftTime_us < 1030.) & (driftTime_us > 700.))
 \end{lstlisting}
 This \lstinline{driftTime} splitting was performed so that comparing to calibration points was easier, but in evaluating the total efficiency, it is not used.
-
 Shown in \autoref{tab:final_veto_efficiency} are the veto efficiencies of all calibration sources for both simulations and data.
 The value we care about is the background neutron efficiency, $\epsilon_{\textrm{bg data}}$, or inefficiency, $\zeta_{\textrm{bg data}}$.
 There are a number of ways in which this can be calculated, which are described below.
-The proposed option is no.2, of 7.8$\pm$4.3\%; or quote as 8$\pm$4.
+The option 2 was used for the final WS2024 results, of 7.8$\pm$4.3\%; or quote as 8$\pm$4.
 \autoref{tab:efficiency_options} contains the results of each approach.
-
 \paragraph{Option 1}:
 We take the average simulation calibration efficiency, so the mean of AmLi (92.8\%) and DD (91.8\%), then we have 92.3\%.
 We take the average data calibration efficiency, 88.6\% for AmLi and 87.7\%, for DD we have 88.2\%.
@@ -551,5 +541,4 @@ In this case, the uncertainty is 2.8\%, made up from a statistical error from th
 	}
 	\label{fig:efficiency_summary}
 \end{figure}
-
 \section{Veto Efficiency and the WIMP search}
