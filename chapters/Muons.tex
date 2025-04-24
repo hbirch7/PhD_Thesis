@@ -1,18 +1,103 @@
-\chapter{Muons}\label{chap:Muons}
-\section{Veto for WIMP Search}
-\subsection{Motivation}
+\chapter{Muons and the LZ Experiment}\label{chap:Muons}
+\section{Cosmic Rays and Atmospheric Muons}
+Atmospheric showers are produced from the collision of primary cosmic radiation with the upper Earth's atmosphere. Primary cosmic radiation can be attributed to a non-thermal population of particles that pervade the Universe \cite{ParticleDataGroup:2024cfk}. The charged cosmic rays (CRs) consist mostly of nuclei and electrons at a ratio of 49:1, where the majority of the nuclei are Hydrogen (87\%) and Helium (12\%) with 1\% in the form of heavier elements \cite{Longair_2011}. The energy spectrum of primary CRs can be described using the following power law:
+\begin{equation}\label{eqn:CREnergy}
+    \frac{E^2dJ}{dE}\sim E^{-\gamma},
+\end{equation}
+where the spectral index, $\gamma$, varies across the energy spectrum in the range of $2.5\lesssim\gamma\lesssim3$ \cite{ParticleDataGroup:2024cfk}. Charged CRs follow a power law with a spectral index $\gamma\simeq2.7$ for energies up to a few PeV. The combined energy spectra for charged CRs, gamma-rays and neutrinos is shown in \autoref{fig:CREnergySpec}.
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{figures/Muons/CosmicRaySpectra.png}
+    \caption{The spectrum of cosmic rays (CRs), diffuse gamma-rays and neutrinos. The measurements of intensity of charged and neutral CRs multiplied by the kinetic energy squared. Energy-integrated intensities are shown by the various diagonal lines. Figure reprinted from Ref.\cite{ParticleDataGroup:2024cfk}.}
+    \label{fig:CREnergySpec}
+\end{figure}
+A number of secondary particles are produced through CR interactions with atmospheric nuclei. For high energy protons ($\geq 1~\text{GeV}$), the de Broglie wavelength of the incident particle is much less than the distance between nucleons in the nucleus \cite{Longair_2011}. Therefore we can consider the proton as being very discrete and will interact with individual nucleons within the nucleus. In the collision, pions of all charges, $\pi^+,\:\pi^-\text{, and }\pi^0$ are the principle products. In additions to these mesons, the nucleons involved in the interaction may also be expelled from the nucleus. This results in the nucleus being left in a highly unstable excited state that ejects several nuclear fragments in the form of other light nuclei, protons and/or neutrons. These are called spallation fragments. Further reactions in the form of nucleonic cascades are induced by these products, as well as pions, kaons and other mesons.
 
-\subsection{Cut Description}
+Nucleons and charged pions with sufficient energy will continue to multiply in successive collisions until the energy per particle drops below the threshold required for multiple pion productions, also known as \textit{pionisation} \cite{Longair_2011}. Pions have very short lifetimes and decay. Neutral pions decay to two $\gamma$-rays ($\pi^0\rightarrow2\gamma$), which initiate electromagnetic cascades through the conversion into an electron-positron pair ($\gamma\rightarrow e^-+e^+$). The electromagnetic shower is formed through the continued succession of pair production and bremsstrahlung processes. Charged pions decay into muons through the following reactions:
+\begin{equation}
+\begin{split}
+    \pi^+&\rightarrow\mu^++\nu_\mu \\
+    \pi^-&\rightarrow\mu^-+\bar\nu_\mu
+\end{split}
+\end{equation}
+Other mesons, such as kaons, have analogous decay processes. Very high energy muons are produced in the uppermost layers of atmosphere before the pions make further nuclear interaction. Muons have virtually no nuclear interactions and are very penetrating. In the rest frame of the muon, they decay with a mean lifetime of $2.2\times10^{-6}~\text{s}$. However, to an external observer they decay with an observed lifetime of $2.2\times10^{-6}\gamma~\text{s}$ due to relativistic time dilation where $\gamma$ is the Lorentz factor. At high energies, the incoming muons have Lorentz factors $\gamma\geq20$ resulting in a time dilation and length contraction which enables them to reach the Earth's surface. 
 
-\section{Flux Measurement}
-Our initial muon model described in Ref.~\cite{LZ_SIMS} has been used to calculate muon fluxes that can be compared with previous measurements. Vertical muon intensity has been calculated as $5.18\times10^{-9}$~cm$^{-2}$~s$^{-1}$~sr$^{-1}$, in good agreement with the value of $(5.38\pm0.07\text{ (stat)})\times10^{-9}$~cm$^{-2}$~s$^{-1}$~sr$^{-1}$~\cite{Cherry} measured in the same cavern using the veto system of the Davis experiment (corrected to include multiple muon events). Total muon flux through a spherical detector with unit cross-sectional area has been calculated as $6.16\times10^{-9}$~cm$^{-2}$~s$^{-1}$, slightly higher than the recent measurements with the veto system of the Majorana Demonstrator located in the nearby cavern $(5.31\pm0.17 \text{ (stat)})\times10^{-9}$~cm$^{-2}$~s$^{-1}$~\cite{majorana}.\\
+Lower energy muons have time to decay in-flight into electrons, positrons, and neutrinos that can go on to produce further low-energy electromagnetic showers:
+\begin{equation}
+\begin{split}    
+    \mu^+&\rightarrow e^++\nu_e+\bar\nu_\mu \\
+    \mu^-&\rightarrow e^-+\bar\nu_e+\nu_\mu
+\end{split}
+\end{equation}
+The interaction of a primary cosmic ray in the atmosphere and the subsequent interactions of the products from the nucleonic cascades are depicted in a diagram shown in \autoref{fig:CRDiagram}.
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{figures/Muons/MuonShower.png}
+    \caption{Diagram showing the interaction of a primary cosmic ray with nuclei in the upper Earth's atmosphere and the development of a nucleon cascade producing secondary cosmic rays in the form of muons, neutrinos and electromagnetic showers. Figure reprinted from Ref.\cite{Longair_2011}.}
+    \label{fig:CRDiagram}
+\end{figure}
+As shown in \autoref{eqn:CREnergy}, the primary CR spectrum follows a power-law which is consequently applicable to the secondary CR products. However, the muon spectrum has added complexity as charged mesons interact with the atmosphere and in turn lose energy before decaying. T.K. Gassier proposed a parametrisation \cite{Gaisser_Engel_Resconi_2016} which results in an approximate formula for the muon spectrum at sea level:
+\begin{equation}
+    \label{eqn:MuonIntensitySurfaceEarth1}
+    \frac{dI_\mu}{dE_{\mu0}d\Omega}\approx\frac{0.14\times E^{-\gamma}_{\mu0}}{\text{cm}^2\cdot\text{s}\cdot\text{sr}\cdot\text{GeV}}\times\Biggl\{\frac{1}{1+\frac{1.1\:E_{\mu0}\text{cos}\theta}{115\text{ GeV}}}+\frac{0.054}{1+\frac{1.1\:E_{\mu0}\text{cos}\theta}{850\text{ GeV}}}\Biggl\},
+\end{equation}
+where $\frac{dI_\mu}{dE_{\mu0}d\Omega}$ is the differential muon intensity at sea level, $E_{\mu0}$ is the muon energy at the Earth's surface and $\theta$ is the zenith angle of the muon at the surface (valid for $\theta<70^\circ$ accounting for the curvature of Earth). A spectral index, $\gamma=2.7$ was proposed by Gaisser \cite{Gaisser_Engel_Resconi_2016}. The two terms within the parentheses represent the muon produced from pion decay and kaon decay respectively, where the values of 115~GeV and 850~GeV correspond to the critical energies of these two particles. The critical energy is defined as the energy at which the probability of interaction is equal to the probability of decay at the height of a decay. The angular dependence of this term is because high energy pions will traverse less atmosphere before decaying into a high energy muon.
+Taking into account the curvature of Earth and additional muon processes, \autoref{eqn:MuonIntensitySurfaceEarth1} is modified:
+\begin{equation}
+\label{eqn:MuonIntensitySurfaceEarth2}
+\begin{split}    
+    \frac{dI_\mu}{dE_{\mu0}d\Omega}(E_{\mu0},\theta^*)\approx&\frac{A\times 0.14\times (E_{\mu0}+\Delta E_{\mu0})^{-\gamma}}{\text{cm}^2\cdot\text{s}\cdot\text{sr}\cdot\text{GeV}}\\
+    &\times\Biggl\{\frac{1}{1+\frac{1.1\:(E_{\mu0}+\Delta E_{\mu0})\text{cos}\theta_1}{115\text{ GeV}}}+\frac{0.054}{1+\frac{1.1\:(E_{\mu0}+\Delta E_{\mu0})\text{cos}\theta_1}{850\text{ GeV}}}+R_c\Biggl\}\times p_d,
+\end{split}
+\end{equation}
+where $\frac{dI_\mu}{dE_{\mu0}d\Omega}(E_{\mu0},\theta^*)$ is the differential muon intensity at sea level, $E_{\mu0}$ is the muon energy at the surface, $\theta^*$ is the zenith angle at the surface, $\theta_1$ is the zenith angle at production of site of the muon in the atmosphere which relates to $\theta^*$ as follows, $\text{cos}\:\theta_1=\sqrt{1-0.99\cdot(1-\text{cos}^2\:\theta^*)}$, $\Delta E_{\mu0}$ is the muon energy loss in the atmosphere, $R_c=1\times10^{-4}$ is the ratio of muons to pions \cite{LVD:1998lir}, and $p_d$ is the probability for the muon not to decay in the atmosphere. The survival probability for high energy muons which reach deep underground labs is practically 1, so the precise parametrisation of the muon decay probability is not critical for underground muon physics.
+
+The normalisation factor $A$ and the spectra index $\gamma$ can be chosen to fit experimental data and is dependent on depth. For depths $>2.5~\text{km}$ water equivalent (w.e.), the relation for `depth - vertical muon intensity' measured by the LVD experiment found $\gamma=2.77$ with a normalisation of the absolute flux $A=1.84$ found a good fit to data \cite{LVD:1998lir}.
+
+\section{Muon transport through materials}
+As muons are charge particles they lose energy as they traverse materials through electromagnetic interactions with nuclei and atomic electrons in the medium. Energy loss through ionisation is the process where the passing charged particle (a muon in this particular case) transfers energy to the atomic electrons. The atom will either be excited or ionised depending on the proximity of the charged particle. The mean rate of energy loss of a muon due to ionisation and excitation can be described using the Bethe-Bloch formula:
+\begin{equation}\label{eqn:BetheBloch}
+    \Biggl<-\frac{dE}{dx}\Biggl>=4\pi\alpha^2N_A\frac{Z}{A}\frac{z^2(\hbar c)^2}{m_e^2v^2}\Biggl[\text{ln}\frac{2m_ev^2\gamma^2}{I}-\frac{v^2}{c^2}-\delta(\beta\gamma)\Biggl],
+\end{equation}
+where $\alpha=e^2/4\pi\epsilon_0\hbar c\approx1/137$ is the fine structure constant, $z$ is the charge of the muon (in units of electric charge), $\gamma=1/\sqrt{1-\frac{v^2}{c^2}}$ is the Lorentz factor, $v$ is the velocity of the muon with mass $m_\mu$ and energy $E$, $I\simeq16\:\cdot\:Z^{0.9}$ eV is the mean ionisation potential of the atom \cite{GROOM2001183}. As the energy of the muon increases, the electric field extends to large distances, increasing the number of interactions with distant electrons. This effect is corrected for in \autoref{eqn:BetheBloch} by the density correction term $\delta(\beta\gamma)$.
+
+Muon additionally lose energy through radiative processes as discrete points of large energy loss. The total mean energy loss of the muon can be described as:
+\begin{equation}\label{eqn:totMeanEnergyLossMu}
+    \Biggl<-\frac{dE}{dx}\Biggl>=a(E)+b(E)E,
+\end{equation}
+where $x$ is the path length, $a(E)$ is the energy loss through ionisation as described with \autoref{eqn:BetheBloch}, and $b(E)$ is due to radiative
+processes — bremsstrahlung, pair production, and photonuclear interactions:
+\begin{equation}\label{eqn:radproc}
+    b\equiv b_{\text{brems}}+b_{\text{pair}}+b_{\text{nucl}},
+\end{equation}
+where these three stochastic energy-loss processes with respect to charged particle are described briefly below:
+\begin{itemize}
+    \item \textbf{Bremsstrahlung:} As a charge particle passes near to the nucleus it decelerates, radiating a photon.
+    \item \textbf{Pair-production:} Charged particles interact via the electromagnetic force, this interaction is mediated by a virtual photon, which in the field of the nucleus converts into a electron-positron pair.
+    \item \textbf{Photonuclear interaction:} A photon radiated by the charged particle is absorbed by the nucleus and enters an excited state. The nucleus immediately decay releasing a hadron.
+\end{itemize}
+Both $a(E)$ and $b(E)$ are slowly varying functions of $E$, where at high energies losses by radiative processes dominate. The contributions from ionisation and radiative processes to the total stopping power of muons on copper is shown in \autoref{fig:StoppingPowerOffMuonsCu}. The critical energy, $E_{\mu c}$, is the energy at which the losses from ionisation and radiative processes are equal and is dependent on the material which the muon is propagating through.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\linewidth]{figures/Muons/MassMuonStoppingPowerOfMuonsOnCu.png}
+    \caption{Mass stopping power $\big<-dE/dx\big>$ for positive muons on copper as a function of $p=M\beta c\gamma$. Figure reprinted from Ref. \cite{GROOM2001183}.}
+    \label{fig:StoppingPowerOffMuonsCu}
+\end{figure}
+In addition to the discussed energy loss processes, muons will also elastically scatter from nuclei via Coulomb interactions. However, the energy loss from this type of scattering can be consider negligible. As the muon propagates through a material, it will deviate from its track due to small angle deviations from the collective Coulomb scatters. 
+
+\section{Muons underground}
+
+
+\section{Flux Measurement With The LUX-ZEPLIN Experiment}
+Our initial muon model described in Ref.~\cite{LZ_SIMS} has been used to calculate muon fluxes that can be compared with previous measurements. Vertical muon intensity has been calculated as $5.18\times10^{-9}$~cm$^{-2}$~s$^{-1}$~sr$^{-1}$, in good agreement with the value of $(5.38\pm0.07\text{ (stat)})\times10^{-9}$~cm$^{-2}$~s$^{-1}$~sr$^{-1}$~\cite{Cherry} measured in the same cavern using the veto system of the Davis experiment. Total muon flux through a spherical detector with unit cross-sectional area has been calculated as $6.16\times10^{-9}$~cm$^{-2}$~s$^{-1}$, slightly higher than the recent measurements with the veto system of the Majorana Demonstrator located in the nearby cavern $(5.31\pm0.17 \text{ (stat)})\times10^{-9}$~cm$^{-2}$~s$^{-1}$~\cite{majorana}.\\
 The difference between the two measurements and our initial model, although relatively small (within 20\%), pointed to a need for new measurements with the LZ experiment to re-normalise the muon model.\\
 The new muon flux measurements estimate the average density of the rock between the surface and the cavern and will be used to inform the muon model for the DUNE experiment\cite{DUNE}, which uses the same MUSUN code and the same rock density.
+
 \subsection{Outline of Model}
-The muon simulations use two Monte-Carlo codes: MUSIC (MUon SImulation Code) and MUSUN (MUon Simulations UNderground)\cite{music,musun}, adapted here for the LZ experiment. Initially, muons with different energies on the surface of the Earth were transported through various distances in rock using MUSIC. The rock composition has been taken from Ref.~\cite{mei,zhang}. Measurements of several rock samples have been reported~\cite{mei,zhang} and the average rock parameters have been calculated as $<Z>=12.09$ and $<A>=24.17$. The average density of rock was assumed to be 2.70 g/cm$^3$~\cite{zhang} in the MUSIC simulation. Other measurements \cite{heise}, including the measurement of the muon flux with the veto system of the Majorana demonstrator, suggest that the density may be larger (2.8-2.9 g/cm$^3$\cite{majorana}).
+The muon simulations use two Monte-Carlo codes: MUSIC (\textbf{MU}on \textbf{SI}mulation \textbf{C}ode) and MUSUN (\textbf{MU}on \textbf{S}imulations \textbf{UN}derground)\cite{music,musun}, adapted here for the LZ experiment. Initially, muons with different energies on the surface of the Earth were transported through various distances in rock using MUSIC. The rock composition has been taken from Ref.~\cite{mei,zhang}. Measurements of several rock samples have been reported~\cite{mei,zhang} and the average rock parameters have been calculated as $<Z>=12.09$ and $<A>=24.17$. The average density of rock was assumed to be 2.70 g/cm$^3$~\cite{zhang} in the MUSIC simulation. Other measurements \cite{heise}, including the measurement of the muon flux with the veto system of the Majorana demonstrator, suggest that the density may be larger (2.8-2.9 g/cm$^3$\cite{majorana}).
 
 The resulting energy spectra of survived muons have been convoluted with muon spectra on the surface of the Earth for different zenith angles and slant depths (see~\cite{musun} for the procedure's description). The distance from the underground laboratory and the Earth's surface for each azimuth and zenith angle has been obtained from the surface map and the position of the laboratory in the global coordinate system~\cite{richardson}.
-Muon energy spectrum and zenith angle distribution on the surface of the Earth were calculated using the parametrisation first suggested in Ref.~\cite{gaisser} modified for the curvature of the Earth to include large zenith angles. Other corrections, such as muon decay and energy loss in the atmosphere, muon production via charmed meson decay, muon intensity dependence on altitude and geomagnetic rigidity cut-off were not included due to their negligible effect on high-energy muons ($>1$~TeV) capable of reaching the SURF location.
+Muon energy spectrum and zenith angle distribution on the surface of the Earth were calculated using the parametrisation first suggested in Ref.~\cite{Gaisser_Engel_Resconi_2016} modified for the curvature of the Earth to include large zenith angles. Other corrections, such as muon decay and energy loss in the atmosphere, muon production via charmed meson decay, muon intensity dependence on altitude and geomagnetic rigidity cut-off were not included due to their negligible effect on high-energy muons ($>1$~TeV) capable of reaching the SURF location.
 As a result of muon transport and convolution with the surface fluxes, muon energy spectra and different angles at the detector site have been calculated and stored in a file. The model gives the total muon flux through a sphere as $6.16\times10^{-9}$~cm$^{-2}$~s$^{-1}$, mean muon energy of 283~GeV, mean zenith angle of 27$^{\circ}$ and the mean slant depth of 4500~m~w.~e.~\cite{musun-lz}.
 
 The Muon generator MUSUN inside BACCARAT reads muon distributions from this file and samples muons on the horizontal (top) and vertical surfaces of a box that encompasses the laboratory hall. The top horizontal surface of the box is located 7 metres above the cavern boundary. Vertical surfaces of the box are positioned 5 m away from the boundary. The box extends to 3 m below the cavern floor. Moving the box surfaces into the rock, away from the cavern, ensures the development of muon-induced cascades in rock or shotcrete before muons and their secondaries enter the cavern. The primary energy spectrum and the angular distributions of these muons are illustrated in \autoref{Prime_info}.
@@ -357,3 +442,9 @@ The muon flux has been reconstructed for the place where the measurements of the
 \section{Modulation}
 \subsection{Muon Pulse Shape in the Outer Detector}
 \subsection{MMS Analysis}
+
+\section{Veto for WIMP Search}
+Muons pose a threat to the WIMP search in multiple ways. As muons pass through the 
+\subsection{Motivation}
+
+\subsection{Cut Description}
