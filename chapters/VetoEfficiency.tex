@@ -1,10 +1,10 @@
-\chapter{Veto Efficiency Studies}\label{chap:VetoEfficiency}
+\chapter{Veto efficiency studies}\label{chap:VetoEfficiency}
 A WIMP scatter should only deposit a small amount of energy (few~keV) within the LXe volume of the experiment without any simultaneous energy deposit in the surrounding materials. Neutrons produced through radioactive decays within detector materials would mimic a WIMP interaction when they scatter off Xe atoms. Active material surrounding the central LXe volume also permits assessment of the local radioactivity environment, and thus to infer additional information on the backgrounds in the WIMP search region. A persuasive WIMP discovery will require excellent understanding of all background sources, which is best done through the characterization of those sources in situ. Efficiency of the veto systems in the detection of the radiation produced by the backgrounds should be maximised whilst minimizing the impact of the veto selection on detector livetime in turn maximising the detector livetime available for the detection of WIMPs. This chapter will describe the series of improvements to the detector simulation which were made prior to the WS2024 science run which whilst aided the understanding of response from the veto detector systems. The refinement of the veto selection algorithm is discussed alongside the impact that the veto selection had on the WS2024 result.
 
 %A WIMP scatter would deposit a few keV in the central volume of the LXe TPC, with no simultaneous energy deposit in surrounding materials. Neutrons caused by radioactivity, which can fake WIMP interactions when they scatter elastically, are likely to interact again either within the TPC or nearby, and so it is broadly desirable to replace as much of the neighboring material as possible with additional radiation detectors. It also helps to minimize intervening material between the active LXe in the TPC and any such ancillary detectors, namely by decreasing the thickness of the field-cage and of the cryostat vessels. Active material surrounding the central LXe volume also permits assessment of the local radioactivity environment, and thus to infer additional information on the backgrounds in the WIMP search region. A persuasive WIMP discovery will require excellent understanding of all background sources, which is best done through the characterization of those sources in situ.
-\section{Simulation Matching}\label{sec:simulation_improvements}
-\subsection{Tuning OD}
-\subsubsection{Geometry Edits}\label{sec:GeometryEdits}
+\section{Simulation matching}\label{sec:Veto/simulation_improvements}
+\subsection{Tuning the OD simulations}
+\subsubsection{Geometry edits}\label{sec:Veto/GeometryEdits}
 Prior to WS2024 result, there were a number of major differences between simulations and data in the Outer Detector.
 As such, an effort was made to correct this.
 The changes made were;
@@ -24,7 +24,7 @@ The `best' configuration of the simulation geometry changes was found to be 30mm
 	\label{fig:od_geometry_for_sr3}
 \end{figure}
 
-\subsubsection{Neutron Capture Time}
+\subsubsection{Neutron capture time}
 Following the geometry changes discussed above, the neutron capture timing using AmLi was studied. Prior to the geometry changes, there was a distinct discrepancy between data and simulation when considering neutron capture timing following single scatters within the TPC. Initial skims of both data and simulation were made using ALPACA, selecting all events which were classified as single scatters by LZAP. OD pulse information was also skimmed considering 100~keV (24~phd), 200~keV (49~phd) and 1~MeV (251~phd) OD thresholds.
 The simulation was modified in two different ways, moving the SATs out radially and adding water to the foam. All possible configurations were visually examined to determine which variation of simulation matched the data. An example of the comparison plot can be seen in \autoref{fig:NC_AmLi_50mm7}, the "baseline simulation" was the initially configuration of the geometry prior to this study. All plots were examined side by side in a large scale canvas configuration seen in \autoref{fig:NC_Canvas}. It was found that from this study that 30~mm~to~50~mm movement of the SATs alongside 5\%~to~7\% increase in the percentage of water in the foam provides the best agreement between data and simulation at a 200~keV threshold.
 \begin{figure}
@@ -41,7 +41,7 @@ The simulation was modified in two different ways, moving the SATs out radially 
 \end{figure}
 
 
-\section{Veto Selection Optimisation}
+\section{Veto selection optimisation}
 In this section, details on how the Skin and OD cuts used in the WS2024 science run were created are defined. The Skin and OD veto cuts used in the WS2024 science run were based on those developed for the WS2022 science run, described in \cite{LZCollaboration:2024lux}.
 The veto selection boils down to four cuts;
 \begin{itemize}
@@ -63,7 +63,7 @@ On a skim of the AmLi calibrations which pass the WS2024 core-cuts described in 
 This then produces a heatmap of the coincidence threshold vs. pulse area threshold vs. efficiency of each cut, examples of these are shown in \autoref{fig:od_prompt_veto_heatmap}-\ref{fig:skin_delayed_veto_heatmap}.
 For the delayed cuts, the veto time window was also varied, and heatmaps of threshold vs. time window vs. efficiency were produced for a fixed coincidence. Heatmaps with dead time rather than efficiency were also produced. The dead time is discussed in greater detail in the next section.
 
-The windows for the prompt cuts were selected by looking at the DD and AmLi calibrations (the run numbers and the LZAP version are listed in \autoref{sec:efficiency}) and by measuring the time difference between the TPC single-scatter and OD and Skin pulses.
+The windows for the prompt cuts were selected by looking at the DD and AmLi calibrations (the run numbers and the LZAP version are listed in \autoref{sec:Veto/efficiency}) and by measuring the time difference between the TPC single-scatter and OD and Skin pulses.
 For Amli, this is shown in \autoref{fig:veto_prompt_windows}.
 
 Compiling the heat maps of efficiency and deadtime for a variety of veto windows, a choice of thresholds were chosen to maximise efficiency whilst minimising dead time.
@@ -150,7 +150,7 @@ The final cuts are shown in \autoref{fig:sr3_veto_cuts}.
 	\label{fig:sr3_veto_cuts}
 \end{figure}
 
-\subsection{Deadtime Stability}
+\subsection{Deadtime stability}
 The deadtime for each of the veto cuts was checked that it is stable over the WS2024 science run.
 This was done by breaking up the WS2024 file list, in this case, \textbf{SR3-WSv7-LZAP-5.8.0}, into month-by-month chunks.
 On each month, the rate of pulses in the Skin and OD from the second half of Random Trigger data was used; and the rate above threshold where the threshold is the veto cut is recorded. 
@@ -180,14 +180,14 @@ The PREM module shows the rate of OD pulses above $200~keV$ (as defined by the W
 	\label{fig:deadtime_stability_prem}
 \end{figure}
 
-\section{Neutron Veto Efficiency}\label{sec:efficiency}
+\section{Neutron veto efficiency}\label{sec:Veto/efficiency}
 In this section, the efficiency of tagging background neutrons using the Skin and OD detectors is calculated.
 This is performed by calculating the efficiency on AmLi and DD calibration data.
 This is then compared to AmLi and DD simulations.
 The difference between these simulations and data are then used to calculate an offset.
 The efficiency is then calculated for detector NR simulations and the offset applied (either a subtraction or a scaling, discussed later).
 This gives the neutron tagging efficiency for background neutrons.
-\subsection{Efficiency Calculation}
+\subsection{Efficiency calculation}
 The efficiency is defined as;
 \begin{equation}
 	\epsilon [\%] = \frac{\textrm{N. Events passing Analysis Cuts + Veto Cuts}}{\textrm{N. Events passing Analysis Cuts}} \times 100
@@ -195,7 +195,7 @@ The efficiency is defined as;
 \end{equation}
 and the inefficiency is defined as $100 - \epsilon$.
 
-\subsection{Neutrons From Calibration Sources \label{sec:AmLi_Efficiency}}
+\subsection{Neutrons from calibration sources \label{sec:Veto/AmLi_Efficiency}}
 \subsubsection{AmLi}
 The AmLi calibration runs are from the May 2023 calibration period before the WS2024 science run, with run control operation name \textbf{Amli-B}.
 The runs used were; \lstinline{13004-13026}.
@@ -238,7 +238,7 @@ In addition to the cuts listed in \autoref{tab:amli_efficiency_cuts}, two other 
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.5\textwidth]{figures/VetoEfficiency/CircularCSDCut.pdf}
+	\includegraphics[width=0.8\textwidth]{figures/VetoEfficiency/CircularCSDCut.pdf}
 	\caption{X-Y distribution of events in the TPC for AmLi sources positioned at 700mm. Each of the circular cuts are overlaid onto the plot.}
 	\label{fig:CSDSelection}
 \end{figure}
@@ -272,7 +272,7 @@ In addition to the cuts listed in \autoref{tab:amli_efficiency_cuts}, two other 
 	\label{tab:amli_efficiency_cuts}
 \end{table}
 
-\subsubsection{AmLi Accidental Correction}\label{sec:AmLiAccCorrection}
+\subsubsection{AmLi accidental correction}\label{sec:Veto/AmLiAccCorrection}
 When determining the veto tagging efficiency a correction must be applied to the measured efficiency to account for the accidental coincidences from AmLi gammas (and neutrons) with single scatter nuclear recoils in the TPC which can artificially enhance the measured tagging efficiency.
 First, veto inefficiency must be defined. Every time a single scatter nuclear recoil is observed in the TPC, a veto window is opened, this can be recorded using a counter, $N$ every time this happens.
 If there is no pulse observed in the Skin or the OD that satisfies the veto requirements, this event is not vetoed and recorded using a counter, $M$. Resulting in a total inefficiency, $M/N$, and a total efficiency, $1-M/N$.
@@ -314,11 +314,11 @@ The impact of the accidental correction when applied to the efficiency can be se
 \end{figure}
 
 
-\subsubsection{DD Direct}
+\subsubsection{DD direct}
 The DD calibration runs are from the October-2023 calibration period during the WS2024 science run, with run control operation name \textbf{DD Plasma}.
 The runs used are; \lstinline{14631-14654}.
 All files were processed with \lstinline{LZap-5.8.0}.
-The analysis for DD follows a logic similar to the AmLi described in \autoref{sec:AmLi_Efficiency}.
+The analysis for DD follows a logic similar to the AmLi described in \autoref{sec:Veto/AmLi_Efficiency}.
 The cuts used for DD are listed in \autoref{tab:dd_efficiency_cuts}.
 In addition to these cuts, an NR band cut was also applied.
 It is important to note that this NR band is different to the one used for AmLi. The three different NR bands for the three calibration sources can be seen in \autoref{fig:SR3NRBands}.
@@ -346,8 +346,8 @@ The Woods Function Fit Parameters for the 90% CL Line are:  [-32.02840007751605,
 	}
 	\label{tab:dd_efficiency_cuts}
 \end{table}
-\subsubsection{DD Accidental Correction}
-The DD calibration data was also corrected for accidentals. The same method was used which was previously discussed in \autoref{sec:AmLiAccCorrection}. The correction factors used as a function of veto window can be seen in \autoref{fig:figures/VetoEfficiency/DDAccCorrectionParameters}.
+\subsubsection{DD accidental correction}
+The DD calibration data was also corrected for accidentals. The same method was used which was previously discussed in \autoref{sec:Veto/AmLiAccCorrection}. The correction factors used as a function of veto window can be seen in \autoref{fig:figures/VetoEfficiency/DDAccCorrectionParameters}.
 The impact of the accidental corrections on the DD veto efficiency can be seen in \autoref{fig:DDAccCorrectionImpact_P0}.
 
 \begin{figure}
@@ -371,7 +371,7 @@ The impact of the accidental corrections on the DD veto efficiency can be seen i
 	\label{fig:figures/VetoEfficiency/DDAccCorrectionParameters}
 \end{figure}
 
-\subsection{Simulated Neutrons From Calibration Source}
+\subsection{Simulated neutrons from calibration sources}
 AmLi and DD were simulated using \lstinline{BACCARAT-6.3.5} and \lstinline{LZLAMA-3.5.3} versions.
 On each set of simulation, the cuts listed in \autoref{tab:calibration_simulation_efficiency_cuts} were used.
 \begin{table}
@@ -389,7 +389,7 @@ On each set of simulation, the cuts listed in \autoref{tab:calibration_simulatio
 \end{table}
 No accidental correction was applied to the simulation data as there are no accidental gammas or neutrons present in the simulation.
 How these compare to the data measurements are shown in \autoref{fig:AmLiIneffPlots}-\ref{fig:DDIneffPlots}.
-%More detailed plots on how the calibration simulations compare to calibration data is in \autoref{sec:simulation_improvements}.
+%More detailed plots on how the calibration simulations compare to calibration data is in \autoref{sec:Veto/simulation_improvements}.
 %TODO: Should I make the comparison between data and sim with respect to what Alberto did
 \begin{figure}
 	\centering
@@ -411,7 +411,7 @@ How these compare to the data measurements are shown in \autoref{fig:AmLiIneffPl
 	\label{fig:DDIneffPlots}
 \end{figure}
 
-\subsection{Background Neutrons}
+\subsection{Background neutrons}
 The detector-NR simulations were simulated as part of the official production of SR3-BG. Each of the 644 components were simulated using BACCARAT-6.3.5 and LZLAMA-3.5.3 versions.
 On these events, the cuts listed in \autoref{tab:detector_nr_simulation_efficiency_cuts} were applied.
 The efficiency of tagging neutrons from USF and ($\alpha$,n) events are shown in \autoref{fig:detector_nr_efficiency}.
@@ -438,7 +438,7 @@ Also shown is the total efficiency.
 \end{figure}
 
 \clearpage
-\subsection{Background Neutron Efficiency From Data}
+\subsection{Background neutron efficiency from data}
 Shown in \autoref{fig:efficiency_summary} is the neutron veto efficiency from each calibration source from data and simulation.
 Also shown is the efficiency from simulated background neutrons.
 The Z-position of each point is calculated from the \lstinline{mean(driftTime)} of events which pass the selection.
@@ -541,5 +541,5 @@ In this case, the uncertainty is 2.8\%, made up from a statistical error from th
 	}
 	\label{fig:efficiency_summary}
 \end{figure}
-\section{Veto Efficiency and the WIMP search}
+\section{Veto efficiency and the WIMP search}
 %TODO Need to talk abiout how the neutron efficiency is used in the WS result
