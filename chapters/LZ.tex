@@ -22,7 +22,7 @@ The LZ TPC holds 7~t (5.6~t fiducial) of LXe above its cathode, there is an addi
      \label{fig:CAD_TPC}
 \end{figure}
 
-\subsection{Particle-Xenon interactions within a TPC}
+\subsection{Particle-Xenon interactions within a TPC}\label{sec:LZ/XeInteractionsTPC}
 As a particle traverses the LXe volume it can interact with either the atomic nucleus, producing a nuclear recoil (NR), or with the surrounding electron cloud, producing an electronic recoil (ER). Both processes result in the pair of signals discussed in \autoref{sec:LZ/LXeTPC}. The S1 signal is produced via the following mechanism. The excited Xe atom, $Xe^{*}$, combines with a nearby ground state $Xe$ atom to form an excimer state, $Xe_{2}^{*\nu}$, which is both an electronically and vibrationally excited molecule. Through collisions with other Xe atoms, energy in the vibrational modes of the excimer is lost. The excited pair de-excite further as the electronic excitation energy is released as a pair of vacuum-ultraviolet (VUV), at a mean wavelength of 178~nm \cite{Schumann:2014uva}.
 The $Xe$ atom also undergoes ionisation due to the displacement of the nucleus during the collision releasing electrons. A positively charged $Xe^{+}$ ion combines with a neutral Xe atom to form a positively charged dimer $Xe^{+}_{2}$. Most of the electrons that are emitted in the ionisation are drifted away from the collision site by the applied electric field. However some of the ionised electrons produced in the cascade recombine with the molecule prior to it splitting to form a highly excited $Xe$ atom. A final series of relaxation occurs in a similar manner to the excitation luminescence excimer. A schematic which describes the process of producing the S1 and S2 signal can be seen in \autoref{fig:XenonSigalProduction}.
 \begin{figure}
@@ -216,7 +216,7 @@ Signals first pass through shaping amplifiers which increases signal-noise ratio
     \caption{A simplified schematic depicting how PMT signals are processed using the LZ DAQ system. Adapted from Ref.\cite{LZ:2024bvw}.}
     \label{fig:LZDAQ}
 \end{figure}
-\section{Simulation techniques}
+\section{Simulation techniques}\label{sec:LZ/Simulations}
 Simulations of the LZ experiment play a key role understanding the detector and its response. They present several purposes, for example: the calculation of background rates in LZ; the prediction of of sensitivity of the experiment to rare event searches through Profile Likelihood Ratio analysis (PLR); the testing of event reconstruction infrastructure; determining efficiencies of data selection methods. An overview of the LZ simulation framework is shown in \autoref{fig:LZSimFramework}.
 \begin{figure}[h!]
     \centering
