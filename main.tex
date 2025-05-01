@@ -22,7 +22,8 @@
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
 \usepackage{ascii}
- \usepackage{longtable}
+\usepackage{longtable}
+\usepackage{lscape}
 %\usepackage[colorinlistoftodos]{todonotes}
 \usepackage{listings}
 \usepackage{pdflscape} %need for rotating PDFs
@@ -119,7 +120,7 @@
 % - Capitalize the second part of a hyphenated compound: "Research-Based Teaching and Learning".
 \vspace*{\dimexpr-\topmargin-\headheight-6.4mm\relax}
 \bfseries\fontsize{14pt}{17pt}\selectfont % bold font, 14pt
-Dark Matter Searches and Measurement of the Cosmic Muon Flux with the LUX-ZEPLIN (LZ) experiment
+Dark Matter Searches and the Measurement of the Cosmic Muon Flux with the LUX-ZEPLIN experiment
 %A search for something that doesn't exist\\
 %but we'll look anyway for job security%
 
@@ -232,49 +233,63 @@ Z\"urich, 2025%
 \end{center}
 \end{titlepage}
 \restoregeometry
-
-%: ----------------------- Cover page back side ------------------------
-\newpage
-\thispagestyle{empty}
-\newpage
- 
-\chapter*{Abstract}
-Abstract goes here
-
-\chapter*{Dedication}
-\centering
-Always for you.
-
-KJCB
-
+\pagenumbering{roman}
+\newpage\null\thispagestyle{empty}\newpage
+\clearpage
+\vspace*{\fill}
+\begin{center}
+\begin{minipage}{.6\textwidth}
+\textit{Always for you, KJCB}.
+\end{minipage}
+\end{center}
+\vfill % equivalent to \vspace{\fill}
+\clearpage
+\newpage\null\thispagestyle{empty}\newpage
 \justifying
 
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+Abstract goes here
+
+
+\newpage\null\thispagestyle{empty}\newpage
+
 \chapter*{Declaration}
-I declare that..
+\addcontentsline{toc}{chapter}{Declaration of Authorship}
+\vskip 1in
+I, Harvey John Birch declare that this thesis titled ‘\textbf{Dark Matter Searches and Measurement of the Cosmic Muon Flux with the LUX-ZEPLIN (LZ) experiment}’ and the work presented in it are my own. I confirm that:
+\bigbreak
+
+\begin{itemize}
+\item This work was done fully or mainly while in candidature for a Physics PhD degree at Universit\"at Z\"urich.
+\item Where any part of this thesis has previously been submitted for a degree or any other qualification at this university or any other institution, this has been clearly stated.
+\item Where I have consulted the published work of others, this is always clearly stated.
+\item Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+\item I have acknowledged all main sources of help.
+\end{itemize}
+\vskip 2in
+
+Signed:
+……………………………………………
+\bigskip
+
+Date:
+……………………………………………
+
+\newpage\null\thispagestyle{empty}\newpage
 
 \chapter*{Acknowledgements}
 I want to thank...
 
 \tableofcontents
-\pagenumbering{arabic}
-
-%\pagestyle{fancy}
-%\fancyhead{} % clear all header fields
-%\fancyhead[RO,LE]{\nouppercase\leftmark}
-%\fancyhead[LO,RE]{\thepage}
-
-%: ----------------------- list of figures/tables ------------------------
-
 \listoffigures	% print list of figures
+\addcontentsline{toc}{chapter}{List of Figures}
 \listoftables  % print list of tables
-
-%: --------------------------------------------------------------
-%:                  MAIN DOCUMENT SECTION
-% --------------------------------------------------------------
-
-% the main text starts here with the introduction, 1st chapter,...
-%: ----------------------- subdocuments ------------------------
+\addcontentsline{toc}{chapter}{List of Tables}
+\clearpage
+\pagenumbering{arabic}
 \include{./chapters/Introduction}
+\include{./chapters/DarkMatterOverview}
 \include{./chapters/LZ}
 \include{./chapters/ODCommissioning}
 \include{./chapters/VetoEfficiency}
