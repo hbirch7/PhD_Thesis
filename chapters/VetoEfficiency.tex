@@ -59,10 +59,10 @@ The cuts used for the vetoes were selected at the same time as AmLi neutron tagg
 
 On a skim of the AmLi calibrations which pass the WS2024 core-cuts described in \autoref{tab:VetoEff/amli_efficiency_cuts}, the efficiency (described in \autoref{sec:VetoEff/efficiency}) was calculated with the pulse area, and coincidence thresholds of the Skin and OD varying in integer steps.
 Heatmaps of the coincidence threshold vs. pulse area threshold vs. efficiency of each cut were produced, examples of these are shown in \autoref{fig:VetoEff/od_prompt_veto_heatmap} - \ref{fig:VetoEff/skin_delayed_veto_heatmap}.
-For the delayed cuts, the veto time window was also varied, and heatmaps of threshold vs. time window vs. efficiency were produced for a fixed coincidence. Heatmaps with dead time rather than efficiency were also produced. The dead time impact is discussed in greater detail \autoref{sec:VetoEff/DeadtimeStability}.
+For the delayed cuts, the veto time window was also varied, and heat maps of threshold vs. time window vs. efficiency were produced for a fixed coincidence. Heatmaps with dead time rather than efficiency were also produced. The dead time impact is discussed in greater detail \autoref{sec:VetoEff/DeadtimeStability}.
 
 The windows for the prompt cuts were selected through the analysis of the DD and AmLi calibrations (the run numbers and the LZAP version are listed in \autoref{sec:VetoEff/efficiency}) and by measuring the time difference between the TPC single-scatter and OD and Skin pulses.
-Both distributions for AmLi and DD are shown in \autoref{fig:VetoEff/veto_prompt_windows}.
+Both distributions for AmLi and DD are shown in \autoref{fig:VetoEff/veto_prompt_windows_OD} and \autoref{fig:VetoEff/veto_prompt_window_Skin} for the OD and Skin respectively.
 
 Compiling the heat maps of efficiency and deadtime for a variety of veto windows, a choice of thresholds were chosen to maximise efficiency whilst minimising dead time. An example plot used to determine this is shown in \autoref{fig:VetoEff/veto_cut_optimisation}.
 For the WS2024 science run, the approach of trying to maintain the efficiency of WS2022 veto of $\sim$~90\%, whilst reducing the livetime impact was taken.
@@ -73,22 +73,38 @@ The final cuts for the WS2024 science run are shown in \autoref{tab:VetoEff/sr3_
 	\centering
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{figures/VetoEfficiency/skin_prompt.png}
-		\caption{Time difference (in ns) between TPC single-scatter and Skin pulses.
-			To reduce the noise in the plot, a pulse requirement of greater than 2~phd and greater than 2~coincidence has been applied to the Skin pulses}
-		\label{fig:VetoEff/skin_prompt_window}
+		\includegraphics[width=\textwidth]{figures/VetoEfficiency/ODpromptWindowTiming_AmLi.pdf}
+		\caption{Time difference (in ns) between TPC single-scatter and OD pulses using AmLi data.}
+		\label{fig:VetoEff/od_prompt_window_AmLi}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[b]{0.48\textwidth}
 		\centering
-		\includegraphics[width=\textwidth]{figures/VetoEfficiency/od_prompt.png}
-		\caption{Time difference (in ns) between TPC single-scatter and OD pulses.
-			To reduce the noise in the plot, a pulse requirement of greater than 5~phd and greater than 22~coincidence has been applied to the OD pulses}
-		\label{fig:VetoEff/od_prompt_window}
+		\includegraphics[width=\textwidth]{figures/VetoEfficiency/ODpromptWindowTiming_DD.pdf}
+		\caption{Time difference (in ns) between TPC single-scatter and OD pulses using DD data.}
+		\label{fig:VetoEff/od_prompt_window_DD}
 	\end{subfigure}
-	\caption{Time difference between TPC single-scatter and Veto pulses.
-		This is used to determine the prompt veto windows.}
-	\label{fig:VetoEff/veto_prompt_windows}
+	\caption{Time difference between TPC single-scatter and Veto pulses. To reduce the noise in the plot, a pulse requirement of greater than 5~phd and greater than 5~coincidence was been applied to the OD pulses. The vertical lines indicate the boundary of the WS2024 timing selection.}
+	\label{fig:VetoEff/veto_prompt_windows_OD}
+\end{figure}
+
+\begin{figure}[!ht]
+	\centering
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/VetoEfficiency/SkinpromptWindowTiming_AmLi.pdf}
+		\caption{Time difference (in ns) between TPC single-scatter and OD pulses using AmLi data.}
+		\label{fig:VetoEff/skin_prompt_window_AmLi}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/VetoEfficiency/SkinpromptWindowTiming_DD.pdf}
+		\caption{Time difference (in ns) between TPC single-scatter and OD pulses using DD data.}
+		\label{fig:VetoEff/skin_prompt_window_DD}
+	\end{subfigure}
+	\caption{Time difference between TPC single-scatter and Veto pulses. To reduce the noise in the plot, a pulse requirement of greater than 2.5~phd and greater than 2~coincidence was been applied to the OD pulses. The vertical lines indicate the boundary of the WS2024 timing selection.}
+	\label{fig:VetoEff/veto_prompt_window_Skin}
 \end{figure}
 
 
@@ -151,6 +167,7 @@ The final cuts for the WS2024 science run are shown in \autoref{tab:VetoEff/sr3_
 
 \begin{table}[!ht]
     \centering
+    \caption{Cuts determined to be optimal for the WS2024 science run. The WS2022 cuts are also included, where any modifications made to the selections is highlighted accordingly. Coincidence corresponds to the number of PMTs which observe a pulse and pulse area is measured in `number of photons detected' [phd].}
     \scalebox{0.9}{
     \begin{tabular}{|c|c|c||c|c|c|}
     \hline
@@ -171,8 +188,6 @@ The final cuts for the WS2024 science run are shown in \autoref{tab:VetoEff/sr3_
     Pulse Area&\cellcolor[HTML]{cecece}$>46$&\cellcolor[HTML]{cecece}$>50$&Pulse Area&\cellcolor[HTML]{cecece}$>32.0$&\cellcolor[HTML]{cecece}$>37.5$\\
     \hline
     \end{tabular}}
-    \caption{Cuts determined to be optimal for the WS2024 science run.
-		The WS2022 cuts are also included, where any modifications made to the selections is highlighted accordingly. Coincidence corresponds to the number of PMTs which observe a pulse and pulse area is measured in `number of photons detected' [phd].}
     \label{tab:VetoEff/sr3_veto_cuts}
 \end{table}
 
@@ -193,7 +208,7 @@ where $\lambda$ is the background rate and $x$, the veto threshold.
 %\end{equation}
 
 The conclusion that the deadtime is stable over WS2024 was additional checked by looking at the \lstinline{ODHealth} PREM module, shown in \autoref{fig:VetoEff/deadtime_stability_prem}.
-The PREM module shows the rate of OD pulses above $200~keV$ (as defined by the WS2022-$200~keV$ not from the WS2024 energy calibration), with no significant fluctuation during WS2024.
+The PREM module shows the rate of OD pulses above $200~\text{keV}$ (as defined by the WS2022-$200~\text{keV}$ not from the WS2024 energy calibration), with no significant fluctuation during WS2024.
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.8\textwidth]{figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf}
@@ -286,25 +301,25 @@ The three different NR bands for the three calibration sources can be seen in \a
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.8\textwidth]{figures/VetoEfficiency/SR3NRBands.pdf}
-	\caption{The three different NR bands used for the NR-band cut for the respective sources, AmLi, DD and AmBe.}
+	\caption{The three different NR bands used for the NR-band cut for the respective sources, AmLi, DD. NEED TO REMOVE AmBe BAND HERE.}
 	\label{fig:VetoEff/SR3NRBands}
-\end{figure}[!ht]
-\begin{table}
+\end{figure}
+\begin{table}[!ht]
 	\centering
     \scalebox{0.9}{
+	\caption{ALPACA-Core WS2024 cuts used on AmLi calibration data for determining the efficiency.}
 	\begin{tabular}{|c|c|c|c|}
     \hline
-		\textbf{Livetime cuts}&\textbf{ Physics cuts}& \textbf{S1 cuts}& \textbf{S2 cuts}\\
-		\hline
-		Burst noise cut& Single scatter& S2 width vs drift time& S1 prominence cut\\
-		Muon holdoff& S1 and S2 threshold & Narrow S2& Stinger event cut\\
-		Sustained rate cut& Fiducial Volume& S2 rise time& S1 TBA vs drift time \\
-		High S1 rate exclusion & & S2 early peak& S1 HSC cut\\
-		Bad buffer cuts& & S2 XY quality& S1 shape\\
-		Excess Area cut& & S2 TBA & S1 photon timing\\
-        \hline
+    \textbf{Livetime cuts}&\textbf{ Physics cuts}& \textbf{S1 cuts}& \textbf{S2 cuts}\\
+    \hline
+    Burst noise cut& Single scatter& S2 width vs drift time& S1 prominence cut\\
+    Muon holdoff& S1 and S2 threshold & Narrow S2& Stinger event cut\\
+    Sustained rate cut& Fiducial Volume& S2 rise time& S1 TBA vs drift time \\
+    High S1 rate exclusion & & S2 early peak& S1 HSC cut\\
+    Bad buffer cuts& & S2 XY quality& S1 shape\\
+    Excess Area cut& & S2 TBA & S1 photon timing\\
+    \hline
 	\end{tabular}}
-	\caption{ALPACA-Core WS2024 cuts used on AmLi calibration data for determining the efficiency.}
 	\label{tab:VetoEff/amli_efficiency_cuts}
 \end{table}
 
@@ -375,6 +390,7 @@ The Woods Function Fit Parameters for the 90% CL Line are:
 \end{lstlisting}
 \begin{table}[!ht]
 	\centering
+	\caption{ALPACA-Core WS2024 cuts used on DD calibration data for determining the efficiency.}
 	\begin{tabular}{|c|c|c|}
     \hline
 	\textbf{Physics cuts}&\textbf{ S1 cuts}&\textbf{S2 cuts} \\
@@ -387,7 +403,6 @@ The Woods Function Fit Parameters for the 90% CL Line are:
 	& S2 TBA (above-anode gas) & S1 photon timing \\
     \hline
 	\end{tabular}
-	\caption{ALPACA-Core WS2024 cuts used on DD calibration data for determining the efficiency.}
 	\label{tab:VetoEff/dd_efficiency_cuts}
 \end{table}
 \subsubsection{DD accidental correction}
@@ -420,6 +435,7 @@ AmLi and DD were simulated using \lstinline{BACCARAT-6.3.5} and \lstinline{LZLAM
 On each set of simulation, the cuts listed in \autoref{tab:VetoEff/calibration_simulation_efficiency_cuts} were used.
 \begin{table}[!ht]
 	\centering
+	\caption{ALPACA-Core WS2024 cuts used on AmLi and DD simulations for determining the efficiency.}
 	\begin{tabular}{|c|}
     \hline
 		\textbf{Physics cuts}              \\
@@ -430,7 +446,6 @@ On each set of simulation, the cuts listed in \autoref{tab:VetoEff/calibration_s
 		CSD Selection (AmLi Only) \\
         \hline
 	\end{tabular}
-	\caption{ALPACA-Core WS2024 cuts used on AmLi and DD simulations for determining the efficiency.}
 	\label{tab:VetoEff/calibration_simulation_efficiency_cuts}
 \end{table}
 No accidental correction was applied to the simulation data as there are no accidental gammas or neutrons present in the simulation.
@@ -465,6 +480,7 @@ Also shown is the total efficiency.
 
 \begin{table}[!ht]
 	\centering
+	\caption{ALPACA-Core WS2024 cuts used on Detector-NR simulations for determining the efficiency. Each cut is from WS2024-cuts-v3.}
 	\begin{tabular}{|c|}
     \hline
 		\textbf{Physics cuts}        \\
@@ -474,7 +490,6 @@ Also shown is the total efficiency.
 		Fiducial Volume\\
         \hline
 	\end{tabular}
-	\caption{ALPACA-Core WS2024 cuts used on Detector-NR simulations for determining the efficiency. Each cut is from WS2024-cuts-v3.}
 	\label{tab:VetoEff/detector_nr_simulation_efficiency_cuts}
 \end{table}
 
@@ -552,6 +567,7 @@ In this case, the uncertainty is 2.8\%, made up from a statistical error from th
 
 \begin{table}[!ht]
 	\centering
+	\caption{Summary of veto efficiencies. The Detector-NR Data value assumes that option 2 is used.}
 	\begin{tabular}{|c|c|c|}
     \hline
 		\textbf{Source}& \textbf{Simulation}& \textbf{Data}\\ 
@@ -561,12 +577,11 @@ In this case, the uncertainty is 2.8\%, made up from a statistical error from th
 		Detector-NR    & 96.4$\pm$1.0\% & 92.2$\pm$4.3\\
         \hline
 	\end{tabular}
-	\caption{Summary of veto efficiencies.
-		The Detector-NR Data value assumes that option 2 is used.}
 	\label{tab:VetoEff/final_veto_efficiency}
 \end{table}
 
 \begin{table}[!ht]
+	\caption{Summary of veto efficiencies and inefficiencies as determined from each approach discussed in \autoref{sec:VetoEff/BkgNeutronEff}.}
 	\centering
 	\begin{tabular}{|c|c|c|}
 		\hline
@@ -577,7 +592,6 @@ In this case, the uncertainty is 2.8\%, made up from a statistical error from th
 		No. 3  & 94.5$\pm$2.8 & 5.5$\pm$2.8 \\
         \hline
 	\end{tabular}
-	\caption{Summary of veto efficiencies and inefficiencies as determined from each approach discussed in \autoref{sec:VetoEff/BkgNeutronEff}.}
 	\label{tab:VetoEff/efficiency_options}
 \end{table}
 
@@ -594,4 +608,4 @@ In this case, the uncertainty is 2.8\%, made up from a statistical error from th
 \end{figure}
 
 \section{Veto efficiency and the WIMP search}\label{sec:VetoEff4WIMPSearch}
-\textcolor{red}{ToDo Need to talk about how the neutron efficiency is used in the WS result}
+\textcolor{red}{ToDo Need to talk about how the neutron efficiency is used in the WS result?}
