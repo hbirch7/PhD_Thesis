@@ -1,0 +1,22 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Chemical components in 1L of GdLS, adapted from Ref.~\blx@tocontentsinit {0}\cite {Haselschwardt:2018vmp}.}}{9}{table.caption.17}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces A list of calibration source used by LZ for TPC, Skin and OD calibrations along with the purpose and method of deployment. The energy (keV) refers to particle energies relevant for the calibration of LZ and is not a complete list of decay energies. The energies quoted in the parentheses correspond to those of the particle species from the previous column. Adapted from Ref.~\blx@tocontentsinit {0}\cite {LZ:2024bsz,lkorley:thesis}.}}{15}{table.caption.27}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Cuts determined to be optimal for the WS2024 science run. The WS2022 cuts are also included, where any modifications made to the selections is highlighted accordingly. Coincidence corresponds to the number of PMTs which observe a pulse and pulse area is measured in `number of photons detected' [phd].}}{37}{table.caption.60}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces ALPACA-Core WS2024 cuts used on DD calibration data for determining the efficiency.}}{40}{table.caption.76}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces ALPACA-Core WS2024 cuts used on AmLi and DD simulations for determining the efficiency.}}{40}{table.caption.82}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces ALPACA-Core WS2024 cuts used on Detector-NR simulations for determining the efficiency. Each cut is from WS2024-cuts-v3.}}{41}{table.caption.85}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces Summary of veto efficiencies. The Detector-NR Data value assumes that option 2 is used.}}{56}{table.caption.93}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces Summary of veto efficiencies and inefficiencies as determined from each approach discussed in \autoref {sec:VetoEff/BkgNeutronEff}.}}{56}{table.caption.94}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Summary of the total muon flux measured at different underground sites and the equivalent vertical depth relative to a flat overburden ($^\dagger $ Equivalent vertical depth with flat overburden) Adapted from Ref.~\blx@tocontentsinit {0}\cite {mei}.}}{64}{table.caption.101}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Summary if relevant durations for the WIMP search runs. For this analysis, DAQ live time was used in the rate calculation work.}}{67}{table.caption.103}%
+\contentsline {table}{\numberline {6.3}{\ignorespaces Muon rates from simulations and WS2022 data. The data has the OD cuts and timing selections applied. The simulations have a 3-fold detector coincidence criteria and the 8~MeV OD energy cut applied. The TPC energy thresholds represent the total energy deposited by a muon event in the TPC.}}{75}{table.caption.121}%
+\contentsline {table}{\numberline {6.4}{\ignorespaces Muon rates from simulations and WS2024 data. The data has the OD cuts and timing selections applied. The simulations have a 3-fold detector coincidence criteria and the 8~MeV OD energy cut applied. The TPC energy thresholds represent the total energy deposited by a muon event in the TPC.}}{75}{table.caption.122}%
+\contentsline {table}{\numberline {6.5}{\ignorespaces Muon rates from simulations, WS2022 and WS2024 combined dataset. The data has the OD cuts and timing selections applied. The simulations have a 3-fold detector coincidence criteria and the 8~MeV OD energy cut applied. The TPC energy thresholds represent the total energy deposited by a muon event in the TPC.}}{76}{table.caption.123}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

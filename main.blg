@@ -1,15 +1,22 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[74] biber:340> INFO - === Fri Apr 11, 2025, 22:38:42
+[74] biber:340> INFO - === Fri Jun  6, 2025, 22:35:10
 [89] Biber.pm:419> INFO - Reading 'main.bcf'
-[157] Biber.pm:979> INFO - Found 45 citekeys in bib section 0
-[169] Biber.pm:4419> INFO - Processing section 0
-[180] Biber.pm:4610> INFO - Looking for bibtex file './bibliography/biblio.bib' for section 0
-[185] bibtex.pm:1713> INFO - LaTeX decoding ...
-[304] bibtex.pm:1519> INFO - Found BibTeX data source './bibliography/biblio.bib'
-[601] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[602] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[602] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[602] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[627] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[642] bbl.pm:763> INFO - Output to main.bbl
+[162] Biber.pm:979> INFO - Found 60 citekeys in bib section 0
+[174] Biber.pm:4419> INFO - Processing section 0
+[185] Biber.pm:4610> INFO - Looking for bibtex file './bibliography/biblio.bib' for section 0
+[190] bibtex.pm:1713> INFO - LaTeX decoding ...
+[323] bibtex.pm:1519> INFO - Found BibTeX data source './bibliography/biblio.bib'
+[691] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[691] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[691] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[691] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[724] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[744] bbl.pm:763> INFO - Output to main.bbl
+[744] Biber.pm:131> WARN - Duplicate entry key: 'HistoryofDM' in file './bibliography/biblio.bib', skipping ...
+[744] Biber.pm:131> WARN - Duplicate entry key: 'Kelvin1904' in file './bibliography/biblio.bib', skipping ...
+[744] Biber.pm:131> WARN - Duplicate entry key: 'HPon' in file './bibliography/biblio.bib', skipping ...
+[744] Biber.pm:131> WARN - Duplicate entry key: 'Kapteyn1922' in file './bibliography/biblio.bib', skipping ...
+[744] Biber.pm:131> WARN - legacy month field 'Oct' in entry 'HistoryofDM' is not an integer - this will probably not sort properly.
+[744] Biber.pm:131> WARN - legacy month field 'May' in entry 'Kapteyn1922' is not an integer - this will probably not sort properly.
+[744] Biber.pm:133> INFO - WARNINGS: 6

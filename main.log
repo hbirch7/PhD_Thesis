@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.13)  11 APR 2025 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.13)  6 JUN 2025 22:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -617,24 +617,31 @@ Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
 \c@LT@chunks=\count315
 \LT@p@ftn=\toks39
 )
-Class scrreprt Info: longtable captions redefined on input line 27.
- (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count316
+Class scrreprt Info: longtable captions redefined on input line 26.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks40
+\minrowclearance=\skip89
+\rownum=\count316
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count317
 \lst@gtempboxa=\box73
-\lst@token=\toks40
-\lst@length=\count317
+\lst@token=\toks41
+\lst@length=\count318
 \lst@currlwidth=\dimen273
-\lst@column=\count318
-\lst@pos=\count319
+\lst@column=\count319
+\lst@pos=\count320
 \lst@lostspace=\dimen274
 \lst@width=\dimen275
-\lst@newlines=\count320
-\lst@lineno=\count321
+\lst@newlines=\count321
+\lst@lineno=\count322
 \lst@maxwidth=\dimen276
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count322
-\lst@skipnumbers=\count323
+\c@lstnumber=\count323
+\lst@skipnumbers=\count324
 \lst@framebox=\box74
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
@@ -644,20 +651,17 @@ Package: listings 2023/02/27 1.9 (Carsten Heinz)
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
  (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count324
-\rotFPtop=\skip89
-\rotFPbot=\skip90
+\c@r@tfl@t=\count325
+\rotFPtop=\skip90
+\rotFPbot=\skip91
 \rot@float@box=\box75
-\rot@mess@toks=\toks41
+\rot@mess@toks=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
 Package: svg 2020/11/26 v2.02k (include SVG pictures)
  (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
@@ -666,9 +670,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-\c@svg@param@lastpage=\count325
+\c@svg@param@lastpage=\count326
 \svg@box=\box76
-\c@svg@param@currpage=\count326
+\c@svg@param@currpage=\count327
 ) (/usr/share/texlive/texmf-dist/tex/latex/transparent/transparent.sty
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
  (/usr/share/texlive/texmf-dist/tex/latex/transparent/transparent-nometadata.sty
@@ -677,67 +681,67 @@ Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color 
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count327
+\lrq@indent=\count328
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count328
-\c@listtotal=\count329
-\c@listcount=\count330
-\c@liststart=\count331
-\c@liststop=\count332
-\c@citecount=\count333
-\c@citetotal=\count334
-\c@multicitecount=\count335
-\c@multicitetotal=\count336
-\c@instcount=\count337
-\c@maxnames=\count338
-\c@minnames=\count339
-\c@maxitems=\count340
-\c@minitems=\count341
-\c@citecounter=\count342
-\c@maxcitecounter=\count343
-\c@savedcitecounter=\count344
-\c@uniquelist=\count345
-\c@uniquename=\count346
-\c@refsection=\count347
-\c@refsegment=\count348
-\c@maxextratitle=\count349
-\c@maxextratitleyear=\count350
-\c@maxextraname=\count351
-\c@maxextradate=\count352
-\c@maxextraalpha=\count353
-\c@abbrvpenalty=\count354
-\c@highnamepenalty=\count355
-\c@lownamepenalty=\count356
-\c@maxparens=\count357
-\c@parenlevel=\count358
-\blx@tempcnta=\count359
-\blx@tempcntb=\count360
-\blx@tempcntc=\count361
-\c@blx@maxsection=\count362
-\blx@maxsegment@0=\count363
-\blx@notetype=\count364
-\blx@parenlevel@text=\count365
-\blx@parenlevel@foot=\count366
-\blx@sectionciteorder@0=\count367
-\blx@sectionciteorderinternal@0=\count368
-\blx@entrysetcounter=\count369
-\blx@biblioinstance=\count370
-\labelnumberwidth=\skip91
-\labelalphawidth=\skip92
-\biblabelsep=\skip93
-\bibitemsep=\skip94
-\bibnamesep=\skip95
-\bibinitsep=\skip96
-\bibparsep=\skip97
-\bibhang=\skip98
+\c@tabx@nest=\count329
+\c@listtotal=\count330
+\c@listcount=\count331
+\c@liststart=\count332
+\c@liststop=\count333
+\c@citecount=\count334
+\c@citetotal=\count335
+\c@multicitecount=\count336
+\c@multicitetotal=\count337
+\c@instcount=\count338
+\c@maxnames=\count339
+\c@minnames=\count340
+\c@maxitems=\count341
+\c@minitems=\count342
+\c@citecounter=\count343
+\c@maxcitecounter=\count344
+\c@savedcitecounter=\count345
+\c@uniquelist=\count346
+\c@uniquename=\count347
+\c@refsection=\count348
+\c@refsegment=\count349
+\c@maxextratitle=\count350
+\c@maxextratitleyear=\count351
+\c@maxextraname=\count352
+\c@maxextradate=\count353
+\c@maxextraalpha=\count354
+\c@abbrvpenalty=\count355
+\c@highnamepenalty=\count356
+\c@lownamepenalty=\count357
+\c@maxparens=\count358
+\c@parenlevel=\count359
+\blx@tempcnta=\count360
+\blx@tempcntb=\count361
+\blx@tempcntc=\count362
+\c@blx@maxsection=\count363
+\blx@maxsegment@0=\count364
+\blx@notetype=\count365
+\blx@parenlevel@text=\count366
+\blx@parenlevel@foot=\count367
+\blx@sectionciteorder@0=\count368
+\blx@sectionciteorderinternal@0=\count369
+\blx@entrysetcounter=\count370
+\blx@biblioinstance=\count371
+\labelnumberwidth=\skip92
+\labelalphawidth=\skip93
+\biblabelsep=\skip94
+\bibitemsep=\skip95
+\bibnamesep=\skip96
+\bibinitsep=\skip97
+\bibparsep=\skip98
+\bibhang=\skip99
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language89
-\c@mincomprange=\count371
-\c@maxcomprange=\count372
-\c@mincompwidth=\count373
+\c@mincomprange=\count372
+\c@maxcomprange=\count373
+\c@mincompwidth=\count374
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -745,88 +749,88 @@ File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count374
-\c@savedafterword=\count375
-\c@annotator=\count376
-\c@savedannotator=\count377
-\c@author=\count378
-\c@savedauthor=\count379
-\c@bookauthor=\count380
-\c@savedbookauthor=\count381
-\c@commentator=\count382
-\c@savedcommentator=\count383
-\c@editor=\count384
-\c@savededitor=\count385
-\c@editora=\count386
-\c@savededitora=\count387
-\c@editorb=\count388
-\c@savededitorb=\count389
-\c@editorc=\count390
-\c@savededitorc=\count391
-\c@foreword=\count392
-\c@savedforeword=\count393
-\c@holder=\count394
-\c@savedholder=\count395
-\c@introduction=\count396
-\c@savedintroduction=\count397
-\c@namea=\count398
-\c@savednamea=\count399
-\c@nameb=\count400
-\c@savednameb=\count401
-\c@namec=\count402
-\c@savednamec=\count403
-\c@translator=\count404
-\c@savedtranslator=\count405
-\c@shortauthor=\count406
-\c@savedshortauthor=\count407
-\c@shorteditor=\count408
-\c@savedshorteditor=\count409
-\c@labelname=\count410
-\c@savedlabelname=\count411
-\c@institution=\count412
-\c@savedinstitution=\count413
-\c@lista=\count414
-\c@savedlista=\count415
-\c@listb=\count416
-\c@savedlistb=\count417
-\c@listc=\count418
-\c@savedlistc=\count419
-\c@listd=\count420
-\c@savedlistd=\count421
-\c@liste=\count422
-\c@savedliste=\count423
-\c@listf=\count424
-\c@savedlistf=\count425
-\c@location=\count426
-\c@savedlocation=\count427
-\c@organization=\count428
-\c@savedorganization=\count429
-\c@origlocation=\count430
-\c@savedoriglocation=\count431
-\c@origpublisher=\count432
-\c@savedorigpublisher=\count433
-\c@publisher=\count434
-\c@savedpublisher=\count435
-\c@language=\count436
-\c@savedlanguage=\count437
-\c@origlanguage=\count438
-\c@savedoriglanguage=\count439
-\c@pageref=\count440
-\c@savedpageref=\count441
-\shorthandwidth=\skip99
-\shortjournalwidth=\skip100
-\shortserieswidth=\skip101
-\shorttitlewidth=\skip102
-\shortauthorwidth=\skip103
-\shorteditorwidth=\skip104
-\locallabelnumberwidth=\skip105
-\locallabelalphawidth=\skip106
-\localshorthandwidth=\skip107
-\localshortjournalwidth=\skip108
-\localshortserieswidth=\skip109
-\localshorttitlewidth=\skip110
-\localshortauthorwidth=\skip111
-\localshorteditorwidth=\skip112
+\c@afterword=\count375
+\c@savedafterword=\count376
+\c@annotator=\count377
+\c@savedannotator=\count378
+\c@author=\count379
+\c@savedauthor=\count380
+\c@bookauthor=\count381
+\c@savedbookauthor=\count382
+\c@commentator=\count383
+\c@savedcommentator=\count384
+\c@editor=\count385
+\c@savededitor=\count386
+\c@editora=\count387
+\c@savededitora=\count388
+\c@editorb=\count389
+\c@savededitorb=\count390
+\c@editorc=\count391
+\c@savededitorc=\count392
+\c@foreword=\count393
+\c@savedforeword=\count394
+\c@holder=\count395
+\c@savedholder=\count396
+\c@introduction=\count397
+\c@savedintroduction=\count398
+\c@namea=\count399
+\c@savednamea=\count400
+\c@nameb=\count401
+\c@savednameb=\count402
+\c@namec=\count403
+\c@savednamec=\count404
+\c@translator=\count405
+\c@savedtranslator=\count406
+\c@shortauthor=\count407
+\c@savedshortauthor=\count408
+\c@shorteditor=\count409
+\c@savedshorteditor=\count410
+\c@labelname=\count411
+\c@savedlabelname=\count412
+\c@institution=\count413
+\c@savedinstitution=\count414
+\c@lista=\count415
+\c@savedlista=\count416
+\c@listb=\count417
+\c@savedlistb=\count418
+\c@listc=\count419
+\c@savedlistc=\count420
+\c@listd=\count421
+\c@savedlistd=\count422
+\c@liste=\count423
+\c@savedliste=\count424
+\c@listf=\count425
+\c@savedlistf=\count426
+\c@location=\count427
+\c@savedlocation=\count428
+\c@organization=\count429
+\c@savedorganization=\count430
+\c@origlocation=\count431
+\c@savedoriglocation=\count432
+\c@origpublisher=\count433
+\c@savedorigpublisher=\count434
+\c@publisher=\count435
+\c@savedpublisher=\count436
+\c@language=\count437
+\c@savedlanguage=\count438
+\c@origlanguage=\count439
+\c@savedoriglanguage=\count440
+\c@pageref=\count441
+\c@savedpageref=\count442
+\shorthandwidth=\skip100
+\shortjournalwidth=\skip101
+\shortserieswidth=\skip102
+\shorttitlewidth=\skip103
+\shortauthorwidth=\skip104
+\shorteditorwidth=\skip105
+\locallabelnumberwidth=\skip106
+\locallabelalphawidth=\skip107
+\localshorthandwidth=\skip108
+\localshortjournalwidth=\skip109
+\localshortserieswidth=\skip110
+\localshorttitlewidth=\skip111
+\localshortauthorwidth=\skip112
+\localshorteditorwidth=\skip113
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -836,19 +840,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count442
-\c@textcitetotal=\count443
-\c@textcitemaxnames=\count444
-\c@biburlbigbreakpenalty=\count445
-\c@biburlbreakpenalty=\count446
-\c@biburlnumpenalty=\count447
-\c@biburlucpenalty=\count448
-\c@biburllcpenalty=\count449
+\c@textcitecount=\count443
+\c@textcitetotal=\count444
+\c@textcitemaxnames=\count445
+\c@biburlbigbreakpenalty=\count446
+\c@biburlbreakpenalty=\count447
+\c@biburlnumpenalty=\count448
+\c@biburlucpenalty=\count449
+\c@biburllcpenalty=\count450
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count450
+\c@smartand=\count451
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -858,8 +862,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count451
-\c@bbx:relatedtotal=\count452
+\c@bbx:relatedcount=\count452
+\c@bbx:relatedtotal=\count453
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -888,7 +892,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2024-01-22 L3 programming layer (loader) 
  (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count453
+\l__color_backend_stack_int=\count454
 \l__pdf_internal_box=\box77
 ))
 Package biblatex Info: ... and expl3
@@ -901,9 +905,9 @@ Package: xparse 2023-10-10 L3 Experimental document command parser
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip113
-\multirow@cntb=\count454
-\multirow@dima=\skip114
+\multirow@colwidth=\skip114
+\multirow@cntb=\count455
+\multirow@dima=\skip115
 \bigstrutjot=\dimen277
 ) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write5
@@ -911,10 +915,10 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 Package: relsize 2013/03/29 ver 4.1
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count455
-\float@exts=\toks42
+\c@float@type=\count456
+\float@exts=\toks43
 \float@box=\box78
-\@float@everytoks=\toks43
+\@float@everytoks=\toks44
 \@floatcapt=\box79
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -934,8 +938,8 @@ Package caption Info: KOMA-Script document class detected.
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption-koma.sto
 File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the KOMA-Script document classes (AR)
 ))
-\c@caption@flags=\count456
-\c@continuedfloat=\count457
+\c@caption@flags=\count457
+\c@continuedfloat=\count458
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -950,57 +954,64 @@ Package caption Info: KOMA-Script scrextend package detected.
 ) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count458
+\c@subfigure=\count459
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count459
+\c@subtable=\count460
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/aurical/aurical.sty
+Package: aurical 2006/10/12 aurical - a set of three decorative fonts with accents
 )
-\@quotelevel=\count460
-\@quotereset=\count461
- (./main.aux (./chapters/Introduction.aux) (./chapters/LZ.aux) (./chapters/ODCommissioning.aux) (./chapters/VetoEfficiency.aux) (./chapters/Muons.aux) (./chapters/Conclusion.aux))
+Package scrkbase Info: You've told me to redefine the font selection of the
+(scrkbase)             element `sectioning' that is an alias of element
+(scrkbase)             `disposition' on input line 93.
+\@quotelevel=\count461
+\@quotereset=\count462
+ (./main.aux (./chapters/Introduction.aux) (./chapters/DarkMatterOverview.aux) (./chapters/LZ.aux) (./chapters/ODCommissioning.aux) (./chapters/VetoEfficiency.aux) (./chapters/Muons.aux) (./chapters/Conclusion.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-Package scrbase Info: activating english \abstractname on input line 92.
-Package scrbase Info: activating english \partname on input line 92.
-Package scrbase Info: activating english \chaptername on input line 92.
-Package scrbase Info: activating english \appendixname on input line 92.
-Package scrbase Info: activating english \figurename on input line 92.
-Package scrbase Info: activating english \tablename on input line 92.
-Package scrbase Info: activating english \contentsname on input line 92.
-Package scrbase Info: activating english \listfigurename on input line 92.
-Package scrbase Info: activating english \listtablename on input line 92.
-Package scrbase Info: activating english \bibname on input line 92.
-Package scrbase Info: activating english \indexname on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+Package scrbase Info: activating english \abstractname on input line 96.
+Package scrbase Info: activating english \partname on input line 96.
+Package scrbase Info: activating english \chaptername on input line 96.
+Package scrbase Info: activating english \appendixname on input line 96.
+Package scrbase Info: activating english \figurename on input line 96.
+Package scrbase Info: activating english \tablename on input line 96.
+Package scrbase Info: activating english \contentsname on input line 96.
+Package scrbase Info: activating english \listfigurename on input line 96.
+Package scrbase Info: activating english \listtablename on input line 96.
+Package scrbase Info: activating english \bibname on input line 96.
+Package scrbase Info: activating english \indexname on input line 96.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count462
+\scratchcounter=\count463
 \scratchdimen=\dimen288
 \scratchbox=\box80
-\nofMPsegments=\count463
-\nofMParguments=\count464
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count465
+\nofMPsegments=\count464
+\nofMParguments=\count465
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count466
 \MPscratchDim=\dimen289
-\MPnumerator=\count466
-\makeMPintoPDFobject=\count467
-\everyMPtoPDFconversion=\toks45
+\MPnumerator=\count467
+\makeMPintoPDFobject=\count468
+\everyMPtoPDFconversion=\toks46
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1036,7 +1047,7 @@ Package scrbase Info: activating english \indexname on input line 92.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 92.
+Package hyperref Info: Link coloring OFF on input line 96.
 (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -1048,14 +1059,14 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 92.
+(scrreprt)           before \begin{document} on input line 96.
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count468
+\BKM@id=\count469
 ))
-\c@lstlisting=\count469
+\c@lstlisting=\count470
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1069,8 +1080,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 92.
-Package biblatex Info: Reference segment=0 on input line 92.
+Package biblatex Info: Reference section=0 on input line 96.
+Package biblatex Info: Reference segment=0 on input line 96.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1105,12 +1116,12 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 217.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 217.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 221.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 221.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 217.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 221.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -1118,67 +1129,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [1
 
+] [2
 
 ] [3
 
 ] [4
 
-] [5
+] [5] [6
 
-] (./main.toc [6
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [7] [8
+
+] (./main.toc [9
 
 ])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.267 \listoffigures
-                    	% print list of figures [1] (./main.lof
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.14 ...mission of light.}}{18}{figure.caption.22}
-                                                  % [2
+ [10] (./main.lof [11
 
 ]
-Overfull \hbox (1.80571pt too wide) in paragraph at lines 14--14
+Overfull \hbox (1.80571pt too wide) in paragraph at lines 15--15
  [][] [][]\T1/cmr/m/n/10.95 Quality as-sur-ance mea-sure-ment data taken dur-ing the com-mis-sion-ing of the acrylic 
  []
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.28 ...and photocathode.}}{36}{figure.caption.36}
-                                                  % [3]
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.41 ...re also included.}}{47}{figure.caption.56}
-                                                  % [4]
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.62 ...hold in the TPC.}}{67}{figure.caption.105}
-                                                  % [5])
+[12] [13] [14] [15])
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.268 \listoftables
-                     % print list of tables [6] (./main.lot)
+ [16] (./main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [7
+ [17
 
 ]
 \openout2 = `./chapters/Introduction.aux'.
@@ -1200,19 +1184,47 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface.
 
-) [8
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.293 \include{./chapters/Introduction}
+                                        [1
+
 
 
 ]
+\openout2 = `./chapters/DarkMatterOverview.aux'.
+
+ (./chapters/DarkMatterOverview.tex
+chapter 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Lambda' on input line 26.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 26.
+
+) [2
+
+
+
+
+] [3]
 \openout2 = `./chapters/LZ.aux'.
 
  (./chapters/LZ.tex
-chapter 2.
-<figures/LZ/LZSchematic.pdf, id=544, 1621.01607pt x 1300.86pt>
+chapter 3.
+<figures/LZ/LZSchematic.pdf, id=739, 1621.01607pt x 1300.86pt>
 File: figures/LZ/LZSchematic.pdf Graphic file (type pdf)
 <use figures/LZ/LZSchematic.pdf>
 Package pdftex.def Info: figures/LZ/LZSchematic.pdf  used on input line 5.
-(pdftex.def)             Requested size: 318.66946pt x 255.7211pt.
+(pdftex.def)             Requested size: 455.24408pt x 365.33005pt.
 
 Package svg Warning: You didn't enable `shell escape' (or `write18')
 (svg)                so it wasn't possible to launch the Inkscape export
@@ -1225,212 +1237,832 @@ See the svg package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...th=0.9\textwidth]{figures/LZ/lz-event.svg}
+l.13 ...width=\textwidth]{figures/LZ/lz-event.svg}
                                                   
 Did you run the export with Inkscape? There's no file
 `./svg-inkscape/lz-event_svg-raw.pdf'
 although `figures/LZ/lz-event.svg' was found.
 
-[9
-
-
-
-
- <./figures/LZ/LZSchematic.pdf
-
-pdfTeX warning: pdflatex (file ./figures/LZ/LZSchematic.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->]
-<figures/LZ/CAD_TPC.jpg, id=569, 1100.11pt x 1355.0625pt>
+<figures/LZ/CAD_TPC.jpg, id=746, 1100.11pt x 1355.0625pt>
 File: figures/LZ/CAD_TPC.jpg Graphic file (type jpg)
 <use figures/LZ/CAD_TPC.jpg>
 Package pdftex.def Info: figures/LZ/CAD_TPC.jpg  used on input line 20.
 (pdftex.def)             Requested size: 227.62204pt x 280.37418pt.
-<figures/LZ/Xenon_interaction.pdf, id=575, 284.38246pt x 248.10692pt>
+<figures/LZ/Xenon_interaction.pdf, id=752, 284.38246pt x 248.10692pt>
 File: figures/LZ/Xenon_interaction.pdf Graphic file (type pdf)
 <use figures/LZ/Xenon_interaction.pdf>
 Package pdftex.def Info: figures/LZ/Xenon_interaction.pdf  used on input line 30.
-(pdftex.def)             Requested size: 318.66946pt x 278.02548pt.
- [10]
-<figures/LZ/SR1WS_calOnly_0629.pdf, id=594, 523.6162pt x 378.25912pt>
+(pdftex.def)             Requested size: 364.19664pt x 317.74611pt.
+[4
+
+
+
+
+] [5 <./figures/LZ/LZSchematic.pdf
+
+pdfTeX warning: pdflatex (file ./figures/LZ/LZSchematic.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>] [6 <./figures/LZ/CAD_TPC.jpg>]
+<figures/LZ/SR1WS_calOnly_0629.pdf, id=795, 523.6162pt x 378.25912pt>
 File: figures/LZ/SR1WS_calOnly_0629.pdf Graphic file (type pdf)
 <use figures/LZ/SR1WS_calOnly_0629.pdf>
 Package pdftex.def Info: figures/LZ/SR1WS_calOnly_0629.pdf  used on input line 53.
-(pdftex.def)             Requested size: 318.66946pt x 230.2125pt.
- [11 <./figures/LZ/CAD_TPC.jpg>] [12 <./figures/LZ/Xenon_interaction.pdf> <./figures/LZ/SR1WS_calOnly_0629.pdf>]
-<figures/LZ/CAD_ODTanks.jpg, id=681, 1331.97626pt x 2057.6875pt>
+(pdftex.def)             Requested size: 364.19664pt x 263.09999pt.
+<figures/LZ/CAD_ODTanks.jpg, id=803, 1331.97626pt x 2057.6875pt>
 File: figures/LZ/CAD_ODTanks.jpg Graphic file (type jpg)
 <use figures/LZ/CAD_ODTanks.jpg>
 Package pdftex.def Info: figures/LZ/CAD_ODTanks.jpg  used on input line 67.
 (pdftex.def)             Requested size: 227.62204pt x 351.62332pt.
- [13] [14 <./figures/LZ/CAD_ODTanks.jpg>]
-<figures/LZ/ContinuumEmission2.png, id=709, 452.69125pt x 351.3125pt>
+ [7 <./figures/LZ/Xenon_interaction.pdf>] [8 <./figures/LZ/SR1WS_calOnly_0629.pdf>] [9 <./figures/LZ/CAD_ODTanks.jpg>]
+<figures/LZ/ContinuumEmission2.png, id=901, 452.69125pt x 351.3125pt>
 File: figures/LZ/ContinuumEmission2.png Graphic file (type png)
 <use figures/LZ/ContinuumEmission2.png>
 Package pdftex.def Info: figures/LZ/ContinuumEmission2.png  used on input line 98.
-(pdftex.def)             Requested size: 318.66946pt x 247.30545pt.
-<figures/LZ/ODEnergySpec.png, id=715, 606.3453pt x 426.393pt>
+(pdftex.def)             Requested size: 364.19664pt x 282.6371pt.
+<figures/LZ/ODEnergySpec.png, id=907, 606.3453pt x 426.393pt>
 File: figures/LZ/ODEnergySpec.png Graphic file (type png)
 <use figures/LZ/ODEnergySpec.png>
 Package pdftex.def Info: figures/LZ/ODEnergySpec.png  used on input line 107.
-(pdftex.def)             Requested size: 318.66946pt x 224.0939pt.
- [15 <./figures/LZ/ContinuumEmission2.png>]
-<figures/LZ/OD_PMT_support.jpg, id=732, 887.315pt x 625.33624pt>
+(pdftex.def)             Requested size: 364.19664pt x 256.10452pt.
+ [10 <./figures/LZ/ContinuumEmission2.png>]
+<figures/LZ/OD_PMT_support.jpg, id=924, 887.315pt x 625.33624pt>
 File: figures/LZ/OD_PMT_support.jpg Graphic file (type jpg)
 <use figures/LZ/OD_PMT_support.jpg>
 Package pdftex.def Info: figures/LZ/OD_PMT_support.jpg  used on input line 124.
-(pdftex.def)             Requested size: 273.14922pt x 192.49728pt.
-<figures/LZ/GdLS_SpectralResponse.pdf, id=735, 528.68138pt x 509.44547pt>
+(pdftex.def)             Requested size: 364.19664pt x 256.66623pt.
+<figures/LZ/GdLS_SpectralResponse.pdf, id=927, 528.68138pt x 509.44547pt>
 File: figures/LZ/GdLS_SpectralResponse.pdf Graphic file (type pdf)
 <use figures/LZ/GdLS_SpectralResponse.pdf>
 Package pdftex.def Info: figures/LZ/GdLS_SpectralResponse.pdf  used on input line 132.
 (pdftex.def)             Requested size: 213.96527pt x 206.17657pt.
-<figures/LZ/ODPMT_QEvsWL.png, id=738, 776.9025pt x 882.29625pt>
+<figures/LZ/ODPMT_QEvsWL.png, id=930, 776.9025pt x 882.29625pt>
 File: figures/LZ/ODPMT_QEvsWL.png Graphic file (type png)
 <use figures/LZ/ODPMT_QEvsWL.png>
 Package pdftex.def Info: figures/LZ/ODPMT_QEvsWL.png  used on input line 139.
 (pdftex.def)             Requested size: 213.96527pt x 242.98898pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/LZ/OD_PMT_CAD_picture_v4.png, id=743, 1485.55pt x 812.03375pt>
+<figures/LZ/OD_PMT_CAD_picture_v4.png, id=935, 1485.55pt x 812.03375pt>
 File: figures/LZ/OD_PMT_CAD_picture_v4.png Graphic file (type png)
 <use figures/LZ/OD_PMT_CAD_picture_v4.png>
 Package pdftex.def Info: figures/LZ/OD_PMT_CAD_picture_v4.png  used on input line 152.
 (pdftex.def)             Requested size: 455.24408pt x 248.84085pt.
-<figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png, id=746, 614.295pt x 433.62pt>
+<figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png, id=938, 614.295pt x 433.62pt>
 File: figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png Graphic file (type png)
 <use figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png>
 Package pdftex.def Info: figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png  used on input line 159.
-(pdftex.def)             Requested size: 318.66946pt x 224.94115pt.
-<figures/LZ/OCSSchematic_0.png, id=748, 2776.3725pt x 1476.51625pt>
-File: figures/LZ/OCSSchematic_0.png Graphic file (type png)
-<use figures/LZ/OCSSchematic_0.png>
-Package pdftex.def Info: figures/LZ/OCSSchematic_0.png  used on input line 166.
-(pdftex.def)             Requested size: 455.24408pt x 242.10518pt.
-[16 <./figures/LZ/ODEnergySpec.png> <./figures/LZ/OD_PMT_support.jpg>]
+(pdftex.def)             Requested size: 364.19664pt x 257.0841pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/LZ/OCSSchematics.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/LZ/OCSSchematics.pdf, id=940, 722.7pt x 406.51875pt>
+File: figures/LZ/OCSSchematics.pdf Graphic file (type pdf)
+<use figures/LZ/OCSSchematics.pdf>
+Package pdftex.def Info: figures/LZ/OCSSchematics.pdf  used on input line 166.
+(pdftex.def)             Requested size: 455.24408pt x 256.07715pt.
+[11 <./figures/LZ/ODEnergySpec.png>] [12 <./figures/LZ/OD_PMT_support.jpg> <./figures/LZ/GdLS_SpectralResponse.pdf> <./figures/LZ/ODPMT_QEvsWL.png>] [13 <./figures/LZ/OD_PMT_CAD_picture_v4.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[14 <./figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png>]
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Text page 15 contains only floats.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17 <./figures/LZ/GdLS_SpectralResponse.pdf> <./figures/LZ/ODPMT_QEvsWL.png>] [18 <./figures/LZ/OD_PMT_CAD_picture_v4.png> <./figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19 <./figures/LZ/OCSSchematic_0.png>]
-<figures/LZ/LZDAQ.png, id=852, 956.57375pt x 677.53125pt>
+[15 <./figures/LZ/OCSSchematics.pdf>]
+<figures/LZ/LZDAQ.png, id=1078, 956.57375pt x 677.53125pt>
 File: figures/LZ/LZDAQ.png Graphic file (type png)
 <use figures/LZ/LZDAQ.png>
-Package pdftex.def Info: figures/LZ/LZDAQ.png  used on input line 216.
+Package pdftex.def Info: figures/LZ/LZDAQ.png  used on input line 215.
 (pdftex.def)             Requested size: 455.24408pt x 322.44064pt.
- [20]
-<figures/LZ/LZSimFramework.png, id=862, 1291.82625pt x 1103.12125pt>
+<figures/LZ/LZSimFramework.png, id=1082, 1291.82625pt x 1103.12125pt>
 File: figures/LZ/LZSimFramework.png Graphic file (type png)
 <use figures/LZ/LZSimFramework.png>
-Package pdftex.def Info: figures/LZ/LZSimFramework.png  used on input line 224.
+Package pdftex.def Info: figures/LZ/LZSimFramework.png  used on input line 223.
 (pdftex.def)             Requested size: 455.24408pt x 388.74089pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21 <./figures/LZ/LZDAQ.png>] [22 <./figures/LZ/LZSimFramework.png>]
-<figures/LZ/OCSMotherboardCC.png, id=890, 904.37875pt x 913.4125pt>
+ [16]
+<figures/LZ/OCSMotherboardCC.png, id=1103, 904.37875pt x 913.4125pt>
 File: figures/LZ/OCSMotherboardCC.png Graphic file (type png)
 <use figures/LZ/OCSMotherboardCC.png>
-Package pdftex.def Info: figures/LZ/OCSMotherboardCC.png  used on input line 241.
+Package pdftex.def Info: figures/LZ/OCSMotherboardCC.png  used on input line 240.
 (pdftex.def)             Requested size: 203.26634pt x 205.28593pt.
-<figures/LZ/OCSElectronicsInstallation.png, id=891, 1286.8075pt x 1130.2225pt>
+<figures/LZ/OCSElectronicsInstallation.png, id=1104, 1286.8075pt x 1130.2225pt>
 File: figures/LZ/OCSElectronicsInstallation.png Graphic file (type png)
 <use figures/LZ/OCSElectronicsInstallation.png>
-Package pdftex.def Info: figures/LZ/OCSElectronicsInstallation.png  used on input line 247.
+Package pdftex.def Info: figures/LZ/OCSElectronicsInstallation.png  used on input line 246.
 (pdftex.def)             Requested size: 213.96527pt x 187.9273pt.
-) [23 <./figures/LZ/OCSMotherboardCC.png> <./figures/LZ/OCSElectronicsInstallation.png>]
+) [17 <./figures/LZ/LZDAQ.png>] [18 <./figures/LZ/LZSimFramework.png>] [19 <./figures/LZ/OCSMotherboardCC.png> <./figures/LZ/OCSElectronicsInstallation.png>]
 \openout2 = `./chapters/ODCommissioning.aux'.
 
  (./chapters/ODCommissioning.tex
-chapter 3.
-[24
+chapter 4.
+[20
 
 
 
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<figures/ODCommissioning/TimingVsPulseArea_2us.png, id=918, 614.295pt x 433.62pt>
+]
+<figures/ODCommissioning/TimingVsPulseArea_2us.png, id=1141, 614.295pt x 433.62pt>
 File: figures/ODCommissioning/TimingVsPulseArea_2us.png Graphic file (type png)
 <use figures/ODCommissioning/TimingVsPulseArea_2us.png>
 Package pdftex.def Info: figures/ODCommissioning/TimingVsPulseArea_2us.png  used on input line 41.
 (pdftex.def)             Requested size: 364.19664pt x 257.0841pt.
-<figures/ODCommissioning/PMT800_PulseArea_Distribution.png, id=922, 614.295pt x 433.62pt>
+<figures/ODCommissioning/PMT800_PulseArea_Distribution.png, id=1145, 614.295pt x 433.62pt>
 File: figures/ODCommissioning/PMT800_PulseArea_Distribution.png Graphic file (type png)
 <use figures/ODCommissioning/PMT800_PulseArea_Distribution.png>
 Package pdftex.def Info: figures/ODCommissioning/PMT800_PulseArea_Distribution.png  used on input line 54.
 (pdftex.def)             Requested size: 213.96527pt x 151.03484pt.
-<figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png, id=923, 614.295pt x 433.62pt>
+<figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png, id=1146, 614.295pt x 433.62pt>
 File: figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png Graphic file (type png)
 <use figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png>
 Package pdftex.def Info: figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png  used on input line 61.
 (pdftex.def)             Requested size: 213.96527pt x 151.03484pt.
- [25]
-<figures/ODCommissioning/SPHE_phd_2024-7-10.pdf, id=934, 1517.67pt x 722.7pt>
+ [21]
+<figures/ODCommissioning/SPHE_phd_2024-7-10.pdf, id=1156, 1517.67pt x 722.7pt>
 File: figures/ODCommissioning/SPHE_phd_2024-7-10.pdf Graphic file (type pdf)
 <use figures/ODCommissioning/SPHE_phd_2024-7-10.pdf>
 Package pdftex.def Info: figures/ODCommissioning/SPHE_phd_2024-7-10.pdf  used on input line 71.
 (pdftex.def)             Requested size: 711.3189pt x 338.7317pt.
-<figures/ODCommissioning/SPHE_pC_2024-7-10.pdf, id=935, 1517.67pt x 722.7pt>
+<figures/ODCommissioning/SPHE_pC_2024-7-10.pdf, id=1157, 1517.67pt x 722.7pt>
 File: figures/ODCommissioning/SPHE_pC_2024-7-10.pdf Graphic file (type pdf)
 <use figures/ODCommissioning/SPHE_pC_2024-7-10.pdf>
 Package pdftex.def Info: figures/ODCommissioning/SPHE_pC_2024-7-10.pdf  used on input line 77.
 (pdftex.def)             Requested size: 711.3189pt x 338.7317pt.
- [26 <./figures/ODCommissioning/TimingVsPulseArea_2us.png>]
-<figures/ODCommissioning/2024-6-12_ODPMT_Gain.pdf, id=946, 1517.67pt x 722.7pt>
+ [22 <./figures/ODCommissioning/TimingVsPulseArea_2us.png>]
+<figures/ODCommissioning/2024-6-12_ODPMT_Gain.pdf, id=1169, 1517.67pt x 722.7pt>
 File: figures/ODCommissioning/2024-6-12_ODPMT_Gain.pdf Graphic file (type pdf)
 <use figures/ODCommissioning/2024-6-12_ODPMT_Gain.pdf>
 Package pdftex.def Info: figures/ODCommissioning/2024-6-12_ODPMT_Gain.pdf  used on input line 91.
 (pdftex.def)             Requested size: 711.3189pt x 338.7317pt.
-<figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf, id=952, 2168.1pt x 1084.05pt>
+<figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf, id=1175, 2168.1pt x 1084.05pt>
 File: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf Graphic file (type pdf)
 <use figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf>
 Package pdftex.def Info: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf  used on input line 102.
 (pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
-<figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf, id=953, 2168.1pt x 1084.05pt>
+<figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf, id=1176, 2168.1pt x 1084.05pt>
 File: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf Graphic file (type pdf)
 <use figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf>
 Package pdftex.def Info: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf  used on input line 108.
 (pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
-<figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf, id=954, 2168.1pt x 1084.05pt>
+<figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf, id=1177, 2168.1pt x 1084.05pt>
 File: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf Graphic file (type pdf)
 <use figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf>
 Package pdftex.def Info: figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf  used on input line 114.
 (pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
- [27 <./figures/ODCommissioning/PMT800_PulseArea_Distribution.png> <./figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png>]
-<figures/ODCommissioning/PMT800_GainCurve.png, id=966, 722.7pt x 722.7pt>
+ [23 <./figures/ODCommissioning/PMT800_PulseArea_Distribution.png> <./figures/ODCommissioning/PMT800_PulseArea_Distribution_pC.png>]
+<figures/ODCommissioning/PMT800_GainCurve.png, id=1189, 722.7pt x 722.7pt>
 File: figures/ODCommissioning/PMT800_GainCurve.png Graphic file (type png)
 <use figures/ODCommissioning/PMT800_GainCurve.png>
 Package pdftex.def Info: figures/ODCommissioning/PMT800_GainCurve.png  used on input line 131.
 (pdftex.def)             Requested size: 213.96527pt x 213.96657pt.
-<figures/ODCommissioning/PMT830_GainCurve.png, id=967, 722.7pt x 722.7pt>
+<figures/ODCommissioning/PMT830_GainCurve.png, id=1190, 722.7pt x 722.7pt>
 File: figures/ODCommissioning/PMT830_GainCurve.png Graphic file (type png)
 <use figures/ODCommissioning/PMT830_GainCurve.png>
 Package pdftex.def Info: figures/ODCommissioning/PMT830_GainCurve.png  used on input line 136.
 (pdftex.def)             Requested size: 213.96527pt x 213.96657pt.
-<figures/ODCommissioning/PMT869_GainCurve.png, id=968, 722.7pt x 722.7pt>
+<figures/ODCommissioning/PMT869_GainCurve.png, id=1191, 722.7pt x 722.7pt>
 File: figures/ODCommissioning/PMT869_GainCurve.png Graphic file (type png)
 <use figures/ODCommissioning/PMT869_GainCurve.png>
 Package pdftex.def Info: figures/ODCommissioning/PMT869_GainCurve.png  used on input line 141.
 (pdftex.def)             Requested size: 213.96527pt x 213.96657pt.
-<figures/ODCommissioning/PMT913_GainCurve.png, id=969, 722.7pt x 722.7pt>
+<figures/ODCommissioning/PMT913_GainCurve.png, id=1192, 722.7pt x 722.7pt>
 File: figures/ODCommissioning/PMT913_GainCurve.png Graphic file (type png)
 <use figures/ODCommissioning/PMT913_GainCurve.png>
 Package pdftex.def Info: figures/ODCommissioning/PMT913_GainCurve.png  used on input line 146.
 (pdftex.def)             Requested size: 213.96527pt x 213.96657pt.
-<figures/ODCommissioning/MonitoringPMT.png, id=973, 1331.97626pt x 980.66376pt>
+<figures/ODCommissioning/MonitoringPMT.png, id=1196, 1331.97626pt x 980.66376pt>
 File: figures/ODCommissioning/MonitoringPMT.png Graphic file (type png)
 <use figures/ODCommissioning/MonitoringPMT.png>
 Package pdftex.def Info: figures/ODCommissioning/MonitoringPMT.png  used on input line 160.
 (pdftex.def)             Requested size: 213.96527pt x 157.52292pt.
-<figures/ODCommissioning/YAPCeSource.png, id=974, 1090.0725pt x 108
+<figures/ODCommissioning/YAPCeSource.png, id=1197, 1090.0725pt x 1087.06125pt>
+File: figures/ODCommissioning/YAPCeSource.png Graphic file (type png)
+<use figures/ODCommissioning/YAPCeSource.png>
+Package pdftex.def Info: figures/ODCommissioning/YAPCeSource.png  used on input line 165.
+(pdftex.def)             Requested size: 158.33546pt x 157.89352pt.
+LaTeX Font Info:    Trying to load font information for T1+qcr on input line 172.
+ (/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
+File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
+)
+<figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf, id=1199, 614.295pt x 433.62pt>
+File: figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf Graphic file (type pdf)
+<use figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf>
+Package pdftex.def Info: figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf  used on input line 186.
+(pdftex.def)             Requested size: 364.19664pt x 257.0841pt.
+ [24{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}]) [25] [26 <./figures/ODCommissioning/SPHE_phd_2024-7-10.pdf>] [27 <./figures/ODCommissioning/SPHE_pC_2024-7-10.pdf>] [28 <./figures/ODCommissioning/2024-6-12_ODPMT_Gain.pdf>] [29 <./figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf>] [30 <./figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf>] [31 <./figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024May2024Onwards.pdf>] [32 <./figures/ODCommissioning/PMT800_GainCurve.png> <./figures/ODCommissioning/PMT830_GainCurve.png> <./figures/ODCommissioning/PMT869_GainCurve.png> <./figures/ODCommissioning/PMT913_GainCurve.png>] [33 <./figures/ODCommissioning/MonitoringPMT.png> <./figures/ODCommissioning/YAPCeSource.png> <./figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf>]
+\openout2 = `./chapters/VetoEfficiency.aux'.
+
+ (./chapters/VetoEfficiency.tex
+chapter 5.
+<figures/VetoEfficiency/FoamImgAndSimGeoTogether.png, id=1903, 1729.46124pt x 1389.19pt>
+File: figures/VetoEfficiency/FoamImgAndSimGeoTogether.png Graphic file (type png)
+<use figures/VetoEfficiency/FoamImgAndSimGeoTogether.png>
+Package pdftex.def Info: figures/VetoEfficiency/FoamImgAndSimGeoTogether.png  used on input line 19.
+(pdftex.def)             Requested size: 409.71689pt x 329.08817pt.
+<figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png, id=1906, 867.24pt x 867.24pt>
+File: figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png Graphic file (type png)
+<use figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png>
+Package pdftex.def Info: figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png  used on input line 29.
+(pdftex.def)             Requested size: 364.19664pt x 364.19862pt.
+[34
+
+
+
+
+]
+<figures/VetoEfficiency/NCTiming_Canvas_700mm_AmLi.pdf, id=1918, 4322.32639pt x 3218.55574pt>
+File: figures/VetoEfficiency/NCTiming_Canvas_700mm_AmLi.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/NCTiming_Canvas_700mm_AmLi.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/NCTiming_Canvas_700mm_AmLi.pdf  used on input line 36.
+(pdftex.def)             Requested size: 711.3189pt x 529.66368pt.
+ [35 <./figures/VetoEfficiency/FoamImgAndSimGeoTogether.png>] [36 <./figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png>]
+<figures/VetoEfficiency/ODpromptWindowTiming_AmLi.pdf, id=1947, 614.295pt x 433.62pt>
+File: figures/VetoEfficiency/ODpromptWindowTiming_AmLi.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/ODpromptWindowTiming_AmLi.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/ODpromptWindowTiming_AmLi.pdf  used on input line 76.
+(pdftex.def)             Requested size: 218.51521pt x 154.24384pt.
+<figures/VetoEfficiency/ODpromptWindowTiming_DD.pdf, id=1948, 614.295pt x 433.62pt>
+File: figures/VetoEfficiency/ODpromptWindowTiming_DD.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/ODpromptWindowTiming_DD.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/ODpromptWindowTiming_DD.pdf  used on input line 83.
+(pdftex.def)             Requested size: 218.51521pt x 154.24384pt.
+<figures/VetoEfficiency/SkinpromptWindowTiming_AmLi.pdf, id=1949, 614.295pt x 433.62pt>
+File: figures/VetoEfficiency/SkinpromptWindowTiming_AmLi.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/SkinpromptWindowTiming_AmLi.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/SkinpromptWindowTiming_AmLi.pdf  used on input line 95.
+(pdftex.def)             Requested size: 218.51521pt x 154.24384pt.
+<figures/VetoEfficiency/SkinpromptWindowTiming_DD.pdf, id=1950, 614.295pt x 433.62pt>
+File: figures/VetoEfficiency/SkinpromptWindowTiming_DD.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/SkinpromptWindowTiming_DD.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/SkinpromptWindowTiming_DD.pdf  used on input line 102.
+(pdftex.def)             Requested size: 218.51521pt x 154.24384pt.
+<figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf, id=1951, 2168.1pt x 1084.05pt>
+File: figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf  used on input line 113.
+(pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
+<figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf, id=1952, 2168.1pt x 1084.05pt>
+File: figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf  used on input line 123.
+(pdftex.def)             Requested size: 711.3189pt x 355.65341pt.
+<figures/VetoEfficiency/OD_Deadtime_thesis.png, id=1953, 1005.9984pt x 660.3069pt>
+File: figures/VetoEfficiency/OD_Deadtime_thesis.png Graphic file (type png)
+<use figures/VetoEfficiency/OD_Deadtime_thesis.png>
+Package pdftex.def Info: figures/VetoEfficiency/OD_Deadtime_thesis.png  used on input line 132.
+(pdftex.def)             Requested size: 711.3189pt x 466.90685pt.
+<figures/VetoEfficiency/Skin_Deadtime_thesis.png, id=1954, 1014.9117pt x 660.3069pt>
+File: figures/VetoEfficiency/Skin_Deadtime_thesis.png Graphic file (type png)
+<use figures/VetoEfficiency/Skin_Deadtime_thesis.png>
+Package pdftex.def Info: figures/VetoEfficiency/Skin_Deadtime_thesis.png  used on input line 141.
+(pdftex.def)             Requested size: 711.3189pt x 462.79605pt.
+<figures/VetoEfficiency/cut_optimisation.png, id=1955, 878.53218pt x 540.51938pt>
+File: figures/VetoEfficiency/cut_optimisation.png Graphic file (type png)
+<use figures/VetoEfficiency/cut_optimisation.png>
+Package pdftex.def Info: figures/VetoEfficiency/cut_optimisation.png  used on input line 152.
+(pdftex.def)             Requested size: 409.71689pt x 252.08119pt.
+<figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf, id=1958, 691.54736pt x 551.55156pt>
+File: figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf  used on input line 214.
+(pdftex.def)             Requested size: 364.19664pt x 290.4694pt.
+<figures/VetoEfficiency/prem_od_stability.png, id=1959, 935.74594pt x 488.57532pt>
+File: figures/VetoEfficiency/prem_od_stability.png Graphic file (type png)
+<use figures/VetoEfficiency/prem_od_stability.png>
+Package pdftex.def Info: figures/VetoEfficiency/prem_od_stability.png  used on input line 220.
+(pdftex.def)             Requested size: 455.24408pt x 237.6968pt.
+ [37] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) [38]
+<figures/VetoEfficiency/CircularCSDCut.pdf, id=1995, 867.24pt x 722.7pt>
+File: figures/VetoEfficiency/CircularCSDCut.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/CircularCSDCut.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/CircularCSDCut.pdf  used on input line 291.
+(pdftex.def)             Requested size: 364.19664pt x 303.49884pt.
+<figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf, id=1996, 722.50677pt x 746.82333pt>
+File: figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf  used on input line 297.
+(pdftex.def)             Requested size: 364.19664pt x 376.45337pt.
+<figures/VetoEfficiency/SR3NRBands.pdf, id=1997, 867.24pt x 650.43pt>
+File: figures/VetoEfficiency/SR3NRBands.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/SR3NRBands.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/SR3NRBands.pdf  used on input line 303.
+(pdftex.def)             Requested size: 364.19664pt x 273.14896pt.
+
+./chapters/VetoEfficiency.tex:322: You can't use `\hrule' here except with leaders.
+\caption@hrule ->\hrule 
+                        \@height \z@ 
+l.322 	\end{tabular}}
+                     
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+./chapters/VetoEfficiency.tex:322: Missing number, treated as zero.
+<to be read again> 
+                   \vskip 
+l.322 	\end{tabular}}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./chapters/VetoEfficiency.tex:322: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \vskip 
+l.322 	\end{tabular}}
+                     
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./chapters/VetoEfficiency.tex:322: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.322 	\end{tabular}}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapters/VetoEfficiency.tex:322: Missing } inserted.
+<inserted text> 
+                }
+l.322 	\end{tabular}}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapters/VetoEfficiency.tex:322: Missing } inserted.
+<inserted text> 
+                }
+l.322 	\end{tabular}}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./chapters/VetoEfficiency.tex:322: Missing } inserted.
+<inserted text> 
+                }
+l.322 	\end{tabular}}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (17.96004pt too wide) in paragraph at lines 322--322
+[][] 
+ []
+
+./chapters/VetoEfficiency.tex:322: Extra }, or forgotten \endgroup.
+\Gscale@box ...cale@y {#2}\setbox \z@ \hbox {{#3}}
+                                                  \setbox \tw@ \hbox {\Gscal...
+l.322 	\end{tabular}}
+                     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./chapters/VetoEfficiency.tex:322: Undefined control sequence.
+<argument> \Gscale@x 
+                     
+l.322 	\end{tabular}}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chapters/VetoEfficiency.tex:322: Undefined control sequence.
+<argument> \Gscale@y 
+                     
+l.322 	\end{tabular}}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./chapters/VetoEfficiency.tex:324: Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.324 \end{table}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./chapters/VetoEfficiency.tex:324: Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.324 \end{table}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+./chapters/VetoEfficiency.tex:324: LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.324 \end{table}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./chapters/VetoEfficiency.tex:324: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.324 \end{table}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+<figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf, id=2000, 2312.64pt x 867.24pt>
+File: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf  used on input line 350.
+(pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
+<figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf, id=2001, 2312.64pt x 867.24pt>
+File: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf  used on input line 356.
+(pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
+<figures/VetoEfficiency/AccidentalCorrectionImpact.pdf, id=2002, 1762.79636pt x 694.80171pt>
+File: figures/VetoEfficiency/AccidentalCorrectionImpact.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/AccidentalCorrectionImpact.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/AccidentalCorrectionImpact.pdf  used on input line 362.
+(pdftex.def)             Requested size: 455.24408pt x 179.42497pt.
+[39]
+<figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf, id=2024, 2312.64pt x 867.24pt>
+File: figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf  used on input line 414.
+(pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
+<figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf, id=2025, 2312.64pt x 867.24pt>
+File: figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf  used on input line 421.
+(pdftex.def)             Requested size: 455.24408pt x 170.70569pt.
+<figures/VetoEfficiency/DDAccCorrectionParameters.pdf, id=2026, 1762.79636pt x 694.80171pt>
+File: figures/VetoEfficiency/DDAccCorrectionParameters.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/DDAccCorrectionParameters.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/DDAccCorrectionParameters.pdf  used on input line 428.
+(pdftex.def)             Requested size: 455.24408pt x 179.42497pt.
+<figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf, id=2030, 715.27664pt x 779.96521pt>
+File: figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf  used on input line 457.
+(pdftex.def)             Requested size: 136.5746pt x 148.9209pt.
+<figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf, id=2031, 711.30869pt x 779.96521pt>
+File: figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf  used on input line 458.
+(pdftex.def)             Requested size: 136.5746pt x 149.754pt.
+<figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf, id=2032, 711.30869pt x 779.96521pt>
+File: figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf  used on input line 459.
+(pdftex.def)             Requested size: 136.5746pt x 149.754pt.
+<figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf, id=2033, 707.6544pt x 775.95021pt>
+File: figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf  used on input line 468.
+(pdftex.def)             Requested size: 136.5746pt x 149.75272pt.
+<figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf, id=2034, 707.6544pt x 775.95021pt>
+File: figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf  used on input line 469.
+(pdftex.def)             Requested size: 136.5746pt x 149.75272pt.
+<figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf, id=2035, 707.6544pt x 775.95021pt>
+File: figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf Graphic file (type pdf)
+<use figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf>
+Package pdftex.def Info: figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf  used on input line 470.
+(pdftex.def)             Requested size: 136.5746pt x 149.75272pt.
+ [40]
+<figures/VetoEfficiency/det_nr_efficiency.png, id=2056, 714.41907pt x 540.51938pt>
+File: figures/VetoEfficiency/det_nr_efficiency.png Graphic file (type png)
+<use figures/VetoEfficiency/det_nr_efficiency.png>
+Package pdftex.def Info: figures/VetoEfficiency/det_nr_efficiency.png  used on input line 498.
+(pdftex.def)             Requested size: 364.19664pt x 275.54576pt.
+ [41] [42 <./figures/VetoEfficiency/NCTiming_Canvas_700mm_AmLi.pdf>] [43 <./figures/VetoEfficiency/ODpromptWindowTiming_AmLi.pdf> <./figures/VetoEfficiency/ODpromptWindowTiming_DD.pdf> <./figures/VetoEfficiency/SkinpromptWindowTiming_AmLi.pdf> <./figures/VetoEfficiency/SkinpromptWindowTiming_DD.pdf>] [44 <./figures/VetoEfficiency/HeatmapODPACoinScanWindow600.pdf>] [45 <./figures/VetoEfficiency/HeatmapSkinPACoinScanWindow500.pdf>] [46 <./figures/VetoEfficiency/OD_Deadtime_thesis.png>] [47 <./figures/VetoEfficiency/Skin_Deadtime_thesis.png>] [48 <./figures/VetoEfficiency/cut_optimisation.png> <./figures/VetoEfficiency/SR3DeadTimeAll_expoFunc.pdf>] [49 <./figures/VetoEfficiency/prem_od_stability.png> <./figures/VetoEfficiency/CircularCSDCut.pdf>] [50 <./figures/VetoEfficiency/AmLi_700mm_Total_CSDSelection.pdf>] [51 <./figures/VetoEfficiency/SR3NRBands.pdf> <./figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0.pdf>] [52 <./figures/VetoEfficiency/SR3AmLi_700_Corrections_100k_P0-1.pdf> <./figures/VetoEfficiency/AccidentalCorrectionImpact.pdf> <./figures/VetoEfficiency/DDAccCorrectionImpact_P0.pdf>] [53 <./figures/VetoEfficiency/DDAccCorrectionImpact_1-P0.pdf> <./figures/VetoEfficiency/DDAccCorrectionParameters.pdf> <./figures/VetoEfficiency/InEff_AmLi_Total_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_AmLi_Delayed_Avg_Ratio.pdf> <./figures/VetoEfficiency/InEff_AmLi_ODDelayed_Avg_Ratio.pdf>] [54 <./figures/VetoEfficiency/InEff_DDDirect_Total_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_Delayed_Ratio.pdf> <./figures/VetoEfficiency/InEff_DDDirect_ODDelayed_Ratio.pdf> <./figures/VetoEfficiency/det_nr_efficiency.png>] [55
+
+]
+<figures/VetoEfficiency/efficiency_summary.png, id=3494, 700.86844pt x 472.01344pt>
+File: figures/VetoEfficiency/efficiency_summary.png Graphic file (type png)
+<use figures/VetoEfficiency/efficiency_summary.png>
+Package pdftex.def Info: figures/VetoEfficiency/efficiency_summary.png  used on input line 600.
+(pdftex.def)             Requested size: 364.19664pt x 245.28275pt.
+) [56] [57 <./figures/VetoEfficiency/efficiency_summary.png>]
+\openout2 = `./chapters/Muons.aux'.
+
+ (./chapters/Muons.tex
+chapter 6.
+<figures/Muons/CosmicRaySpectra.png, id=3523, 1378.14874pt x 1217.54875pt>
+File: figures/Muons/CosmicRaySpectra.png Graphic file (type png)
+<use figures/Muons/CosmicRaySpectra.png>
+Package pdftex.def Info: figures/Muons/CosmicRaySpectra.png  used on input line 13.
+(pdftex.def)             Requested size: 364.19664pt x 321.75713pt.
+[58
+
+
+
+
+]
+<figures/Muons/MuonShower.png, id=3535, 1888.05376pt x 1977.3875pt>
+File: figures/Muons/MuonShower.png Graphic file (type png)
+<use figures/Muons/MuonShower.png>
+Package pdftex.def Info: figures/Muons/MuonShower.png  used on input line 38.
+(pdftex.def)             Requested size: 364.19664pt x 381.41013pt.
+ [59 <./figures/Muons/CosmicRaySpectra.png>] [60 <./figures/Muons/MuonShower.png>] [61]
+<figures/Muons/MassMuonStoppingPowerOfMuonsOnCu.png, id=3576, 2414.01875pt x 1539.7525pt>
+File: figures/Muons/MassMuonStoppingPowerOfMuonsOnCu.png Graphic file (type png)
+<use figures/Muons/MassMuonStoppingPowerOfMuonsOnCu.png>
+Package pdftex.def Info: figures/Muons/MassMuonStoppingPowerOfMuonsOnCu.png  used on input line 85.
+(pdftex.def)             Requested size: 364.19664pt x 232.2921pt.
+<figures/Muons/MuonIntensityVSVertDepth.png, id=3592, 2608.74625pt x 2858.68pt>
+File: figures/Muons/MuonIntensityVSVertDepth.png Graphic file (type png)
+<use figures/Muons/MuonIntensityVSVertDepth.png>
+Package pdftex.def Info: figures/Muons/MuonIntensityVSVertDepth.png  used on input line 102.
+(pdftex.def)             Requested size: 364.19664pt x 399.07835pt.
+<figures/Muons/Flux_Depth_Plot.pdf, id=3599, 391.72348pt x 279.54845pt>
+File: figures/Muons/Flux_Depth_Plot.pdf Graphic file (type pdf)
+<use figures/Muons/Flux_Depth_Plot.pdf>
+Package pdftex.def Info: figures/Muons/Flux_Depth_Plot.pdf  used on input line 108.
+(pdftex.def)             Requested size: 364.19664pt x 259.90483pt.
+ [62 <./figures/Muons/MassMuonStoppingPowerOfMuonsOnCu.png>] [63 <./figures/Muons/MuonIntensityVSVertDepth.png>] [64 <./figures/Muons/Flux_Depth_Plot.pdf>] [65]
+
+pdfTeX warning: pdflatex (file ./figures/Muons/Primary_energyLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/Primary_energyLZstyle.pdf, id=3731, 404.2098pt x 298.82922pt>
+File: figures/Muons/Primary_energyLZstyle.pdf Graphic file (type pdf)
+<use figures/Muons/Primary_energyLZstyle.pdf>
+Package pdftex.def Info: figures/Muons/Primary_energyLZstyle.pdf  used on input line 168.
+(pdftex.def)             Requested size: 218.51521pt x 161.54776pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/cosZ_LZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/cosZ_LZstyle.pdf, id=3732, 413.99513pt x 286.78572pt>
+File: figures/Muons/cosZ_LZstyle.pdf Graphic file (type pdf)
+<use figures/Muons/cosZ_LZstyle.pdf>
+Package pdftex.def Info: figures/Muons/cosZ_LZstyle.pdf  used on input line 175.
+(pdftex.def)             Requested size: 223.0721pt x 154.52939pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/Azimuthal.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/Azimuthal.pdf, id=3733, 395.92987pt x 285.28029pt>
+File: figures/Muons/Azimuthal.pdf Graphic file (type pdf)
+<use figures/Muons/Azimuthal.pdf>
+Package pdftex.def Info: figures/Muons/Azimuthal.pdf  used on input line 182.
+(pdftex.def)             Requested size: 223.0721pt x 160.73094pt.
+<figures/Muons/SurfMapTrimmed.png, id=3734, 1259.70625pt x 783.92876pt>
+File: figures/Muons/SurfMapTrimmed.png Graphic file (type png)
+<use figures/Muons/SurfMapTrimmed.png>
+Package pdftex.def Info: figures/Muons/SurfMapTrimmed.png  used on input line 190.
+(pdftex.def)             Requested size: 223.0721pt x 138.81639pt.
+[66 <./figures/Muons/Primary_energyLZstyle.pdf> <./figures/Muons/cosZ_LZstyle.pdf> <./figures/Muons/Azimuthal.pdf> <./figures/Muons/SurfMapTrimmed.png>]
+
+pdfTeX warning: pdflatex (file ./figures/Muons/LZap_waveform.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/LZap_waveform.pdf, id=3769, 378.66469pt x 333.49594pt>
+File: figures/Muons/LZap_waveform.pdf Graphic file (type pdf)
+<use figures/Muons/LZap_waveform.pdf>
+Package pdftex.def Info: figures/Muons/LZap_waveform.pdf  used on input line 222.
+(pdftex.def)             Requested size: 455.24408pt x 400.94624pt.
+[67]
+
+pdfTeX warning: pdflatex (file ./figures/Muons/OD-Skin_timing.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/OD-Skin_timing.pdf, id=3785, 404.9625pt x 289.79657pt>
+File: figures/Muons/OD-Skin_timing.pdf Graphic file (type pdf)
+<use figures/Muons/OD-Skin_timing.pdf>
+Package pdftex.def Info: figures/Muons/OD-Skin_timing.pdf  used on input line 245.
+(pdftex.def)             Requested size: 227.62204pt x 162.89076pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/OD-TPC_timing.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/OD-TPC_timing.pdf, id=3786, 404.9625pt x 289.79657pt>
+File: figures/Muons/OD-TPC_timing.pdf Graphic file (type pdf)
+<use figures/Muons/OD-TPC_timing.pdf>
+Package pdftex.def Info: figures/Muons/OD-TPC_timing.pdf  used on input line 251.
+(pdftex.def)             Requested size: 227.62204pt x 162.89076pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/Skin-TPC_timing.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/Skin-TPC_timing.pdf, id=3787, 404.9625pt x 289.79657pt>
+File: figures/Muons/Skin-TPC_timing.pdf Graphic file (type pdf)
+<use figures/Muons/Skin-TPC_timing.pdf>
+Package pdftex.def Info: figures/Muons/Skin-TPC_timing.pdf  used on input line 257.
+(pdftex.def)             Requested size: 227.62204pt x 162.89076pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/TPC_energy_comp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/TPC_energy_comp.pdf, id=3796, 408.72609pt x 295.06561pt>
+File: figures/Muons/TPC_energy_comp.pdf Graphic file (type pdf)
+<use figures/Muons/TPC_energy_comp.pdf>
+Package pdftex.def Info: figures/Muons/TPC_energy_comp.pdf  used on input line 270.
+(pdftex.def)             Requested size: 223.0721pt x 161.03943pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/HGLG_comp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/HGLG_comp.pdf, id=3797, 401.19891pt x 289.79657pt>
+File: figures/Muons/HGLG_comp.pdf Graphic file (type pdf)
+<use figures/Muons/HGLG_comp.pdf>
+Package pdftex.def Info: figures/Muons/HGLG_comp.pdf  used on input line 276.
+(pdftex.def)             Requested size: 223.0721pt x 161.13084pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/Muon_pid_cutLZstyle.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/Muon_pid_cutLZstyle.pdf, id=3800, 408.72609pt x 295.06561pt>
+File: figures/Muons/Muon_pid_cutLZstyle.pdf Graphic file (type pdf)
+<use figures/Muons/Muon_pid_cutLZstyle.pdf>
+Package pdftex.def Info: figures/Muons/Muon_pid_cutLZstyle.pdf  used on input line 286.
+(pdftex.def)             Requested size: 364.19664pt x 262.92271pt.
+[68 <./figures/Muons/LZap_waveform.pdf>] [69 <./figures/Muons/OD-Skin_timing.pdf> <./figures/Muons/OD-TPC_timing.pdf> <./figures/Muons/Skin-TPC_timing.pdf>]
+<figures/Muons/TPCEnergyConversion.pdf, id=3838, 614.295pt x 433.62pt>
+File: figures/Muons/TPCEnergyConversion.pdf Graphic file (type pdf)
+<use figures/Muons/TPCEnergyConversion.pdf>
+Package pdftex.def Info: figures/Muons/TPCEnergyConversion.pdf  used on input line 301.
+(pdftex.def)             Requested size: 364.19664pt x 257.0841pt.
+ [70 <./figures/Muons/TPC_energy_comp.pdf> <./figures/Muons/HGLG_comp.pdf>] [71 <./figures/Muons/Muon_pid_cutLZstyle.pdf>] [72 <./figures/Muons/TPCEnergyConversion.pdf>]
+
+pdfTeX warning: pdflatex (file ./figures/Muons/OD_comparison.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/OD_comparison.pdf, id=3937, 404.9625pt x 298.82922pt>
+File: figures/Muons/OD_comparison.pdf Graphic file (type pdf)
+<use figures/Muons/OD_comparison.pdf>
+Package pdftex.def Info: figures/Muons/OD_comparison.pdf  used on input line 338.
+(pdftex.def)             Requested size: 364.19664pt x 268.76141pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_datacc.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/OD_TPC_datacc.pdf, id=3939, 414.74786pt x 289.79657pt>
+File: figures/Muons/OD_TPC_datacc.pdf Graphic file (type pdf)
+<use figures/Muons/OD_TPC_datacc.pdf>
+Package pdftex.def Info: figures/Muons/OD_TPC_datacc.pdf  used on input line 348.
+(pdftex.def)             Requested size: 227.62204pt x 159.04811pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_data10.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/OD_TPC_data10.pdf, id=3940, 423.02776pt x 295.06561pt>
+File: figures/Muons/OD_TPC_data10.pdf Graphic file (type pdf)
+<use figures/Muons/OD_TPC_data10.pdf>
+Package pdftex.def Info: figures/Muons/OD_TPC_data10.pdf  used on input line 354.
+(pdftex.def)             Requested size: 227.62204pt x 158.77025pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_bacc0.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/OD_TPC_bacc0.pdf, id=3941, 423.02776pt x 295.06561pt>
+File: figures/Muons/OD_TPC_bacc0.pdf Graphic file (type pdf)
+<use figures/Muons/OD_TPC_bacc0.pdf>
+Package pdftex.def Info: figures/Muons/OD_TPC_bacc0.pdf  used on input line 360.
+(pdftex.def)             Requested size: 227.62204pt x 158.77025pt.
+
+
+pdfTeX warning: pdflatex (file ./figures/Muons/OD_TPC_bacc10.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/OD_TPC_bacc10.pdf, id=3942, 423.02776pt x 295.06561pt>
+File: figures/Muons/OD_TPC_bacc10.pdf Graphic file (type pdf)
+<use figures/Muons/OD_TPC_bacc10.pdf>
+Package pdftex.def Info: figures/Muons/OD_TPC_bacc10.pdf  used on input line 366.
+(pdftex.def)             Requested size: 227.62204pt x 158.77025pt.
+
+Overfull \hbox (2.43274pt too wide) in paragraph at lines 346--370
+[][] []
+ []
+
+
+Overfull \hbox (2.43274pt too wide) in paragraph at lines 346--370
+[] [] 
+ []
+
+[73 <./figures/Muons/OD_comparison.pdf>] [74 <./figures/Muons/OD_TPC_datacc.pdf> <./figures/Muons/OD_TPC_data10.pdf> <./figures/Muons/OD_TPC_bacc0.pdf> <./figures/Muons/OD_TPC_bacc10.pdf>] [75
+
+]
+
+pdfTeX warning: pdflatex (file ./figures/Muons/Data_sims_ratio_lgonly-2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/Data_sims_ratio_lgonly-2.pdf, id=3997, 396.7322pt x 291.33844pt>
+File: figures/Muons/Data_sims_ratio_lgonly-2.pdf Graphic file (type pdf)
+<use figures/Muons/Data_sims_ratio_lgonly-2.pdf>
+Package pdftex.def Info: figures/Muons/Data_sims_ratio_lgonly-2.pdf  used on input line 470.
+(pdftex.def)             Requested size: 364.19664pt x 267.45226pt.
+[76
+
+ <./figures/Muons/Data_sims_ratio_lgonly-2.pdf>]
+
+pdfTeX warning: pdflatex (file ./figures/Muons/Flux_density_ws22_ws24.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/Muons/Flux_density_ws22_ws24.pdf, id=4013, 410.98425pt x 323.66891pt>
+File: figures/Muons/Flux_density_ws22_ws24.pdf Graphic file (type pdf)
+<use figures/Muons/Flux_density_ws22_ws24.pdf>
+Package pdftex.def Info: figures/Muons/Flux_density_ws22_ws24.pdf  used on input line 500.
+(pdftex.def)             Requested size: 295.90587pt x 233.04637pt.
+[77]
+<figures/Muons/PulsesOverTime.pdf, id=4020, 614.295pt x 433.62pt>
+File: figures/Muons/PulsesOverTime.pdf Graphic file (type pdf)
+<use figures/Muons/PulsesOverTime.pdf>
+Package pdftex.def Info: figures/Muons/PulsesOverTime.pdf  used on input line 517.
+(pdftex.def)             Requested size: 364.19664pt x 257.0841pt.
+ [78 <./figures/Muons/Flux_density_ws22_ws24.pdf>]
+<figures/Muons/SR1MuonTail_time_TotTPCPA_Both.pdf, id=4035, 614.295pt x 578.16pt>
+File: figures/Muons/SR1MuonTail_time_TotTPCPA_Both.pdf Graphic file (type pdf)
+<use figures/Muons/SR1MuonTail_time_TotTPCPA_Both.pdf>
+Package pdftex.def Info: figures/Muons/SR1MuonTail_time_TotTPCPA_Both.pdf  used on input line 536.
+(pdftex.def)             Requested size: 409.71689pt x 385.61842pt.
+<figures/Muons/SR3MuonTail_time_TotTPCPA_Both.pdf, id=4036, 614.295pt x 578.16pt>
+File: figures/Muons/SR3MuonTail_time_TotTPCPA_Both.pdf Graphic file (type pdf)
+<use figures/Muons/SR3MuonTail_time_TotTPCPA_Both.pdf>
+Package pdftex.def Info: figures/Muons/SR3MuonTail_time_TotTPCPA_Both.pdf  used on input line 542.
+(pdftex.def)             Requested size: 409.71689pt x 385.61842pt.
+<figures/Muons/SR1WSAnalysis_SR1-WSv5_LZAP-5.4.6_v36_run_time_comparison.pdf, id=4040, 523.16327pt x 378.05128pt>
+File: figures/Muons/SR1WSAnalysis_SR1-WSv5_LZAP-5.4.6_v36_run_time_comparison.pdf Graphic file (type pdf)
+<use figures/Muons/SR1WSAnalysis_SR1-WSv5_LZAP-5.4.6_v36_run_time_comparison.pdf>
+Package pdftex.def Info: figures/Muons/SR1WSAnalysis_SR1-WSv5_LZAP-5.4.6_v36_run_time_comparison.pdf  used on input line 550.
+(pdftex.def)             Requested size: 364.19664pt x 263.1804pt.
+<figures/Muons/SR3-WSv5_LZAP-5.4.6_run_time_comparison.pdf, id=4043, 515.79008pt x 375.71054pt>
+File: figures/Muons/SR3-WSv5_LZAP-5.4.6_run_time_comparison.pdf Graphic file (type pdf)
+<use figures/Muons/SR3-WSv5_LZAP-5.4.6_run_time_comparison.pdf>
+Package pdftex.def Info: figures/Muons/SR3-WSv5_LZAP-5.4.6_run_time_comparison.pdf  used on input line 556.
+(pdftex.def)             Requested size: 364.19664pt x 265.28873pt.
+) [79 <./figures/Muons/PulsesOverTime.pdf>] [80 <./figures/Muons/SR1MuonTail_time_TotTPCPA_Both.pdf>] [81 <./figures/Muons/SR3MuonTail_time_TotTPCPA_Both.pdf>] [82 <./figures/Muons/SR1WSAnalysis_SR1-WSv5_LZAP-5.4.6_v36_run_time_comparison.pdf> <./figures/Muons/SR3-WSv5_LZAP-5.4.6_run_time_comparison.pdf>]
+\openout2 = `./chapters/Conclusion.aux'.
+
+ (./chapters/Conclusion.tex
+chapter 7.
+) [83
+
+
+
+
+]
+chapter without number
+[84
+
+
+
+]
+Overfull \hbox (40.47275pt too wide) in paragraph at lines 303--303
+\T1/cmr/m/n/10.95 (2019), pp. 148^^U163. \T1/cmr/m/sc/10.95 doi\T1/cmr/m/n/10.95 : []$\T1/cmtt/m/n/10.95 10 . 1016 / j . nima . 2019 . 05 . 055$[]\T1/cmr/m/n/10.95 . arXiv: []$\T1/cmtt/m/n/10.95 1808 . 05595$ [physics.ins-det][]\T1/cmr/m/n/10.95 . 
+ []
+
+
+Overfull \hbox (14.16174pt too wide) in paragraph at lines 303--303
+[]\T1/cmr/m/n/10.95 Kaito Hagi-wara et al. ``Gamma Ray Spec-trum from Ther-mal Neu-tron Cap-ture on Gadolinium-
+ []
+
+
+Overfull \hbox (18.95288pt too wide) in paragraph at lines 303--303
+\T1/cmr/m/n/10.95 p. C02072. \T1/cmr/m/sc/10.95 doi\T1/cmr/m/n/10.95 : []$\T1/cmtt/m/n/10.95 10 . 1088 / 1748 -[] 0221 / 11 / 02 / C02072$[]\T1/cmr/m/n/10.95 . arXiv: []$\T1/cmtt/m/n/10.95 1511 . 08385$ [physics.ins-det][]\T1/cmr/m/n/10.95 . 
+ []
+
+[85]
+Overfull \hbox (2.85439pt too wide) in paragraph at lines 303--303
+[]\T1/cmr/m/n/10.95 V. A. Kudryavt-sev. ``Muon sim-u-la-tion codes MU-SIC and MUSUN for un-der-ground physics''.
+ []
+
+[86] [87] (./main.aux (./chapters/Introduction.aux) (./chapters/DarkMatterOverview.aux) (./chapters/LZ.aux) (./chapters/ODCommissioning.aux) (./chapters/VetoEfficiency.aux) (./chapters/Muons.aux) (./chapters/Conclusion.aux))
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 38350 strings out of 474222
+ 760640 string characters out of 5748733
+ 1988975 words of memory out of 5000000
+ 59495 multiletter control sequences out of 15000+600000
+ 595367 words of font info for 142 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 110i,19n,107p,10989b,2011s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{table.caption.68} has been referenced but does not exist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/ascii-font/ASCII.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcrr.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (105 pages, 38235231 bytes).
+PDF statistics:
+ 4858 PDF objects out of 5155 (max. 8388607)
+ 2432 compressed objects within 25 object streams
+ 474 named destinations out of 1000 (max. 500000)
+ 1102 words of extra memory for PDF output out of 10000 (max. 10000000)
+
