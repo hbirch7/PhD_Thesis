@@ -53,18 +53,18 @@ Observations of the Bullet Cluster (1E0657-558) made by the Hubble Space Telesco
 The Bullet Cluster consists of two galaxy clusters which have collided and are now moving apart. 
 %A composite image of the cluster can be seen in \autoref{fig:DMOverview/BulletCluster}, where colour overlays represent the distribution of both luminous and total mass components. The blue regions in the image highlight the total mass distribution derived from gravitational lensing measurements, while the pink regions represent the hot, X-ray-emitting gas that contains the majority of the baryonic matter, such as gas and dust. 
 Analysis of the X-ray data found that as the two clusters passed through one another, their gaseous components interacted strongly, colliding, slowing down, and heating up, thus producing intense X-ray emissions. This observation is shown in \autoref{fig:DMOverview/BCXrayData} where X-ray data has the the lensing map overlaid.  Whereas measurements made using gravitational lensing indicated that the majority of the non-luminous portion of mass continued without disruption, the spacing between the mass peaks produced with the lensing analysis is shown using green contours in both images in \autoref{fig:DMOverview/BulletCluster}. The lensing mass peaks of the colliding clusters were compared with the X-ray peaks and an offset was found \cite{Clowe_2004}. The offset found between the peaks is considered strong evidence towards the presence of dark matter within the two colliding clusters. Clowe \textit{et al.} applied Modified Theories of Newtonian Dynamics to the results to explain the Bullet Cluster formation but were unable to fully explain the effect where the dark matter component in the regime was equal to the baryonic mass in the system \cite{Clowe2006}. Therefore the presence of dark matter in the cluster still holds true. Thus the Bullet Cluster observations remain as the ``smoking gun'' in the pieces of evidence which support the existence of dark matter in the Universe.
-\begin{figure}[!ht]
+\begin{figure}[ht!]
      \centering
      \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\textwidth]{figures/DMOverview/f1a.new.jpeg2ps.pdf}
+         \includegraphics[width=\textwidth]{figures/DMOverview/f1a.new.jpeg2ps.png}
          \caption{}
          \label{fig:DMOverview/BCGravLensMap}
      \end{subfigure}
      \hfill
      \begin{subfigure}{0.49\textwidth}
          \centering
-         \includegraphics[width=\textwidth]{figures/DMOverview/f1b.new.jpeg2ps.pdf}
+         \includegraphics[width=\textwidth]{figures/DMOverview/f1b.new.jpeg2ps.png}
          \caption{}
          \label{fig:DMOverview/BCXrayData}
      \end{subfigure}
@@ -146,8 +146,36 @@ The particle dark matter hypothesis can be tested via the following three mechan
 	\label{fig:DMOverview/detection_schem}
 \end{figure}
 \subsection{Dark matter production at particle colliders}\label{sec:DMOverview/DMProdColliders}
-The production of dark matter at particle colliders is a well motivated approach, wherein events with missing transverse energy ($E^{miss}_T$) would infer the possible presence of WIMPs. Since the start of the Large Hadron Collider (LHC) at CERN in 2008, the ATLAS \cite{ATLAS:2008xda} and CMS \cite{CMS:2008xjf} experiments have searched for new particles in proton-proton collisions with a centre of mass energy of 7~TeV to 13~TeV. 
+The production of dark matter at particle colliders is a well motivated approach, wherein events with missing transverse energy ($E^{miss}_T$) would infer the possible presence of WIMPs. Since the start of the Large Hadron Collider at CERN in 2008, the ATLAS \cite{ATLAS:2008xda} and CMS \cite{CMS:2008xjf} experiments have searched for new particles in proton-proton collisions with a centre of mass energy of 7~TeV to 13~TeV. Besides the discovery of the Higgs boson \cite{ATLAS:2012yve,CMS:2012qbp}, ATLAS and CMS experiments searched for new particles by scanning parameter space which covers different supersymmetric models. To infer the production of a dark matter particle at a collider, events with missing transverse momentum or energy would first need to be observed. This mechanism is described in the following:
+\begin{equation}
+    pp\rightarrow \chi \overline{\chi}+x,
+\end{equation}
+where $p$ represents a proton, $x$ represents a hadronic jet, a photon or a leptonically decaying Z or W boson \cite{DirectDetection2015}. So far results remain consistent with Standard Model expectations \cite{CMS:2017jdm,ATLAS:2016bek} but further searches are ongoing.
 
 \subsection{Indirect detection of dark matter}\label{sec:DMOverview/IndirectDM}
+Based on evidence from observational cosmology, dark matter can gravitationally accumulate in halos around astronomical objects such as stars, galaxies or our Sun. These sources are therefore ideal regions in which to conduct indirect dark matter searches. The increased dark matter density in these regions could produce a measurable particle flux whereby dark matter particles can self-annihilate, scatter, or decay into Standard Model particles \cite{Strigari:2012acq}. The measurement of these secondary particles is denoted as `indirect detection'. Examples of possible annihilation channels are:
+\begin{equation}
+    \chi\overline{\chi}\rightarrow\gamma\gamma,\gamma Z,\gamma H\quad\text{or,}
+\end{equation}
+\begin{equation}
+    \chi\overline{\chi}\rightarrow q\overline{q},\,W^+W^-,\,ZZ,
+\end{equation}
+some of the products decay further in $e^-e^+,\,p\overline{p},\,\gamma\text{-rays}$ and neutrinos \cite{DirectDetection2015}. There are many possible indirect detection mechanisms which can be searched for such as observing high energy $\gamma$-rays using atmospheric Cherenkov telescopes which are point specifically in the direction of objects where large amounts of dark matter is expected. So far there has been no observations of a significant signal from dark matter annihilations, and upper limits have been derived by a number of telescopes \cite{Aleksic:2013xea,HESS:2014zqa,VERITAS:2017tif}. Large neutrino detectors are able to search for dark matter annihilation into neutrinos. No evidence of such a signal has been seen and constraints on the cross-section have been made \cite{ANTARES:2016xuh,Super-Kamiokande:2020sgt,Hooper:2025ohk}.
+
 \subsection{Direct detection of dark matter}\label{sec:DMOverview/DirectDetection}
-\subsection{Current status for dark matter searches}\label{sec:DMOverview/DMCurrentStatus}
+The direct detection of dark matter aims to observe nuclear or electronic recoils resulting from interactions between the dark matter particle and the target material within a detector. These interactions are expected to produce recoil energies in the range of $1-100\,\mathrm{keV}$, assuming incident dark matter particles with masses between $10-1000\,\mathrm{GeV}/c^2$~\cite{DirectDetection2015}. The resulting signals from such recoils can be observed in one or more of three forms: phonons (heat), ionization (charge), and scintillation (light). Detectors are therefore typically designed to be sensitive to one or two of these signal channels, depending on the detection strategy employed. A schematic representation of this detection process is shown in Figure~\ref{fig:DMOverview/DirectDetectorTriangle}.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=0.6\textwidth]{figures/DMOverview/Direct_direction.png}
+	\caption[A schematic showing the possible direct detection signals with corresponding experiments.]{A schematic showing the possible direct detection signals and the corresponding experiments used to observe such signals \cite{DirectDetection2015}.}
+	\label{fig:DMOverview/DirectDetectorTriangle}
+\end{figure}
+The LUX-ZEPLIN (LZ) experiment has been designed to detect both scintillation light and ionization charge by utilising a dual-phase liquid xenon (LXe) time projection chamber. A detailed description of this detection method is provided in \autoref{chap:LZExperiment}. The three signal channels discussed: phonons; charge; and light, are leveraged across various experimental approaches, which together span the parameter space in which WIMP cross-section is expected to lie. Should one technique yield a potential dark matter signal, confirmation would be sought using one or a combination of the other two detection methods to ensure robustness of the result.
+\subsubsection{Current status for dark matter searches}\label{sec:DMOverview/DMCurrentStatus}
+At the time of writing, no experiment has detected a dark matter particle. However, various experiments have placed increasingly stringent upper limits on the WIMP-nucleon interaction cross-section as a function of WIMP mass, based on data collected over a defined number of ``live days''. The most recent spin-independent WIMP-nucleon cross section limits as a function of WIMP mass are shown in \autoref{fig:DMOverview/WIMPCrossSec.pdf}.
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=\linewidth]{figures/DMOverview/allwimp_limits.pdf}
+    \caption[Most recent spin-independent WIMP-nucleon cross section limits as a function of WIMP mass.]{Most recent spin-independent WIMP-nucleon cross section limits as a function of WIMP mass for liquid xenon direct detection experiments alongside projected limits for current and future experiments. Figure produced using Ref.\cite{DDLimitRepo} includes limits from XENON10 \cite{XENON:2007uwm}, XENON100 \cite{XENON100:2016sjq}, LUX \cite{LUX:2016ggv}, PandaX-4T \cite{PandaX-4T:2021bab}, XENON1T \cite{XENON:2018voc}, XENONnT \cite{XENON:2025vwd}, LUX-ZEPLIN (LZ) experiment \cite{LZCollaboration:2024lux}. Projected limits shown have been produced by LZ \cite{LZ:2018qzl}, DARWIN \cite{DARWIN:2016hyl} and XLZD \cite{XLZD:2024nsu}. The area coloured in grey represents the neutrino floor \cite{Billard:2013qya}.}
+    \label{fig:DMOverview/WIMPCrossSec.pdf}
+\end{figure}
