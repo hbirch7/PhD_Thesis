@@ -168,6 +168,7 @@ The final cuts for the WS2024 science run are shown in \autoref{tab:VetoEff/sr3_
 \begin{table}[!ht]
     \centering
     \caption{Cuts determined to be optimal for the WS2024 science run. The WS2022 cuts are also included, where any modifications made to the selections is highlighted accordingly. Coincidence corresponds to the number of PMTs which observe a pulse and pulse area is measured in `number of photons detected' [phd].}
+    \label{tab:VetoEff/sr3_veto_cuts}
     \scalebox{0.9}{
     \begin{tabular}{|c|c|c||c|c|c|}
     \hline
@@ -188,7 +189,6 @@ The final cuts for the WS2024 science run are shown in \autoref{tab:VetoEff/sr3_
     Pulse Area&\cellcolor[HTML]{cecece}$>46$&\cellcolor[HTML]{cecece}$>50$&Pulse Area&\cellcolor[HTML]{cecece}$>32.0$&\cellcolor[HTML]{cecece}$>37.5$\\
     \hline
     \end{tabular}}
-    \label{tab:VetoEff/sr3_veto_cuts}
 \end{table}
 
 \subsection{Deadtime stability}\label{sec:VetoEff/DeadtimeStability}
@@ -306,10 +306,11 @@ The three different NR bands for the three calibration sources can be seen in \a
 \end{figure}
 \begin{table}[!ht]
 	\centering
-    \scalebox{0.9}{
 	\caption{ALPACA-Core WS2024 cuts used on AmLi calibration data for determining the efficiency.}
-	\begin{tabular}{|c|c|c|c|}
-    \hline
+	\label{tab:VetoEff/amli_efficiency_cuts}
+    \scalebox{0.9}{
+	\begin{tabular}{llll}
+    \hline\hline
     \textbf{Livetime cuts}&\textbf{ Physics cuts}& \textbf{S1 cuts}& \textbf{S2 cuts}\\
     \hline
     Burst noise cut& Single scatter& S2 width vs drift time& S1 prominence cut\\
@@ -318,9 +319,8 @@ The three different NR bands for the three calibration sources can be seen in \a
     High S1 rate exclusion & & S2 early peak& S1 HSC cut\\
     Bad buffer cuts& & S2 XY quality& S1 shape\\
     Excess Area cut& & S2 TBA & S1 photon timing\\
-    \hline
+    \hline\hline
 	\end{tabular}}
-	\label{tab:VetoEff/amli_efficiency_cuts}
 \end{table}
 
 \subsubsection{AmLi accidental correction}\label{sec:VetoEff/AmLiAccCorrection}

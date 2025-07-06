@@ -10,6 +10,7 @@
 \usepackage{geometry}
 \usepackage{ragged2e}
 \usepackage{hyperref}
+\usepackage{siunitx}
 \usepackage{graphicx}
 %math packages:
 \usepackage{amsmath}
@@ -29,6 +30,7 @@
 \usepackage{listings}
 \usepackage{pdflscape} %need for rotating PDFs
 \usepackage{rotating}
+%\usepackage{scrhack}
 %bibliografi:
 \usepackage[inkscapelatex=false]{svg}
 \usepackage[backend=biber, bibencoding=utf8,sorting=none]{biblatex}
@@ -85,7 +87,7 @@
 \def\tableautorefname{Table}%
 \def\partautorefname{Part}%
 \def\appendixautorefname{Appendix}%
-\def\chapterautorefname{Chap.}%
+\def\chapterautorefname{Chapter}%
 \def\sectionautorefname{Sec.}%
 \def\subsectionautorefname{Sec.}%
 \def\subsubsectionautorefname{Sec.}%
@@ -302,4 +304,9 @@ I want to thank...
 %: ----------------------- bibliography ------------------------
 % The section below defines how references are listed and formatted.
 \printbibliography[heading=bibintoc,title={Bibliography}]
+\appendix
+\chapter{Appendix Title 1}
+\input{./chapters/appendix.tex}
+\chapter{Appendix Title 2}
+\input{./chapters/appendix.tex}
 \end{document}
