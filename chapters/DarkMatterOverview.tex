@@ -158,11 +158,39 @@ The particle dark matter hypothesis can be tested via the following three mechan
 	\label{fig:DMOverview/detection_schem}
 \end{figure}
 \subsection{Dark matter production at particle colliders}\label{sec:DMOverview/DMProdColliders}
-The production of dark matter at particle colliders is a well motivated approach, wherein events with missing transverse energy ($E^{\text{miss}}_\text{T}$) would primarily infer the possible presence of WIMPs. Since the start of the Large Hadron Collider at CERN in 2008, the ATLAS \cite{ATLAS:2008xda} and CMS \cite{CMS:2008xjf} experiments have searched for new particles in proton-proton collisions with a centre-of-mass-energy of 7~TeV to 13~TeV. Besides the discovery of the Higgs boson \cite{ATLAS:2012yve,CMS:2012qbp}, ATLAS and CMS experiments searched for new particles by scanning parameter space of different models of new physics such as supersymmetry \cite{hteagle:thesis,tcarter:thesis,ajaspan:thesis}. To infer the production of a dark matter particle at a collider, events with missing transverse momentum or energy would first need to be observed. {\color{red}Pick up BP's comments from here and read H. Teagle's thesis on SUSY} This mechanism is described in the following:
+The production of dark matter, namely WIMPs, at particle colliders is a well motivated approach as the electroweak scale is powerfully probed by colliders such as Large Hadron Collider (LHC) at CERN \cite{Evans:2008zzb}. Since the start of the LHC in 2008, the ATLAS \cite{ATLAS:2008xda} and CMS \cite{CMS:2008xjf} experiments have searched for new particles in proton-proton collisions with a centre-of-mass-energy of 7~TeV to 13~TeV. Besides the discovery of the Higgs boson \cite{ATLAS:2012yve,CMS:2012qbp}, ATLAS and CMS experiments searched for new particles by scanning parameter space of different models of new physics such as supersymmetry \cite{hteagle:thesis}. 
+
+Collider searches for dark matter can generally be divided into two categories: those that involve dark matter particles in the final state and those that do not. Both cases are dependent on the mass of the dark matter particle, $\chi$, and the mass of the mediator which can be a known Standard Model (SM) particle (often but not exclusively the Higgs Boson) or an exotic mediator particle \cite{Penning:2017tmb}. 
+
+If the dark matter particle mass is less than the mediator, then a WIMP pair is produced in the direction opposite to that of the visible particles. This results in a characteristic `mono-$X$' signature, where the `missing transverse energy', or more correctly `missing transverse momentum', ($E^{\text{miss}}_\text{T}$) and the visible particles $X$ are nearly back-to-back. The particle produced in this collision can be a multitude of particles such as $\gamma, q, g, W, Z, H$ and others. This mechanism is more commonly referred to as collider based dark matter production. An example event from a mono-$X$ search is shown in \autoref{fig:DMOverview/Mono-XEventViewer}.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.65\linewidth]{figures/DMOverview/MonoXEventViewer.png}
+    \caption[An event from a Mono-Higgs search from the ATLAS detector at the LHC.]{An event from a Mono-Higgs search from the ATLAS detector at the LHC. This event is characterized by $E^{\text{miss}}_\text{T}$~=~213~GeV (direction indicated with the red arrow) and two $b$-tagged small-R calorimeter jets that form a dijet system with $m_{jj}~=~120~\text{GeV}$ (shown in orange and magenta). Figure reprinted from Ref.~\cite{ATLAS:2016btj}}
+    \label{fig:DMOverview/Mono-XEventViewer}
+\end{figure}
+
+If the mediator is lighter than the dark matter, then the mediator becomes off-shell, then the processes proceeds via a virtual exchange and the process is suppressed. This is considered a search for a beyond the SM mediator \cite{hteagle:thesis}. If the hypothetical mediators couple to SM particles and the collider is powerful enough then the mediator could be produced in the annihilation of SM particles.  An example is the dijet analysis
+looking for a narrow peak in the invariant mass of the two jets, $m_{jj}$ \cite{Penning:2017tmb}.
+So far results remain consistent with Standard Model expectations \cite{CMS:2017jdm,ATLAS:2016bek} and significant constraints on a number of dark matter models and masses have been made, the mass reach that the CMS experiment has achieved is shown in \autoref{fig:CMS-MassReach}.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.9\linewidth]{figures/DMOverview/CurrentBarChartVersion_v14.pdf}
+    \caption[A bar chart representing an overview of the mass reach of CMS analyses.]{A bar chart representing an overview of the mass reach of CMS Exotica analyses for the 13~TeV data \cite{CMS-MassReach}.}
+    \label{fig:CMS-MassReach}
+\end{figure}
+
+Dark matter searches at colliders are not restricted to the two mechanisms outlined above, some of which include long-lived particle searches \cite{Mitsou:2021tti}, new signatures and production modes \cite{Dienes:2021cxr,tcarter:thesis}, dark sectors searches \cite{Cohen:2017pzm,ajaspan:thesis}, novel instrumentation and different beams \cite{Feng:2017uoz,Batell:2014mga}. The collider will play a crucial role in case a discovery takes place first in either direct or indirect searches as they will be well suited to produce and measured dark matter under laboratory conditions.
+
+\iffalse
+Besides the discovery of the Higgs boson \cite{ATLAS:2012yve,CMS:2012qbp}, ATLAS and CMS experiments searched for new particles by scanning parameter space of different models of new physics such as supersymmetry \cite{hteagle:thesis,tcarter:thesis,ajaspan:thesis}. To infer the production of a dark matter particle at a collider, events with missing transverse momentum or energy would first need to be observed.  This mechanism is described in the following:
 \begin{equation}
     pp\rightarrow \chi \overline{\chi}+x,
 \end{equation}
 where $p$ represents a proton, $x$ represents a hadronic jet, a photon or a leptonically decaying Z or W boson \cite{DirectDetection2015}. So far results remain consistent with Standard Model expectations \cite{CMS:2017jdm,ATLAS:2016bek} but further searches are ongoing.
+\fi
 
 \subsection{Indirect detection of dark matter}\label{sec:DMOverview/IndirectDM}
 Based on evidence from observational cosmology, dark matter can gravitationally accumulate in halos around astronomical objects such as stars, galaxies or our Sun. These sources are therefore ideal regions in which to conduct indirect dark matter searches. The increased dark matter density in these regions could produce a measurable particle flux whereby dark matter particles can self-annihilate, scatter, or decay into Standard Model particles \cite{Strigari:2012acq}. The measurement of these secondary particles is denoted as `indirect detection'. Examples of possible annihilation channels are:
