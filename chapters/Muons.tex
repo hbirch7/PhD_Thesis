@@ -518,6 +518,7 @@ To identify the initial muon event, a similar selection to that used in the muon
     %\item Total TPC Pulse Area $>10^{6.75}$~phd
 \end{itemize}
 The time of initial muon event are stored within a global variable. A conservative veto time window of 20~s was chosen to ensure high rate events following the muon event would be vetoed. All events selected using the criteria outlined above for the WS2022 and WS2024 science runs are shown in \autoref{fig:Muons/WS2022_MuonTailHist} and \autoref{fig:Muons/WS2024_MuonTailHist}. The total TPC pulse area threshold was determined through a visual analysis of \autoref{fig:Muons/WS2022_MuonTailHist} and \autoref{fig:Muons/WS2024_MuonTailHist} where below this threshold muon tails were not observed. Initial events with a total TPC pulse area $>10^{6}~\text{phd}$ and that passed the criteria outlined above were vetoed.
+\iffalse
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=0.9\linewidth]{figures/Muons/SR1MuonTail_time_TotTPCPA_Both.pdf}
@@ -530,9 +531,27 @@ The time of initial muon event are stored within a global variable. A conservati
     \caption{Total pulse area of the initial muon event corresponding to the number of \textit{S2}-like pulses and \textit{SE}-like pulses (top) and the number of \textit{SPE}-like pulses (bottom) in the events following the initial muon event in the WS2024 dataset. A conservative veto of window of 20~s was chosen to veto all high rate events following a muon travelling through the TPC.}
     \label{fig:Muons/WS2024_MuonTailHist}
 \end{figure}
+\fi
+
+\begin{figure}[ht!]
+\centering
+\begin{subfigure}{0.47\textwidth}
+    \includegraphics[width=\textwidth]{figures/Muons/SR1MuonTail_time_TotTPCPA_Both.pdf}
+    \caption{}
+    \label{fig:Muons/WS2022_MuonTailHist}
+\end{subfigure}
+\hfill
+\begin{subfigure}{0.47\textwidth}
+    \includegraphics[width=\textwidth]{figures/Muons/SR3MuonTail_time_TotTPCPA_Both.pdf}
+    \caption{}
+    \label{fig:Muons/WS2024_MuonTailHist}
+\end{subfigure}
+\caption{Total pulse area of the initial muon event corresponding to the number of \textit{S2}-like pulses and \textit{SE}-like pulses (top) and the number of \textit{SPE}-like pulses (bottom) in the events following the initial muon event in the WS2022 (left) and WS2024 (right) datasets. A conservative veto of window of 20~s was chosen to veto all high rate events following a muon travelling through the TPC.}
+\label{fig:MuonTailHist}
+\end{figure}
+
 \subsection{Muon veto impact on the WIMP Search}
 The muon veto had a impact of $3.24\%$ and $1.90\%$ on the WS2022 and WS2024 detector live time respectively. The impact that the muon veto had on detector live time over WS2022 and WS2024 science runs is shown in \autoref{fig:MuonVetoLivetimeImpact}, the impact that the OD and Skin veto algorithms, discussed in \autoref{chap:VetoEfficiency}, had on detector live time is also included for reference.
-
 \iffalse
 \begin{figure}[ht!]
     \centering

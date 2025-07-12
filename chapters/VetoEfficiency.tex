@@ -391,8 +391,8 @@ The Woods Function Fit Parameters for the 90% CL Line are:
 \begin{table}[!ht]
 	\centering
 	\caption{ALPACA-Core WS2024 cuts used on DD calibration data for determining the efficiency.}
-	\begin{tabular}{|c|c|c|}
-    \hline
+	\begin{tabular}{lll}
+    \hline\hline
 	\textbf{Physics cuts}&\textbf{ S1 cuts}&\textbf{S2 cuts} \\
 	\hline
 	Single scatter & S2 width vs drift time & S1 prominence cut \\
@@ -401,7 +401,7 @@ The Woods Function Fit Parameters for the 90% CL Line are:
 	& S2 early peak & S1 HSC cut \\
 	& S2 XY quality & S1 shape \\
 	& S2 TBA (above-anode gas) & S1 photon timing \\
-    \hline
+    \hline\hline
 	\end{tabular}
 	\label{tab:VetoEff/dd_efficiency_cuts}
 \end{table}
@@ -436,15 +436,15 @@ On each set of simulation, the cuts listed in \autoref{tab:VetoEff/calibration_s
 \begin{table}[!ht]
 	\centering
 	\caption{ALPACA-Core WS2024 cuts used on AmLi and DD simulations for determining the efficiency.}
-	\begin{tabular}{|c|}
-    \hline
-		\textbf{Physics cuts}              \\
-		\hline
-		Single scatter            \\
-		S1 and S2 threshold       \\
-		Fiducial Volume           \\
-		CSD Selection (AmLi Only) \\
+	\begin{tabular}{l}
+        \hline\hline
+        \textbf{Physics cuts}              \\
         \hline
+        Single scatter            \\
+        S1 and S2 threshold       \\
+        Fiducial Volume           \\
+        CSD Selection (AmLi Only) \\
+        \hline\hline
 	\end{tabular}
 	\label{tab:VetoEff/calibration_simulation_efficiency_cuts}
 \end{table}
@@ -481,14 +481,14 @@ Also shown is the total efficiency.
 \begin{table}[!ht]
 	\centering
 	\caption{ALPACA-Core WS2024 cuts used on Detector-NR simulations for determining the efficiency. Each cut is from WS2024-cuts-v3.}
-	\begin{tabular}{|c|}
-    \hline
+	\begin{tabular}{l}
+    \hline\hline
 		\textbf{Physics cuts}        \\
 		\hline
 		Single scatter      \\
 		S1 and S2 threshold \\
 		Fiducial Volume\\
-        \hline
+        \hline\hline
 	\end{tabular}
 	\label{tab:VetoEff/detector_nr_simulation_efficiency_cuts}
 \end{table}
@@ -568,14 +568,14 @@ In this case, the uncertainty is 2.8\%, made up from a statistical error from th
 \begin{table}[!ht]
 	\centering
 	\caption{Summary of veto efficiencies. The Detector-NR Data value assumes that option 2 is used.}
-	\begin{tabular}{|c|c|c|}
+	\begin{tabular}{lll}
+    \hline\hline
+    \textbf{Source}& \textbf{Simulation}& \textbf{Data}\\ 
     \hline
-		\textbf{Source}& \textbf{Simulation}& \textbf{Data}\\ 
-        \hline
-		AmLi (average) & 92.8$\pm$2.0\% & 88.6$\pm$2.7\% \\
-		DD (Direct)    & 91.8$\pm$1.0\% & 87.7$\pm$1.8\% \\
-		Detector-NR    & 96.4$\pm$1.0\% & 92.2$\pm$4.3\\
-        \hline
+    AmLi (average) & 92.8$\pm$2.0\% & 88.6$\pm$2.7\% \\
+    DD (Direct)    & 91.8$\pm$1.0\% & 87.7$\pm$1.8\% \\
+    Detector-NR    & 96.4$\pm$1.0\% & 92.2$\pm$4.3\\
+    \hline\hline
 	\end{tabular}
 	\label{tab:VetoEff/final_veto_efficiency}
 \end{table}
@@ -583,14 +583,14 @@ In this case, the uncertainty is 2.8\%, made up from a statistical error from th
 \begin{table}[!ht]
 	\caption{Summary of veto efficiencies and inefficiencies as determined from each approach discussed in \autoref{sec:VetoEff/BkgNeutronEff}.}
 	\centering
-	\begin{tabular}{|c|c|c|}
-		\hline
+	\begin{tabular}{lll}
+		\hline\hline
         \textbf{Option} & \textbf{Efficiency}& \textbf{Inefficiency} \\ 
         \hline
-		No. 1  & 92.1$\pm$4.5 & 7.9$\pm$4.5  \\
-		No. 2  & 92.2$\pm$4.3 & 7.8$\pm$4.3  \\
-		No. 3  & 94.5$\pm$2.8 & 5.5$\pm$2.8 \\
-        \hline
+		1  & 92.1$\pm$4.5 & 7.9$\pm$4.5  \\
+		2  & 92.2$\pm$4.3 & 7.8$\pm$4.3  \\
+		3  & 94.5$\pm$2.8 & 5.5$\pm$2.8 \\
+        \hline\hline
 	\end{tabular}
 	\label{tab:VetoEff/efficiency_options}
 \end{table}
