@@ -16,6 +16,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{cancel}
 %graphics packages
 \usepackage{xcolor}
 \usepackage{epstopdf}
@@ -286,7 +287,7 @@ Date:
 \newpage\null\thispagestyle{empty}\newpage
 
 \chapter*{Acknowledgements}
-I want to thank...
+I want to thank ...
 
 \tableofcontents
 \listoffigures	% print list of figures
@@ -308,8 +309,6 @@ I want to thank...
 % The section below defines how references are listed and formatted.
 \printbibliography[heading=bibintoc,title={Bibliography}]
 \appendix
-\chapter{Appendix Title 1}
-\input{./chapters/appendix.tex}
-\chapter{Appendix Title 2}
-\input{./chapters/appendix.tex}
+\chapter{Veto efficiency studies for the 2024 WIMP search result}\label{app:VetoEff}
+\input{./chapters/appendix_VetoEff.tex}
 \end{document}
