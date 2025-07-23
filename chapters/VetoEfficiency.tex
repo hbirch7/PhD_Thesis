@@ -231,7 +231,7 @@ Two additional efficiencies were investigated: \textit{delayed veto efficiency} 
 
 Unless otherwise stated, all veto efficiencies presented follow the \textit{total veto efficiency} logic.
 
-\subsection{Neutrons from calibration sources}
+\subsection{Neutrons from calibration sources}\label{sec:VetoEff/NeutronsFromCalibrationSources}
 LZ utilises two neutron sources to measure the neutron tagging efficiencies of the veto detectors. AmLi sources are a compound of \textsuperscript{241}Am $\alpha$-radioactivity and \textsuperscript{7}Li produce low-energy neutron emission via nuclear $(\alpha,\text{n})$ reactions. Alphas from $^{241}$Am decay bombard the $^{7}$Li nuclei. This leads to a nuclear reaction of type \textsuperscript{7}Li$+\alpha \rightarrow$\textsuperscript{11}B\textsuperscript{*}. The excited \textsuperscript{11}B nucleus then decays to \textsuperscript{11}B via neutron emission. The neutrons produced by the AmLi sources have a maximum energy of $\sim1.5~\text{MeV}$ which results in a nuclear recoils depositing up to $\sim45~\text{keV}_{nr}$ of energy \cite{LZ:2024bsz}. Gamma radiation is also emitted in the \textsuperscript{241}Am decay to various states of \textsuperscript{237}Np and is an associated background to the reaction neutrons. The neutron to gamma ray emission ratio is 0.032 \cite{Sazzad:2023uqs}. The gamma ray background of the AmLi source is accounted for by the accidental correction factors described in \autoref{sec:VetoEff/AmLiAccCorrection}. The characterisation of the LZ AmLi sources is shown in Ref.~\cite{Sazzad:2023uqs}.
 
 A deuterium-deuterium (DD) neutron generator is used to produce mono-energetic 2.46~MeV neutrons which result in nuclear recoils depositing up to $74~\text{keV}_{nr}$ of energy. Neutrons are produced by the DD generator as follows: Deuterium is ionized and turned into a plasma by a microwave. Deuterium ions in the plasma are accelerated towards a charged titanium-coated cooper target. D\textsuperscript{+} ions embed into the target form titanium deuteride. Subsequent D\textsuperscript{+} ions fuse to the embed ions and release neutrons via the D+D$\rightarrow$\textsuperscript{3}He+n. The generator is position outside of the water tank and neutrons are collimated and transmitted to the OCV through nitrogen purged conduits \cite{LZ:2024bsz}. The neutron production is pulsed to suppress the ER background rate and enables selection of events coincident with neutron production. Neutron pulsing decreases the impact of accidental coincidences which artificially increases the veto tagging efficiency. Accidental correction factors are still required as pulsing neutron production does not completely suppress accidental coincidences.
@@ -306,7 +306,6 @@ AmLi calibration data used is this study was taken during the May 2023 calibrati
     \caption{\textbf{Left:} The NR band means (solid line) with 1-$\sigma$ boundaries (dashed lines) for AmLi and DD calibration sources and a flat beta ER band mean with 1-$\sigma$ boundary. Both NR and ER bands and 1-$\sigma$ boundaries were generated using NEST. \textbf{Right:} AmLi calibration data at $z=700~\text{mm}$ with the corresponding NR band mean and 1-$\sigma$ boundary overlaid.}
     \label{fig:VetoEff/SR3NRBands&AmLi700mmData}
 \end{figure}
-
 \end{enumerate}
 
 \subsubsection{Accidental correction factor calculation}\label{sec:VetoEff/AmLiAccCorrection}
@@ -354,29 +353,10 @@ The impact of the accidental correction when applied to the observed efficiency 
     \label{fig:VetoEff/AmLiAccidentalPlots}
 \end{figure}
 
-{\color{red} Need a few lines few on the final AmLi veto efficiencies. \textit{Total Delayed OD-Delayed}}
+{\color{red}Few lines on efficiencies and ref the plots below.}
 \begin{figure}[!ht]
     \centering
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{figures/VetoEfficiency/}
-        \caption{}
-        \label{fig:VetoEff/AmLiEfficiency_All}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{figures/VetoEfficiency/}
-        \caption{}
-        \label{fig:VetoEff/AmLiEfficiency_Delayed}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{figures/VetoEfficiency/}
-        \caption{}
-        \label{fig:VetoEff/AmLiEfficiency_ODDelayed}
-    \end{subfigure}
+    \includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/AmLiEfficiencies_Data.pdf}
     \caption{AmLi Efficiencies}
     \label{fig:VetoEff/AmLiEfficiencies}
 \end{figure}
@@ -421,38 +401,39 @@ The DD calibration data is also corrected for accidental coincidences. The same 
     \label{fig:VetoEff/DDAccidentalPlots}
 \end{figure}
 
-{\color{red} Need a few lines few on the final DD veto efficiencies. \textit{Total Delayed OD-Delayed}}
+{\color{red}Few lines on efficiencies and ref the plots below.}
 
 \begin{figure}[!ht]
     \centering
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{figures/VetoEfficiency/}
-        \caption{}
-        \label{fig:VetoEff/DDEfficiency_All}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{figures/VetoEfficiency/}
-        \caption{}
-        \label{fig:VetoEff/DDEfficiency_Delayed}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{figures/VetoEfficiency/}
-        \caption{}
-        \label{fig:VetoEff/DDEfficiency_ODDelayed}
-    \end{subfigure}
-    \caption{AmLi Efficiencies}
+    \includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/DDEfficiencies_Data.pdf}
+    \caption{DD Efficiencies}
     \label{fig:VetoEff/DDEfficiencies}
 \end{figure}
 
 \subsection{Simulated neutrons from calibration sources}
 AmLi and DD calibration sources are simulated using LZ's \textit{fast} chain simulation technique (discussed in \autoref{sec:LZ/Simulations}). Simulated events which were classified as single scatters by LZLAMA and passed the selection outlined in \autoref{tab:VetoEff/calibration_simulation_efficiency_cuts} were used to determine the calculated veto efficiency.
 As no accidental gammas or neutrons are present in the simulation, no accidental correction is needed.
-The comparison between veto efficiencies calculated for data and simulation for both sources is shown in \autoref{fig:VetoEff/Sim2DataVetoEffComparisons}. The veto efficiency for AmLi is averaged across all CSD positions and $z$-positions. The percentage difference between the calculated veto efficiency is presented below the veto efficiency curves for both sources. Both sources show good agreement when veto efficiencies are compared with $4.37\%$ and $2.39\%$ difference between data and simulation for AmLi and DD calibration sources respectively.
+{\color{red}Few lines on efficiencies and ref the plots below.}
+\begin{figure}[!ht]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/VetoEfficiency/AmLiEfficiencies_Sim.pdf}
+        \caption{}
+        \label{fig:VetoEff/AmLiSimEfficiencies}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/VetoEfficiency/DDEfficiencies_Sim.pdf}
+        \caption{}
+        \label{fig:VetoEff/DDSimEfficiencies}
+    \end{subfigure}
+    \caption{Efficiencies...}
+    \label{fig:VetoEff/Sim2DataVetoEffComparisons}
+\end{figure}
+
+The comparison between veto efficiencies calculated for data and simulation for both sources is shown in \autoref{fig:VetoEff/Sim2DataVetoEffComparisons}. The veto efficiency for AmLi is averaged across all CSD positions and $z$-positions. The percentage difference between the calculated veto efficiency is presented below the veto efficiency curves for both sources. Both sources show good agreement when total veto efficiencies are compared with $4.37\%$ and $2.39\%$ difference between data and simulation for AmLi and DD calibration sources respectively.
 \begin{table}[!ht]
 	\centering
 	\caption{Outline of cuts applied to simulation data for determining the veto efficiency. All cuts are defined in \autoref{tab:App_VetoEff/CoreCuts} unless stated otherwise.}
@@ -573,3 +554,5 @@ For the 2024 WIMP search result \cite{LZ:2024zvo}, LZ achieved an estimated neut
 
 \section{Veto efficiency and the WIMP search}\label{sec:VetoEff4WIMPSearch}
 \textcolor{red}{ToDo Need to talk about how the neutron efficiency is used in the WS result?}
+
+\section{Concluding remarks}

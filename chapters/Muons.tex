@@ -311,25 +311,7 @@ Two separate sets of conversion factors were determined through running NEST wit
     %Energy to light comparison produced by simulating MIPs using NEST. The S1 and S2 light outputs have been summed together as seen in data. 
     \label{fig:Muons/nestcomparison}
 \end{figure}
-A spline fit was fitted to the NEST data and extrapolated down to the minimum data point at 574~phd that passed our OD energy and inter-detector timing selection. The spline fit was then used to convert the Total Pulse Area observed in a muon event window to energy. To reproduce this conversion using the following parameters in a spline fit, SciPy's {\asciifamily interpolate.BSpline}. {\color{red}Move this code to the appendix.}
-\begin{lstlisting}
-WS2022 Parameters:
-t: [0.08294199 0.08294199 0.08294199 0.08294199 4.14709934 8.21125669
- 8.21125669 8.21125669 8.21125669]
-c: [-2.70501286 -1.03606704  1.88505502  4.49568078  5.91208229  0.
-  0.          0.          0.        ]
-k: 3
-
-WS2024 Parameters:
-t: [0.08294199 0.08294199 0.08294199 0.08294199 4.14709934 8.21125669
- 8.21125669 8.21125669 8.21125669]
-c: [-2.62556966 -0.95670208  1.96474676  4.57569338  5.99200743  0.
-  0.          0.          0.        ]
-k: 3
-\end{lstlisting}
-where {\asciifamily t} is the knots, {\asciifamily c} is the spline coefficients and, {\asciifamily k} is the B-Spline degree factor.
-% Prior to determining the TPC threshold, an event which passed our OD energy and inter-detector timing selection was found with a total TPC pulse area of 574~phd. 
-The spline fit was extrapolated down to 574~phd (minimum TPC total pulse area in the WS2022 dataset following OD selection and timing selection) to obtain a corresponding energy deposition of 1.44~keV. This energy was used as our minimum threshold when determining the TPC threshold.
+A spline fit was fitted to the NEST data and extrapolated down to the minimum data point at 574~phd that passed our OD energy and inter-detector timing selection. The spline fit was used to convert the Total Pulse Area observed in a muon event window to energy. The fit was extrapolated down to 574~phd (minimum TPC total pulse area in the WS2022 dataset following OD selection and timing selection) to obtain a corresponding energy deposition of 1.44~keV. This energy was used as our minimum threshold when determining the TPC threshold.
 
 \subsection{Comparison between data and simulation}\label{sec:Muons/MuonFluxDataSimComp}
 LZLAMA was first used to process the BACCARAT simulations to convert energy depositions into S1s, S2s and other observed quantities that could be directly compared with the WIMP Search data. However, the decision was made to only use BACCARAT simulations for the following two reasons:
@@ -492,7 +474,8 @@ The muon flux was reconstructed for in the Davis cavern. The flux depends on the
 \end{figure}
 
 \section{Modulation}\label{sec:Muons/MuonModulation}
-\textcolor{red}{ToDo if adequate time allows.}
+
+
 \subsection{Muon pulse shape in the outer detector}\label{sec:Muons/MuonModulationODPulseShape}
 \textcolor{red}{ToDo if adequate time allows.}
 
@@ -583,3 +566,5 @@ The muon veto had a impact of $3.24\%$ and $1.90\%$ on the WS2022 and WS2024 det
 \caption{The impact that veto algorithms have on detector live time over the (a) WS2022 and (b) WS2024 science runs. The muon veto produced a $3.24\%$ ($1.90\%$) impact on detector live time in the WS2022 (WS2024) science run. The Outer Detector and Skin veto live time impact (outlined in \autoref{chap:VetoEfficiency}) has been included as a reference.}
 \label{fig:MuonVetoLivetimeImpact}
 \end{figure}
+
+\section{Concluding remarks}

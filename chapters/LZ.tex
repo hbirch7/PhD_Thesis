@@ -1,11 +1,11 @@
 \chapter{The LUX-ZEPLIN dark matter experiment}\label{chap:LZExperiment}
-The LUX-ZEPLIN (LZ) dark matter experiment is currently the leading dark matter direct detection experiment in the search for WIMPs \cite{LZ:2024zvo}. The detector is located on the 4,850~ft level (4,300~m~w.e) of the Sanford Underground Research Facility (SURF) in the Homestake Mine (Lead, SD) \cite{LZNIMA}. At the core of the experiment is a dual-phase Time Projection Chamber (TPC) which is sensitive to low-energy nuclear recoils (NR), the signal which is produced through WIMPs interacting with liquid noble gases. One of the main backgrounds in a WIMP search are thermal neutrons as they also interact through nuclear recoils and thus LZ employs an active veto system to remove them. WIMPs are expected to only interact with the xenon target however neutrons interact in both the TPC and veto detectors.
+The LUX-ZEPLIN (LZ) dark matter experiment is currently the leading dark matter direct detection experiment in the search for WIMPs \cite{LZ:2024zvo}. The detector is located on the 4,850~ft level (4300~m~w.~e. (meter water equivalent\footnote{Meter water equivalent is a standard measure of cosmic ray attenuation for underground laboratories, LZ situated at a depth of 4300~m~w.~e. is shielded from cosmic rays equivalently to being situated 4300~m below the surface of a body of water \cite{Grieder:2001ct}.})) of the Sanford Underground Research Facility (SURF) in the Homestake Mine (Lead, SD) \cite{LZNIMA}. At the core of the experiment is a dual-phase Time Projection Chamber (TPC) which is sensitive to low-energy nuclear recoils (NR), the signal which is produced through WIMPs interacting with liquid noble gases. One of the main backgrounds in a WIMP search are thermal neutrons as they also interact through nuclear recoils and thus LZ employs an active veto system to remove them. WIMPs are expected to only interact with the xenon target however neutrons interact in both the TPC and veto detectors.
 The TPC is housed within a vacuum insulated cyrostat with a layer of liquid xenon, the Skin detector, which acts as high voltage stand-off, this region is also instrumented with PMTs and is part of the active veto system. The liquid xenon (LXe) Skin is used to veto mostly gamma ray interactions within the TPC volume, whilst also being sensitive to neutrons. The cryostat is surrounded near hermetically by ten acrylic vessels filled with Gadolinium-loaded liquid scintillator (GdLS). The GdLS is observed by 120 PMTs and stands within 238~t of deionised (DI) water which provides shielding to the detector. A schematic of the detector is shown in \autoref{fig:LZ/LZDetector}. 
-Sections \ref{sec:LZ/LXeTPC}, \ref{sec:LZ/Skin} and \ref{sec:LZ/LZOD} describe the TPC, Skin detector and Outer Detector respectively.\autoref{sec:LZ/CalibrationSources} outlines the calibration systems and sources used to calibration these subsystems. The LZ data acquisition system is detailed in \autoref{sec:LZ/LZDAQ}. \autoref{sec:LZ/Simulations} discusses the various simulation techniques used to model the detector and its response. Finally, the authors contribution to the assembly and operation of the LZ detector are presented in \autoref{sec:LZ/LZAssembly}.
+Sections \ref{sec:LZ/LXeTPC}, \ref{sec:LZ/Skin} and \ref{sec:LZ/LZOD} describe the TPC, Skin detector and Outer Detector respectively. \autoref{sec:LZ/CalibrationSources} outlines the calibration systems and sources used to calibration these subsystems. The LZ data acquisition system is detailed in \autoref{sec:LZ/LZDAQ}. \autoref{sec:LZ/Simulations} discusses the various simulation techniques used to model the detector and its response. Finally, the authors contribution to the assembly and operation of the LZ detector are presented in \autoref{sec:LZ/LZAssembly}.
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=\linewidth]{figures/LZ/LZSchematic.pdf}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/LZSchematic.pdf}
     \caption[Schematic of the LZ detector and its the major subsystems.]{Schematic of the LZ detector and its the major subsystems. At the centre is the liquid xenon TPC (1), monitored by two arrays of PMTs and serviced by various cable and LXe conduits (upper and lower). The TPC is contained in a double-walled vacuum insulated titanium cryostat and surrounded on all sides by a GdLS Outer Detector (2). The cathode high voltage connection is made horizontally at the lower left (5). The GdLS is observed by a suite of 8” PMTs (3) standing in the water (4) which provides shielding for the detector. The pitched conduit on the right (6) allows for neutron calibration sources to illuminate the detector \cite{LZNIMA}.}
     \label{fig:LZ/LZDetector}
 \end{figure}
@@ -13,7 +13,7 @@ Sections \ref{sec:LZ/LXeTPC}, \ref{sec:LZ/Skin} and \ref{sec:LZ/LZOD} describe t
 The LZ TPC holds 7~t (5.6~t fiducial) of LXe above its cathode, there is an additional thin layer (8~mm thick) of gaseous xenon (GXe) at the top of the liquid. The active volume measures approximately 1.5~m in height and diameter and the walls of the TPC are made from PTFE to improve light collection efficiency \cite{LZNIMA}. The TPC, Skin and Xe payload are housed within the Inner Cryostat Vessel (ICV) and the Outer Cryostat Vessel (OCV) provides a vacuum jacket for insulation. Both cryostat vessels are made from low radioactivity titanium \cite{LZ:2017iwn}. When a particle scatters off a LXe atom a prompt scintillation signal (S1) is produced alongside free elections, via ionisation of the LXe atom. The free electrons are drifted to the LXe surface using an applied electric field and are extracted in the GXe layer. As the electrons accelerate through the GXe layer, a proportional amount of scintillation light (S2) is produced. Light produced from these particle interactions is observed by a top and bottom array of 3-inch Hamamatsu R11410–22 PMTs, 494 in total. Using both the S1 and S2 signals, position reconstruction techniques can be used to determine the $xyz$-position of the particle interaction. The time difference between the S1 and S2 signals combined with the drift velocity is used to determine the $z$-position of the interaction whilst the hit pattern of the S2 signal in the top PMT array provides $xy$-position. The operating principle of a TPC can be seen in \autoref{fig:LZ/TPCCartoon}, whilst the main components of the LZ TPC are shown in \autoref{fig:LZ/CAD_TPC}.
 \begin{figure}[!ht]
     \centering
-    \includesvg[width=\textwidth]{figures/LZ/lz-event.svg}
+    \includesvg[width=0.9\textwidth]{figures/LZ/lz-event.svg}
     \caption{Schematic of a TPC with an event with a S1 and S2 pulse. Each particle interaction with the LXe atoms produces two signals: an initial prompt scintillation (S1) and a second, delayed one from ionisation (S2). The combination of these two signals allows for precise 3D position reconstruction and discrimination between nuclear and electron recoils. Original image courtesy of C. Faham and D. Malling.}
     \label{fig:LZ/TPCCartoon}
 \end{figure}
@@ -30,7 +30,7 @@ As a particle traverses the LXe volume it can interact with either the atomic nu
 The Xe atom also undergoes ionisation due to the displacement of the nucleus during the collision releasing electrons. A positively charged Xe$^{+}$ ion combines with a neutral Xe atom to form a positively charged dimer Xe$^{+}_{2}$. Most of the electrons that are emitted in the ionisation are drifted away from the collision site by the applied electric field. However some of the ionised electrons produced in the cascade recombine with the molecule prior to it splitting to form a highly excited Xe atom. A final series of relaxation occurs in a similar manner to the excitation luminescence excimer. A schematic which describes the process of producing the S1 and S2 signal can be seen in \autoref{fig:LZ/XenonSigalProduction}.
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.8\linewidth]{figures/LZ/Xenon_interaction.pdf}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/Xenon_interaction.pdf}
     \caption{A schematic of the signal production and collection in a dual phase xenon time projection chamber.}
     \label{fig:LZ/XenonSigalProduction}
 \end{figure}
@@ -52,7 +52,7 @@ The ratio of of light to charge produced differs between NRs and ERs. This can b
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.8\linewidth]{figures/LZ/SR1WS_calOnly_0629.pdf}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/SR1WS_calOnly_0629.pdf}
     \caption[Discrimination between ER and NR in LZ using calibration events.]{Discrimination between ER and NR in LZ using calibration events in $\text{log}_{10}\text{S2}_{\text{c}}/\text{S1}_{\text{c}}$ for the tritium source (dark blue points, 5343 events) and the DD neutron generator (orange points, 6324 events). Solid blue (red) lines indicate the median of the ER (NR) simulated distributions, and the dotted lines indicate the 10\% and 90\% quantiles. The thin gray lines represent contours of constant electron-equivalent energy (keV$_{\text{ee}}$) and nuclear recoil energy (keV$_{\text{nr}}$) \cite{LZ:2022lsv}.}
     \label{fig:LZ/NRERBandExample}
 \end{figure}
@@ -61,7 +61,7 @@ The ratio of of light to charge produced differs between NRs and ERs. This can b
 The TPC is surrounded by a layer of LXe, the region contains around 2~t of LXe between the field cage and the inner cryostat vessel \cite{LZNIMA}. The primary motivation for including this layer of LXe was to provide dielectric insulation between the two elements. Unlike XENONnT, LZ's main competitor, this region is instrumented for optical readout acting as a scintillation-only veto detector for gamma ray interactions in the TPC~\cite{XENON:2024wpa}. The region is known as the "Skin" and can be divided into two regions: Barrel and Dome. The Barrel contains 93 1-inch Hamamatsu R5820 PMTs at the top of the Barrel looking down and 38 2-inch Hamamatsu R8778 PMTs; 20 at the bottom of the Barrel looking up, and 18 in the Dome region below the TPC \cite{LZNIMA}. The layout of the Skin PMTs with respect to the TPC can be seen in \autoref{fig:LZ/CAD_TPC}.
 
 \section{Outer Detector}\label{sec:LZ/LZOD}
-It has been shown in previous sections that dual phase TPC has the capability to distinguish between ER and NR interactions in the LXe, however it does not have the capability to determine what particle caused the recoil. Neutrons are the primary source of NRs as they scatter of the Xe nuclei and mimic a signal similar to a WIMP. Neutrons are likely to scatter multiple times in the TPC or the OD whereas WIMPs would scatter only once in the TPC due to differences in their respective interactions cross sections. LZ is taking advantage of this principle by surrounding the TPC with a neutron detector to increases the discrimination against NR backgrounds. This detector is the Outer Detector.
+It has been shown in previous sections that dual phase TPC has the capability to distinguish between ER and NR interactions in the LXe, however it does not have the capability to determine what particle caused the recoil. Neutrons are the primary source of NRs as they scatter off the Xe nuclei and mimic a signal similar to a WIMP. Neutrons are likely to scatter multiple times in the TPC and OD whereas WIMPs would scatter only once due to differences in their respective interaction cross sections. LZ is taking advantage of this principle by surrounding the TPC with a neutron detector to increases the discrimination against NR backgrounds. This detector is the Outer Detector.
 %and together with the Xe Skin comprises the LZ Veto System. 
 The outer cryostat housing the TPC is surrounded near hermetically by ten acrylic vessels filled with  Gadolinium loaded liquid scintillator (GdLS). The GdLS is observed by 120 PMTs and surrounded by 238~t of DI water which provides additional shielding to the detector and can be used to detect muons which emit Cherenkov radiation as they pass through the water. An exploded view of these vessels can be seen in \autoref{fig:LZ/ODTanks}.
 \begin{figure}[!ht]
@@ -97,14 +97,14 @@ As previously mentioned, Gadolinium has the largest capture cross-section for th
 
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.8\linewidth]{figures/LZ/ContinuumEmission2.png}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/ContinuumEmission2.png}
     \caption{Illustration of the multi-step $\gamma$-ray emission of an excited $^{158}\text{Gd}^*$ following the thermal $^{157}\text{Gd}(n,\gamma)$ reaction. The de-excitation to the ground state can occur via many intermediate levels. Adapted from Ref.~\cite{Hagiwara:2018kmr}.}
     \label{fig:LZ/Gd158Deexcite}
 \end{figure}
 In addition to neutron capture of Gd, hydrogen also produces a neutron capture signal. Hydrogen has thermal neutron capture cross section of 0.33~b which appears meagre in comparison with Gd, however due to the abundance of hydrogen in the LS, acrylic, and water, a significant number of neutron captures are observed. Following the capture of a thermal neutron, the excited deuterium atom decays to its ground state and emits a single 2.2~MeV $\gamma$-ray \cite{LZTDR}. The prominent peak resulting from the hydrogen capture can be seen in the OD energy spectrum shown in \autoref{fig:LZ/ODEnergySpec}.
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.8\linewidth]{figures/LZ/ODEnergySpec.png}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/ODEnergySpec.png}
     \caption{AmLi energy spectrum measured with LZ Outer Detector with coincident single scatter signals in the TPC, here simple data quality cuts have been applied. The distinctive hydrogen capture peak can be seen at 2.2~MeV, whilst the continuous $\gamma$-ray spectrum from the Gd Capture has the expected end point at $\mathtt{\sim}$8~MeV.}
     \label{fig:LZ/ODEnergySpec}
 \end{figure}
@@ -148,21 +148,21 @@ Prior to the installation of the PMTs at SURF, rigorous testing to fully charact
 LZ uses an optical calibration system to monitor: the PMT gain/single photoelectron (SPhE) size; afterpulsing rates; and the optical properties of the acrylic and scintillator. Light produced by the LED-driven system is injected into the OD at 35 different locations. Thirty injection points are evenly distributed throughout the PMT array  (10 azimuthal positions at 3 heights as shown in \autoref{fig:LZ/OCSPositions}). Four of the injection points are each positioned in centre of the side acrylic tanks facing upwards to monitor the optical properties of the GdLS. One final injection points is positioned in the outer rim of a side acrylic tank also facing upwards and is used to monitoring the optical properties of the acrylic.
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=\linewidth]{figures/LZ/OD_PMT_CAD_picture_v4.png}
+    \includegraphics[width=0.9\linewidth]{figures/LZ/OD_PMT_CAD_picture_v4.png}
     \caption{\textbf{Left:} A cross-section of a CAD drawing of the OD. The three  heights of the 10 azimuthal positions of the optical fibre injection points are labelled 1-3. Two injection positions under the side acrylic tanks which point upwards are labelled 4 and 5. \textbf{Right:} A photograph of the OD PMT array showing the point of an injection point relatively to the surrounding PMTs.}
     \label{fig:LZ/OCSPositions}
 \end{figure}
-Duplex fibres are used to inject light pulses produced by LEDs to the different locations. For the thirty injection points situated within the PMT, 435~nm LEDs are used to match the peak wavelength and quantum efficiency of OD PMTs. Only one core in the fibre is used, the additional core is a backup in the event of any damage to the first core. 435~nm and 450~nm were doing for the injection points facing into the LS to monitor optical degradation of the scintillator. Below 420~nm the absorption length of GdLS decreases significantly as shown in \autoref{fig:LZ/GdLSSpecRes}, if the scintillator degrades this region shifts to higher wavelengths. A similar approach is taken for monitoring the optical properties of the acrylic using 390~nm and 435~nm LEDs. The transmission of light through the acrylic varies with wavelength, as shown in \autoref{fig:LZ/AcrylicQA}. Monitoring the optical properties of the acrylic and scintillator during science runs is key to ensure consistent light collection during science runs.
+Duplex fibres are used to inject light pulses produced by LEDs to the different locations. For the thirty injection points situated within the PMT, 435~nm LEDs are used to match the peak wavelength and quantum efficiency of OD PMTs. Only one core in the fibre is used, the additional core is a backup in the event of any damage to the first core. LEDs with 435~nm and 450~nm wavelengths were chosen for the injection points facing into the LS to monitor optical degradation of the scintillator. Below 420~nm the absorption length of GdLS decreases significantly as shown in \autoref{fig:LZ/GdLSSpecRes}, if the scintillator degrades this region shifts to higher wavelengths. A similar approach is taken for monitoring the optical properties of the acrylic using 390~nm and 435~nm LEDs. The transmission of light through the acrylic varies with wavelength, as shown in \autoref{fig:LZ/AcrylicQA}. Monitoring the optical properties of the acrylic and scintillator during science runs is key to ensure consistent light collection during science runs.
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.8\linewidth]{figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/T187-XDM-UVT_WAVELENGHT_08252017.png}
     \caption{Quality assurance measurement data taken during the commissioning of the acrylic tanks. The QA measurement data is the average transmission of light at a particular wavelength across 46 points. Vertical lines indicate the 390~nm and 435~nm LEDs with respect to the transmission of light.}
     \label{fig:LZ/AcrylicQA}
 \end{figure}
 The electronics system which controls the LEDs consists of five Optical Calibration Cards (OCC). Each OCC consists of an FPGA controlled motherboard which houses eight LED pulser boards and two four-channel photodiode boards. Light pulses from the LEDs are divided by a three-way optical coupler: to the injection points in the OD; to the photodiode readout for onboard monitoring; to a monitoring PMT. The layout of the system can be seen in \autoref{fig:LZ/OCSSchematic}.
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=\linewidth]{figures/LZ/OCSSchematics.pdf}
+    \includegraphics[width=0.9\linewidth]{figures/LZ/OCSSchematics.pdf}
     \caption{A schematic of the OD OCS. An example of one Optical Calibration Card (OCC) is shown with its eight LED pulser boards and two photodiode boards. A total of five OCCs make up the OCS and are powered by a VME crate. Lines with arrows show the paths light takes down various fibres to different positions in the system. Labels 1-3 represent the three heights within the PMT array, while Label 4-5 denote the injection points to monitor the GdLS/acrylic, as shown in \autoref{fig:LZ/OCSPositions}. Adapted from Ref.~\cite{Turner:2021qvi,LZ:2024bsz}.}
     \label{fig:LZ/OCSSchematic}
 \end{figure}
@@ -224,7 +224,7 @@ External triggers are used during certain calibrations and are listed below:
 \end{itemize}
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=\linewidth]{figures/LZ/LZDAQ.png}
+    \includegraphics[width=0.7\linewidth]{figures/LZ/LZDAQ.png}
     \caption{A simplified schematic depicting how PMT signals are processed using the LZ DAQ system. Adapted from Ref.~\cite{LZ:2024bvw}.}
     \label{fig:LZ/LZDAQ}
 \end{figure}
@@ -233,7 +233,7 @@ Results from the POD waveform analysis are passed to the data sparsifiers and gr
 Simulations of the LZ experiment play a key role understanding the detector and its response. They present several purposes, for example: the calculation of background rates in LZ; the prediction of of sensitivity of the experiment to rare event searches through Profile Likelihood Ratio analysis (PLR); the testing of event reconstruction infrastructure; determining efficiencies of data selection methods. An overview of the LZ simulation framework is shown in \autoref{fig:LZ/LZSimFramework}.
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=\linewidth]{figures/LZ/LZSimFramework.png}
+    \includegraphics[width=0.95\linewidth]{figures/LZ/LZSimFramework.png}
     \caption{Simulation framework for the LZ experiment. ``Full'' and ``Fast'' simulation chains are shown. Both chains begin with BACCARAT and end with an output LZAP RQ file.}
     \label{fig:LZ/LZSimFramework}
 \end{figure}
@@ -245,19 +245,43 @@ The second, ``Full'' chain, enables full simulation of optical processes through
 A complete review of the LZ Simulation framework can be found at Ref.~\cite{LZ_SIMS}.
 
 \section{Assembly and operation of the LZ detector}\label{sec:LZ/LZAssembly}
-During the past six years whilst the author has collaborated on the LZ Experiment, a significant portion of that time has been spent on-site at SURF working on the assembly, commissioning and operation of the LZ Detector. These efforts began with the installation of the OCS electronics and an in-situ-calibration of the LED system, this work is detailed extensively in Ref.~\cite{hbirch:thesis}.
-\begin{figure}[!ht]
-     \centering
-     \begin{subfigure}{0.47\textwidth}
-         \centering
-         \includegraphics[width=0.95\textwidth]{figures/LZ/OCSMotherboardCC.png}
-         \label{fig:LZ/Gonk0}
-     \end{subfigure}
-     %\hfill
-     \begin{subfigure}{0.47\textwidth}
-         \centering
-         \includegraphics[width=\textwidth]{figures/LZ/OCSElectronicsInstallation.png}
-         \label{fig:LZ/Gonk1}
-     \end{subfigure}
-     \caption{OD OCS electronics installation. \textbf{Left:} The author standing in the common corridor at the Davis Campus holding an OCC prior to the OCS electronics installation. \textbf{Right:} The author making serial connections between the front planes of the OCS OCCs within the electronics racks.}
+During the past six years whilst the author has collaborated on the LZ Experiment, a significant portion of that time has been spent on-site at SURF working on the assembly, commissioning and operation of the LZ Detector. These efforts began with the installation of the OCS electronics and an in-situ-calibration of the LED system in November 2019, this work is detailed extensively in Ref.~\cite{hbirch:thesis}. Photographs of the author with an OCC and working in the OCS rack are shown in \autoref{fig:LZ/OCSInstall}.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.9\linewidth]{figures/LZ/OCSInstall_2panel.png}
+    \caption[OD OCS electronics installation.]{OD OCS electronics installation. \textbf{Left:} The author standing in the common corridor at the Davis Campus holding an OCC prior to the OCS electronics installation. \textbf{Right:} The author making serial connections between the front planes of the OCS OCCs within the electronics racks.}
+    \label{fig:LZ/OCSInstall}
 \end{figure}
+
+The construction of the OD PMT system and OCS fibre installation took place between November 2020 and April 2021. A photograph of the complete OD PMT system prior to filling is shown in \autoref{fig:LZ/ODImg}, alongside a photograph of the six person OD PMT system installation team. The OD PMTs are visible which are attached to a stainless steel support structure (faintly outlined by shadow in \autoref{fig:LZ/ODImg}). Tyvek covers the support structure, DD conduits, OCV and cathode high voltage (HV) umbilical to increase light collection efficiency of the OD. The author was responsible for the completion of the OD PMT installation, managing the HV and signal cable routing operation. A total of 6~km of cable was routed from the PMTs in the water tank to the DAQ electronics racks situated on the upper level of the Davis Cavern. The final cable routing of the all 120 PMTs to their respective power supplies and amplifiers is shown in the left panel of \autoref{fig:LZ/Gonk2}.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=\textwidth]{figures/LZ/Screenshot from 2025-07-22 19-21-29.png}
+    \caption[Completed Outer Detector prior to filling in May 2021 alongside OD PMT installation team.]{\textbf{Left:} Completed Outer Detector prior to filling in May 2021. \textbf{Right:} OD PMT installation team, M. Williams (bottom right), A. Rodriguez (bottom left), L. Korley (middle right), D. Lucero (middle left), J.J. Wang (upper right), and author (upper left). Photographs used with permission from M. Kapust.}
+    \label{fig:LZ/ODImg}
+\end{figure}
+
+Due to the COVID-2019 pandemic\footnote{Due to travel restrictions the group from the University of Liverpool where unable to travel to SURF to assist the author with the installation.} the author was entirely responsible for installing the OCS fibre system and monitoring PMT, a photograph of the author holding the monitoring PMT is shown in the middle panel of \autoref{fig:LZ/Gonk2}. The commissioning of the OD PMT system and OCS followed in May 2021 with all PMTs and OCS injection points operating as expected.
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=\linewidth]{figures/LZ/GonkThreepanel.png}
+    \caption{The author and the fruits of many labours. \textbf{Left:} Final OD HV and Signal cable routing viewed from the rear of Rack 9. \textbf{Middle:} A photograph of the author holding the OD OCS monitoring PMT prior to its installation into the rack mounted dark box below the OCS electronics, \textit{YNWA}. \textbf{Right:} The author sporting a dashing PPE set whilst dispensing nitrogen to cryopump the source injection panel prior to a flow through source calibration.}
+    \label{fig:LZ/Gonk2}
+\end{figure}
+
+From April 2023 - August 2024, the author was a member of the on-site scientific support team at SURF. The role covered many different tasks to ensure LZ remained operational, from managing the deployment of rod sources during calibration campaigns to maintenance of detector subsystems such at the OD water circulation system. A photograph of the author dispensing liquid nitrogen whilst cryopumping the source injection panel is shown in right panel of \autoref{fig:LZ/Gonk2}.
+
+\iffalse
+In addition to the analyses detailed in the following chapters, the author has fulfilled key roles on the experiment:
+\begin{itemize}
+    \item OD Optical Calibration Lead/Expert \textit{(2019 - 2025)}
+    \item OD PMT Expert \textit{(2021 - 2025)}
+    \item PMT Shift Supervisor \textit{(2021 - 2025)}
+    \item On-site science support \textit{(April 2023 - August 2025)}
+    \item Deputy Outer Detector Coordinator \textit{(April 2023 - December 2024)}
+    \item Supervised Black Hills State University undergraduate student through the DoE SC-RENEW program \textit{(September 2023 - July 2024)}
+\end{itemize}
+\fi
