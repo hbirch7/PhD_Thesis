@@ -1,8 +1,8 @@
-\section{WIMP search core cuts}\label{sec:app/WSCoreCuts}
-Blurb out the WIMP search core cuts using in the veto efficiency study.
+\section{TPC based cuts used in the veto efficiency studies}\label{sec:app/WSCoreCuts}
+A series of cuts have been developed for the WIMP search analysis to select candidate events based on a number of TPC detector parameters. The cuts can be broken down into four broad categories: Live time cuts, Physics cuts, S1 pulse based cuts, and S2 pulse based cuts. Each of the tables below provides a brief description of the different cuts in each of the categories.
 \begin{table}[h!]
     \centering
-    \caption{Live time cuts}
+    \caption{Live time cuts. This series of cuts a used to remove period of time with events that contain spurious combinations of pulses in the detector.}
     \begin{tabular}{|m{10em}m{22em}|}
     \hline
     \textbf{Name} & \textbf{Brief description} \\
@@ -17,65 +17,62 @@ Blurb out the WIMP search core cuts using in the veto efficiency study.
     \hline
     \end{tabular}
 \end{table}
-
 \begin{table}[h!]
     \centering
-    \caption{Physics cuts}
-    \begin{tabular}{|m{10em}m{12em}m{10em}|}
+    \caption{Physics cuts. These cuts define the search space where LZ will conduct the WIMP search in $\{\text{S1}c,\text{log}_{10}(\text{S2}c)\}$ space. The fiducial volume is the inner cylindrical volume of xenon of lower background rate.}
+    \begin{tabular}{|m{10em}m{22em}|}
     \hline
-    \textbf{Name} & \textbf{Brief description}& \textbf{Selection} \\
+    \textbf{Name}&\textbf{Brief description}\\
     \hline\hline
-    S1 Threshold & Defines the search boundaries for the WS in S1 area. & $3<\text{S1}c<80~\text{phd}$ \\
+    S1 Threshold & Defines the search boundaries for the WS in S1 area. Selection window: $3<\text{S1}c<80~\text{phd}$ \\
     \hline
-    S2 Threshold & Defines the search boundaries for the WS in S2 pulse areas. & $\text{S2}>645~\text{phd}$ and $\text{log}_{10}(\text{S2}c)<4.5$ \\
+    S2 Threshold & Defines the search boundaries for the WS in S2 pulse areas. Selection window: $\text{S2}>645~\text{phd}$ and $\text{log}_{10}(\text{S2}c)<4.5$ \\
     \hline
-    Fiducial volume & Defines an inner region of the detector where the wall background leakage in the WS ROI is below a certain threshold. & \\
+    Fiducial volume & Defines an inner region of the detector where the wall background leakage in the WS ROI is below a certain threshold.\\
     \hline
     \end{tabular}
 \end{table}
-
 \begin{table}[h!]
     \centering
-    \caption{S2 pulse cuts}
-    \begin{tabular}{|m{10em}m{12em}m{10em}|}
+    \caption{S2 pulse cuts. In combination with S1 based cuts, this series of cuts target populations of isolated S2 pulses which lead to accidentals in the TPC. These cuts were developed in isolation of other cuts, each for a specific type of S1 or S2 shape, or event pathology \cite{mwilliams:thesis}.}
+    \begin{tabular}{|m{10em}m{22em}|}
     \hline
-    \textbf{Name} & \textbf{Brief description}& \textbf{Selection} \\
+    \textbf{Name}&\textbf{Brief description}\\
     \hline\hline
-    Narrow S2 &Targets “flat-top” S2 pulses, which typically have a narrow width. & \\
+    Narrow S2 &Targets “flat-top” S2 pulses, which typically have a narrow width.\\
     \hline
-    S2 rise time & Targets “flat-top” S2 pulses, which typically have a steep rise.& \\
+    S2 rise time & Targets “flat-top” S2 pulses, which typically have a steep rise.\\
     \hline
-    S2 early peak & Targets extraction region gas events with a characteristic “bump” at the beginning.& \\
+    S2 early peak & Targets extraction region gas events with a characteristic “bump” at the beginning.\\
     \hline
-    S2 XY quality & Rejects events with a poor XY $\chi^2$ from reconstruction minimization. & \\
+    S2 XY quality & Rejects events with a poor TPC-$xy$ $\chi^2$ from reconstruction minimization.\\
     \hline
-    S2 TBA & Targets events occurring above the anode. & \\
+    S2 TBA & Targets events occurring above the anode.\\
     \hline
-    S1 Stinger & Removes events with a small S1 pulse following an SE/S2/Other pulse. & \\
+    S1 Stinger & Removes events with a small S1 pulse following an SE/S2/Other pulse.\\
     \hline
-    S1 TBA vs drift time& Exploits the empirical relationship between S1 TBA and drift time to reject accidental events. & \\
+    S1 TBA vs drift time& Exploits the empirical relationship between S1 TBA and drift time to reject accidental events.\\
     \hline
-    S1 HSC & Removes events that exhibit large maximum channel areas (i.e. most of the light are concentrated in a single PMT). & \\
+    S1 HSC & Removes events that exhibit large maximum channel areas (i.e. most of the light are concentrated in a single PMT).\\
     \hline
-    S1 shape & Looks for S1s with slightly distorted shapes, which are more characteristic of accidental S1 than real S1.& \\
+    S1 shape & Looks for S1s with slightly distorted shapes, which are more characteristic of accidental S1 than real S1.\\
     \hline
     \end{tabular}
 \end{table}
-
 \begin{table}[h!]
     \centering
-    \caption{S1 pulse cuts}
-    \begin{tabular}{|m{10em}m{12em}m{10em}|}
+    \caption{S1 pulse cuts. In combination with S2 based cuts, this series of cuts target populations of isolated S1 pulses which lead to accidentals in the TPC. These cuts were developed in isolation of other cuts, each for a specific type of S1 or S2 shape, or event pathology \cite{mwilliams:thesis}.}
+    \begin{tabular}{|m{10em}m{22em}|}
     \hline
-    \textbf{Name} & \textbf{Brief description}& \textbf{Selection} \\
+    \textbf{Name}&\textbf{Brief description}\\
     \hline\hline
-    S1 Stinger & Removes events with a small S1 pulse following an SE/S2/Other pulse. & \\
+    S1 Stinger & Removes events with a small S1 pulse following an SE/S2/Other pulse.\\
     \hline
-    S1 TBA & Exploits the empirical relationship between S1 TBA and drift time to reject accidental events. & \\
+    S1 TBA & Exploits the empirical relationship between S1 TBA and drift time to reject accidental events.\\
     \hline
-    S1 HSC & Removes events that exhibit large maximum channel areas (i.e. most of the light are concentrated in a single PMT). & \\
+    S1 HSC & Removes events that exhibit large maximum channel areas (i.e. most of the light are concentrated in a single PMT).\\
     \hline
-    S1 shape & Looks for S1s with slightly distorted shapes, which are more characteristic of accidental S1 than real S1.& \\
-    \hline\hline
+    S1 shape & Looks for S1s with slightly distorted shapes, which are more characteristic of accidental S1 than real S1.\\
+    \hline
     \end{tabular}
 \end{table}

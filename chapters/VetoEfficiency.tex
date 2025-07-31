@@ -1,28 +1,29 @@
-\chapter{Veto efficiency studies for the 2024 WIMP search result}\label{chap:VetoEfficiency}
-A WIMP scatter is expected to only deposit a small amount of energy (few~keV) within the LXe volume of the experiment in a single scatter. Neutrons produced through radioactive decays within detector materials mimics a WIMP interaction when they scatter off Xe atoms. Veto detectors surrounding the central LXe volume also permits assessment of the local radioactivity environment, and thus to infer additional information on the backgrounds in the WIMP search region. A WIMP discovery will require excellent understanding of all background sources, which is best done through the characterization of those backgrounds \textit{in situ}. Efficiency of the veto systems in the detection of the radiation produced by the backgrounds should be maximised whilst minimizing the impact of the veto selection on detector livetime in turn maximising the detector livetime available for the detection of WIMPs. \autoref{sec:VetoEff/simulation_improvements} describes the series of improvements to the detector simulation which were made prior to the WS2024 science run which aided the understanding of the response from the veto detector systems. The refinement of the veto selection algorithm is discussed alongside the impact that the veto selection had on the WS2024 result from \autoref{sec:VetoEff/VetoSelectionOptimisation} onwards.
+\chapter{Veto efficiency studies for the 2024 WIMP search analysis}\label{chap:VetoEfficiency}
+A WIMP scatter is expected to only deposit a small amount of energy (few~keV) within the LXe volume of the experiment in a single scatter. 
+Neutrons produced through radioactive decays within detector materials mimics a WIMP interaction when they scatter off Xe atoms. Veto detectors surrounding the central LXe volume can detect these otherwise indistinguishable events and also permits assessment of the local radioactivity environment. A WIMP discovery will require excellent understanding of all background sources, which is best done through the characterization of those backgrounds \textit{in situ}. Efficiency of the veto systems in the detection of the radiation produced by the backgrounds should be maximised whilst minimizing the impact of the veto selection on detector livetime in turn maximising the detector livetime available for the detection of WIMPs. \autoref{sec:VetoEff/simulation_improvements} describes the series of improvements to the detector simulation geometry which were made prior to the WS2024 science run which aided the understanding of the response from the veto detector systems. The refinement of the veto selection algorithm is discussed alongside the impact that the veto selection had on the WS2024 result from \autoref{sec:VetoEff/VetoSelectionOptimisation} onwards.
 
 \section{Improved Outer Detector Simulations}\label{sec:VetoEff/simulation_improvements}
+The Outer Detector is defined as a Geant4 geometry, including transparency and other properties of each material, to allow simulations of neutron vetoes. 
 Prior to WS2024 result, there were a number of major differences between simulations and data in the Outer Detector (OD). As such, an effort was made to correct this through modifications to the geometry of the Outer Detector in simulations to better reflect what is observed in data.
 \subsection{Modifications of the Outer Detector simulation geometry}\label{sec:VetoEff/GeometryEdits}
 There was a distinct discrepancy in neutron capture timing following single scatters within the TPC, this was one of the metrics which is investigated to quantify difference between data and simulation.
 The simulation is improved through the following changes:
 \begin{enumerate}
 	%\item Spacing was added between the acrylic tanks to account for the gaps between the tanks which were present due to minor geometric differences produces in the moulding of the vessels during manufacturing process.
-	\item Water was added to the foam volume which is between the OCV and acrylic tanks. The foam was intended to displace water to reduce neutron capture time, however the foam became saturated with water \footnote{A long-term bench top studies found that samples of foam became saturated with water.}.
+	\item Water was added to the foam volume which is between the OCV and acrylic tanks. The foam was intended to displace water to reduce neutron capture time, however the foam became saturated with water \footnote{A long-term bench top study found that samples of foam became saturated with water.}.
 	\item The acrylic tanks were moved further away from the OCV in the simulation to reflect the actual position of the tanks in the Outer Detector, as installed.
 \end{enumerate}
-A series of simulations is produced varying both the amount of water saturation of foam displacer in 1\% steps and the position of the acrylic tanks from the OCV in 10~mm steps. The \textit{best} configuration of the simulation geometry changes is found to be 30~mm and 6\% through matching the capture time of neutrons following single scatters in the active LXe volume. Additional details on the discrepancies between simulations and data with respect to neutron capture timing is discussed in the subsequent subsection.
+A series of simulations is produced varying both the amount of water saturation of foam displacer in 1\% steps and the position of the acrylic tanks from the OCV in 10~mm steps.
 \begin{figure}[ht!]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/VetoEfficiency/FoamImgAndSimGeoTogether.png}
-	\caption[An image of the foam displacer surrounding the OCS and final geometry in the simulation used for the WS2024 science run.]{Geometry in the simulation used for the WS2024 science run. \textbf{Left:} A photograph of the light green foam water displacer which resides between the acrylic tanks and the OCV. The water displacer was wrapped in a light reflector made from Tyvek. \textbf{Right:} A cross-section of the BACCARAT output. Geantinos were been passed through the simulation geometry, the $xyz$ position information and GEANT4 volumes were recorded to show the various volumes in the simulation.}
+	\caption[An image of the foam displacer surrounding the OCS and final geometry in the simulation used for the WS2024 science run.]{Geometry in the simulation used for the WS2024 science run. \textbf{Left:} A photograph of the light green foam water displacer which resides between the acrylic tanks and the OCV. The water displacer was wrapped in a light reflector made from Tyvek. \textbf{Right:} A cross-section of the BACCARAT output. Geantinos (non-interacting test particles used for visualisation) were passed through the simulation geometry, the $xyz$ position information and Geant4 volumes were recorded to show the various volumes in the simulation.}
 	\label{fig:VetoEff/od_geometry_for_sr3}
 \end{figure}
 
-\subsubsection{Neutron capture time}\label{sec:VetoEff/NCT}
-Following the geometry changes discussed above, the neutron capture timing using AmLi is studied. Events which are classified as single scatters by LZap and pass the selection outlined in \autoref{sec:app/WSCoreCuts} are used for the study. OD pulses which exceeded a 200~keV (49~phd) threshold are used to optimise the geometry as corresponds to the threshold associated with proton recoil of neutrons of hydrogen in the OD medium.
+Following these geometry changes, the neutron capture timing using AmLi is studied. Events which are classified as single scatters by LZap and pass the selection outlined in \autoref{sec:app/WSCoreCuts} are used for the study. OD pulses which exceeded a 200~keV (49~phd) threshold are used to optimise the geometry as corresponds to the threshold associated with proton recoil of neutrons of hydrogen in the OD medium.
 All possible configurations of the geometry modifications are visually examined to determine which variation of simulation matches the data. An example of the comparison plot is shown in \autoref{fig:VetoEff/NC_AmLi_50mm7}, the "baseline simulation" is the initially configuration of the geometry prior to this study. %All plots were examined side by side in a large scale canvas configuration seen in Fig.\ref{fig:VetoEff/NC_Canvas0}, \ref{fig:VetoEff/NC_Canvas1}, \ref{fig:VetoEff/NC_Canvas2}, and \ref{fig:VetoEff/NC_Canvas3}. 
-From this study it is found that 30~mm~to~50~mm movement of the SATs alongside 5\%~to~7\% increase in the percentage of water in the foam provides the best agreement between data and simulation at a 200~keV threshold.
+From this study it was found that 30~mm~to~50~mm movement of the SATs alongside 5\%~to~7\% increase in the percentage of water in the foam provides the best agreement between data and simulation at a 200~keV threshold. Including results from other studies on the H-Gd neutron capture ratios important when more water is present and thus more hydrogen, the \textit{best} configuration of the simulation geometry changes is found to be 30~mm and 6\% through matching the capture time of neutrons following single scatters in the active LXe volume.
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.7\linewidth]{figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png}
@@ -32,7 +33,7 @@ From this study it is found that 30~mm~to~50~mm movement of the SATs alongside 5
 
 \section{Veto selection optimisation}\label{sec:VetoEff/VetoSelectionOptimisation}
 A description of how the veto selection for the WS2024 is optimised is presented in this section. The Skin and OD veto cuts used in the WS2024 science run are based on those developed for the WS2022 science run, described in \cite{LZ:2022lsv} and are presented in \autoref{tab:VetoEff/sr3_veto_cuts}.
-The veto selection relies on four separate selection criteria which each have their own intended purposes:
+Both the OD and Skin detector may issue a veto and for each detector a tighter selection is defined for the first period after an interaction (\textit{prompt}) while a looser selection is applied for a longer time interval (\textit{delayed}) giving four veto categories each with their own intended purpose:
 \begin{itemize}
 	\item \textit{Skin-prompt} used for tagging $\gamma$-rays in the Skin detector
 	\item \textit{OD-prompt} used for tagging $\gamma$-rays and neutron proton recoils in the OD
@@ -43,7 +44,7 @@ The cuts used for the different veto criteria are selected at the same time as A
 
 \begin{table}[!ht]
 	\centering
-	\caption{Outline of cuts applied to AmLi calibration data for determining the veto efficiency. All cuts are defined in \autoref{sec:app/WSCoreCuts}.}
+	\caption{Outline of TPC cuts applied to AmLi calibration data for determining the veto efficiency. All cuts are defined in \autoref{sec:app/WSCoreCuts}.}
 	\label{tab:VetoEff/amli_efficiency_cuts}
     \scalebox{0.9}{
 	\begin{tabular}{llll}
@@ -60,8 +61,9 @@ The cuts used for the different veto criteria are selected at the same time as A
 	\end{tabular}}
 \end{table}
 
-\subsection{Veto window length}
-The veto window length for the prompt windows are determined using AmLi and DD calibration data by measuring the time difference between the TPC single-scatter and OD and Skin pulses. The length of the prompt window is determined by width of the peak observed in the pulse timing distributions shown in \autoref{fig:VetoEff/veto_prompt_windows}. For the WS2024 selection, no change is made to the OD prompt veto window size, however the Skin prompt veto window is reduced by 500~ns as the number of the pulses observed outside of window $\pm250$~ns is considered negligible.
+\subsection{Veto window length}\label{sec:VetoEff/VetoWindowLength}
+The veto window length is defined as the period of time after a single scatter in the TPC where a coincident signal in the OD or Skin would cause to reject the event.
+The veto window length for the prompt windows are determined using AmLi and DD calibration data by measuring the time difference between the TPC single-scatter and OD and Skin pulses. The length of the prompt window is determined by width of the peak observed in the pulse timing distributions shown in \autoref{fig:VetoEff/veto_prompt_windows}. For the WS2024 selection, no change is made to the OD prompt veto window size, however the Skin prompt veto window is reduced by 500~ns as the pulses observed outside of the window $(0-250)$~ns are large enough to be rejected by the subsequent delayed veto and there are not pulses observed before $-250$~ns.
 \begin{figure}[!ht]
 	\centering
 	\begin{subfigure}[b]{0.49\textwidth}
@@ -85,7 +87,7 @@ The veto window length for the prompt windows are determined using AmLi and DD c
 	\label{fig:VetoEff/veto_prompt_windows}
 \end{figure}
 
-The veto efficiency (defined in \ref{eqn:VetoEff/neutron_tagging_efficiency}) calculated using AmLi calibration data is used to determine the size of the delayed veto window for both the Skin and OD. The veto window length is reduced by a factor of two for both Skin and OD delayed windows as the slope of the efficiency curve begins to plateau above 600~$\mu s$. An example of the veto efficiency plot used is shown in \autoref{fig:VetoEff/DelayedVetoWindow}.
+The veto efficiency (defined in \ref{eqn:VetoEff/neutron_tagging_efficiency}) calculated using AmLi calibration data is used to determine the size of the delayed veto window for both the Skin and OD. The veto window length is reduced by a factor of two for both Skin and OD delayed windows as the slope of the efficiency curve begins to plateau above 600~\textmu s. An example of the veto efficiency plot used is shown in \autoref{fig:VetoEff/DelayedVetoWindow}.
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/VetoEfficiency/DelayedVetoWindow.pdf}
@@ -96,7 +98,7 @@ The veto efficiency (defined in \ref{eqn:VetoEff/neutron_tagging_efficiency}) ca
 The reduction in the veto window lengths has a positive impact on the dead time induced by the veto selection. Veto dead time is discussed in greater detail \autoref{sec:VetoEff/DeadtimeStability}.
 
 \subsection{PMT Coincidence and pulse area threshold}
-To optimize the pulse area and PMT coincidence thresholds the veto efficiency and deadtime is calculated for different integer step changes of both the pulse area and PMT coincidence for the respective veto windows. Heatmaps of efficiency and deadtime based on PMT coincidence and pulse area threshold are produced, an example of a heatmap is shown in \autoref{fig:VetoEff/od_prompt_veto_heatmap}. %All heatmaps produced for the optimization study are shown in \autoref{app:VetoHeatMapsSec}.
+To optimize the pulse area and PMT coincidence thresholds the veto efficiency and deadtime is calculated for a grid in the pulse area and PMT coincidence requirement for the respective veto windows. An example of an efficiency grid (``heatmap'') is shown in \autoref{fig:VetoEff/od_prompt_veto_heatmap}. %All heatmaps produced for the optimization study are shown in \autoref{app:VetoHeatMapsSec}.
 
 \begin{figure}
 	\centering
@@ -106,7 +108,7 @@ To optimize the pulse area and PMT coincidence thresholds the veto efficiency an
 \end{figure}
 
 Compiling the heatmaps of efficiency and deadtime for established veto windows of the different criteria, thresholds are chosen to maximise efficiency whilst minimising dead time. An example plot used to determine this is shown in \autoref{fig:VetoEff/veto_cut_optimisation}.
-For the WS2024 science run, the approach of trying to maintain the efficiency of WS2022 veto of $\sim$~89\%, whilst reducing the livetime impact is taken. It is determined that the efficiency can be matched to the veto efficiency achieved in the WS2022 science run whilst achieving a factor of two reduction in deadtime.
+For the WS2024 science run, the approach of trying to maintain the efficiency of WS2022 veto of $\sim$~89\%, whilst reducing the livetime impact is taken. It is determined that the efficiency can be matched to the veto efficiency achieved in the WS2022 science run whilst achieving a factor of two reduction in deadtime due to the tighter cuts obtained through better understand of the veto.
 
 \noindent
 The final cuts for the WS2024 science run are shown in \autoref{tab:VetoEff/sr3_veto_cuts}, with the WS2022 selection included for comparison. Any modifications to the selections are shaded to aid the readers eye.
@@ -186,7 +188,7 @@ The final cuts for the WS2024 science run are shown in \autoref{tab:VetoEff/sr3_
 \end{table}
 
 \subsection{Deadtime stability}\label{sec:VetoEff/DeadtimeStability}
-The stability of the induced deadtime for each of the veto selection windows over the WS2024 science run is assessed for stability by comparing the deadtime at monthly intervals. For each month, the rate of pulses in the Skin and OD, using the second half of the Random Trigger data is used; and the rate above the threshold, defined by the specific veto cut, is recorded. The stability of measured deadtime over the WS2024 science run is shown in \autoref{fig:VetoEff/deadtime_stability}.
+The stability of the induced deadtime for each of the veto selection windows over the WS2024 science run is assessed for stability by comparing the deadtime at monthly intervals. For each month, the rate of pulses in the Skin and OD, using randomly triggered data; and the rate above the threshold, defined by the specific veto cut, is recorded. The stability of measured deadtime over the WS2024 science run is shown in \autoref{fig:VetoEff/deadtime_stability}.
 The deadtime is then calculated as:
 \begin{equation}
 	\textrm{Dead Time [\%]} = 100 - (\lambda(x)\cdot t_{\text{vw}})
@@ -207,13 +209,14 @@ The conclusion that the deadtime is stable over the WS2024 science run is confir
 \end{figure}
 
 \section{Neutron veto efficiency}\label{sec:VetoEff/efficiency}
+In order to estimate the neutron background of LZ during a science run, we must know what fraction of neutron induced NR single scatters produce a signal in the veto detectors. We call this quantity the \textit{veto efficiency}.
 In this section, the efficiency of tagging background neutrons using the Skin and OD detectors is calculated.
 This is performed by calculating the efficiency on AmLi and DD calibration data and comparing to simulations.
-The difference between efficiencies from simulations and data is then used to calculate an offset.
-The efficiency is then calculated for detector NR simulations and the observed offset is used as a correction factor to estimate the tagging efficiency for events classified as detector NR \cite{LZ:2022ysc,LZ:2024zvo}.
+The difference between efficiencies from simulations and data is then used to calculate an offset factor.
+The efficiency is then calculated for detector NR simulations and the observed offset factor is used to estimate the tagging efficiency for events classified as detector NR \cite{LZ:2022ysc,LZ:2024zvo}.
 The efficiency is defined as:
 \begin{equation}\label{eqn:VetoEff/neutron_tagging_efficiency}
-	\eta\;[\%] = \frac{\textrm{N. Events passing Analysis Cuts + Veto Cuts}}{\textrm{N. Events passing Analysis Cuts}} \times 100
+	\eta\;[\%] = \frac{\textrm{N. Events passing TPC analysis cuts + veto cuts}}{\textrm{N. Events passing TPC analysis cuts}} \times 100
 \end{equation}
 and the inefficiency is defined as $\cancel{\eta}=100-\eta$. For all veto efficiency calculations in this chapter, if a pulse in the Skin or OD passes any of the selections outlined in \autoref{tab:VetoEff/sr3_veto_cuts}, then the event is included in the number of events in the numerator of \autoref{eqn:VetoEff/neutron_tagging_efficiency}. The efficiency based on this decision logic is the \textit{total veto efficiency}.
 
@@ -222,11 +225,11 @@ Two additional efficiencies are investigated: \textit{delayed veto efficiency} d
 Unless otherwise stated, all veto efficiencies presented follow the \textit{total veto efficiency} logic.
 
 \subsection{Neutrons from calibration sources}\label{sec:VetoEff/NeutronsFromCalibrationSources}
-LZ utilises two neutron sources to measure the neutron tagging efficiencies of the veto detectors. AmLi sources are a compound of \textsuperscript{241}Am $\alpha$-radioactivity and \textsuperscript{7}Li produce low-energy neutron emission via nuclear $(\alpha,\text{n})$ reactions. Alphas from $^{241}$Am decay bombard the $^{7}$Li nuclei. This leads to a nuclear reaction of type \textsuperscript{7}Li$+\alpha \rightarrow$\textsuperscript{11}B\textsuperscript{*}. The excited \textsuperscript{11}B nucleus then decays to \textsuperscript{11}B via neutron emission. The neutrons produced by the AmLi sources have a maximum energy of $\sim1.5~\text{MeV}$ which results in a nuclear recoils depositing up to $\sim45~\text{keV}_{nr}$ of energy \cite{LZ:2024bsz}. Gamma radiation is also emitted in the \textsuperscript{241}Am decay to various states of \textsuperscript{237}Np and is an associated background to the reaction neutrons. The neutron to gamma ray emission ratio is 0.032 \cite{Sazzad:2023uqs}. The gamma ray background of the AmLi source is accounted for by the accidental correction factors described in \autoref{sec:VetoEff/AmLiAccCorrection}. The characterisation of the LZ AmLi sources is discussed in detail in Ref.~\cite{Sazzad:2023uqs}.
-
-A deuterium-deuterium (DD) neutron generator is used to produce mono-energetic 2.46~MeV neutrons which result in nuclear recoils depositing up to $74~\text{keV}_{nr}$ of energy. Neutrons are produced by the DD generator as follows: Deuterium is ionized and turned into a plasma by a microwave. Deuterium ions in the plasma are accelerated towards a charged titanium-coated cooper target. D\textsuperscript{+} ions embed into the target form titanium deuteride. Subsequent D\textsuperscript{+} ions fuse to the embed ions and release neutrons via the D+D$\rightarrow$\textsuperscript{3}He+n. The generator is position outside of the water tank and neutrons are collimated and transmitted to the OCV through nitrogen purged conduits \cite{LZ:2024bsz}. The neutron production is pulsed to suppress the ER background rate and enables selection of events coincident with neutron production. Neutron pulsing decreases the impact of accidental coincidences which artificially increases the veto tagging efficiency. Accidental correction factors are still required as pulsing neutron production does not completely suppress accidental coincidences.
+LZ utilises two neutron sources, AmLi and deuterium-deuterium (DD) neutron generator, to calibrate the detectors response to nuclear recoils and to measure the neutron tagging efficiencies of the veto detectors. The following two sections will detail the veto calculation for each of the calibration data sets.
 
 \subsubsection{AmLi}\label{sec:VetoEff/AmLi_Efficiency}
+AmLi sources are a compound of \textsuperscript{241}Am $\alpha$-radioactivity and \textsuperscript{7}Li produce low-energy neutron emission via nuclear $(\alpha,\text{n})$ reactions. Alphas from $^{241}$Am decay bombard the $^{7}$Li nuclei. This leads to a nuclear reaction of type \textsuperscript{7}Li$+\alpha \rightarrow$\textsuperscript{11}B\textsuperscript{*}. The excited \textsuperscript{11}B nucleus then decays to \textsuperscript{11}B via neutron emission. The neutrons produced by the AmLi sources have a maximum energy of $\sim1.5~\text{MeV}$ which results in a nuclear recoils depositing up to $\sim45~\text{keV}_{nr}$ of energy \cite{LZ:2024bsz}. Gamma radiation is also emitted in the \textsuperscript{241}Am decay to various states of \textsuperscript{237}Np and is an associated background to the reaction neutrons. The neutron to gamma ray emission ratio is 0.032 \cite{Sazzad:2023uqs}. The gamma ray background of the AmLi source is accounted for by the accidental correction factors described in \autoref{sec:VetoEff/AmLiAccCorrection}. The characterisation of the LZ AmLi sources is discussed in detail in Ref.~\cite{Sazzad:2023uqs}.
+
 AmLi calibration data used in this study was taken during the May 2023 calibration campaign prior to the WS2024 science run. Events which arre classified as single scatters by LZap and pass the selection outlined in \autoref{tab:VetoEff/amli_efficiency_cuts} are used for the study. Two additional cuts are applied to the calibration data:
 \begin{enumerate}
 	\item \textit{CSD tube position selection:} A circular cut on the reconstructed position of the SS S1 pulse in the TPC such that events from just one CSD tube are selected at a time. During the calibration campaign, sources were simultaneously deployed in each of the CSD tubes at equal heights (three separate height positions were used, $z=100~\text{mm},700~\text{mm},1300~\text{mm}$ relative to cathode at $z=0~\text{mm}$). Whereas separate simulations were produced with a single source in each CSD tube at three different heights (equal to the $z$-position used in the calibration campaign). 
@@ -262,7 +265,7 @@ AmLi calibration data used in this study was taken during the May 2023 calibrati
     	\label{fig:VetoEff/VetoEffPositionDependence}
     \end{figure}
 	A concern of this cut is that events towards the centre of the TPC are excluded. When the efficiency is averaged across different heights and CSD tube, the average can then be replicated in both data and simulation. 
-    The position-averaged efficiency when the CSD cut is applied is $(88.21\pm1.03)\%$, whereas without the cut, the efficiency is $(88.25\pm1.22)\%$.
+    The position-averaged efficiency when the CSD cut is applied and without a cut is compatible, at  $(88.21\pm1.03)\%$ and $(88.25\pm1.22)\%$ respectively.
 	The cut has $<5\%$ impact across the veto window and $<0.1\%$ impact at the 600~$\mu$s veto window threshold. This comparison is shown in \autoref{fig:VetoEff/CSDSelectionEffComp}.
     \begin{figure}[!ht]
     	\centering
@@ -277,7 +280,7 @@ AmLi calibration data used in this study was taken during the May 2023 calibrati
     \begin{equation}\label{eqn:VetoEff/NRBandSelection}
         -1<\frac{log_{10}(\text{S2}_\text{obs.})-\overline{log_{10}(\text{S2})}(\text{S1}_\text{obs.})}{\sigma_{log_{10}(\overline{\text{S2}})}(\text{S1}_\text{obs.})}<1
     \end{equation}
-    where $\text{S1}_\text{obs.}$ and $log_{10}(\text{S2}_\text{obs.})$ are the observed pulse areas from the SS, $\overline{log_{10}(\text{S2})}(\text{S1}_\text{obs.})$ is the mean S2 corresponding to a observed S1 with $\sigma_{log_{10}(\overline{\text{S2}})}(\text{S1}_\text{obs.})$ based on the NEST model. The purpose of this cut is to improve the purity of the selection and had an 84\% impact on the number of events selected for the efficiency measurement. 
+    where $\text{S1}_\text{obs.}$ and $log_{10}(\text{S2}_\text{obs.})$ are the observed pulse areas from the SS, $\overline{log_{10}(\text{S2})}(\text{S1}_\text{obs.})$ is the mean S2 corresponding to a observed S1 with $\sigma_{log_{10}(\overline{\text{S2}})}(\text{S1}_\text{obs.})$ based on the NEST model. The purpose of this cut is to improve the purity of the selection and retains 63\% of the data.
     \begin{figure}[!ht]
     \centering
     \begin{subfigure}[b]{0.49\textwidth}
@@ -299,7 +302,7 @@ AmLi calibration data used in this study was taken during the May 2023 calibrati
 \end{enumerate}
 
 \subsubsection{Accidental correction factor calculation}\label{sec:VetoEff/AmLiAccCorrection}
-If during the calibration, neutrons and gamma rays cause additional veto signals when an unconnected NR event is recorded in the TPC, the veto efficiency will be over estimated. To account for this, we estimate the rate of such non-connected vetoes with a sample of events from the calibration dataset randomly triggered in time. Neutrons which are associated with accidental coincidences are produced via additional $(\alpha,\text{n})$ reactions of the AmLi source whilst gamma rays are produced from neutron capture on Gd and H in the GdLS. A small percentage of gamma rays a produced by the $\alpha$ decay of \textsuperscript{241}Am \cite{Sazzad:2023uqs}.
+If during the calibration, neutrons and gamma rays cause additional veto signals when an unconnected NR event is recorded in the TPC, the veto efficiency will be over estimated. In this chapter, I will call these events \textit{accidental coincidences}\footnote{In LZ, accidental coincidences is also used as a term for spuriously paired S1 and S2 false events but this is not a concern in this chapter.}. To account for this, we estimate the rate of such non-connected vetoes with a sample of events from the calibration dataset randomly triggered in time. Neutrons which are associated with accidental coincidences are produced via additional $(\alpha,\text{n})$ reactions of the AmLi source whilst gamma rays are produced from neutron capture on Gd and H in the GdLS. A small percentage of gamma rays a produced by the $\alpha$ decay of \textsuperscript{241}Am \cite{Sazzad:2023uqs}.
 
 We define the probability of no veto signal in the absence of a TPC interactions as $P(a=0)$, where $a$ is the number of veto detectors observing a pulse. We also define the true veto inefficiency $\cancel\eta_\text{true}$ as the probability, given a TPC interaction, that no veto signal is caused by the neutron that caused \emph{the interaction in the TPC}. Since in $1-P(a=0)$ of cases, such an event will have a spurious veto the observed veto inefficiency will be $\cancel\eta_\text{obs.}=P(a=0)\cdot\cancel\eta_\text{true}$. The observables are the number of TPC SS NR events $N$, the number of those events without a veto signal $M$, the number of randomly triggered `events' $N_\text{random}$, and the number of times a randomly triggered event without a veto signal $M_\text{random}$, giving:
 \begin{align}
@@ -308,35 +311,8 @@ We define the probability of no veto signal in the absence of a TPC interactions
     \hat{\cancel\eta}&=\frac{\cancel\eta_\text{obs.}}{P(a=0)}\\
     &=\frac{M/N}{M_\text{random}/N_\text{random}},
 \end{align}
-where $\hat{\cancel\eta}$ is the estimated veto inefficiency for given veto selection. The accidental correction and veto efficiency are correlated with the length of the veto window and veto pulse thresholds. Scans over the entire delayed veto window in 10~$\mu$s steps to observe the change in the correction factor over time is shown in \autoref{fig:VetoEff/SR3AmLi_700mm_Corrections}. The probability of observing zero accidental pulses in the veto detector decreases with increasing veto window size. The probability of observing a coincident neutron from the AmLi or gamma from neutron capture on Gd and H in the GdLS increases with veto window size. At 600~\textmu\text{s}, $P_a(0)=0.79\pm0.03$.
-The impact of the accidental correction when applied to the observed efficiency is shown in \autoref{fig:VetoEff/AmLiAccidentalCorrectionImpact}.
-
-
-\iffalse
-When determining the veto tagging efficiency a correction factor must be applied to the measured efficiency ($\eta_\text{obs.}$) to account for the accidental coincidences from neutrons and gamma rays\footnote{Neutrons which are associated with accidental coincidences are produced via additional $(\alpha,\text{n})$ reactions of the AmLi source whilst gamma rays are produced from neutron capture on Gd and H in the GdLS. A small percentage of gamma rays a produced by the $\alpha$ decay of \textsuperscript{241}Am \cite{Sazzad:2023uqs}.} with single scatter in the TPC which can artificially enhance the apparent measured tagging efficiency.
-To calculate the accidental correction factors the veto inefficiency is defined as $\cancel{\eta}=M/N$, where $N$ represents the number of events which contain a single scatter nuclear recoil observed in the TPC and $M$ corresponds to the number of events where a single scatter nuclear recoil is observed in the TPC but no pulse is observed in the Skin or the OD that satisfies the veto requirements, this event is not vetoed.
-The veto efficiency is subsequently defined as $\eta=1-\cancel{\eta}$.
-The effect of the accidental coincidences has on the veto inefficiency is defined by the following process.
-If a neutron scatters in the TPC, and is not detected by the veto detectors, instead there is an accidental coincidence of a gamma or neutron from the AmLi sources alongside TPC event. This is not included in the number of events, $M$.
-The probability this occurrence is defined as $1-P_a(0)$, where $P_a(0)$ is the probability of observing zero accidental pulses in one of Skin or OD coincidence windows.
-Using this probability and the number of events $M$ and $N$, the true inefficiency ($\cancel{\eta}_\text{true}$) is defined through the following derivation:
-\label{eqn:Accidentals}
-    \begin{align}
-	M_\text{obs.}&=M_\text{true}-M_\text{true}\cdot(1-P_a(0))\\
-	\Rightarrow M_\text{obs.}&=M_\text{true}\cdot P_a(0)\\
-    \therefore M_\text{true}&=\frac{M_\text{obs.}}{P_a(0)}\\
-	\cancel{\eta}_\text{true}=\frac{M_\text{true}}{N}&\text{ and }\cancel{\eta}_\text{obs.}=\frac{M_\text{obs.}}{N}\\
-    \therefore \cancel{\eta}_\text{true}&=\frac{\cancel{\eta}_\text{obs.}}{P_a(0)}
-    \end{align}
-where $M_\text{obs.}$ is the number of events where no pulses have been observed in any of the veto windows and $M_\text{true}$ is the number of events where at least one pulse has been observed in one of the veto windows due to an accidental coincidence.
-This leads to a final inefficiency:
-\begin{equation}
-	\cancel{\eta}_\text{true} = \frac{\cancel{\eta}_\text{obs.}}{1-P_a(>0)_{\text{any window}}}=\frac{\cancel{\eta}_\text{obs.}}{P_a(0)_{\text{all windows}}}
-\end{equation}
-$1-P_a(>0)_{\text{any window}}$ is determined directly using the post-trigger window of randomly triggered events and any pulse in any of the veto windows is counted. $P_a(0)_{\text{all windows}}$ for all detector windows is logically equivalent to $P_a(0)$ for a one detector, one window case.
-The accidental correction is correlated with the length of the veto window. Scans over the entire delayed veto window in 10~$\mu$s steps to observe the change in the correction factor over time is shown in \autoref{fig:VetoEff/SR3AmLi_700mm_Corrections}. The probability of observing zero accidental pulses in the veto detector decreases with increasing veto window size. The probability of observing a coincident neutron from the AmLi or gamma from neutron capture on Gd and H in the GdLS increases with veto window size. At 600~\textmu s, $P_a(0)=0.79\pm0.03$. 
-The impact of the accidental correction when applied to the observed efficiency is shown in \autoref{fig:VetoEff/AmLiAccidentalCorrectionImpact}.
-\fi
+where $\hat{\cancel\eta}$ is the estimated veto inefficiency for given veto selection. The accidental correction and veto efficiency are correlated with the length of the veto window and veto pulse thresholds. Scans over the entire delayed veto window in 10~$\mu$s steps to observe the change in the correction factor over time is shown in \autoref{fig:VetoEff/SR3AmLi_700mm_Corrections}. The probability of observing zero accidental pulses in the veto detector decreases with increasing veto window size. The probability of observing a coincident neutron from the AmLi or gamma from neutron capture on Gd and H in the GdLS increases with veto window size. At the chosen delayed cut window length of 600~\textmu s, $P_a(0)=0.79\pm0.03$. 
+The impact of the accidental correction when applied to the observed efficiency is shown in \autoref{fig:VetoEff/AmLiAccidentalCorrectionImpact}. The impact can be as large at 20\% at large cut windows.
 
 \begin{figure}[!ht]
     \centering
@@ -356,7 +332,7 @@ The impact of the accidental correction when applied to the observed efficiency 
     \caption{\textbf{Left:} $P_a(0)$ accidental correction factors over a 600~\textmu s for AmLi calibration sources positioned at $z=700~\text{mm}$. The errors shown are only statistical uncertainties. \textbf{Right:} Comparison between calculated veto efficiencies for AmLi calibration sources positioned at $z=700~\text{mm}$ with accidental correction applied, $\hat{\eta}$, and not applied, $\eta_\text{obs.}$.}
     \label{fig:VetoEff/AmLiAccidentalPlots}
 \end{figure}
-The final efficiencies measured using AmLi calibration data, corrected for accidental coincidences, and averaged across all positions are shown in \autoref{fig:VetoEff/AmLiEfficiencies}. At 600~\textmu s, $\eta^\text{Total}_\text{Data}=\big(88.71^{+2.81}_{-2.33}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.24^{+2.74}_{-2.84}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(75.71^{+1.93}_{-2.04}\big)\%$.
+The final efficiencies measured using AmLi calibration data, corrected for accidental coincidences, and averaged across all positions are shown in \autoref{fig:VetoEff/AmLiEfficiencies}. At the nominal 600~\textmu s veto window, $\eta^\text{Total}_\text{Data}=\big(88.71^{+2.81}_{-2.33}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.24^{+2.74}_{-2.84}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(75.71^{+1.93}_{-2.04}\big)\%$.
 
 \begin{figure}[!ht]
     \centering
@@ -365,8 +341,10 @@ The final efficiencies measured using AmLi calibration data, corrected for accid
     \label{fig:VetoEff/AmLiEfficiencies}
 \end{figure}
 
-\subsubsection{Deuterium-deuterium}
-DD calibration data used in this study was taken during the October 2023 calibration campaign prior to the WS2024 science run. Events which arre classified as single scatters by LZap and pass the selection outlined in \autoref{tab:VetoEff/dd_efficiency_cuts} are used for the study. In addition to these cuts an NR band selection, defined by \autoref{eqn:VetoEff/NRBandSelection}, is applied. It is important to note that DD NR band is different to AmLi NR band. The two different NR bands for the calibration sources are shown in \autoref{fig:VetoEff/SR3NRBands}.
+\subsubsection{Deuterium-deuterium neutron generator}
+A deuterium-deuterium (DD) neutron generator is used to produce mono-energetic 2.46~MeV neutrons which result in nuclear recoils depositing up to $74~\text{keV}_{nr}$ of energy. Neutrons are produced by the DD generator as follows: Deuterium is ionized and turned into a plasma by a microwave. Deuterium ions in the plasma are accelerated towards a charged titanium-coated cooper target. D\textsuperscript{+} ions embed into the target form titanium deuteride. Subsequent D\textsuperscript{+} ions fuse to the embed ions and release neutrons via the D+D$\rightarrow$\textsuperscript{3}He+n. The generator is position outside of the water tank and neutrons are collimated and transmitted to the OCV through nitrogen purged conduits \cite{LZ:2024bsz}. The neutron production is pulsed to suppress the ER background rate and enables selection of events coincident with neutron production. Neutron pulsing decreases the impact of accidental coincidences which artificially increases the veto tagging efficiency. Accidental correction factors are still required as pulsing neutron production does not completely suppress accidental coincidences.
+
+DD calibration data used in this study was taken during the October 2023 calibration campaign prior to the WS2024 science run. Events which are classified as single scatters by LZap and pass the selection outlined in \autoref{tab:VetoEff/dd_efficiency_cuts} are used for the study. In addition to these cuts an NR band selection, defined by \autoref{eqn:VetoEff/NRBandSelection}, is applied. It is important to note that DD NR band is different to AmLi NR band. The two different NR bands for the calibration sources are shown in \autoref{fig:VetoEff/SR3NRBands}.
 
 \begin{table}[!ht]
 	\centering
@@ -385,7 +363,7 @@ DD calibration data used in this study was taken during the October 2023 calibra
 	\end{tabular}
 	\label{tab:VetoEff/dd_efficiency_cuts}
 \end{table}
-The DD calibration data is also corrected for accidental coincidences. The same method is used which is discussed in \autoref{sec:VetoEff/AmLiAccCorrection}. The correction factors used as a function of veto window is shown in \autoref{fig:VetoEff/DDAccCorrectionParameters}. At 600~\textmu s, $P_a(0)=0.88\pm0.11$. The impact of accidental coincidences on DD data is significantly less than AmLi as events are selected using the trigger from the DD neutron generator. The LZ DAQ is triggered by the generator during neutron production as neutrons are pulsed. The selection of events based on the generator trigger suppresses accidental coincidences. The impact of the accidental corrections on the observed DD veto efficiency is shown in \autoref{fig:VetoEff/DDAccCorrectionImpact_P0}. Due to the high rate of events in the first 60~\textmu s which triggered by the DD neutron generator, the number of randomly triggered events used to generate the accidental correction is zero during this period.
+The DD calibration data is also corrected for accidental coincidences. The same method is used which is discussed in \autoref{sec:VetoEff/AmLiAccCorrection}. The correction factors used as a function of veto window is shown in \autoref{fig:VetoEff/DDAccCorrectionParameters}. At the nominal 600~\textmu s veto window, $P_a(0)=0.88\pm0.11$. The impact of accidental coincidences on DD data is significantly less than AmLi as events are selected using the trigger from the DD neutron generator. The LZ DAQ is triggered by the generator during neutron production as neutrons are pulsed. The selection of events based on the generator trigger suppresses accidental coincidences. The impact of the accidental corrections on the observed DD veto efficiency is shown in \autoref{fig:VetoEff/DDAccCorrectionImpact_P0}. Due to the high rate of events in the first 60~\textmu s which triggered by the DD neutron generator, the number of randomly triggered events used to generate the accidental correction is zero during this period. Due to the trigger logic used by the LZ DAQ system, randomly triggered events are only allowed if there are no other triggers present. Therefore this period is not considered in the accidental coincidence correction estimate.
 \begin{figure}[!ht]
     \centering
     \begin{subfigure}[b]{0.49\textwidth}
@@ -401,16 +379,16 @@ The DD calibration data is also corrected for accidental coincidences. The same 
         \caption{}
         \label{fig:VetoEff/DDAccCorrectionImpact_P0}
     \end{subfigure}
-    \caption{\textbf{Left:} $P_a(0)$ accidental correction factors over a 600~$\mu$s veto window for the DD calibration source data. The errors shown are only statistical uncertainties. Due to the high rate of events in the first 60~\textmu s which triggered by the DD neutron generator, the number of randomly triggered events used to generate the accidental correction is zero during this period. \textbf{Right:} Comparison between calculated veto efficiencies for the DD calibration source with accidental correction applied, $\hat{\eta}$, and not applied, $\eta_\text{obs.}$.}
+    \caption{\textbf{Left:} $P_a(0)$ accidental correction factors over a 600~$\mu$s veto window for the DD calibration source data. The errors shown are only statistical uncertainties. The first 60~\textmu s lacks any randomly triggered data to generate accidental corrections during this time. \textbf{Right:} Comparison between calculated veto efficiencies for the DD calibration source with accidental correction applied, $\hat{\eta}$, and not applied, $\eta_\text{obs.}$.}
     \label{fig:VetoEff/DDAccidentalPlots}
 \end{figure}
 
-The final efficiencies for DD calibration data corrected for accidental coincidences are shown in \autoref{fig:VetoEff/DDEfficiencies}. At 600~\textmu s, $\eta^\text{Total}_\text{Data}=\big(87.59^{+1.63}_{-1.64}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.68^{+2.10}_{-2.09}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(81.64^{+2.59}_{-2.58}\big)\%$.
+The final efficiencies for DD calibration data corrected for accidental coincidences are shown in \autoref{fig:VetoEff/DDEfficiencies}. At the nominal 600~\textmu s veto window, $\eta^\text{Total}_\text{Data}=\big(87.59^{+1.63}_{-1.64}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.68^{+2.10}_{-2.09}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(81.64^{+2.59}_{-2.58}\big)\%$.
 
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/DDEfficiencies_Data.pdf}
-    \caption{DD efficiencies measured in data, all efficiencies are corrected for accidental coincidences. At 600~\textmu s, $\eta^\text{Total}_\text{Data}=\big(87.59^{+1.63}_{-1.64}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.68^{+2.10}_{-2.09}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(81.64^{+2.59}_{-2.58}\big)\%$.}
+    \caption{DD efficiencies measured in data, all efficiencies are corrected for accidental coincidences. At the nominal 600~\textmu s veto window, $\eta^\text{Total}_\text{Data}=\big(87.59^{+1.63}_{-1.64}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.68^{+2.10}_{-2.09}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(81.64^{+2.59}_{-2.58}\big)\%$.}
     \label{fig:VetoEff/DDEfficiencies}
 \end{figure}
 \pagebreak
@@ -439,7 +417,7 @@ No accidental gammas or neutrons are present in the simulation, therefore no acc
 \renewcommand{\arraystretch}{1.5}
 \begin{table}[h!]
     \centering
-    \caption{Measured efficiencies from AmLi and DD calibration simulations at 600~\textmu s.}
+    \caption{Estimated efficiencies from AmLi and DD calibration simulations at the nominal 600~\textmu s window.}
     \begin{tabular}{llll}
     \hline\hline
     \textbf{Source} & \textbf{$\eta^\text{Total}_\text{Sim}$ [\%]} & \textbf{$\eta^\text{Delayed}_\text{Sim}$ [\%]} & \textbf{$\eta^\text{OD Delayed}_\text{Sim}$ [\%]}\\
@@ -517,7 +495,7 @@ The efficiency of tagging neutrons from Uranium Spontaneous Fission (USF) and ($
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/det_nr_efficiency.png}
-	\caption{Efficiency for tagging a neutron in detector NR simulations. Each of the 644 component efficiencies are weighted corresponded to there contribution to the total NR background. Efficiencies correspond to detector NR events which have a reconstructed $z$-position corresponding to an average drift time $t_\text{drift}$ between 350~\textmu s and 700~\textmu s.}
+	\caption{Efficiencies to veto simulated events which include a single scatter NR TPC. Each of the 644 background component contributions are weighted according to their contribution to the total NR background. TPC NR events are required to have a reconstructed $z$-position corresponding to an average drift time $t_\text{drift}$ between 350~\textmu s and 700~\textmu s in this example.}
 	\label{fig:VetoEff/detector_nr_efficiency}
 \end{figure}
 
@@ -545,9 +523,9 @@ $t_{\text{drift}}$ splitting of detector NR simulation is performed to compare t
 The importance of this chapter lies in determining LZ's efficiency to reject background neutrons, the estimated veto efficiency for detector NR events, $\eta_{\text{Det. NR}}^{\text{Data}}$. The method to estimate this efficiency is as follows. 
 The average simulation calibration efficiency is taken between, $\overline{\eta}_{\text{AmLi}}^{\text{Sim.}}=(92.8\pm2.0)\%$ and $\eta_{\text{DD}}^{\text{Sim.}}=(91.8\pm1.0)\%$ which results in an average efficiency of $\overline{\eta}_{\text{Cal.}}^{\text{Sim.}}=(92.3\pm1.1)\%$.
 The average data calibration efficiency is taken between, $\overline{\eta}_{\text{AmLi}}^{\text{Data}}=(88.6\pm2.7)\%$ and $\eta_{\text{DD}}^{\text{Data}}=(91.8\pm1.0)\%$, which results in an average efficiency of $\overline{\eta}_{\text{Cal.}}^{\text{Data}}=(88.2\pm1.6)\%$.
-The difference, $\Lambda$, between the simulation calibration and data calibration efficiencies is then used as a systematic uncertainty on the efficiency of detector NR simulations.
+The difference, $\Lambda$, between the simulation calibration and data calibration efficiencies is used as a systematic uncertainty on the efficiency of detector NR simulations.
 This process is expressed in \autoref{eqn:VetoEff/DetNR_efficiency}, and produces an estimated veto efficiency for detector NR of $\eta_{\text{Det. NR}}^\text{Data}=(92.2\pm4.3)\%$.
-The final uncertainty of the estimated detector NR veto efficiency, $\sigma^\text{Data}_\text{Det. NR}$, is the product of the statistical uncertainty from the simulations $\sigma^\text{Sim.}_\text{Det. NR}=1\%$, and $\Delta=4.2\%$ from the subtraction of the data calibration efficiency from the simulation calibration efficiency.
+The final uncertainty of the estimated detector NR veto efficiency, $\sigma^\text{Data}_\text{Det. NR}$, is the product of the statistical uncertainty from the simulations $\sigma^\text{Sim.}_\text{Det. NR}=1\%$, and $\Delta=4.2\%$ from the subtraction of the data calibration efficiency from the simulation calibration efficiency. {\color{red}Rewrite this without percentages}
 \begin{equation}
     \label{eqn:VetoEff/DetNR_efficiency}
     \begin{split}
@@ -583,7 +561,8 @@ Candidate events for the WIMP search analysis (see \autoref{chap:WS2024Result}) 
     \label{fig:VetoEff/WS2024_TPCPosPlots_2panel}
 \end{figure}
 
-The veto coincidence selection is used to produce a \textit{side band} data set to derive an \textit{in situ} constraint on the number of neutron events in the 2024 WIMP search data set. Events which passed the Skin-delayed and OD-delayed selection are used to generate the side band sample. In the final statistical analysis, a likelihood fit returns an expectation of $0.0^{+0.2}$ SS counts attributed to detector neutrons \cite{LZCollaboration:2024lux}. The events selected for this side band analysis are shown in \autoref{fig:VetoEff/VetoSideBandEvents} and are overlaid against the final set of events passing all selection cuts. 
+Events which have a coincidence signal in the delayed veto window have a higher chance to have been caused by a neutron recoiling in the TPC. Selecting events with a veto signal therefore yields a neutron rich sideband with which we constrain the neutron rate in the WIMP 2024 data set.
+Events which passed the Skin-delayed and OD-delayed selection are used to generate the side band sample. In the final statistical analysis, a likelihood fit returns an expectation of $0.0^{+0.2}$ SS counts attributed to detector neutrons \cite{LZCollaboration:2024lux}. The events selected for this side band analysis are shown in \autoref{fig:VetoEff/VetoSideBandEvents} and are overlaid against the final set of events passing all selection cuts. 
 
 \begin{figure}[ht!]
     \centering
@@ -593,4 +572,4 @@ The veto coincidence selection is used to produce a \textit{side band} data set 
 \end{figure}
 
 \section{Concluding remarks}
-Improvements to the Outer Detector geometry in simulation now better reflect the neutron capture timing observed in calibration data sets. As the time between single scatter S1 and veto pulses is considered in the veto coincidence selection, the accurate modelling of the detector response in simulation is crucial for the optimisation of veto coincidence selection for the WIMP analysis. These improvements are further reflected in the measurement of the neutron tagging efficiency when results are compared to simulations of AmLi and DD calibration sources. The optimisation of the veto coincidence selection resulted in a factor of two reduction in detector dead time induced by the selection whilst maintaining the same tagging efficiency measured in the WS2022 science run. An estimated neutron tagging efficiency of $(92\pm4)\%$ with a 3\% detector dead time is presented. The inclusion of the veto coincidence selection to the WIMP analysis cuts affords LZ the ability to increase the fiducial volume by 40\% by rejecting background events near the wall of the TPC which otherwise would be removed by constraining the fiducial volume selection. To estimate the number of single scatter events resulting from detector neutrons, a sample data set of events selected using the delayed veto coincidence selection is generated. An expectation of $0.0^{+0.2}$ single scatter events are attributed to detector neutrons using likelihood fit analysis. It should be stressed that if a WIMP signal is observed by LZ, the veto system will be used confirm the validity of observation. To conclude this chapter I echo the words of Carl Sagan, \textit{``extraordinary claims require extraordinary evidence''} \cite{SaganCarl:BrocasBrain}.
+Improvements to the Outer Detector geometry in simulation now better reflect the neutron capture timing observed in calibration data sets. As the time between single scatter S1 and veto pulses is considered in the veto coincidence selection, the accurate modelling of the detector response in simulation is crucial for the optimisation of veto coincidence selection for the WIMP analysis. These improvements are further reflected in the measurement of the neutron tagging efficiency when results are compared to simulations of AmLi and DD calibration sources. The optimisation of the veto coincidence selection resulted in a factor of two reduction in detector dead time induced by the selection whilst maintaining the same tagging efficiency measured in the WS2022 science run. An estimated neutron tagging efficiency of $(92\pm4)\%$ with a 3\% detector dead time is presented. The inclusion of the veto coincidence selection to the WIMP analysis cuts affords LZ the ability to increase the fiducial volume by 40\% by rejecting background events near the wall of the TPC which otherwise would be removed by constraining the fiducial volume selection. To estimate the number of single scatter events resulting from detector neutrons, a sample data set of events selected using the delayed veto coincidence selection is generated. An expectation of $0.0^{+0.2}$ single scatter events are attributed to detector neutrons using likelihood fit analysis. It should be stressed that if a WIMP signal were observed by LZ, the veto system will be crucial to excluded backgrounds as an explanation for the excess. To conclude this chapter I echo the words of Carl Sagan, \textit{``extraordinary claims require extraordinary evidence''} \cite{SaganCarl:BrocasBrain}.
