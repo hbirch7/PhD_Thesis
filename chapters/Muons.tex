@@ -8,10 +8,10 @@ Atmospheric showers are produced from the collision of primary cosmic radiation 
     \frac{E^2dJ}{dE}\sim E^{-\gamma},
 \end{equation}
 where the spectral index, $\gamma$, varying across the energy spectrum in the range of $2.5\lesssim\gamma\lesssim3$ \cite{ParticleDataGroup:2024cfk}. Charged CRs follow a power law with a spectral index $\gamma\simeq2.7$ for energies up to a few PeV. The combined energy spectra for charged CRs, gamma-rays and neutrinos is shown in \autoref{fig:Muons/CREnergySpec}.
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/Muons/CosmicRaySpectra.png}
-    \caption{The spectrum of cosmic rays (CRs), diffuse gamma-rays and neutrinos. The measurements of intensity of charged and neutral CRs multiplied by the kinetic energy squared. Energy-integrated intensities are shown by the various diagonal lines. Figure reprinted from Ref.~\cite{ParticleDataGroup:2024cfk}.}
+    \caption[The spectrum of cosmic rays (CRs), diffuse gamma-rays and neutrinos.]{The spectrum of cosmic rays (CRs), diffuse gamma-rays and neutrinos. The measurements of intensity of charged and neutral CRs multiplied by the kinetic energy squared. Energy-integrated intensities are shown by the various diagonal lines. Figure reprinted from Ref.~\cite{ParticleDataGroup:2024cfk}.}
     \label{fig:Muons/CREnergySpec}
 \end{figure}
 A number of secondary particles are produced through CR interactions with atmospheric nuclei. For high energy protons ($\geq 1~\text{GeV}$), the de Broglie wavelength of the incident particle is much less than the distance between nucleons in the nucleus \cite{Longair_2011}. Therefore the proton can interact with individual nucleons within the nucleus. In such collisions, pions of all charges, $\pi^+,\:\pi^-\text{, and }\pi^0$ are the principle products. In additions to these mesons, the nucleons involved in the interaction may also be expelled from the nucleus. This results in the nucleus being left in a highly unstable excited state that ejects several nuclear fragments in the form of other light nuclei, protons and/or neutrons. These are called spallation fragments. Further reactions in the form of nucleonic cascades are induced by these products, as well as pions, kaons and other mesons.
@@ -35,10 +35,10 @@ Lower energy muons have time to decay in-flight into electrons, positrons, and n
 \end{split}
 \end{equation}
 The interaction of a primary cosmic ray in the atmosphere and the subsequent interactions of the products from the nucleonic cascades are depicted in a diagram shown in \autoref{fig:Muons/CRDiagram}.
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/Muons/MuonShower.png}
-    \caption{Diagram showing the interaction of a primary cosmic ray with nuclei in the upper Earth's atmosphere and the development of a nucleon cascade producing secondary cosmic rays in the form of muons, neutrinos and electromagnetic showers. Figure reprinted from Ref.~\cite{Longair_2011}.}
+    \caption[Diagram showing the interaction of a primary cosmic ray with nuclei in the upper Earth's atmosphere and the development of a nucleon cascade.]{Diagram showing the interaction of a primary cosmic ray with nuclei in the upper Earth's atmosphere and the development of a nucleon cascade producing secondary cosmic rays in the form of muons, neutrinos and electromagnetic showers. Figure reprinted from Ref.~\cite{Longair_2011}.}
     \label{fig:Muons/CRDiagram}
 \end{figure}
 As shown in \autoref{eqn:Muons/CREnergy}, the primary CR spectrum follows a power-law which is consequently applicable to the secondary CR products. However, the muon spectrum has added complexity as charged mesons interact with the atmosphere and in turn lose energy before decaying. T.K. Gassier proposed a parametrisation \cite{Gaisser_Engel_Resconi_2016} which results in an approximate formula for the muon spectrum at sea level:
@@ -77,11 +77,11 @@ Muons additionally lose energy through radiative processes, which occur as discr
     \Biggl<-\frac{dE}{dx}\Biggl>=a(E)+b(E)E,
 \end{equation}
 where $x$ is the path length, $a(E)$ is the energy loss through ionisation as described with \autoref{eqn:Muons/BetheBloch}, and $b(E)$ is due to radiative
-processes — bremsstrahlung, pair production, and photonuclear interactions:
+processes - bremsstrahlung, pair production, and photonuclear interactions:
 \begin{equation}\label{eqn:Muons/radproc}
     b\equiv b_{\text{brems}}+b_{\text{pair}}+b_{\text{nucl}},
 \end{equation}
-where these three stochastic energy-loss processes with respect to charged particle are described briefly below:
+where these three stochastic energy-loss processes with respect to a charged particle are described briefly below:
 \begin{itemize}
     \item \textbf{Bremsstrahlung:} As a charge particle passes near to the nucleus it decelerates, radiating a photon.
     \item \textbf{Pair-production:} Charged particles interact via the electromagnetic force, this interaction is mediated by a virtual photon, which in the field of the nucleus converts into a electron-positron pair.
@@ -90,11 +90,11 @@ where these three stochastic energy-loss processes with respect to charged parti
 Both $a(E)$ and $b(E)$ are slowly varying functions of $E$, where at high energies losses by radiative processes dominate. The contributions from ionisation and radiative processes to the total stopping power of muons on copper is shown in \autoref{fig:Muons/StoppingPowerOffMuonsCu}. The critical energy, $E_{\mu c}$, is the energy at which the losses from ionisation and radiative processes are equal and is dependent on the material which the muon is propagating through.
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\linewidth]{figures/Muons/MassMuonStoppingPowerOfMuonsOnCu.png}
-    \caption{Mass stopping power $\big<-dE/dx\big>$ for positive muons on copper as a function of $p=M\beta c\gamma$. Figure reprinted from Ref.~\cite{GROOM2001183}.}
+    \includegraphics[width=0.8\linewidth]{figures/Muons/MassMuonStoppingPowerOfMuonsOnCu.png}
+    \caption[Mass stopping power $\big<-dE/dx\big>$ for positive muons on copper as a function of $p=M\beta c\gamma$.]{Mass stopping power $\big<-dE/dx\big>$ for positive muons on copper as a function of $p=M\beta c\gamma$. Figure reprinted from Ref.~\cite{GROOM2001183}.}
     \label{fig:Muons/StoppingPowerOffMuonsCu}
 \end{figure}
-In addition to the discussed energy loss processes, muons will also elastically scatter from nuclei via Coulomb interactions. However, the energy loss from this type of scattering can be consider negligible. As the muon propagates through a material, it will deviate from its track due to small angle deviations from the collective Coulomb scatters. 
+In addition to the discussed energy loss processes, muons also elastically scatter from nuclei via Coulomb interactions. However, the energy loss from this type of scattering can be consider negligible. As the muon propagates through a material, it deviates from its track due to small angle deflections from the collective Coulomb scatters. 
 
 \section{Muons underground}\label{sec:Muons/MuonsUnderground}
 As a muon travels to from the surface to an underground site, the muon will undergo energy losses, as discussed in \autoref{sec:Muons/MuonTransport}. Depending on the energy of the incoming muon, it will either decay, be absorbed by the rock overburden, or reach the underground site. Due to this effect, muon intensity underground decreases with depth.
@@ -105,22 +105,22 @@ The muon spectrum underground can be described by \autoref{eqn:Muons/MuonIntensi
 \end{equation}
 Simulation packages have been developed to model the passage of muons through large thicknesses of material to determine $P(E_\mu,X(\theta),E_{\mu0})$, one example which has been adopted by LZ is MUSIC (\textbf{MU}on \textbf{SI}mulation \textbf{C}ode) which has been extensively tested against experimental data and other packages \cite{musun,LVD:1998lir,PhysRevD.60.112001,Tang:2006uu,MACRO:2003qix}. The use of MUSIC alongside MUSUN (\textbf{MU}on \textbf{S}imulations \textbf{UN}derground) for muon simulations for LZ will be discussed in \autoref{sec:Muons/MuonFluxMeasurementWithLZ}.
 The dependence of vertical muon intensity on depth for both water and rock is shown in \autoref{fig:Muons/MuonIntensityVSDepth}. Additional data on the total muon flux at various underground sites for equivalent depth relative to a flat overburden is summarized in \autoref{tab:Muons/MuonFluxVsDepth} and shown in \autoref{fig:Muons/MuonFluxVsDepth}.
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/Muons/MuonIntensityVSVertDepth.png}
-    \caption{Vertical muon intensity dependence on depth for standard rock ($\langle Z\rangle=11$) and water. The filled triangles correspond to a collection of experiments with a rock overburden \cite{Kozyarivsky:1988gxn}. The open circles are data points taken the Baikal underwater neutrino telescope \cite{BAIKAL:1997iok}. Figured reprinted from Ref.~\cite{dwoodward:thesis}.}
+    \caption[Vertical muon intensity dependence on depth for standard rock ($\langle Z\rangle=11$) and water.]{Vertical muon intensity dependence on depth for standard rock ($\langle Z\rangle=11$) and water. The filled triangles correspond to a collection of experiments with a rock overburden \cite{Kozyarivsky:1988gxn}. The open circles are data points taken the Baikal underwater neutrino telescope \cite{BAIKAL:1997iok}. Figured reprinted from Ref.~\cite{dwoodward:thesis}.}
     \label{fig:Muons/MuonIntensityVSDepth}
 \end{figure}
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/Muons/Flux_Depth_Plot.pdf}
-    \caption{The total muon flux measured for different underground sites summarised in \autoref{tab:Muons/MuonFluxVsDepth} as a function of equivalent vertical depth relative to a flat overburden. The smooth curve is global fit function is described in Ref.~\cite{mei}. Plot adapted from Ref.~\cite{mei}.}
+    \caption[The total muon flux measured for different underground sites.]{The total muon flux measured for different underground sites summarised in \autoref{tab:Muons/MuonFluxVsDepth} as a function of equivalent vertical depth relative to a flat overburden. The smooth curve is global fit function is described in Ref.~\cite{mei}. Plot adapted from Ref.~\cite{mei}.}
     \label{fig:Muons/MuonFluxVsDepth}
 \end{figure}
 
-\begin{table}[ht!]
+\begin{table}[h!]
     \centering
-    \caption{Summary of the total muon flux measured at different underground sites and the equivalent vertical depth relative to a flat overburden ($^\dagger$Equivalent vertical depth with flat overburden). Adapted from Ref.~\cite{mei}.}
+    \caption[Summary of the total muon flux measured at different underground sites and the equivalent vertical depth relative to a flat overburden.]{Summary of the total muon flux measured at different underground sites and the equivalent vertical depth relative to a flat overburden ($^\dagger$Equivalent vertical depth with flat overburden). Adapted from Ref.~\cite{mei}.}
     \label{tab:Muons/MuonFluxVsDepth}
     \begin{tabular}{lll}
         \hline\hline
@@ -139,7 +139,7 @@ The dependence of vertical muon intensity on depth for both water and rock is sh
 \end{table}
 
 \section{Muon induced backgrounds}\label{sec:Muons/InducedBackgrounds}
-Atmospheric muons which reach underground sites and traverse through a detector are detected as background events in the case of dark matter direct detection experiments. However, high-energy muons can be problematic to rare event searches since they produce secondary particles due to interactions with the rock overburden close to the detector and other material within and surrounding the detector. Muons which miss the detector but produce associated secondary particles may produce signal-like events. These such events cannot be rejected through coincidence with the incident muon \cite{mei,Lindote:2008nq}. Muon-induced neutrons, one such secondary particle, are particularly troublesome for dark matter detectors which cannot discriminate between single neutron interactions and dark matter candidates. The contribution of muon-induced neutrons to the total underground neutron flux in small \cite{LZ_SIMS}, however muon-induced neutrons have an energy spectrum up to several GeV. Fast neutrons with such energies are impervious to passive detector shield and interact with the detector. There are several processes which produce neutrons from high-energy muons:
+Atmospheric muons which reach underground sites and traverse through a detector can be detected as background events in the case of dark matter direct detection experiments. In addition, high-energy muons can be problematic to rare event searches since they produce secondary particles due to interactions with the rock overburden close to the detector and other material within and surrounding the detector. Muons which miss the detector but produce associated secondary particles may produce signal-like events. These such events cannot be rejected through coincidence with the incident muon \cite{mei,Lindote:2008nq}. Muon-induced neutrons, one such secondary particle, are particularly troublesome for dark matter detectors which cannot discriminate between single neutron interactions and dark matter candidates. The contribution of muon-induced neutrons to the total underground neutron flux in small \cite{LZ_SIMS}, however muon-induced neutrons have an energy spectrum up to several GeV. Fast neutrons with such energies are impervious to passive detector shield and interact with the detector. There are several processes which produce neutrons from high-energy muons:
 \begin{equation}\label{eqn:Muons/MuonInt1}
     \mu^-+X\rightarrow X' + n+\nu_\mu
 \end{equation}
@@ -170,37 +170,37 @@ Muon energy spectrum and zenith angle distribution on the surface of the Earth a
 As a result of muon transport and convolution with the surface fluxes, muon energy spectra and different angles at the detector site are calculated and stored. The model gives the total muon flux through a sphere as $6.16\times10^{-9}$~cm$^{-2}$~s$^{-1}$, mean muon energy of 283~GeV, mean zenith angle of 27$^{\circ}$ and the mean slant depth of 4500~m~w.e.~\cite{musun-lz}.
 
 The muon generator, MUSUN, inside BACCARAT reads muon distributions from the MUSIC output and samples muons on the horizontal (top) and vertical surfaces of a rectangular volume that encompasses the laboratory hall. The top horizontal surface of the volume is located 7~m above the cavern boundary. Vertical surfaces of the volume are positioned 5~m away from the boundary. The volume extends to 3~m below the cavern floor. Moving the volume surfaces into the rock, away from the cavern, ensures the development of muon-induced cascades in rock or shotcrete before muons and their secondaries enter the cavern. The primary energy spectrum and the angular distributions of these muons as well as the surface topography are shown in \autoref{fig:Muons/Prime_info}. The GEANT4 {\fontfamily{qcr}\selectfont G4GeneralParticleSource} function is used to generate the muons, and their charge is based on the output sampled from MUSIC. The ratio of $\mu+/\mu-$ is set to 1.38 based on measurements of high energy muons \cite{Ashley:1975uj}.
-\begin{figure*}[ht!]
+\begin{figure*}[h!]
     \centering
-    \begin{subfigure}[b]{0.48\textwidth}
+    \begin{subfigure}[c]{0.49\textwidth}
         \centering
         \includegraphics[width=\textwidth]{figures/Muons/Primary_energyLZstyle.pdf}
         \caption{}
         \label{fig:Muons/Prim_E}
     \end{subfigure}
     %\hfill
-    \begin{subfigure}[b]{0.49\textwidth}  
+    \begin{subfigure}[c]{0.49\textwidth}  
         \centering 
         \includegraphics[width=\textwidth]{figures/Muons/cosZ_LZstyle.pdf}
         \caption{}
         \label{fig:Muons/cosZ}
     \end{subfigure}
     %\vskip\baselineskip
-    \begin{subfigure}[b]{0.49\textwidth}   
+    \begin{subfigure}[c]{0.49\textwidth}   
         \centering 
         \includegraphics[width=\textwidth]{figures/Muons/Azimuthal.pdf}
         \caption{}
         \label{fig:Muons/azi}
     \end{subfigure}
    % \hfill
-    \begin{subfigure}[b]{0.49\textwidth}   
+    \begin{subfigure}[c]{0.49\textwidth}   
        % \vspace{-7mm}
         \centering 
         \includegraphics[width=\textwidth]{figures/Muons/SurfMapTrimmed.png}
         \caption{} 
         \label{fig:Muons/SurfaceProfile}
     \end{subfigure}
-    \caption{a),b),c) show the angular distributions and the kinetic energy spectrum of muons at the Davis campus, as generated by the MUSUN model. d) shows the surface altitude profile of the area above the Davis Cavern surrounding SURF. Fig. d reprinted from Ref.~\cite{LZ_SIMS}.} 
+    \caption[Angular distributions and the kinetic energy spectrum of muons at the Davis campus, as generated by the MUSUN model alongside the surface altitude profile.]{a),b),c) show the angular distributions and the kinetic energy spectrum of muons at the Davis campus, as generated by the MUSUN model. d) shows the surface altitude profile of the area above the Davis Cavern surrounding SURF. Fig. d reprinted from Ref.~\cite{LZ_SIMS}.} 
     \label{fig:Muons/Prime_info}
 \end{figure*}
 
@@ -209,9 +209,9 @@ Muons generated by MUSUN are transported through the rock, laboratory hall and d
 \subsection{Data selection}\label{sec:Muons/MuonFluxDataSelection}
 %This study considers the both WS2022 and WS2024 datasets, specifically using the file lists, {\fontfamily{qcr}\selectfont SR1-WSv5\_LZAP-5.4.6.files.list}, taken from the {\fontfamily{qcr}\selectfont SR1WS} ALPACA module and {\fontfamily{qcr}\selectfont SR3-WSv8\_LZAP-5.8.0\_all.files.list }, taken from the {\fontfamily{qcr}\selectfont SR3LENR} ALPACA module. 
 Initial analysis of data sets are performed using the {\fontfamily{qcr}\selectfont MuonPhys} ALPACA module which applies a loose initial selection to reduce the size of the initial dataset for later analysis. This module is also used for determining the live time of the two datasets. The live times are summarised in \autoref{tab:Muons/livetimes}. For the rate calculation, DAQ live time is chosen as the appropriate live time to use as this analysis is does not consider the same decision logic as used in the physics live time.
-\begin{table}[ht!]
+\begin{table}[h!]
     \centering
-    \caption{Summary if relevant durations for the WIMP search runs. For this analysis, DAQ live time was used in the rate calculation work.}
+    \caption[Summary if relevant durations for the WIMP search runs.]{Summary if relevant durations for the WIMP search runs. For this analysis, DAQ live time was used in the rate calculation work.}
     \label{tab:Muons/livetimes}
     \begin{tabular}{llll}
         \hline\hline
@@ -225,9 +225,9 @@ Initial analysis of data sets are performed using the {\fontfamily{qcr}\selectfo
 \end{table}
 \subsubsection{Typical muon event}
 As muons pass through the LZ experiment a unique signature is produced when compared with other background particle interactions. \autoref{fig:Muons/eventViewer} shows the train of pulses produced in the TPC as the muon ionises xenon nuclei along its track. A single pulse is observed in the Skin and OD as the time difference between pulses in individual PMTs is less than the sampling time of the LZ DAQ (10~ns) and subsequently a single pulse is produced through the summation of all pulses seen across the PMTs in their respective arrays.
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering \includegraphics[width=0.9\textwidth]{figures/Muons/Run6169Event16972_with_muon-1.pdf}
-    \caption{Waveform output of a typical muon event captured by the LZ data acquisition system. The amplitude is measured in single photons registered by PMTs per sample. The individual waveform traces from the TPC, Skin and OD are shown in the top three panels. The bottom panel shows a magnified view of the pulses in all detectors overlaid at the time the muon initially passes through the experiment to demonstrate the contribution of pulse timing to the muon event selection. The TPC pulse is filled in red, the OD pulse is filled in green and the Skin pulse is filled in blue.}
+    \caption[Waveform output of a typical muon event captured by the LZ data acquisition system.]{Waveform output of a typical muon event captured by the LZ data acquisition system. The amplitude is measured in single photons registered by PMTs per sample. The individual waveform traces from the TPC, Skin and OD are shown in the top three panels. The bottom panel shows a magnified view of the pulses in all detectors overlaid at the time the muon initially passes through the experiment to demonstrate the contribution of pulse timing to the muon event selection. The TPC pulse is filled in red, the OD pulse is filled in green and the Skin pulse is filled in blue.}
     \label{fig:Muons/eventViewer}
 \end{figure}
 
@@ -245,7 +245,7 @@ Broad scans are conducted to make use of the coinciding detector signals to dete
     \item $-1200~\text{ns} < \Delta t_{\text{Skin - TPC}} < 200~$ns
 \end{enumerate}
 Here, the pulse time, $t$, represents the time at which the pulse reaches 5\% of its total pulse area. $\Delta t_{X-Y}$ denotes the difference in time between the pulse observed in detector $X$ and the pulse observed in Detector $Y$ which can be mathematically represented as $\Delta t_{X-Y}=t_X-t_Y$. When traversing the TPC, a muon does not produce a singular pulse as observed in the OD and Skin. The muon ionises xenon atoms along the track, and a subsequent series of S1 and S2 pulses are produced. The pulses combine to produce a \textit{tail} as shown in \autoref{fig:Muons/eventViewer}. The first pulse in the tail is used in the inter-detector timing selection. Due to a inter-detector timing correction issue in the processed WS2022 dataset, the timing selection is broadened to account for this issue. The offset in the timing correction can be clearly seen in \autoref{fig:Muons/OD-Skin} through the misalignment of the peaks in the distributions.
-\begin{figure}[ht!]
+\begin{figure}[h!]
 \centering
 \begin{subfigure}{0.47\textwidth}
     \includegraphics[width=\textwidth]{figures/Muons/OD-Skin_timing.pdf}
@@ -264,13 +264,13 @@ Here, the pulse time, $t$, represents the time at which the pulse reaches 5\% of
     \caption{}
     \label{fig:Muons/Skin-TPC}
 \end{subfigure}
-\caption{Inter-detector timing plots, these distributions are used in defining the timing selection using reduced WS2022 and WS2024 datasets with events containing a OD pulse greater than 2000~phd. The figures depict a) the time difference between the largest pulse in the Outer Detector and the largest pulse in the Skin; b) the time difference between the largest pulse in the Outer Detector and the start of the muon tail in the TPC; and c) the time difference between the largest pulse in the Skin and the start of the muon tail in the TPC.}
+\caption[Inter-detector timing plots used to define the muon flux timing selection.]{Inter-detector timing plots, these distributions are used in defining the timing selection using reduced WS2022 and WS2024 datasets with events containing a OD pulse greater than 2000~phd. The figures depict a) the time difference between the largest pulse in the Outer Detector and the largest pulse in the Skin; b) the time difference between the largest pulse in the Outer Detector and the start of the muon tail in the TPC; and c) the time difference between the largest pulse in the Skin and the start of the muon tail in the TPC.}
 \label{fig:Muons/timing_plots}
 \end{figure}
 
 \subsubsection{TPC energy selection}\label{sec:Muons/TPCEnergySelection}
 The effects of cuts differ between simulations and data due to uncertainty associated with GEANT4 modelling of the muon shower, particularly at lower energies shown in \autoref{fig:Muons/TPCHGLGComp_energy}. As the TPC energy threshold increases, the rates change accordingly, but by different factors for data and simulations. This difference can be observed by examining the ratios of muon flux between the data and the simulations. Therefore, two decisions are required: which gain (high gain (HG) or low gain (LG)) should be used for data to normalise the muon model, and what threshold is necessary for energy deposition in the TPC to ensure that the data can be accurately compared with the simulations. The TPC energy threshold is varied and the ratio of rate in data and simulation is compared in both HG and LG channels. The dependence between energy threshold and ratio is shown in \autoref{fig:Muons/TPCHGLGComp_ratios}, it is clear that the LG ratios remain steady within statistical errors above 10~MeV.
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \begin{subfigure}{.49\textwidth}
     \centering
     \centering\includegraphics[width=1\textwidth,angle=0]{figures/Muons/TPC_energy_comp.pdf}
@@ -283,15 +283,15 @@ The effects of cuts differ between simulations and data due to uncertainty assoc
     \caption{}
     \label{fig:Muons/TPCHGLGComp_ratios}
     \end{subfigure}
-    \caption{(a) Histograms comparing the spectrum of deposited energy in the TPC from BACCARAT muons with the spectrum of deposited energy in the TPC from WS2022 and WS2024 HG (LG) data (converted from TPC total pulse area). (b) The ratios of HG (LG) WS2022 and WS2024 data to BACCARAT simulations as a function of the energy threshold in the TPC.}
+    \caption[Energy spectrum of deposited energy in the TPC in data and simulation alongside the data/simulation rate ratio as a function of TPC energy threshold.]{(a) Histograms comparing the spectrum of deposited energy in the TPC from BACCARAT muons with the spectrum of deposited energy in the TPC from WS2022 and WS2024 HG (LG) data (converted from TPC total pulse area). (b) The ratios of HG (LG) WS2022 and WS2024 data to BACCARAT simulations as a function of the energy threshold in the TPC.}
     \label{fig:Muons/TPCHGLGComp}
 \end{figure}
 
 The constant ratio between data and simulation above the 10~MeV is the primary reason for adopting to use the LG dataset. In addition to the stable ratio, a low threshold such as \textless~1~MeV, would not provide a clean sample because these events also contain events produced by backgrounds as visual inspection of events around this threshold in the LZ event viewer showed. Event below 1~MeV are considered to be the end of a muon cascade in both data and simulations. To demonstrate this, a particle ID selection study is performed using simulated data. \autoref{fig:Muons/Muon_PID} shows that most events \textgreater~10~MeV are muon-only events, not events containing muons and additional muon secondaries, as it separates the events with a muon passing through the TPC from those that do not. A higher energy threshold such as \textless~50~MeV would also not be useful due the effect of PMT saturation seen in data as shown in \autoref{fig:Muons/TPCHGLGComp_energy}.
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\textwidth]{figures/Muons/Muon_pid_cutLZstyle.pdf}
-    \caption{Energy deposition spectra of muon events from BACCARAT simulations with and without a muon particle ID (PID) cut. The cut selects events that had a muon depositing energy in the TPC directly.}
+    \caption[Energy deposition spectra of muon events from BACCARAT simulations with and without a muon particle ID (PID) cut.]{Energy deposition spectra of muon events from BACCARAT simulations with and without a muon particle ID (PID) cut. The cut selects events that had a muon depositing energy in the TPC directly.}
     \label{fig:Muons/Muon_PID}
 \end{figure}
 
@@ -303,10 +303,10 @@ The event selection considers a triple coincidence between the OD, Skin and TPC.
 The \textbf{N}oble \textbf{E}lement \textbf{S}imulation \textbf{T}echnique (NEST)~\cite{NEST2011} is used to reconstruct the energy of muons traversing the TPC. Typically particle interactions are observed through an `S1' pulse and an `S2' pulse and using methods described in \autoref{sec:LZ/XeInteractionsTPC} and Ref.~\cite{NEST2011}, the energy deposit can be calculated. When a muon traverses the xenon space, a series of S1 and S2 pulses are produced which can not be separated in data. NEST, however, has a minimum ionising particle (MIP) module in which the linear energy transfer ($dE/dx$) can be set. This is 2.1~MeV~cm$^2$~g$^{-1}$ for a muon in liquid xenon with an average energy of 283~GeV \cite{MUE}. Two final inputs to NEST to simulate a muon are the start and end points of the track.
 Sampling the start position and direction vector produced by the MUSUN simulations, all 48.2~million muons are projected through the LZ detector. If the muon passed through the xenon space, the point at which it enters and exits the TPC is saved and later used as the input into NEST. 67918~muons from BACCARAT passed through the xenon volume and are used to produce the conversion between energy deposited and light produced due to the interaction. NEST outputs the energy, total S1 light and total S2 light and for the conversion used in this analysis, the S1 and S2 light is summed.
 Two separate sets of conversion factors are determined through running NEST with the WS2022 LZ detector configuration and WS2024 detector configuration. An example of the comparison can be seen in \autoref{fig:Muons/nestcomparison}.
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\textwidth]{figures/Muons/TPCEnergyConversion.pdf}
-    \caption{Deposited energy from BACCARAT simulations versus the number of detected photons from NEST simulations. The minimum muon-like event found in data is overlaid at 574~phd and the spline fit is extrapolated down to this value.}
+    \caption[Deposited energy from BACCARAT simulations versus the number of detected photons from NEST simulations.]{Deposited energy from BACCARAT simulations versus the number of detected photons from NEST simulations. The minimum muon-like event found in data is overlaid at 574~phd and the spline fit is extrapolated down to this value.}
     %Energy to light comparison produced by simulating MIPs using NEST. The S1 and S2 light outputs have been summed together as seen in data. 
     \label{fig:Muons/nestcomparison}
 \end{figure}
@@ -322,16 +322,16 @@ Recording the photon production from muon interactions in the OD, Skin and TPC i
 
 The same selection is applied to both data and simulation, namely a detector coincidence requirement in which the muon has to pass through the OD, Skin and TPC within an event; and the 8~MeV energy threshold, discussed in \autoref{sec:Muons/MuonFluxODSelection}.
 
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\textwidth]{figures/Muons/OD_comparison.pdf}
     %\caption{Energy deposited in the OD by muons generated by BACCARAT and the energy of events in data converted from the total pulse area in the OD.}
-    \caption{Energy deposited by BACCARAT simulated muons in the OD and the energy of events in data converted from the total pulse area in the OD. The different peaks correspond to different paths muons take through the OD volume.}
+    \caption[Energy deposited by BACCARAT simulated muons in the OD and the energy of events in data converted from the total pulse area in the OD.]{Energy deposited by BACCARAT simulated muons in the OD and the energy of events in data converted from the total pulse area in the OD. The different peaks correspond to different paths muons take through the OD volume.}
     \label{fig:Muons/OD_comp}
 \end{figure}
 After converting both TPC and OD pulse area to energy a direct comparison is made between combined TPC and OD energy spaces in simulations and data. These distributions are shown in \autoref{fig:Muons/ODTPC_comp} before and after applying the TPC energy threshold selection.
 The energy distributions show that the 10~MeV cut removes events with a small amount of energy deposited in the TPC and a large amount of energy deposited in the OD. This is characteristic of muon secondaries or muons that may have skimmed the edge of the TPC and is considered as a systematic uncertainty, which is higher at lower energies.
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \begin{subfigure}{0.49\textwidth}
     \centering
     \includegraphics[width=\textwidth]{figures/Muons/OD_TPC_datacc.pdf}
@@ -356,61 +356,16 @@ The energy distributions show that the 10~MeV cut removes events with a small am
     \caption{}
     \label{fig:Muons/OD_TPC_bacc10}
     \end{subfigure}
-    \caption{Energy depositions from events in the OD and TPC, with the total TPC pulse area from WS2022 and WS2024 data converted to energy. In \autoref{fig:Muons/OD_TPC_datacc}, only OD and inter-detector timing cuts are applied, while in \autoref{fig:Muons/OD_TPC_data10} the 10~MeV cut is also applied. Similarly, BACCARAT simulations are plotted with the 8~MeV OD energy threshold and coincidence selection in \autoref{fig:Muons/OD_TPC_bacc0}, and with the additional 10~MeV selection applied in \autoref{fig:Muons/OD_TPC_bacc10}.}
+    \caption[Energy depositions from events in the OD and TPC, with the total TPC pulse area from WS2022 and WS2024 data converted to energy.]{Energy depositions from events in the OD and TPC, with the total TPC pulse area from WS2022 and WS2024 data converted to energy. In \autoref{fig:Muons/OD_TPC_datacc}, only OD and inter-detector timing cuts are applied, while in \autoref{fig:Muons/OD_TPC_data10} the 10~MeV cut is also applied. Similarly, BACCARAT simulations are plotted with the 8~MeV OD energy threshold and coincidence selection in \autoref{fig:Muons/OD_TPC_bacc0}, and with the additional 10~MeV selection applied in \autoref{fig:Muons/OD_TPC_bacc10}.}
     \label{fig:Muons/ODTPC_comp}
 \end{figure}
 
 \subsection{Muon rate results}\label{sec:Muons/MuonRateResults}
 The measured muon rates from simulations, HG and LG data for WS2022 and WS2024 are shown in \autoref{tab:Muons/Rates2022} and \autoref{tab:Muons/Rates2024} with increasing TPC energy thresholds. Columns 4 and 6 in each table detail these ratios for LG and HG data respectively, and is shown in \autoref{fig:Muons/TPCHGLGComp}. The final column in each table lists the differences between these HG and LG ratios for every threshold. As described in \autoref{sec:Muons/MuonFluxDataSimComp}, the slope of the LG ratio compared to the HG ratio above 10~MeV informed the decision to implement a 10~MeV TPC energy threshold and use LG data for muon flux reconstruction. The combined WS2022 and WS2024 dataset rates and ratios against simulation are shown in \autoref{tab:Muons/Rates_all} and the ratio between rates in simulation and data after applying different TPC energy thresholds is shown in \autoref{fig:Muons/MuonRatioByTPCThreshold}.
 
-\begin{landscape}
-\begin{table}[ht!]
+\begin{table}[h!]
     \centering
-    \caption{Muon rates from simulations and WS2022 data. The data has the OD cuts and timing selections applied. The simulations have a 3-fold detector coincidence criteria and the 8~MeV OD energy cut applied. The TPC energy thresholds represent the total energy deposited by a muon event in the TPC.}
-    \begin{tabular}{lllllll}
-    \hline\hline
-    \textbf{TPC} & \textbf{Simulation} & \textbf{Data LG} & \textbf{Data / Simulations} & \textbf{Data HG} & \textbf{Data / Simulations} & \textbf{LG ratio -} \\
-    \textbf{threshold} & \textbf{rate [day$^{-1}$]} & \textbf{rate [day$^{-1}$]} & \textbf{LG ratio} & \textbf{rate [day$^{-1}$]} & \textbf{HG ratio} & \textbf{HG ratio} \\
-    \hline
-    TPC $>$ 1.44 keV &  16.55 ± 0.04 &  12.71 ± 0.36 & 0.77 ± 0.02  &  12.78 ± 0.36 & 0.77 ± 0.02  & 0.00 ± 0.03 \\ 
-    TPC $>$ 1 MeV &  15.06 ± 0.04 &  12.22 ± 0.35 & 0.81 ± 0.02  &  12.31 ± 0.35 & 0.82 ± 0.02  & 0.00 ± 0.03 \\
-    TPC $>$ 2 MeV &  14.48 ± 0.04 &  11.94 ± 0.35 & 0.83 ± 0.02  &  12.14 ± 0.35 & 0.84 ± 0.02  & 0.00 ± 0.03 \\
-    TPC $>$ 5 MeV &  13.76 ± 0.04 &  11.49 ± 0.34 & 0.84 ± 0.03  &  11.55 ± 0.34 & 0.84 ± 0.03  & 0.00 ± 0.04 \\
-    TPC $>$ 10 MeV &  13.28 ± 0.04 &  11.19 ± 0.34 & 0.84 ± 0.03 &  11.14 ± 0.34 & 0.84 ± 0.03  & 0.00 ± 0.04 \\
-    TPC $>$ 20 MeV &  12.84 ± 0.04 &  10.84 ± 0.33 & 0.84 ± 0.03  &  10.63 ± 0.33 & 0.83 ± 0.03  & 0.03 ± 0.04 \\
-    TPC $>$ 30 MeV &  12.60 ± 0.04 &  10.66 ± 0.33 & 0.85 ± 0.03  &  10.33 ± 0.32 & 0.82 ± 0.03  & 0.03 ± 0.04 \\
-    TPC $>$ 40 MeV &  12.41 ± 0.04 &  10.52 ± 0.33 & 0.84 ± 0.03  &  10.09 ± 0.32 & 0.81 ± 0.03  & 0.04 ± 0.04 \\
-    TPC $>$ 50 MeV &  12.26 ± 0.04 &  10.38 ± 0.32 & 0.85 ± 0.03  &   9.89 ± 0.32 & 0.81 ± 0.03  & 0.04 ± 0.04 \\
-    \hline\hline
-    \end{tabular}
-    \label{tab:Muons/Rates2022}
-\end{table}
-\begin{table}[ht!]
-    \centering
-    \caption{Muon rates from simulations and WS2024 data. The data has the OD cuts and timing selections applied. The simulations have a 3-fold detector coincidence criteria and the 8~MeV OD energy cut applied. The TPC energy thresholds represent the total energy deposited by a muon event in the TPC.}
-    \begin{tabular}{lllllll}
-    \hline\hline
-    \textbf{TPC} & \textbf{Simulation} & \textbf{Data LG} & \textbf{Data / Simulations} & \textbf{Data HG} & \textbf{Data / Simulations} & \textbf{LG ratio -} \\
-    \textbf{threshold} & \textbf{rate [day$^{-1}$]} & \textbf{rate [day$^{-1}$]} & \textbf{LG ratio} & \textbf{rate [day$^{-1}$]} & \textbf{HG ratio} & \textbf{HG ratio} \\
-    \hline
-    TPC $>$ 1.44 keV & 16.55 ± 0.04 & 12.77 ± 0.22 & 0.77 ± 0.01  & 12.82 ± 0.22 & 0.78 ± 0.01  &0.00 ± 0.02 \\ 
-    TPC $>$ 1 MeV & 15.06 ± 0.04 & 12.06 ± 0.21 & 0.80 ± 0.01  & 12.14 ± 0.21 & 0.81 ± 0.01  &0.00 ± 0.02 \\ 
-    TPC $>$ 2 MeV & 14.48 ± 0.04 & 11.73 ± 0.21 & 0.81 ± 0.02  & 11.84 ± 0.21 & 0.82 ± 0.02  &0.01 ± 0.02 \\ 
-    TPC $>$ 5 MeV & 13.76 ± 0.04 & 11.27 ± 0.21 & 0.82 ± 0.02  & 11.26 ± 0.21 & 0.82 ± 0.02  &0.00 ± 0.02 \\ 
-    TPC $>$ 10 MeV & 13.28 ± 0.04 & 10.98 ± 0.20 & 0.83 ± 0.02  & 10.94 ± 0.20 & 0.82 ± 0.02  &0.00 ± 0.02 \\ 
-    TPC $>$ 20 MeV & 12.84 ± 0.04 & 10.62 ± 0.20 & 0.83 ± 0.02  & 10.54 ± 0.20 & 0.82 ± 0.02  &0.01 ± 0.02 \\ 
-    TPC $>$ 30 MeV & 12.60 ± 0.04 & 10.43 ± 0.20 & 0.83 ± 0.02  & 10.26 ± 0.20 & 0.81 ± 0.02  &0.01 ± 0.02 \\ 
-    TPC $>$ 40 MeV & 12.41 ± 0.04 & 10.25 ± 0.20 & 0.83 ± 0.02  & 10.05 ± 0.19 & 0.81 ± 0.02  &0.02 ± 0.02 \\ 
-    TPC $>$ 50 MeV & 12.26 ± 0.04 & 10.13 ± 0.20 & 0.83 ± 0.02  &  9.86 ± 0.19 & 0.80 ± 0.02  &0.02 ± 0.02 \\
-    \hline\hline
-    \end{tabular}
-    \label{tab:Muons/Rates2024}
-\end{table}
-\end{landscape}
-
-\begin{table}[ht!]
-    \centering
-    \caption{Muon rates from simulations, WS2022 and WS2024 combined dataset. The data has the OD cuts and timing selections applied. The simulations have a 3-fold detector coincidence criteria and the 8~MeV OD energy cut applied. The TPC energy thresholds represent the total energy deposited by a muon event in the TPC.}
+    \caption[Muon rates from simulations, WS2022 and WS2024 combined dataset.]{Muon rates from simulations, WS2022 and WS2024 combined dataset. The data has the OD cuts and timing selections applied. The simulations have a 3-fold detector coincidence criteria and the 8~MeV OD energy cut applied. The TPC energy thresholds represent the total energy deposited by a muon event in the TPC.}
     \begin{tabular}{llll}
     \hline\hline
     \textbf{TPC} & \textbf{Simulation} & \textbf{Data LG} & \textbf{Data / Simulations} \\
@@ -430,12 +385,14 @@ The measured muon rates from simulations, HG and LG data for WS2022 and WS2024 a
     \label{tab:Muons/Rates_all}
 \end{table}
 
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/Muons/Data_sims_ratio_lgonly-2.pdf}
-    \caption{Ratio of muon rate in data and simulation varying TPC energy threshold. Above 10~MeV, relative stability to observed in the ratio of muon rates. This informed the decision on position of the TPC energy threshold.}
+    \caption[Ratio of muon rate in data and simulation varying TPC energy threshold.]{Ratio of muon rate in data and simulation varying TPC energy threshold. Above 10~MeV, relative stability to observed in the ratio of muon rates. This informed the decision on position of the TPC energy threshold.}
     \label{fig:Muons/MuonRatioByTPCThreshold}
 \end{figure}
+
+%\pagebreak
 
 \subsection{Reconstruction of the muon flux}\label{sec:Muons/MuonFluxReconstruction}
 Reconstruction of the muon flux from the measured muon rate is performed by scaling the simulated muon flux by the same ratio as that for the measured-to-simulated rate:
@@ -465,10 +422,10 @@ If a lower muon flux in the measurements can be attributed to the higher average
 The muon flux at SURF is calculated with different densities of rock above the laboratory to match the measured value. In this case, a simple approximation of a `flat' surface profile above the lab is used taking into account only the Earth's curvature (though with negligible effect for the flux at this depth). The simulated muon flux is matched with the measured flux assuming the average density of $(2.78 \pm 0.01)$~g/cm$^3$ which is 3.0\% higher than initially assumed in the muon model (see \autoref{fig:Muons/flux_density} for the flux dependence on the rock density). The statistical uncertainty of the muon rate measurements dominates the uncertainty. This density is smaller than that reported in Ref.~\cite{majorana} ($(2.89 \pm 0.06)$~g/cm$^3$) despite almost the same muon flux. 
 The muon flux is reconstructed for in the Davis cavern. The flux depends on the position in and around the cavern. For example, the muon flux 7~m above the cavern from where most muons in the simulations originated will be about 3\% higher. 
 
-\begin{figure}[ht!]
+\begin{figure}[t!]
     \centering
     \includegraphics[width=0.7\textwidth]{figures/Muons/Flux_density_ws22_ws24.pdf}
-    \caption{The muon flux dependence on average rock density within the muon model. The horizontal line and shaded section mark, respectively, the measured flux value and the combined statistical and systematic errors, $(5.119~\pm~0.094)~\times10^{-9}~\textrm{cm}^{-2}\textrm{s}^{-1}$.}
+    \caption[The muon flux dependence on average rock density within the muon model.]{The muon flux dependence on average rock density within the muon model. The horizontal line and shaded section mark, respectively, the measured flux value and the combined statistical and systematic errors, $(5.119~\pm~0.094)~\times10^{-9}~\textrm{cm}^{-2}\textrm{s}^{-1}$.}
     \label{fig:Muons/flux_density}
 \end{figure}
 
@@ -480,8 +437,8 @@ which increases the density in winter \cite{COSINE-100:2020jml}. The changes in 
 The events selected for the muon flux measurement are used to search for annual and daily modulation. The effective live time of the detector is measured across the data set to create exposure normalisation factors to account for the variation in exposure which is effected by detector maintenance and regular calibrations. The exposure per day as a function of days since the start of the WS2022 science run is shown in \autoref{fig:Muons/ExposurePerWeek}. The corresponding exposure normalisation factors are included in our rate modulation model.
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.7\linewidth]{figures/Muons/ExposurePerDay.pdf}
-    \caption{Exposure per day as a function of days since the start of the WS2022 science run. The difference in exposure per day are due to detector down time caused by maintenance and regular calibrations. The large gap in exposure corresponds to the time between science runs. During this time, optimal detector conditions were being established.}
+    \includegraphics[width=0.8\linewidth]{figures/Muons/ExposurePerDay.pdf}
+    \caption[Exposure per day as a function of days since the start of the WS2022 science run.]{Exposure per day as a function of days since the start of the WS2022 science run. The difference in exposure per day are due to detector down time caused by maintenance and regular calibrations. The large gap in exposure corresponds to the time between science runs. During this time, optimal detector conditions were being established.}
     \label{fig:Muons/ExposurePerWeek}
 \end{figure}
 A simple modulation function to describe the rate $r$ at a given time $t$ is applied to the data which is expressed as:
@@ -491,17 +448,17 @@ A simple modulation function to describe the rate $r$ at a given time $t$ is app
 where $r_0$ is the average rate per unit time over the data set, $A$ is the amplitude of the modulation, $\omega$ is the modulation frequency, and $\phi$ is the modulation phase. To search for an annual scale modulation, the data is binned by day as shown in \autoref{fig:Muons/MuonFlux_dayFitted}. The data does not show significant evidence for muon modulation ($p_\text{w}=0.31$, $p_\text{m}=0.088$, and $p_\text{y}=0.5$). The best fit modulation fit is illustrated by the blue line, corresponding to an average rate $r=10.7~\text{counts}~\text{day}^{-1}$ amplitude $A=0.5~\text{days}^{-1}$ and frequency $f=1/100~\text{days}^{-1}$.
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\linewidth]{figures/Muons/MuonModulation_MuonFlux_dayFitted.pdf}
-    \caption{Muon counts per day fitted with \autoref{eqn:Muons/modulation} is shown in the upper panel. The ratio between data and the model is shown in the lower panel.}
+    \includegraphics[width=0.8\linewidth]{figures/Muons/MuonModulation_MuonFlux_dayFitted.pdf}
+    \caption[Muon counts per day fitted with \autoref{eqn:Muons/modulation} is shown in the upper panel. The ratio between data and the model is shown in the lower panel.]{Muon counts per day fitted with \autoref{eqn:Muons/modulation} is shown in the upper panel. The ratio between data and the model is shown in the lower panel.}
     \label{fig:Muons/MuonFlux_dayFitted}
 \end{figure}
-No significant modulation in muon count is observed for weekly, monthly or yearly time periods. The 90\% confidence intervals on the modulation amplitude are: $A_\text{w}=(0.12^{+0.24}_{-0.12})~\text{days}^{-1}$, $A_\text{m}=(0.33\pm0.24)~\text{days}^{-1}$, $A_\text{y}=(0^{+5}_{-0})~\text{days}^{-1}$.
+No significant modulation in muon count is observed for weekly, monthly or yearly time periods. The 90\% confidence intervals on the modulation amplitude are: $A_\text{w}~=~(0.12^{+0.24}_{-0.12})~\text{days}^{-1}$, $A_\text{m}~=~(0.33\pm0.24)~\text{days}^{-1}$, $A_\text{y}~=~(0^{+5}_{-0})~\text{days}^{-1}$.
 
 Following studies by the COSINE-100~\cite{COSINE-100:2020jml} and MACRO~\cite{AMBROSIO1997109} experiments, a search for diurnal modulation is performed. The same procedure is followed to determine the exposure per hour during a day as was performed for the modulation studies discussed above and the counts per hour of day are corrected according to exposure. The time when a muon event is observed during a day with respect to midnight is fitted with \autoref{eqn:Muons/modulation} and is shown in \autoref{fig:Muons/diuralModulation}.
 \begin{figure}
     \centering
-    \includegraphics[width=0.7\linewidth]{figures/Muons/MuonModulation_TripleCoin.pdf}
-    \caption{Number of muon events binned with respect to when the event is observed during a day with respect to midnight. The data is fitted with \autoref{eqn:Muons/modulation} and is illustrated by the blue line. The blue band represent the expect statistical fluctuation in each bin given the model. Any disagreement between the model and data is shown in the lower panel.}
+    \includegraphics[width=0.8\linewidth]{figures/Muons/MuonModulation_TripleCoin.pdf}
+    \caption[Diurnal muon modulation in muon flux data set.]{Number of muon events binned with respect to when the event is observed during a day with respect to midnight. The data is fitted with \autoref{eqn:Muons/modulation} and is illustrated by the blue line. The blue band represent the expect statistical fluctuation in each bin given the model. Any disagreement between the model and data is shown in the lower panel.}
     \label{fig:Muons/diuralModulation}
 \end{figure}
 The best fit diurnal muon modulation frequency $f=(1/21.7)^{+0.005}_{-0.007}~\text{day}^{-1}$ is found with a local significance of $3.05\sigma$ with $p=0.001$. While this result shows a preference for diurnal modulation, correcting for the trial factor associated with allowing the phase to float means that the significance is below $3\sigma$. The best fit amplitude of $\sim5\%$ is an other of magnitude higher than those found by Refs.~\cite{COSINE-100:2020jml,AMBROSIO1997109}. Further studies will be required to understand the expected modulation considering the energy range observed by each experiment, the effects of latitude, depth of laboratory, solar activity and surface topology at SURF.
@@ -509,10 +466,10 @@ The best fit diurnal muon modulation frequency $f=(1/21.7)^{+0.005}_{-0.007}~\te
 \section{Muon veto for the WIMP search}\label{sec:Muons/MuonVeto}
 Muons pose as background to the WIMP search in multiple ways aside from the aforementioned muon induced backgrounds. As shown in \autoref{fig:Muons/eventViewer}, in the initial muon event a train of pulses characterised as \textit{S2}-like dominate the post trigger window. Depending on the energy of the incoming muon and the length of the track which the muon takes through the xenon within the TPC, \textit{S2}-like pulses and \textit{SE}-like pulses associated with the track of ionisation can be observed for up to 500~ms after the initial muon event. In addition to the train of \textit{S2}-like pulses and \textit{SE}-like pulses, \textit{SPE} pulses associated with the muon event can be observed for up to 10~s. The train of pulses following a muon event will be termed a `muon tail' in the rest of the section. During the 10~s window following a muon event the ability to differentiate a distinct single scatter produced by a WIMP from the muon tail is dramatically reduced. The `muon veto' algorithm is developed to remove events which contained the muon tail. An example muon tail produced from a 257~MeV energy deposition in the TPC (energy reconstructed using light detected to energy discussed in \autoref{sec:Muons/MuonFluxNEST}).
 
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/Muons/PulsesOverTime.pdf}
-    \caption{An example of a muon tail produced from a 257~MeV energy deposition in the TPC. The significant impact from a muon passing through the TPC is the high rate of \textit{SPE}-like pulses which can be observed for up to 10~s after the initial muon event.}
+    \caption[An example of a muon tail produced from a 257~MeV energy deposition in the TPC.]{An example of a muon tail produced from a 257~MeV energy deposition in the TPC. The significant impact from a muon passing through the TPC is the high rate of \textit{SPE}-like pulses which can be observed for up to 10~s after the initial muon event.}
     \label{fig:MuonTailExample}
 \end{figure}
 
@@ -527,9 +484,18 @@ To identify the initial muon event, a similar selection to that used in the muon
     \item $-200~\text{ns}<$ Time difference between OD and Skin Pulse $< 200~\text{ns}$
     %\item Total TPC Pulse Area $>10^{6.75}$~phd
 \end{itemize}
-The time of initial muon event are stored within a global variable. A conservative veto time window of 20~s is chosen to ensure high rate events following the muon event will be vetoed. All events selected using the criteria outlined above for the WS2022 and WS2024 science runs are shown in \autoref{fig:Muons/WS2022_MuonTailHist} and \autoref{fig:Muons/WS2024_MuonTailHist}. The total TPC pulse area threshold is determined through a visual analysis of \autoref{fig:Muons/WS2022_MuonTailHist} and \autoref{fig:Muons/WS2024_MuonTailHist} where below this threshold muon tails are not observed. Initial events with a total TPC pulse area $>10^{6}~\text{phd}$ and that passed the criteria outlined above are vetoed.
+The time of initial muon event are stored within a global variable. A conservative veto time window of 20~s is chosen to ensure high rate events following the muon event will be vetoed. All events selected using the criteria outlined above for the WS2024 science runs are shown in \autoref{fig:Muons/MuonTailHist}. The total TPC pulse area threshold is determined through a visual analysis of \autoref{fig:Muons/MuonTailHist} where below this threshold muon tails are not observed. The same plot was also produced when determining the threshold for the WS2022 criteria. Initial events with a total TPC pulse area $>10^{6}~\text{phd}$ and that passed the criteria outlined above are vetoed.
 
-\begin{figure}[ht!]
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{figures/Muons/SR3MuonTail_time_TotTPCPA_Both.pdf}
+    \caption[Total pulse area of the initial muon event corresponding to the number of \textit{S2}-like pulses and \textit{SE}-like pulses and the number of \textit{SPE}-like pulses in the events following the initial muon event.]{Total pulse area of the initial muon event corresponding to the number of \textit{S2}-like pulses and \textit{SE}-like pulses (top) and the number of \textit{SPE}-like pulses (bottom) in the events following the initial muon event in the WS2024 dataset. A conservative veto of window of 20~s was chosen to veto all high rate events following a muon travelling through the TPC.}
+    \label{fig:Muons/MuonTailHist}
+\end{figure}
+
+
+\iffalse
+\begin{figure}[h!]
 \centering
 \begin{subfigure}{0.47\textwidth}
     \includegraphics[width=\textwidth]{figures/Muons/SR1MuonTail_time_TotTPCPA_Both.pdf}
@@ -542,20 +508,21 @@ The time of initial muon event are stored within a global variable. A conservati
     \caption{}
     \label{fig:Muons/WS2024_MuonTailHist}
 \end{subfigure}
-\caption{Total pulse area of the initial muon event corresponding to the number of \textit{S2}-like pulses and \textit{SE}-like pulses (top) and the number of \textit{SPE}-like pulses (bottom) in the events following the initial muon event in the WS2022 (left) and WS2024 (right) datasets. A conservative veto of window of 20~s was chosen to veto all high rate events following a muon travelling through the TPC.}
+\caption[Total pulse area of the initial muon event corresponding to the number of \textit{S2}-like pulses and \textit{SE}-like pulses and the number of \textit{SPE}-like pulses in the events following the initial muon event.]{Total pulse area of the initial muon event corresponding to the number of \textit{S2}-like pulses and \textit{SE}-like pulses (top) and the number of \textit{SPE}-like pulses (bottom) in the events following the initial muon event in the WS2022 (left) and WS2024 (right) datasets. A conservative veto of window of 20~s was chosen to veto all high rate events following a muon travelling through the TPC.}
 \label{fig:MuonTailHist}
 \end{figure}
+\fi
 
 \subsection{Muon veto impact on the WIMP Search}
 The muon veto has a impact of $3.24\%$ and $1.90\%$ on the WS2022 and WS2024 detector live time respectively. The impact that the muon veto has on detector live time over WS2022 and WS2024 science runs is shown in \autoref{fig:MuonVetoLivetimeImpact}, the impact that the OD and Skin veto algorithms, discussed in \autoref{chap:VetoEfficiency}, has on detector live time is also included for reference.
 \iffalse
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\linewidth]{figures/Muons/SR1WSAnalysis_SR1-WSv5_LZAP-5.4.6_v36_run_time_comparison.pdf}
     \caption{The impact that veto algorithms have on detector live time over the WS2022 science run. The muon veto produced a $3.24\%$ impact on detector live time. The Outer Detector and Skin veto (outlined in \autoref{chap:VetoEfficiency}) have been included as a reference.}
     \label{fig:WS2022_MuonVetoLivetimeImpact}
 \end{figure}
-\begin{figure}[ht!]
+\begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\linewidth]{figures/Muons/SR3-WSv5_LZAP-5.4.6_run_time_comparison.pdf}
     \caption{The impact that veto algorithms have on detector live time over the WS2024 science run. The muon veto produced a $1.90\%$ impact on detector live time. The Outer Detector and Skin veto (outlined in \autoref{chap:VetoEfficiency}) have been included as a reference.\textcolor{red}{NEEDS UPDATING WITH FULL DATASET}}
@@ -563,7 +530,7 @@ The muon veto has a impact of $3.24\%$ and $1.90\%$ on the WS2022 and WS2024 det
 \end{figure}
 \fi
 
-\begin{figure}[ht!]
+\begin{figure}[h!]
 \centering
 \begin{subfigure}{0.47\textwidth}
     \includegraphics[width=\textwidth]{figures/Muons/SR1WSAnalysis_SR1-WSv5_LZAP-5.4.6_v36_run_time_comparison.pdf}
@@ -576,7 +543,7 @@ The muon veto has a impact of $3.24\%$ and $1.90\%$ on the WS2022 and WS2024 det
     \caption{}
     \label{fig:WS2024_MuonVetoLivetimeImpact}
 \end{subfigure}
-\caption{The impact that veto algorithms have on detector live time over the (a) WS2022 and (b) WS2024 science runs. The muon veto produced a $3.24\%$ ($1.90\%$) impact on detector live time in the WS2022 (WS2024) science run. The Outer Detector and Skin veto live time impact (outlined in \autoref{chap:VetoEfficiency}) has been included as a reference.}
+\caption[The impact that veto algorithms have on detector live time over the WS2022 and WS2024 science runs.]{The impact that veto algorithms have on detector live time over the (a) WS2022 and (b) WS2024 science runs. The muon veto produced a $3.24\%$ ($1.90\%$) impact on detector live time in the WS2022 (WS2024) science run. The Outer Detector and Skin veto live time impact (outlined in \autoref{chap:VetoEfficiency}) has been included as a reference.}
 \label{fig:MuonVetoLivetimeImpact}
 \end{figure}
 

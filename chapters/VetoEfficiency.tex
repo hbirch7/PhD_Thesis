@@ -26,8 +26,8 @@ All possible configurations of the geometry modifications are visually examined 
 From this study it was found that 30~mm~to~50~mm movement of the SATs alongside 5\%~to~7\% increase in the percentage of water in the foam provides the best agreement between data and simulation at a 200~keV threshold. Including results from other studies on the H-Gd neutron capture ratios important when more water is present and thus more hydrogen, the \textit{best} configuration of the simulation geometry changes is found to be 30~mm and 6\% through matching the capture time of neutrons following single scatters in the active LXe volume.
 \begin{figure}[!ht]
 	\centering
-	\includegraphics[width=0.7\linewidth]{figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png}
-	\caption{An example of the plot used to compare neutron capture timing in data with the baseline simulation and the modified simulation. The relative change between data and simulation in each $20~\mu s$ bin is used to aid the visually examination across a 1200~\textmu s window.}
+	\includegraphics[width=0.9\linewidth]{figures/VetoEfficiency/movedSAT50mm_7percentWater_AmLi_CSD3_Z700mm_200keV_Ratio.png}
+	\caption[An example of the plot used to compare neutron capture timing in data with the baseline simulation and the modified simulation.]{An example of the plot used to compare neutron capture timing in data with the baseline simulation and the modified simulation. The relative change between data and simulation in each $20~\mu s$ bin is used to aid the visually examination across a 1200~\textmu s window.}
 	\label{fig:VetoEff/NC_AmLi_50mm7}
 \end{figure}
 
@@ -44,7 +44,7 @@ The cuts used for the different veto criteria are selected at the same time as A
 
 \begin{table}[!ht]
 	\centering
-	\caption{Outline of TPC cuts applied to AmLi calibration data for determining the veto efficiency. All cuts are defined in \autoref{sec:app/WSCoreCuts}.}
+	\caption[Outline of TPC cuts applied to AmLi calibration data for determining the veto efficiency.]{Outline of TPC cuts applied to AmLi calibration data for determining the veto efficiency. All cuts are defined in \autoref{sec:app/WSCoreCuts}.}
 	\label{tab:VetoEff/amli_efficiency_cuts}
     \scalebox{0.9}{
 	\begin{tabular}{llll}
@@ -81,7 +81,8 @@ The veto window length for the prompt windows are determined using AmLi and DD c
 		\caption{}
         \label{fig:VetoEff/skin_prompt_window}
 	\end{subfigure}
-	\caption{Prompt timing window for the OD (left) and Skin (right). %The time difference between TPC single scatter pulse and veto pulse was used to determine the optimal veto window size. 
+	\caption[Prompt timing window for the OD (left) and Skin (right). 
+    AmLi (blue) and DD (orange) calibration data was used to measure the time difference between the TPC single scatter pulse and veto pulse.]{Prompt timing window for the OD (left) and Skin (right). 
     AmLi (blue) and DD (orange) calibration data was used to measure the time difference between the TPC single scatter pulse and veto pulse. 
     The vertical red lines indicate the boundary of the timing selection used for WS2024. There is no change in the size of the OD prompt veto window whereas the Skin prompt veto window is reduced by a total of 500~ns. The WS2022 veto window limits are shown in green.}
 	\label{fig:VetoEff/veto_prompt_windows}
@@ -91,7 +92,7 @@ The veto efficiency (defined in \ref{eqn:VetoEff/neutron_tagging_efficiency}) ca
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/VetoEfficiency/DelayedVetoWindow.pdf}
-    \caption{An example of a veto efficiency curve measured using AmLi calibration data. The vertical red line indicates the WS2024 upper bound of the delayed veto windows used for both the Skin and OD.}
+    \caption[An example of a veto efficiency curve measured using AmLi calibration data.]{An example of a veto efficiency curve measured using AmLi calibration data. The vertical red line indicates the WS2024 upper bound of the delayed veto windows used for both the Skin and OD.}
     \label{fig:VetoEff/DelayedVetoWindow}
 \end{figure}
 
@@ -103,7 +104,7 @@ To optimize the pulse area and PMT coincidence thresholds the veto efficiency an
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{figures/VetoEfficiency/Heatmap600us_ODDelayedSkinDelayedThresholds.png}
-	\caption{Heatmap used to determine optimal OD and Skin Delayed thresholds based on efficiency. The z-axis shows the efficiency associated with a given pulse area requirement for the delayed veto windows defined in \autoref{tab:VetoEff/sr3_veto_cuts}.}
+	\caption[Heatmap used to determine optimal OD and Skin Delayed thresholds based on efficiency.]{Heatmap used to determine optimal OD and Skin Delayed thresholds based on efficiency. The z-axis shows the efficiency associated with a given pulse area requirement for the delayed veto windows defined in \autoref{tab:VetoEff/sr3_veto_cuts}.}
 	\label{fig:VetoEff/od_prompt_veto_heatmap}
 \end{figure}
 
@@ -163,7 +164,7 @@ The final cuts for the WS2024 science run are shown in \autoref{tab:VetoEff/sr3_
 
 \begin{table}[!ht]
     \centering
-    \caption{Cuts determined to be optimal for the WS2024 science run. The WS2022 cuts are also included, where any modifications made to the selections is shaded accordingly.}
+    \caption[Veto coincidence cuts determined to be optimal for the WS2024 science run.]{Veto coincidence cuts determined to be optimal for the WS2024 science run. The WS2022 cuts are also included, where any modifications made to the selections is shaded accordingly.}
     \label{tab:VetoEff/sr3_veto_cuts}
     \scalebox{0.9}{
     \begin{tabular}{|c|c|c||c|c|c|}
@@ -242,7 +243,7 @@ AmLi calibration data used in this study was taken during the May 2023 calibrati
     \begin{figure}[!ht]
     \centering
         \includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/CircularCSDCut.pdf}
-        \caption{X-Y distribution of SS S1 pulses in the TPC for AmLi sources positioned at 700mm. Each of the circular cuts are overlaid on the plot.}
+        \caption[X-Y distribution of SS S1 pulses in the TPC for AmLi sources positioned at 700mm.]{X-Y distribution of SS S1 pulses in the TPC for AmLi sources positioned at 700mm. Each of the circular cuts are overlaid on the plot.}
         \label{fig:VetoEff/CSDSelection}
     \end{figure}
     The position dependence of the veto efficiency can be examined by applying the CSD tube selection to data collected at different $z$-positions. The veto efficiency for different CSD tubes and $z$-positions is shown in \autoref{fig:VetoEff/VetoEffPositionDependence}.
@@ -261,7 +262,7 @@ AmLi calibration data used in this study was taken during the May 2023 calibrati
             \caption{}
     		\label{fig:VetoEff/VetoEffPositionDependenceCSD}
     	\end{subfigure}
-    	\caption{Position dependent veto efficiencies for different CSD tubes (left) and $z$-positions (right).}
+    	\caption[Position dependent veto efficiencies for different CSD tubes (left) and $z$-positions (right).]{Position dependent veto efficiencies for different CSD tubes (left) and $z$-positions (right).}
     	\label{fig:VetoEff/VetoEffPositionDependence}
     \end{figure}
 	A concern of this cut is that events towards the centre of the TPC are excluded. When the efficiency is averaged across different heights and CSD tube, the average can then be replicated in both data and simulation. 
@@ -296,7 +297,7 @@ AmLi calibration data used in this study was taken during the May 2023 calibrati
         \caption{}
         \label{fig:VetoEff/AmLi700_NRBands}
     \end{subfigure}
-    \caption{\textbf{Left:} The NR band means (solid line) with 1-$\sigma$ boundaries (dashed lines) for AmLi and DD calibration sources and a flat beta ER band mean with 1-$\sigma$ boundary. Both NR and ER bands and 1-$\sigma$ boundaries were generated using NEST. \textbf{Right:} AmLi calibration data at $z=700~\text{mm}$ with the corresponding NR band mean and 1-$\sigma$ boundary overlaid.}
+    \caption[NR and ER bands for the flat beta ER, AmLi NR and DD NR models alongside a plot of AmLi calibration data with the corresponding NR bands overlaid.]{\textbf{Left:} The NR band means (solid line) with 1-$\sigma$ boundaries (dashed lines) for AmLi and DD calibration sources and a flat beta ER band mean with 1-$\sigma$ boundary. Both NR and ER bands and 1-$\sigma$ boundaries were generated using NEST. \textbf{Right:} AmLi calibration data at $z=700~\text{mm}$ with the corresponding NR band mean and 1-$\sigma$ boundary overlaid.}
     \label{fig:VetoEff/SR3NRBands&AmLi700mmData}
 \end{figure}
 \end{enumerate}
@@ -329,7 +330,7 @@ The impact of the accidental correction when applied to the observed efficiency 
         \caption{}
         \label{fig:VetoEff/AmLiAccidentalCorrectionImpact}
     \end{subfigure}
-    \caption{\textbf{Left:} $P_a(0)$ accidental correction factors over a 600~\textmu s for AmLi calibration sources positioned at $z=700~\text{mm}$. The errors shown are only statistical uncertainties. \textbf{Right:} Comparison between calculated veto efficiencies for AmLi calibration sources positioned at $z=700~\text{mm}$ with accidental correction applied, $\hat{\eta}$, and not applied, $\eta_\text{obs.}$.}
+    \caption[$P_a(0)$ accidental correction factors over a 600~\textmu s for AmLi calibration sources positioned at $z=700~\text{mm}$ alongside the veto efficiency with the corrections applied.]{\textbf{Left:} $P_a(0)$ accidental correction factors over a 600~\textmu s for AmLi calibration sources positioned at $z=700~\text{mm}$. The errors shown are only statistical uncertainties. \textbf{Right:} Comparison between calculated veto efficiencies for AmLi calibration sources positioned at $z=700~\text{mm}$ with accidental correction applied, $\hat{\eta}$, and not applied, $\eta_\text{obs.}$.}
     \label{fig:VetoEff/AmLiAccidentalPlots}
 \end{figure}
 The final efficiencies measured using AmLi calibration data, corrected for accidental coincidences, and averaged across all positions are shown in \autoref{fig:VetoEff/AmLiEfficiencies}. At the nominal 600~\textmu s veto window, $\eta^\text{Total}_\text{Data}=\big(88.71^{+2.81}_{-2.33}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.24^{+2.74}_{-2.84}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(75.71^{+1.93}_{-2.04}\big)\%$.
@@ -337,7 +338,7 @@ The final efficiencies measured using AmLi calibration data, corrected for accid
 \begin{figure}[!ht]
     \centering
     \includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/AmLiEfficiencies_Data.pdf}
-    \caption{Final efficiencies measured using AmLi calibration data, corrected for accidental coincidences, and averaged across all positions is shown in \autoref{fig:VetoEff/AmLiEfficiencies}. At 600~\textmu s, $\eta^\text{Total}_\text{Data}=\big(88.71^{+2.81}_{-2.33}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.24^{+2.74}_{-2.84}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(75.71^{+1.93}_{-2.04}\big)\%$.}
+    \caption[Final efficiencies measured using AmLi calibration data, corrected for accidental coincidences.]{Final efficiencies measured using AmLi calibration data, corrected for accidental coincidences, and averaged across all positions. At 600~\textmu s, $\eta^\text{Total}_\text{Data}=\big(88.71^{+2.81}_{-2.33}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.24^{+2.74}_{-2.84}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(75.71^{+1.93}_{-2.04}\big)\%$.}
     \label{fig:VetoEff/AmLiEfficiencies}
 \end{figure}
 
@@ -348,7 +349,7 @@ DD calibration data used in this study was taken during the October 2023 calibra
 
 \begin{table}[!ht]
 	\centering
-	\caption{Outline of cuts applied to DD calibration data for determining the veto efficiency. All cuts are defined in \autoref{sec:app/WSCoreCuts}.}
+	\caption[Outline of cuts applied to DD calibration data for determining the veto efficiency.]{Outline of cuts applied to DD calibration data for determining the veto efficiency. All cuts are defined in \autoref{sec:app/WSCoreCuts}.}
 	\begin{tabular}{lll}
     \hline\hline
 	\textbf{Physics cuts}&\textbf{S2 cuts}&\textbf{S1 cuts} \\
@@ -379,7 +380,7 @@ The DD calibration data is also corrected for accidental coincidences. The same 
         \caption{}
         \label{fig:VetoEff/DDAccCorrectionImpact_P0}
     \end{subfigure}
-    \caption{\textbf{Left:} $P_a(0)$ accidental correction factors over a 600~$\mu$s veto window for the DD calibration source data. The errors shown are only statistical uncertainties. The first 60~\textmu s lacks any randomly triggered data to generate accidental corrections during this time. \textbf{Right:} Comparison between calculated veto efficiencies for the DD calibration source with accidental correction applied, $\hat{\eta}$, and not applied, $\eta_\text{obs.}$.}
+    \caption[$P_a(0)$ accidental correction factors over a 600~\textmu s for DD calibration sources alongside the veto efficiency with the corrections applied.]{\textbf{Left:} $P_a(0)$ accidental correction factors over a 600~$\mu$s veto window for the DD calibration source data. The errors shown are only statistical uncertainties. The first 60~\textmu s lacks any randomly triggered data to generate accidental corrections during this time. \textbf{Right:} Comparison between calculated veto efficiencies for the DD calibration source with accidental correction applied, $\hat{\eta}$, and not applied, $\eta_\text{obs.}$.}
     \label{fig:VetoEff/DDAccidentalPlots}
 \end{figure}
 
@@ -388,7 +389,7 @@ The final efficiencies for DD calibration data corrected for accidental coincide
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/DDEfficiencies_Data.pdf}
-    \caption{DD efficiencies measured in data, all efficiencies are corrected for accidental coincidences. At the nominal 600~\textmu s veto window, $\eta^\text{Total}_\text{Data}=\big(87.59^{+1.63}_{-1.64}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.68^{+2.10}_{-2.09}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(81.64^{+2.59}_{-2.58}\big)\%$.}
+    \caption[DD efficiencies measured in data, all efficiencies are corrected for accidental coincidences.]{DD efficiencies measured in data, all efficiencies are corrected for accidental coincidences. At the nominal 600~\textmu s veto window, $\eta^\text{Total}_\text{Data}=\big(87.59^{+1.63}_{-1.64}\big)\%$, $\eta^\text{Delayed}_\text{Data}=\big(83.68^{+2.10}_{-2.09}\big)\%$, and $\eta^\text{OD Delayed}_\text{Data}=\big(81.64^{+2.59}_{-2.58}\big)\%$.}
     \label{fig:VetoEff/DDEfficiencies}
 \end{figure}
 \pagebreak
@@ -411,13 +412,13 @@ No accidental gammas or neutrons are present in the simulation, therefore no acc
         \caption{}
         \label{fig:VetoEff/DDSimEfficiencies}
     \end{subfigure}
-    \caption{Measured veto efficiencies from AmLi (left) and DD (right) calibration simulations using \textit{Total}, \textit{Delayed}, and \textit{OD Delayed} veto efficiency logic.}
+    \caption[Measured veto efficiencies from AmLi and DD calibration simulations.]{Measured veto efficiencies from AmLi (left) and DD (right) calibration simulations using \textit{Total}, \textit{Delayed}, and \textit{OD Delayed} veto efficiency logic.}
     \label{fig:VetoEff/CalibrationSimEfficiencies}
 \end{figure}
 \renewcommand{\arraystretch}{1.5}
 \begin{table}[h!]
     \centering
-    \caption{Estimated efficiencies from AmLi and DD calibration simulations at the nominal 600~\textmu s window.}
+    \caption[Calculated efficiencies from AmLi and DD calibration simulations at the nominal 600~\textmu s window.]{Calculated efficiencies from AmLi and DD calibration simulations at the nominal 600~\textmu s window.}
     \begin{tabular}{llll}
     \hline\hline
     \textbf{Source} & \textbf{$\eta^\text{Total}_\text{Sim}$ [\%]} & \textbf{$\eta^\text{Delayed}_\text{Sim}$ [\%]} & \textbf{$\eta^\text{OD Delayed}_\text{Sim}$ [\%]}\\
@@ -465,7 +466,7 @@ The comparison between veto efficiencies calculated for data and simulation for 
         \caption{}
         \label{fig:VetoEff/Sim2DataVetoEffComparisons_DD}
     \end{subfigure}
-    \caption{Comparison of calculated data (black) and simulation (red) veto efficiencies for AmLi (left) and DD (right) calibration sources. The difference between the calculated veto efficiency is presented below the veto efficiency curves for both sources. Both sources show good agreement when veto efficiencies are compared with $4.37\%$ and $2.39\%$ difference between data and simulation for AmLi and DD calibration sources respectively. The lower panel of the DD efficiency comparison has been magnified to better present the difference at 600~\textmu s.}
+    \caption[Comparison of calculated data and simulation veto efficiencies for AmLi and DD calibration sources.]{Comparison of calculated data (black) and simulation (red) veto efficiencies for AmLi (left) and DD (right) calibration sources. The difference between the calculated veto efficiency is presented below the veto efficiency curves for both sources. Both sources show good agreement when veto efficiencies are compared with $4.37\%$ and $2.39\%$ difference between data and simulation for AmLi and DD calibration sources respectively. The lower panel of the DD efficiency comparison has been magnified to better present the difference at 600~\textmu s.}
     \label{fig:VetoEff/Sim2DataVetoEffComparisons}
 \end{figure}
 
@@ -495,7 +496,7 @@ The efficiency of tagging neutrons from Uranium Spontaneous Fission (USF) and ($
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/det_nr_efficiency.png}
-	\caption{Efficiencies to veto simulated events which include a single scatter NR TPC. Each of the 644 background component contributions are weighted according to their contribution to the total NR background. TPC NR events are required to have a reconstructed $z$-position corresponding to an average drift time $t_\text{drift}$ between 350~\textmu s and 700~\textmu s in this example.}
+	\caption[Efficiencies to veto simulated events which include a single scatter NR TPC.]{Efficiencies to veto simulated events which include a single scatter NR TPC. Each of the 644 background component contributions are weighted according to their contribution to the total NR background. TPC NR events are required to have a reconstructed $z$-position corresponding to an average drift time $t_\text{drift}$ between 350~\textmu s and 700~\textmu s in this example.}
 	\label{fig:VetoEff/detector_nr_efficiency}
 \end{figure}
 
@@ -512,10 +513,7 @@ For the detector NR simulations, the events are separated into three $z$-section
 \begin{figure}[!ht]
 	\centering
 	\includegraphics[width=0.7\textwidth]{figures/VetoEfficiency/SummaryPlot.pdf}
-	\caption{Summary of efficiency from all simulations and calibration sources.
-		The CSD sources are averaged at each deployment position, $z=100~\text{mm},700~\text{mm},1300~\text{mm}$.
-		Circle markers represent calculated veto efficiencies from data.
-		Star markers represent calculated veto efficiencies from simulation.}
+	\caption[Summary of efficiency from all simulations and calibration sources.]{Summary of efficiency from all simulations and calibration sources. The CSD sources are averaged at each deployment position, $z=100~\text{mm},700~\text{mm},1300~\text{mm}$. Circle markers represent calculated veto efficiencies from data. Star markers represent calculated veto efficiencies from simulation.}
 	\label{fig:VetoEff/efficiency_summary}
 \end{figure}
 $t_{\text{drift}}$ splitting of detector NR simulation is performed to compare the calculated veto efficiencies of the detector NR simulations to veto efficiencies calculated from calibration sources. However, this was not used in the final efficiency evaluation. Shown in \autoref{tab:VetoEff/final_veto_efficiency} are the veto efficiencies of all calibration sources for both simulations and data alongside the veto efficiencies for the detector NR sources.
@@ -525,7 +523,7 @@ The average simulation calibration efficiency is taken between, $\overline{\eta}
 The average data calibration efficiency is taken between, $\overline{\eta}_{\text{AmLi}}^{\text{Data}}=(88.6\pm2.7)\%$ and $\eta_{\text{DD}}^{\text{Data}}=(91.8\pm1.0)\%$, which results in an average efficiency of $\overline{\eta}_{\text{Cal.}}^{\text{Data}}=(88.2\pm1.6)\%$.
 The difference, $\Lambda$, between the simulation calibration and data calibration efficiencies is used as a systematic uncertainty on the efficiency of detector NR simulations.
 This process is expressed in \autoref{eqn:VetoEff/DetNR_efficiency}, and produces an estimated veto efficiency for detector NR of $\eta_{\text{Det. NR}}^\text{Data}=(92.2\pm4.3)\%$.
-The final uncertainty of the estimated detector NR veto efficiency, $\sigma^\text{Data}_\text{Det. NR}$, is the product of the statistical uncertainty from the simulations $\sigma^\text{Sim.}_\text{Det. NR}=1\%$, and $\Delta=4.2\%$ from the subtraction of the data calibration efficiency from the simulation calibration efficiency. {\color{red}Rewrite this without percentages}
+The final uncertainty of the estimated detector NR veto efficiency, $\sigma^\text{Data}_\text{Det. NR}$, is the product of the statistical uncertainty from the simulations $\sigma^\text{Sim.}_\text{Det. NR}=1\%$, and $\Delta=4.2\%$ from the subtraction of the data calibration efficiency from the simulation calibration efficiency.
 \begin{equation}
     \label{eqn:VetoEff/DetNR_efficiency}
     \begin{split}
@@ -557,7 +555,7 @@ Candidate events for the WIMP search analysis (see \autoref{chap:WS2024Result}) 
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=\linewidth]{figures/VetoEfficiency/WS2024_TPCPosPlots_2panel.png}
-    \caption{\textbf{Left:} Data from the WS2024 science run reconstructed in TPC $x$ and $y$ position, in black with all analysis cuts applied. Red crosses and blue circles represent events that are vetoed by the Skin and OD veto coincidence cuts, respectively. The dashed line shows the active volume, averaged over azimuth, and the solid lines depict the FV, at the azimuths of its smallest and largest radial extent. The two circle lines depict the boundary of the position based selection which remove events within 6~cm of TPC field cage resistors with elevated rates of radioactivity. \textbf{Right:} The same events shown in the left panel in reconstructed in TPC $\text{R}^2$ and $z$.}
+    \caption[Data from the WS2024 science run reconstructed in TPC with events that are vetoed coloured in red and blue.]{\textbf{Left:} Data from the WS2024 science run reconstructed in TPC $x$ and $y$ position, in black with all analysis cuts applied. Red crosses and blue circles represent events that are vetoed by the Skin and OD veto coincidence cuts, respectively. The dashed line shows the active volume, averaged over azimuth, and the solid lines depict the FV, at the azimuths of its smallest and largest radial extent. The two circle lines depict the boundary of the position based selection which remove events within 6~cm of TPC field cage resistors with elevated rates of radioactivity. \textbf{Right:} The same events shown in the left panel in reconstructed in TPC $\text{R}^2$ and $z$.}
     \label{fig:VetoEff/WS2024_TPCPosPlots_2panel}
 \end{figure}
 
@@ -567,9 +565,10 @@ Events which passed the Skin-delayed and OD-delayed selection are used to genera
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/VetoEfficiency/WS2024VetoSideBandEvents_WIMP40.png}
-    \caption{The final set of events passing all selection cuts are shown in black. Events that are tagged by the Skin and OD delayed selection are shown in red. Regions containing 68\% and 95\% of the ER portion of the background model and a 40~GeV/$c^2$ WIMP are shown with the dark and light gray and purple shading respectively. Gray lines show contours of constant ER-equivalent ($\text{keV}_\text{ee}$) and NR-equivalent ($\text{keV}_\text{nr}$) energy. The dashed lines shown boundary of the WIMP region of interest.}
+    \caption[Final set of events passing all selection cuts in the WS2024 dataset with events tagged by the OD and Skin overlaid.]{The final set of events passing all selection cuts are shown in black. Events that are tagged by the Skin and OD delayed selection are shown in red. Regions containing 68\% and 95\% of the ER portion of the background model and a 40~GeV/$c^2$ WIMP are shown with the dark and light gray and purple shading respectively. Gray lines show contours of constant ER-equivalent ($\text{keV}_\text{ee}$) and NR-equivalent ($\text{keV}_\text{nr}$) energy. The dashed lines shown boundary of the WIMP region of interest.}
     \label{fig:VetoEff/VetoSideBandEvents}
 \end{figure}
 
+\pagebreak
 \section{Concluding remarks}
 Improvements to the Outer Detector geometry in simulation now better reflect the neutron capture timing observed in calibration data sets. As the time between single scatter S1 and veto pulses is considered in the veto coincidence selection, the accurate modelling of the detector response in simulation is crucial for the optimisation of veto coincidence selection for the WIMP analysis. These improvements are further reflected in the measurement of the neutron tagging efficiency when results are compared to simulations of AmLi and DD calibration sources. The optimisation of the veto coincidence selection resulted in a factor of two reduction in detector dead time induced by the selection whilst maintaining the same tagging efficiency measured in the WS2022 science run. An estimated neutron tagging efficiency of $(92\pm4)\%$ with a 3\% detector dead time is presented. The inclusion of the veto coincidence selection to the WIMP analysis cuts affords LZ the ability to increase the fiducial volume by 40\% by rejecting background events near the wall of the TPC which otherwise would be removed by constraining the fiducial volume selection. To estimate the number of single scatter events resulting from detector neutrons, a sample data set of events selected using the delayed veto coincidence selection is generated. An expectation of $0.0^{+0.2}$ single scatter events are attributed to detector neutrons using likelihood fit analysis. It should be stressed that if a WIMP signal were observed by LZ, the veto system will be crucial to excluded backgrounds as an explanation for the excess. To conclude this chapter I echo the words of Carl Sagan, \textit{``extraordinary claims require extraordinary evidence''} \cite{SaganCarl:BrocasBrain}.

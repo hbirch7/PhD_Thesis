@@ -47,7 +47,7 @@ For ease of repeated measurement, an analysis module for the OD SPhE was develop
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=0.7\linewidth]{figures/ODCommissioning/TimingVsPulseArea_2us.png}
-    \caption{The response of the OD PMTs to 200,000 injections of 2000 photons during a monthly SPhE measurement. The pulse area is plotted against the start time of the pulse relative to the trigger plus the peak time relative to the start of the pulse. The OCS pulses are distributed around a peak of 560~ns. The two vertical dashed red lines indicate the inclusive timing selection criteria.}
+    \caption[The response of the OD PMTs to 200,000 injections of 2000 photons during a monthly SPhE measurement.]{The response of the OD PMTs to 200,000 injections of 2000 photons during a monthly SPhE measurement. The pulse area is plotted against the start time of the pulse relative to the trigger plus the peak time relative to the start of the pulse. The OCS pulses are distributed around a peak of 560~ns. The two vertical dashed red lines indicate the inclusive timing selection criteria.}
     \label{fig:ODCommissioning/ODSPhE_TimingSelection}
 \end{figure}
 
@@ -71,20 +71,20 @@ An example histogram and fit can be seen in \autoref{fig:ODCommissioning/ODSPhED
          \caption{}
          \label{fig:ODCommissioning/ODSPhE_pC}
      \end{subfigure}
-        \caption{Pulse area distributions of PMT 800 from 200,000 OCS injections of 2000 photons during OD SPhE measurement. \textbf{Left:} Reconstructed pulse area measured in photons detected. \textbf{Right:} Pulse area taken from the area measured in the raw waveform in mVns, and converted to pCns by dividing by the $50~\Omega$ termination at the amplifier. The fit applied in red is \autoref{eqn:PoisPlusGauss} and the constants can be seen in the respective statistics boxes on each plot.}
+        \caption[Pulse area distributions of PMT 800 from 200,000 OCS injections of 2000 photons during OD SPhE measurement.]{Pulse area distributions of PMT 800 from 200,000 OCS injections of 2000 photons during OD SPhE measurement. \textbf{Left:} Reconstructed pulse area measured in photons detected. \textbf{Right:} Pulse area taken from the area measured in the raw waveform in mVns, and converted to pCns by dividing by the $50~\Omega$ termination at the amplifier. The fit applied in red is \autoref{eqn:PoisPlusGauss} and the constants can be seen in the respective statistics boxes on each plot.}
         \label{fig:ODCommissioning/ODSPhEDists}
 \end{figure}
 An example PMT calibration is outlined below for PMT 800. The mean Gaussian response is (0.9919 $\pm$ 0.0043) phd and (14.99 $\pm$ 0.06) pCns. The SPhE calibration constant used to process the raw data is reconstructed by dividing the SPhE response measured in mVns by the SPhE response measured in phd, which in this case for PMT 800 is 753.9~mVns. These three values together are stored in the PREM database. In a secondary analysis stage, the measured SPhE area and calibration constant are combined to get the correct SPhE constant in mVns which in this example is 748.5~mVns. The average is taken of the corrected SPhE constant for all 10 measurements corresponding to the 10 central row OCS fibre injections. The new SPhE constant is then transferred to the LZ Conditions Database along with the data and time period for which this constant is valid for. As LZ then continues to collect data, the raw pulse area measured in mVns is converted to phd by dividing the raw area by the constant. Examples of the variation in measured SPhE in both phd and mVns across all 120 PMTs is shown in \autoref{fig:ODCommissioning/SPhEValues_phd} and \autoref{fig:ODCommissioning/SPhEValues_pC}.
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=\textwidth]{figures/ODCommissioning/SPHE_phd_2024-7-10.pdf}
-    \caption{A scatter plot of the OD SPhE Area size measured in phd versus PMT ID for each OD PMT from a measurement taken on July 10th 2024.}
+    \caption[The OD SPhE Area size measured in phd versus PMT ID for each OD PMT.]{The OD SPhE Area size measured in phd versus PMT ID for each OD PMT from a measurement taken on July 10th 2024.}
     \label{fig:ODCommissioning/SPhEValues_phd}
 \end{figure}
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=\textwidth]{figures/ODCommissioning/SPHE_pC_2024-7-10.pdf}
-    \caption{A scatter plot of the OD SPhE Area size measured in mVns versus PMT ID for each OD PMT from a measurement taken on July 10th 2024. 119 PMTs have an average SPhE area of $14.896\pm0.004$~pC, PMT 811 operating at $1\times10^6$ gain has SPhE area of $7.09\pm0.03$~pC.}
+    \caption[The OD SPhE Area size measured in mVns versus PMT ID for each OD PMT.]{The OD SPhE Area size measured in mVns versus PMT ID for each OD PMT from a measurement taken on July 10th 2024. 119 PMTs have an average SPhE area of $14.896\pm0.004$~pC, PMT 811 operating at $1\times10^6$ gain has SPhE area of $7.09\pm0.03$~pC.}
     \label{fig:ODCommissioning/SPhEValues_pC}
 \end{figure}
 \section{Reconstructed gain}\label{sec:ODComissioning/RecGain}
@@ -96,7 +96,7 @@ An example scatter plot of gain versus PMT ID is shown in \autoref{fig:ODCommiss
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=\textwidth]{figures/ODCommissioning/2024-6-12_ODPMT_Gain.pdf}
-    \caption{OD PMT Gain versus PMT ID for each OD PMT from a measurement taken on July 10th 2024. The average gain of the 120 PMTs is indicated by the dashed green line. The dashed orange lines demonstrate the $10\%$ tolerance of gain drift from $2\times10^6$ gain. PMT 811 operated at $1\times10^6$ gain is seen clearly as the outlier from the 119 PMTs operating at $\sim2\times10^6$ gain.}
+    \caption[OD PMT Gain versus PMT ID for each OD PMT.]{OD PMT Gain versus PMT ID for each OD PMT from a measurement taken on July 10th 2024. The average gain of the 120 PMTs is indicated by the dashed green line. The dashed orange lines demonstrate the $10\%$ tolerance of gain drift from $2\times10^6$ gain. PMT 811 operated at $1\times10^6$ gain is seen clearly as the outlier from the 119 PMTs operating at $\sim2\times10^6$ gain.}
     \label{fig:ODCommissioning/ODPMTGain_2024-7-10}
 \end{figure}
 
@@ -108,14 +108,14 @@ To monitor the observed $<1\%$ change in gain month-by-month, the relative chang
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=\textwidth]{figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2022.pdf}
-    \caption{\textbf{Top:} A scatter plot of the relative change in OD PMT Gain over WS2022 science run. The reduced gain of PMT 811 can be seen in orange. \textbf{Bottom:} A scatter plot of the average relative change in OD PMT Gain across all OD PMTs over WS2022 science run.}
+    \caption{\textbf{Top:} The relative change in OD PMT Gain over WS2022 science run. The reduced gain of PMT 811 can be seen in orange. \textbf{Bottom:} A scatter plot of the average relative change in OD PMT Gain across all OD PMTs over WS2022 science run.}
     \label{fig:ODCommissioning/RelativeGain_WS2022}
 \end{figure}
 \fi
 \begin{figure}[ht!]
     \centering
     \includegraphics[width=\textwidth]{figures/ODCommissioning/RelativegainOverTime_AllPMTs_Both_Full_WS2024.pdf}
-    \caption{\textbf{Top:} A scatter plot of the relative change in OD PMT Gain since the start of the WS2024 science run. \textbf{Bottom:} A scatter plot of the average relative change in OD PMT Gain across all OD PMTs since the start of the WS2024 science run.}
+    \caption[The relative change in OD PMT Gain since the start of the WS2024 science run.]{\textbf{Top:} The relative change in OD PMT Gain since the start of the WS2024 science run. \textbf{Bottom:} A scatter plot of the average relative change in OD PMT Gain across all OD PMTs since the start of the WS2024 science run.}
     \label{fig:ODCommissioning/RelativeGain_WS2024}
 \end{figure}
 \iffalse
@@ -134,7 +134,7 @@ As previously discussed in \autoref{sec:ODComissioning/RecGain}, the gain of a P
     \frac{G_2}{G_1}=\biggl(\frac{V_2}{V_1}\biggl)^\gamma,
 \end{equation}
 where $G_1$ and $G_2$ are the gains at supply voltages $V_1$ and $V_2$, $\gamma$ is a coefficient set by the dynode material and geometry (measured as 7.27 for the LZ OD PMTs). During off-site commissioning of the OD PMT array, the gain curves were determined such that the correct voltage could be chosen to achieve a desired gain of $1\times10^7$. Following the installation of the PMTs and subsequent filling of the water tank with the various detector mediums, it was seen necessary to perform a secondary measurement of the gain curves once the PMTs had been operational for six months.
-Using the initial voltage ($V_{rec}$ which corresponds to $2\times10^6$ gain, five additional voltages surrounding $V_{rec}$ were chosen in 50~V spacing. For each voltage, a full SPhE measurement is made to determine the gain in each PMT. Using \autoref{eqn:GainCurve}, a new $\gamma$-factor is measured and is used for any future gain or voltage adjustment. The gain curves for PMT 800 measured prior to the start of the WS2024 campaign is shown in \autoref{fig:ODCommissioning/PMT800_gainCurve}. All gamma factors measured prior to the start of the WS2024 campaign are shown in \autoref{fig:ODCommissioning/gammaFactors}.
+Using the initial voltage ($V_{rec}$ which corresponds to $2\times10^6$ gain, five additional voltages surrounding $V_{rec}$ were chosen in 50~V spacing. For each voltage, a full SPhE measurement is made to determine the gain in each PMT. Using \autoref{eqn:GainCurve}, a new $\gamma$-factor is measured and is used for any future gain or voltage adjustment. The gain curves for PMT 800 measured prior to the start of the WS2024 campaign is shown in left panel of \autoref{fig:ODCommissioning/gainCurve}. All gamma factors measured prior to the start of the WS2024 campaign are shown in the right panel of \autoref{fig:ODCommissioning/gainCurve}.
 \iffalse
 \begin{figure}[ht!]
      \centering
@@ -174,25 +174,34 @@ Using the initial voltage ($V_{rec}$ which corresponds to $2\times10^6$ gain, fi
     \caption{$\gamma$-factors for each of the OD PMTs measured prior to the WS2024 campaign. The $\gamma$ factor varies between PMTs due to systematic differences in the surfaces of the dynodes and photocathode.}
     \label{fig:ODCommissioning/gammaFactors}
 \end{figure}
-\fi
+
 
 \begin{figure}
-     \begin{subfigure}[b]{0.4\textwidth}
+     \begin{subfigure}[b]{0.44\textwidth}
          \centering
          \includegraphics[width=\textwidth]{figures/ODCommissioning/PMT800_GainCurve.png}
          \caption{}
          \label{fig:ODCommissioning/PMT800_gainCurve}
      \end{subfigure}
      \hfill
-     \begin{subfigure}[b]{0.59\textwidth}
+     \begin{subfigure}[b]{0.54\textwidth}
          \centering
          \includegraphics[width=\textwidth]{figures/ODCommissioning/gammaFactorScatterPlot.pdf}
          \caption{}
          \label{fig:ODCommissioning/gammaFactors}
      \end{subfigure}
-        \caption{\textbf{Left:} Gain curve for PMT 800 measured measured prior to the start of the WS2024 campaign. \textbf{Right:} $\gamma$-factors for each of the OD PMTs measured prior to the WS2024 campaign. The $\gamma$ factor varies between PMTs due to systematic differences in the surfaces of the dynodes and photocathode.}
+        \caption[Gain curve for PMT 800 alongside the $\gamma$-factors for each of the OD PMTs measured prior to the WS2024 campaign.]{\textbf{Left:} Gain curve for PMT 800 measured measured prior to the start of the WS2024 campaign. \textbf{Right:} $\gamma$-factors for each of the OD PMTs measured prior to the WS2024 campaign. The $\gamma$ factor varies between PMTs due to systematic differences in the surfaces of the dynodes and photocathode.}
         \label{fig:ODCommissioning/gainCurve}
 \end{figure}
+\fi
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{figures/ODCommissioning/Screenshot from 2025-09-04 11-24-39.png}
+    \caption[Gain curve for PMT 800 alongside the $\gamma$-factors for each of the OD PMTs measured prior to the WS2024 campaign.]{\textbf{Left:} Gain curve for PMT 800 measured measured prior to the start of the WS2024 campaign. \textbf{Right:} $\gamma$-factors for each of the OD PMTs measured prior to the WS2024 campaign. The $\gamma$ factor varies between PMTs due to systematic differences in the surfaces of the dynodes and photocathode.}
+    \label{fig:ODCommissioning/gainCurve}
+\end{figure}
+
 
 \section{Optical calibration system development}\label{sec:ODCommissioning/OCSDevelopment}
 \subsection{Monitoring PMT}\label{sec:ODCommissioning/MonitoringPMT}
@@ -209,7 +218,7 @@ One of the key components in the OD OCS is the monitoring PMT (mPMT), used for p
          \centering
          \includegraphics[width=0.74\textwidth]{figures/ODCommissioning/YAPCeSource.png}
      \end{subfigure}
-        \caption{OD OCS Monitoring PMT. \textbf{Left:} The R5912 PMT mounted within the rack-mounted dark box situated beneath the OCS electronics. A coupler mounted in front of the PMT holds 40 single core fibres that carry light from the LEDs to the monitoring PMT. A mu-metal cone surrounding the PMT glass to reduce the impact of external electromagnetic forces on the photocathode and dynode chain. \textbf{Right: }Position of the YAP:Ce-Am source with respect to the PMT face. The source is mechanically attached to the glass using kapton tape.}
+        \caption[Photographs of the OD OCS Monitoring PMT.]{OD OCS Monitoring PMT. \textbf{Left:} The R5912 PMT mounted within the rack-mounted dark box situated beneath the OCS electronics. A coupler mounted in front of the PMT holds 40 single core fibres that carry light from the LEDs to the monitoring PMT. A mu-metal cone surrounding the PMT glass to reduce the impact of external electromagnetic forces on the photocathode and dynode chain. \textbf{Right: }Position of the YAP:Ce-Am source with respect to the PMT face. The source is mechanically attached to the glass using kapton tape.}
         \label{fig:ODCommissioning/MonPMT_YAPCeSource}
 \end{figure}
 Unlike the OD PMTs, the mPMT is biased to $1\times10^5$ gain at an operational voltage of 724~V. Due to the high intensity light produced by the YAP:Ce-Am source in such close proximity to the PMT, saturation effects were observed at a gain of $2\times10^6$ resulting in the desire to operate at the reduced gain to mitigate saturation.
@@ -228,13 +237,11 @@ To process the RAW data from the PMT a custom LZAP module was developed called {
 Functionality tests of the {\fontfamily{qcr}\selectfont ODOCSDarkboxPMTPulseFinder} LZAP module were performed using an ALPACA analysis module to understand the peaks observed in the pulse area spectrum of the mPMT. It was assumed that the intensity of the light produced by the source would remain constant between OCS measurements. Using data collected for SPhE and afterpulsing\footnote{Afterpulses are spurious pulses that appear in the wake of the true signal pulse and have two main causes: light emitted by electrodes due to electron bombardment, and ionization of residual gas traces within the PMT. Further details on afterpulsing can be found in Ref.\cite{lkorley:thesis}} measurements, the peak produced by the YAP:Ce-Am source was identified. An example of this is shown in \autoref{fig:ODCommissioning/mPMTPADist}. The peak can be easily identified by overlaying the pulse spectra of the SPhE and afterpulsing measurements. This due to the different light intensity used for the measurements with peaks centred at 19300~mVns and 136000~mVns. The peak produced by the source is located at 42000~mVns.
 \begin{figure}[ht!]
     \centering
-    \includegraphics[width=0.7\linewidth]{figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf}
-    \caption{Pulse area spectra from two OCS measurements. During the development of the OCS mPMT, this plot was used to determine the peak position of the light produced by the YAP:Ce-Am pulser. The peak can be easily identified by overlaying the pulse spectra of the SPhE and afterpulsing measurements. This due to the different light intensity used for the measurements with peaks centred at 19300~mVns and 136000~mVns. The peak produced by the source is located at 42000~mVns.}
+    \includegraphics[width=0.8\linewidth]{figures/ODCommissioning/mPMT_PulseAreaSpectrum.pdf}
+    \caption[Pulse area spectra for two OCS measurements used to determine the position of the light produced by the \textit{in-situ} source.]{Pulse area spectra from two OCS measurements. During the development of the OCS mPMT, this plot was used to determine the peak position of the light produced by the YAP:Ce-Am pulser. The peak can be easily identified by overlaying the pulse spectra of the SPhE and afterpulsing measurements. This due to the different light intensity used for the measurements with peaks centred at 19300~mVns and 136000~mVns. The peak produced by the source is located at 42000~mVns.}
     \label{fig:ODCommissioning/mPMTPADist}
 \end{figure}
 To select the OCS pulse independent of pulse area, a similar method of selection was used to that discussed in \autoref{sec:ODComissioning/SPhECalib}. However, due to the shorter fibres connecting the LEDs to the mPMT dark box the selection of pulses between 400~ns to 500~ns after the DAQ was triggered by the OCS. The pulses produced by the source occur randomly due to the radioactive decay of the $^{241}\text{Am}$, so pulse area criteria was used to select the pulses produced by the source based on a $\pm2\sigma$ selection away from a mean pulse area of 42000~mVns.
-
-\pagebreak
 
 \section{Concluding remarks}
 The OD plays a crucial role in suppressing backgrounds for the direct detection of WIMPs. The primary purpose of the OD is to detect neutron interactions which have coincidence signals within the TPC. Neutrons which scatter in the TPC and then go on to capture on gadolinium or hydrogen or recoil off protons produce energy deposits of $\sim100$~keV. The pulses of light detected by PMTs in the OD for such low energy interactions are $\sim15$~photons in size and require PMTs to be calibrated to a single photon sensitivity. A model of photomultiplier response to single photoelectrons is presented alongside the single photoelectron calibration of the Hamamatsu R5912 PMT. A dedicated optical calibration system is used calibrated the OD PMT single photon electron response. An \textit{in situ} monitoring system is used to monitor the light output of the LEDs which are used for the single photon electron calibration measurements. The reconstructed gain of the OD PMTs is measured and average gain change of $(1.37\pm0.25)\%$ during the WS2024 science run is observed. Understanding the response of the OD PMTs and the stability of the single photoelectron signal during science runs is imperative to the performance of the veto detectors and their ability to effectively identify events which coincident signals in the TPC.
